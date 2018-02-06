@@ -1,0 +1,67 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-default.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
+  background-color: #fff;
+}
+
+.navbar-toggle {
+  float: right;
+  display: block;
+  margin-top: 18px;
+}
+
+.navbar-brand {
+  height: 35px;
+}
+
+.navbar-brand img {
+  height: 35px;
+}
+
+.navbar-nav li a {
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.half-bg {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.full-bg {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg p {
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-toggle {
+    display: block;
+  }
+}
