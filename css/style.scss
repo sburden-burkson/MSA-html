@@ -3,6 +3,7 @@ $navLogoHeight: 30px;
 $navHeight: 60px;
 $headerHeight: 40px;
 $headerFontSize: 12px;
+$navBorderColor: #e7e7e7;
 
 body {
   font-family: "Oswald", sans-serif;
@@ -11,7 +12,7 @@ body {
 header {
   height: $headerHeight;
   padding: 10px 0;
-  border-bottom: 2px solid #e7e7e7;
+  border-bottom: 2px solid $navBorderColor;
   a {
     color: #777;
     letter-spacing: 1px;
@@ -37,6 +38,22 @@ header {
     color: #e7e7e7;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+footer {
+  padding-top: 150px;
+  padding-bottom: 20px;
+  .copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid $navBorderColor;
+  }
+  .links {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footerLogo {
+    height: $navLogoHeight;
   }
 }
 .text-center {
@@ -111,6 +128,12 @@ nav, .nav-wrapper, .navbar-brand {
   background-size: cover;
   height: 600px;
 }
+.row-section [class*="col-"] {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
 .dark-bg {
   h1, h2, h3, h4, p {
     color: white;
@@ -139,8 +162,25 @@ nav, .nav-wrapper, .navbar-brand {
   width: 100%;
   height: 100%;
 }
+.wp-table-cell-bottom {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+}
 .section-info-wrap {
 
+}
+.section-info-wrap.restricted-width {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-info-wrap.restricted-width-lg {
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media only screen and (min-width: 767px) {
 
@@ -148,6 +188,11 @@ nav, .nav-wrapper, .navbar-brand {
 @media only screen and (max-width: 767px) {
   .navbar-toggle {
     display: block;
+  }
+  .half-bg, .full-bg {
+    height: auto;
+    min-height: 250px;
+    padding: 30px 0;
   }
 }
 @media only screen and (min-width: 480px) {
