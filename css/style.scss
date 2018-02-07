@@ -1,5 +1,7 @@
 $lightblack: #2C3032;
 $navLogoHeight: 30px;
+$navHeight: 60px;
+$headerHeight: 40px;
 $headerFontSize: 12px;
 
 body {
@@ -7,6 +9,7 @@ body {
   // font-family: 'Merriweather', serif;
 }
 header {
+  height: $headerHeight;
   padding: 10px 0;
   border-bottom: 2px solid #e7e7e7;
   a {
@@ -65,8 +68,7 @@ nav .container-fluid, header .container-fluid {
 }
 
 .nav-wrapper {
-  width: 100%;
-  min-height: 60px;
+  min-height: $navHeight;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -84,7 +86,7 @@ nav .container-fluid, header .container-fluid {
   padding: 0;
 }
 nav, .nav-wrapper, .navbar-brand {
-  height: 60px;
+  height: $navHeight;
 }
 .navbar-brand img {
   height: $navLogoHeight;
@@ -121,6 +123,9 @@ nav, .nav-wrapper, .navbar-brand {
 }
 .wp-full-height {
   height: 100%;
+}
+.wp-full-width {
+  width: 100%;
 }
 .wp-table-cell {
   padding-top: 100px;
