@@ -39,10 +39,18 @@ header .navbar-divider {
   padding-right: 10px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .center {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 nav .container-fluid, header .container-fluid {
@@ -95,7 +103,7 @@ nav .container-fluid, header .container-fluid {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 500px;
 }
 
 .full-bg {
@@ -107,6 +115,30 @@ nav .container-fluid, header .container-fluid {
 
 .dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg p {
   color: white;
+}
+
+.wp-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.wp-full-height {
+  height: 100%;
+}
+
+.wp-table-cell {
+  padding-top: 100px;
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+}
+
+.wp-table-cell-middle {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 767px) {
