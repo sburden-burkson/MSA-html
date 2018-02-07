@@ -118,14 +118,25 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/custom-bg.png": {
+		"ft": 32768,
+		"iS": 821892,
+		"oA": 0,
+		"oAP": "\/images\/custom-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/custom.png": {
 		"ft": 32768,
 		"iS": 821892,
 		"oA": 0,
 		"oAP": "\/images\/custom.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -163,7 +174,7 @@
 		"q": 100
 		},
 	"\/index.html": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
