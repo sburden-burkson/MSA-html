@@ -51,6 +51,9 @@ header {
     padding-right: 5px;
   }
 }
+.nav li:last-of-type a {
+  padding-right: 90px;
+}
 footer {
   padding-top: 150px;
   padding-bottom: 20px;
@@ -121,11 +124,15 @@ nav .container-fluid, header .container-fluid {
 }
 
 .navbar-toggle {
-  float: right;
   display: block;
-  margin-top: 23px;
-  margin-left: 30px;
-  padding: 0;
+  margin: auto;
+}
+.toggle-wrapper {
+  position: absolute;
+  height: 60px;
+  top: 0;
+  right: 30px;
+  display: inline-grid;
 }
 nav, .nav-wrapper, .navbar-brand {
   height: $navHeight;
