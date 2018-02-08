@@ -52,10 +52,16 @@ header {
   }
 }
 .nav li:last-of-type a {
-  padding-right: 90px;
+  padding-right: 100px;
+}
+input.form-control {
+  border-radius: 0;
+}
+.input-group span .btn {
+  border-radius: 0;
 }
 footer {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 20px;
   letter-spacing: 0.15em;
   .copyright {
@@ -129,10 +135,13 @@ nav .container-fluid, header .container-fluid {
 }
 .toggle-wrapper {
   position: absolute;
-  height: 60px;
+  height: $navHeight;
   top: 0;
-  right: 30px;
-  display: inline-grid;
+  right: 45px;
+  .navbar-toggle {
+    height: $navHeight;
+    padding: 0;
+  }
 }
 nav, .nav-wrapper, .navbar-brand {
   height: $navHeight;
@@ -147,6 +156,16 @@ nav, .nav-wrapper, .navbar-brand {
 
 .nav>li>a {
   padding: 15px 35px;
+}
+.half-section {
+  min-height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.full-section {
+  min-height: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .half-bg {
   background-position: 50% 50%;
@@ -205,13 +224,16 @@ nav, .nav-wrapper, .navbar-brand {
     padding-bottom: 50px;
   }
 }
+.red-bg {
+  padding-bottom: 50px;
+}
 .spaced-section {
   h1, h2, h3, h4 {
     line-height: 50px;
     letter-spacing: 0.15em;
   }
   p {
-    line-height: 25px;
+    line-height: 28px;
     letter-spacing: 0.15em;
     font-weight: 300;
     padding-top: 10px;
@@ -328,10 +350,10 @@ nav, .nav-wrapper, .navbar-brand {
   }
 }
 @media only screen and (min-width: 992px) {
-  .section-header {
-    font-size: 68px;
-  }
-  .section-header-sm {
-      font-size: 48px;
-  }
+  // .section-header {
+  //   font-size: 68px;
+  // }
+  // .section-header-sm {
+  //     font-size: 48px;
+  // }
 }
