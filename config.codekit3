@@ -87,6 +87,13 @@
 		"oAP": "\/fonts\/glyphicons-halflings-regular.woff2",
 		"oF": 0
 		},
+	"\/head.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/head.php",
+		"oF": 0
+		},
 	"\/images\/3-wheels.png": {
 		"ft": 32768,
 		"iS": 126015,

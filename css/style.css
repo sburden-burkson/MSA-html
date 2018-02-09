@@ -386,4 +386,7 @@ nav, .nav-wrapper, .navbar-brand {
     min-height: 250px;
     padding: 30px 0;
   }
+  .row-section [class*="col-"] {
+    height: 200px;
+  }
 }
