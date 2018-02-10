@@ -100,8 +100,8 @@
 		"oA": 0,
 		"oAP": "\/images\/3-wheels.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -113,6 +113,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/black-fuzz.png": {
+		"ft": 32768,
+		"iS": 150187,
+		"oA": 0,
+		"oAP": "\/images\/black-fuzz.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/black-graphic.png": {
+		"ft": 32768,
+		"iS": 30244,
+		"oA": 0,
+		"oAP": "\/images\/black-graphic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blue-sky.png": {
+		"ft": 32768,
+		"iS": 112010,
+		"oA": 0,
+		"oAP": "\/images\/blue-sky.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/blue-truck.jpg": {
@@ -131,8 +164,8 @@
 		"oA": 0,
 		"oAP": "\/images\/custom-bg.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -141,6 +174,39 @@
 		"iS": 821892,
 		"oA": 0,
 		"oAP": "\/images\/custom.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/desert-bw copy.png": {
+		"ft": 32768,
+		"iS": 162955,
+		"oA": 0,
+		"oAP": "\/images\/desert-bw copy.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/desert-bw.png": {
+		"ft": 32768,
+		"iS": 120039,
+		"oA": 0,
+		"oAP": "\/images\/desert-bw.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/hills-bw.png": {
+		"ft": 32768,
+		"iS": 799120,
+		"oA": 0,
+		"oAP": "\/images\/hills-bw.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -169,11 +235,132 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/quad-desert.png": {
+		"ft": 32768,
+		"iS": 161270,
+		"oA": 0,
+		"oAP": "\/images\/quad-desert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quad-layer.png": {
+		"ft": 32768,
+		"iS": 272944,
+		"oA": 0,
+		"oAP": "\/images\/quad-layer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quad-sky.png": {
+		"ft": 32768,
+		"iS": 2077026,
+		"oA": 0,
+		"oAP": "\/images\/quad-sky.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quad-water-wide.png": {
+		"ft": 32768,
+		"iS": 2015847,
+		"oA": 0,
+		"oAP": "\/images\/quad-water-wide.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quad-water.png": {
+		"ft": 32768,
+		"iS": 636202,
+		"oA": 0,
+		"oAP": "\/images\/quad-water.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quad-wheelie.png": {
+		"ft": 32768,
+		"iS": 219440,
+		"oA": 0,
+		"oAP": "\/images\/quad-wheelie.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/quad.png": {
 		"ft": 32768,
 		"iS": 236933,
 		"oA": 0,
 		"oAP": "\/images\/quad.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/red-bg-sm.png": {
+		"ft": 32768,
+		"iS": 1665,
+		"oA": 0,
+		"oAP": "\/images\/red-bg-sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/red-bg.png": {
+		"ft": 32768,
+		"iS": 10725,
+		"oA": 0,
+		"oAP": "\/images\/red-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/rim-1.png": {
+		"ft": 32768,
+		"iS": 180892,
+		"oA": 0,
+		"oAP": "\/images\/rim-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/rim-2.png": {
+		"ft": 32768,
+		"iS": 23029,
+		"oA": 0,
+		"oAP": "\/images\/rim-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/rim-art.png": {
+		"ft": 32768,
+		"iS": 490541,
+		"oA": 0,
+		"oAP": "\/images\/rim-art.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -206,6 +393,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/two.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/two.html",
+		"oF": 0
 		}
 	},
 "hooks": [

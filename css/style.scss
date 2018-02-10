@@ -14,6 +14,11 @@ p {
 header, nav, footer, .btn, .oswald {
   font-family: "Oswald", sans-serif;
 }
+.roboto {
+  h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif !important;
+  }
+}
 header {
   height: $headerHeight;
   padding: 10px 0;
@@ -60,6 +65,9 @@ input.form-control {
 .input-group span .btn {
   border-radius: 0;
 }
+.pad-bottom {
+  padding-bottom: 30px;
+}
 footer {
   padding-top: 100px;
   padding-bottom: 20px;
@@ -86,9 +94,7 @@ footer {
   .footerLogo {
     height: $navLogoHeight;
   }
-  .pad-bottom {
-    padding-bottom: 30px;
-  }
+
 }
 .text-center {
   text-align: center;
@@ -287,7 +293,7 @@ nav, .nav-wrapper, .navbar-brand {
   margin: 10px auto;
 }
 .wp-btn-red {
-  background: red;
+  background-image: url('../images/red-bg.png');
   border-radius: 0;
   color: white;
   font-family: "Oswald", sans-serif;
@@ -295,12 +301,16 @@ nav, .nav-wrapper, .navbar-brand {
   letter-spacing: 0.15em;
   margin: 10px auto;
 }
-.wp-input-btn-red {
-  background: red;
+.wp-btn-red:active {
+  background-image: url('../images/red-bg.png');
+}
+
+.wp-input-btn-red, .wp-input-btn-red:active {
+  background-image: url('../images/red-bg-sm.png') ;
   color: white;
 }
 
-.wp-btn-red:hover {
+.wp-btn-red:hover, .wp-input-btn-red:hover, .wp-btn-red:focus, .wp-input-btn-red:focus {
   color: white;
 }
 .section-header-sm {
