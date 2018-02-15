@@ -118,6 +118,11 @@ nav .container-fluid, header .container-fluid {
   padding-right: 45px;
   padding-left: 45px;
 }
+#navPad {
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+
 .navbar-default {
   // border-top-width: 1px;
   // border-bottom-width: 0;
@@ -139,9 +144,18 @@ nav .container-fluid, header .container-fluid {
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
-  background-color: #fff;
+  background-color: transparent;
 }
-
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+  transition: color 1s;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
 .navbar-toggle {
   display: block;
   margin: auto;
@@ -198,6 +212,10 @@ nav, .nav-wrapper, .navbar-brand {
   background-size: cover;
   height: 300px;
 }
+.row-section a {
+  color: white;
+  text-decoration: none;
+}
 .dark-bg {
   h1, h2, h3, h4, p {
     color: white;
@@ -233,12 +251,23 @@ nav, .nav-wrapper, .navbar-brand {
   height: 100%;
 }
 .section-info-wrap {
-  .top-section {
-    padding-bottom: 50px;
+  .pad-top-bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;;
   }
 }
 .red-bg {
   padding-bottom: 50px;
+}
+.standard-link {
+  font-family: oswald;
+  font-weight: 400;
+  color: black;
+  .fa {
+    color: red;
+    font-size: 18px;
+    padding-left: 5px;
+  }
 }
 .spaced-section {
   h1, h2, h3, h4 {
@@ -267,7 +296,12 @@ nav, .nav-wrapper, .navbar-brand {
 .section-header {
   font-size: 36px;
 }
-
+.opaque-lg {
+  font-family: oswald;
+  opacity: .4;
+  font-size: 100px;
+  letter-spacing: 30px;
+}
 .wp-btn-transparent.wp-btn-white {
   border-color: white;
   color: white;
@@ -360,13 +394,19 @@ nav, .nav-wrapper, .navbar-brand {
   .navbar-toggle {
     display: block;
   }
-  .half-bg, .full-bg {
+  .half-bg, .full-bg, .half-section, .full-section {
     height: auto;
     min-height: 250px;
     padding: 30px 0;
+    .wp-full-height {
+      min-height: 190px;
+    }
   }
   .row-section [class*="col-"] {
     height: 200px;
+  }
+  .opaque-lg {
+    font-size: 60px;
   }
 }
 @media only screen and (min-width: 992px) {

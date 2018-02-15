@@ -136,6 +136,11 @@ nav .container-fluid, header .container-fluid {
   padding-left: 45px;
 }
 
+#navPad {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .navbar-default {
   background-color: white;
   margin-bottom: 0;
@@ -157,7 +162,21 @@ nav .container-fluid, header .container-fluid {
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
-  background-color: #fff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
 }
 
 .navbar-toggle {
@@ -227,6 +246,11 @@ nav, .nav-wrapper, .navbar-brand {
   height: 300px;
 }
 
+.row-section a {
+  color: white;
+  text-decoration: none;
+}
+
 .dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg p {
   color: white;
 }
@@ -266,12 +290,25 @@ nav, .nav-wrapper, .navbar-brand {
   height: 100%;
 }
 
-.section-info-wrap .top-section {
+.section-info-wrap .pad-top-bottom {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .red-bg {
   padding-bottom: 50px;
+}
+
+.standard-link {
+  font-family: oswald;
+  font-weight: 400;
+  color: black;
+}
+
+.standard-link .fa {
+  color: red;
+  font-size: 18px;
+  padding-left: 5px;
 }
 
 .spaced-section h1, .spaced-section h2, .spaced-section h3, .spaced-section h4 {
@@ -301,6 +338,13 @@ nav, .nav-wrapper, .navbar-brand {
 
 .section-header {
   font-size: 36px;
+}
+
+.opaque-lg {
+  font-family: oswald;
+  opacity: .4;
+  font-size: 100px;
+  letter-spacing: 30px;
 }
 
 .wp-btn-transparent.wp-btn-white {
@@ -397,12 +441,18 @@ nav, .nav-wrapper, .navbar-brand {
   .navbar-toggle {
     display: block;
   }
-  .half-bg, .full-bg {
+  .half-bg, .full-bg, .half-section, .full-section {
     height: auto;
     min-height: 250px;
     padding: 30px 0;
   }
+  .half-bg .wp-full-height, .full-bg .wp-full-height, .half-section .wp-full-height, .full-section .wp-full-height {
+    min-height: 190px;
+  }
   .row-section [class*="col-"] {
     height: 200px;
+  }
+  .opaque-lg {
+    font-size: 60px;
   }
 }

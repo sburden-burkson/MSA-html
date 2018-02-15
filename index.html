@@ -5,19 +5,47 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css?ckcachebust=bffa08917e97570048563f813009b05c" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ckcachebust=3643c2290c4f9247af189fbdb8986ea6" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Merriweather|Roboto" rel="stylesheet">
-  <link href="css/style.css?ckcachebust=621fe6e83b6532eccef79d6f62a4cbb1" media="screen" rel="stylesheet" title="no title">
-  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=539916473"></script> -->
+  <link href="css/style.css?ckcachebust=546938baa81fe991cd1e5e5eae2dc343" media="screen" rel="stylesheet" title="no title">
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540350283"></script> -->
   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=539916473"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=539916473"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540350283"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=540350283"></script>
     <![endif]-->
+    <script src="js/jquery-3.3.1.min.js?ckcachebust=7bf10bbbaf1435c88127d5e4a64ed074"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var header = $('header');
+        var navbar = $('.navbar-default');
+        var headerHeight = header.outerHeight();
+        $('.navbar-default').data('offset-top', headerHeight);
+
+        $(window).on('scroll', function () {
+        var navbarHeight = navbar.outerHeight();
+        var scrollTop = $(this).scrollTop();
+        var navTop = scrollTop - header.outerHeight();
+        console.log(navTop);
+        var navHeight = navbar.outerHeight();
+        // var offset = height / 2;
+        // var calc = 1 - (scrollTop - offset + range) / range;
+        var calc = 15 - (navTop*.25);
+        console.log("scrollTop" + scrollTop);
+        console.log("calc" + calc);
+        navbar.css({ 'padding-top': calc });
+        if (calc > '1') {
+          navbar.css({ 'opacity': 1 });
+        } else if ( calc < '0' ) {
+          navbar.css({ 'opacity': 0 });
+        }
+
+        });
+      });
+    </script>
   <title>MSA Wheels</title>
 </head>
 
 <body>
-
   <header>
     <div id="header">
       <div class="container-fluid">
@@ -36,9 +64,8 @@
     </div>
   </header>
 
-  <div class="nav-wrapper">
-    <nav class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="40">
-      <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="40" style="background-color: rgba(255, 255, 255, 0.1); margin-bottom:-60px;">
+      <div class="container-fluid" id="navPad">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
 		          <img alt="MSA Logo" class="navLogo" src="images/msa-logo.png">
@@ -73,14 +100,14 @@
   </div>
   <!--/ END Navigation -->
 
-  <div class="dark-bg half-bg" style="background-image: url('images/blue-truck.jpg');">
+  <div class="dark-bg half-bg" style="background-image: url('images/quad-sky.png'); height: 700px;">
     <div class="container wp-full-height">
       <div class="row wp-full-height">
         <div class="col-sm-6 col-sm-offset-6 wp-full-height">
           <div class="wp-table wp-full-height">
             <div class="wp-table-cell">
               <div class="section-info-wrap center">
-                <h1 class="section-header red-bg">no roads</h1>
+                <h1 class="section-header red-bg oswald">YOUR ONRAMP</h1>
                 <p><a href="javascript:void(0)" class="btn wp-btn-transparent wp-btn-extra-long text-uppercase wp-btn-white">SEE WHEELS <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
               </div>
             </div>
@@ -103,7 +130,7 @@
             <div class="wp-table-cell-middle">
               <div class="section-info-wrap restricted-width spaced-section">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <p><a href="javascript:void(0)" class="text-uppercase">SEE WHEELS <i class="glyphicon glyphicon-menu-right"></i><i class="glyphicon glyphicon-menu-right"></i></a></p>
+                <p><a href="javascript:void(0)" class="text-uppercase standard-link">SEE WHEELS <i class="fa fa-angle-double-right"></i></a></p>
               </div>
             </div>
           </div>
@@ -113,7 +140,7 @@
             <div class="wp-table-cell-middle">
               <div class="section-info-wrap restricted-width spaced-section">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <p><a href="javascript:void(0)" class="text-uppercase">SEE WHEELS <i class="glyphicon glyphicon-menu-right"></i><i class="glyphicon glyphicon-menu-right"></i></a></p>
+                <p><a href="javascript:void(0)" class="text-uppercase standard-link">SEE WHEELS <i class="fa fa-angle-double-right"></i></a></p>
               </div>
             </div>
           </div>
@@ -134,7 +161,6 @@
                 <h2 class="oswald text-center">PERFORMANCE</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 <p class="text-center"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
-              </div>
               </div>
             </div>
           </div>
@@ -168,7 +194,7 @@
         <div class="wp-table wp-full-height">
           <div class="wp-table-cell-middle">
             <div class="section-info-wrap center">
-              <h4>wheels</h4>
+              <h4><a href="javascript:void(0)">wheels</a></h4>
             </div>
           </div>
         </div>
@@ -177,7 +203,7 @@
         <div class="wp-table wp-full-height">
           <div class="wp-table-cell-middle">
             <div class="section-info-wrap center">
-              <h4>tires</h4>
+              <h4><a href="javascript:void(0)">tires</a></h4>
             </div>
           </div>
         </div>
@@ -186,7 +212,7 @@
         <div class="wp-table wp-full-height">
           <div class="wp-table-cell-middle">
             <div class="section-info-wrap center">
-              <h4>accessories</h4>
+              <h4><a href="javascript:void(0)">accessories</a></h4>
             </div>
           </div>
         </div>
@@ -266,6 +292,27 @@
     </div>
   </div>
 
+  <div class="half-bg dark-bg" style="background-image: url('/images/quad-desert.png');">
+    <div class="container wp-full-height">
+      <div class="row wp-full-height">
+        <div class="wp-full-height">
+          <div class="wp-table wp-full-height">
+            <div class="wp-table-cell-middle">
+              <div class="section-info-wrap center">
+                <div class="spaced-section">
+                  <h2 class="opaque-lg">desert days</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="background-image: url('');">
+
+  </div>
   <footer>
     <div class="container copyright">
       <div class="pull-left">
@@ -333,15 +380,10 @@
     </div>
   </footer>
 
-  <script src="js/jquery-3.3.1.min.js?ckcachebust=2a11b56e6b1b4ca21b32c73289b2dbae"></script>
-  <script src="js/bootstrap.min.js?ckcachebust=111cdce5fbe6a8a4d8ab2b65ef39fa94"></script>
-  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=539916473"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      var headerHeight = $('header').outerHeight();
-      $('.navbar-default').data('offset-top', headerHeight);
-    });
-  </script>
+
+  <script src="js/bootstrap.min.js?ckcachebust=12b410eb24d73147cceb8c3fd780122e"></script>
+  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540350283"></script>
+
 </body>
 
 </html>
