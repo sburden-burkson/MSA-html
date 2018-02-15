@@ -10,6 +10,28 @@ header, nav, footer, .btn, .oswald {
   font-family: "Oswald", sans-serif;
 }
 
+footer {
+  margin-top: -5px;
+}
+
+footer.black-footer {
+  background-color: black;
+  color: white;
+}
+
+footer.black-footer a {
+  color: white;
+}
+
+.footer-header {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+}
+
 .roboto h1, .roboto h2, .roboto h3, .roboto h4 {
   font-family: 'Roboto', sans-serif !important;
 }
@@ -239,6 +261,10 @@ nav, .nav-wrapper, .navbar-brand {
   height: 600px;
 }
 
+.footer-bg {
+  background-position: 50% 100%;
+}
+
 .row-section [class*="col-"] {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -406,6 +432,12 @@ nav, .nav-wrapper, .navbar-brand {
   }
   .section-header-sm {
     font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-header {
+    font-size: 42px;
   }
 }
 

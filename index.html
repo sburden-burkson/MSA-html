@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css?ckcachebust=3643c2290c4f9247af189fbdb8986ea6" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ckcachebust=131cb1c2544072998fd36ab3644ab170" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Merriweather|Roboto" rel="stylesheet">
-  <link href="css/style.css?ckcachebust=546938baa81fe991cd1e5e5eae2dc343" media="screen" rel="stylesheet" title="no title">
-  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540350283"></script> -->
+  <link href="css/style.css?ckcachebust=7c2286c88ad325896d012225c3ae73ec" media="screen" rel="stylesheet" title="no title">
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540409327"></script> -->
   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540350283"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=540350283"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540409327"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=540409327"></script>
     <![endif]-->
-    <script src="js/jquery-3.3.1.min.js?ckcachebust=7bf10bbbaf1435c88127d5e4a64ed074"></script>
+    <script src="js/jquery-3.3.1.min.js?ckcachebust=711b74249b693ebde6beff31de536937"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         var header = $('header');
@@ -30,8 +30,8 @@
         // var offset = height / 2;
         // var calc = 1 - (scrollTop - offset + range) / range;
         var calc = 15 - (navTop*.25);
-        console.log("scrollTop" + scrollTop);
-        console.log("calc" + calc);
+        console.log("scrollTop: " + scrollTop);
+        console.log("calc: " + calc);
         navbar.css({ 'padding-top': calc });
         if (calc > '1') {
           navbar.css({ 'opacity': 1 });
@@ -272,6 +272,26 @@
     </div>
   </div>
 
+
+
+  <div class="half-bg dark-bg" style="background-image: url('/images/quad-desert.png');">
+    <div class="container wp-full-height">
+      <div class="row wp-full-height">
+        <div class="wp-full-height">
+          <div class="wp-table wp-full-height">
+            <div class="wp-table-cell-middle">
+              <div class="section-info-wrap center">
+                <div class="spaced-section">
+                  <h2 class="opaque-lg">desert days</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="full-section">
     <div class="container wp-full-height">
       <div class="row wp-full-height">
@@ -292,28 +312,19 @@
     </div>
   </div>
 
-  <div class="half-bg dark-bg" style="background-image: url('/images/quad-desert.png');">
-    <div class="container wp-full-height">
-      <div class="row wp-full-height">
-        <div class="wp-full-height">
-          <div class="wp-table wp-full-height">
-            <div class="wp-table-cell-middle">
-              <div class="section-info-wrap center">
-                <div class="spaced-section">
-                  <h2 class="opaque-lg">desert days</h2>
-                </div>
-              </div>
-            </div>
+  <div class="full-bg footer-bg" style="background-image: url('/images/blue-sky.png');">
+    <div class="wp-full-height">
+      <div class="wp-table wp-full-height">
+        <div class="wp-table-cell">
+          <div class="section-info-wrap">
+            <h2 class="footer-header">PERFORMANCE</h2>
+            <h2 class="footer-header">BUILDS</h2>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="container-fluid" style="background-image: url('');">
-
-  </div>
-  <footer>
+  <footer class="black-footer">
     <div class="container copyright">
       <div class="pull-left">
         <img alt="MSA Logo" class="footerLogo" src="images/msa-logo.png">
@@ -381,8 +392,8 @@
   </footer>
 
 
-  <script src="js/bootstrap.min.js?ckcachebust=12b410eb24d73147cceb8c3fd780122e"></script>
-  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540350283"></script>
+  <script src="js/bootstrap.min.js?ckcachebust=ff45fdbdcbe33b6383169c51b197c9cd"></script>
+  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540409327"></script>
 
 </body>
 
