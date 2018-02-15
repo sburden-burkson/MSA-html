@@ -23,6 +23,59 @@ footer.black-footer a {
   color: white;
 }
 
+.blog-wrapper {
+  background-color: #F2F2F2;
+}
+
+.blog-item {
+  margin-top: 20px;
+  background-color: #fff;
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+}
+
+.blog-item img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.blog-item .blog-item-info-wrap {
+  padding: 35px;
+}
+
+.blog-item .blog-item-more {
+  padding: 35px;
+}
+
+.blog-item .blog-item-more p {
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  letter-spacing: .15em;
+  color: #777;
+}
+
+.blog-item .blog-item-more p span {
+  float: right;
+}
+
+.blog-item .blog-item-more p span a {
+  color: red;
+}
+
+.blog-item .blog-item-header {
+  font-family: "Oswald", sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: .15em;
+}
+
+.blog-item-container {
+  width: 80%;
+  margin: 20px auto 40px;
+}
+
 .footer-header {
   font-family: "Oswald", sans-serif;
   text-align: center;
@@ -187,18 +240,8 @@ nav .container-fluid, header .container-fluid {
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: black;
-  -webkit-transition: color 1s;
-  transition: color 1s;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+.navbar-toggle:hover .icon-bar {
+  background-color: #333;
 }
 
 .navbar-toggle {
@@ -439,6 +482,10 @@ nav, .nav-wrapper, .navbar-brand {
   .footer-header {
     font-size: 42px;
   }
+  .blog-wrapper .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media only screen and (min-width: 767px) {
@@ -456,6 +503,9 @@ nav, .nav-wrapper, .navbar-brand {
   .wp-btn-extra-long .fa {
     padding-left: 20px;
     margin-right: -20px;
+  }
+  .blog-item-container {
+    margin: 60px auto 80px;
   }
 }
 

@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26261",
 "files": {
+	"\/blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/blog.html",
+		"oF": 0
+		},
 	"\/css\/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -131,6 +138,17 @@
 		"iS": 30244,
 		"oA": 0,
 		"oAP": "\/images\/black-graphic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blog-image.png": {
+		"ft": 32768,
+		"iS": 126783,
+		"oA": 0,
+		"oAP": "\/images\/blog-image.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -384,12 +402,32 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/imagesloaded.pkgd.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/imagesloaded.pkgd.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/jquery-3.3.1.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery-3.3.1.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/masonry.pkgd.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/masonry.pkgd.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
