@@ -198,6 +198,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/desert-atv.png": {
+		"ft": 32768,
+		"iS": 785808,
+		"oA": 0,
+		"oAP": "\/images\/desert-atv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/desert-bw copy.png": {
 		"ft": 32768,
 		"iS": 162955,
