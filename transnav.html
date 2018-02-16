@@ -20,53 +20,42 @@
         var headerHeight = $('header').outerHeight();
         $('.navbar-default').data('offset-top', headerHeight);
 
-        // Trans Nav
+        // Navbar Height and Transparency
+        var navHeight = $('nav').outerHeight();
         $(window).on('scroll', function () {
           var scrollTop = $(this).scrollTop();
           var navTop = scrollTop - $('header').outerHeight();
-          var navHeight = 80 - (navTop*.1);
+          var newNavHeight = navHeight - (navTop*.1);
           var opacity = 0 + Math.abs((navTop*.005));
           var navLogoHeight = $('#navLogo').outerHeight();
-          var logoPad = (navHeight - navLogoHeight) / 2;
-          if (navHeight >= 60 && navHeight <= 80) {
+          var logoPad = (newNavHeight - navLogoHeight) / 2;
+          if (scrollTop < $('header').outerHeight()) {
+            $('#navColor').css(
+              'background-color', 'rgba(255, 255, 255, 0.05)'
+            );
+          }
+          if (newNavHeight >= 60 && newNavHeight <= navHeight) {
             $('nav, .navbar-toggle').css(
-              'height', navHeight
+              'height', newNavHeight
             );
             $('.navbar-brand').css(
               'padding-top', logoPad,
               'padding-bottom', logoPad
             );
             $('.nav>li>a').css(
-              'line-height', navHeight + 'px'
+              'line-height', newNavHeight + 'px'
             );
-            $('#navPadOLD').css(
+            $('#navColor').css(
               'background-color', 'rgba(255, 255, 255,'+opacity+')'
             );
           }
-
-        // var navbarHeight = $('.navbar-default').outerHeight();
-        // var scrollTop = $(this).scrollTop();
-        // var navTop = scrollTop - $('header').outerHeight();
-        // console.log(navTop);
-        // // var navHeight = navbar.outerHeight();
-        // // var offset = height / 2;
-        // // var calc = 1 - (scrollTop - offset + range) / range;
-        // var pad = 15 - (navTop*.25);
-        // console.log("scrollTop: " + scrollTop);
-        // if (navTop > 0) {
-        //   $('#navPad').css({
-        //     'padding-top': pad,
-        //     'padding-bottom': pad,
-        //   });
-        // }
-
-        // navbar.css({ 'padding-top': calc });
-        // if (calc > '1') {
-        //   navbar.css({ 'opacity': 1 });
-        // } else if ( calc < '0' ) {
-        //   navbar.css({ 'opacity': 0 });
-        // }
-
+          if (opacity > 0.4) {
+            $('#navColor').removeClass("changeWhite");
+            $('#navColor').addClass("changeBlack");
+          } else {
+            $('#navColor').removeClass("changeBlack");
+            $('#navColor').addClass("changeWhite");
+          }
         });
       });
     </script>
@@ -93,8 +82,8 @@
   </header>
 
   <div class="nav-wrapper" style="margin-bottom: -80px;">
-    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" style="border: none; background-color: rgba(255, 255, 255, 0);" data-spy="affix" id="navPadOLD">
-      <div class="container-fluid" style="background-color: rgba(255, 255, 255, 0);">
+    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" style="" data-spy="affix" id="navColor">
+        <div class="container-fluid" style="">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
 		          <img alt="MSA Logo" id="navLogo" src="images/msa-logo.png">
@@ -128,23 +117,7 @@
     </nav>
   </div>
   <!--/ END Navigation -->
-  <!-- <div class="dark-bg full-bg" style="background-image: url('images/hills-bw.png');" id="hello">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-6">
-          <div class="">
-            <div class="">
-              <div class="section-info-wrap center">
-                <h1 class="section-header red-bg oswald">YOUR ONRAMP</h1>
-                <p><a href="javascript:void(0)" class="btn wp-btn-transparent wp-btn-extra-long text-uppercase wp-btn-white">SEE WHEELS <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="dark-bg full-bg" style="background-image: url('images/hills-bw.png');" id="hello">
+  <div class="dark-bg full-bg" style="background-image: url('images/hills-bw.png');">
     <div class="container wp-full-height">
       <div class="row wp-full-height">
         <div class="col-sm-6 col-sm-offset-6 wp-full-height">

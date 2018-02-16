@@ -284,14 +284,10 @@ nav .container-fluid, header .container-fluid {
   padding-left: 45px;
 }
 
-#navPad {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .navbar-default {
-  background-color: white;
   margin-bottom: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .navbar-default.affix {
@@ -311,6 +307,38 @@ nav .container-fluid, header .container-fluid {
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
   background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.changeBlack .navbar-nav > li > a {
+  color: #888 !important;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.changeBlack .navbar-toggle .icon-bar {
+  background-color: #888 !important;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.changeWhite .navbar-nav > li > a {
+  color: white !important;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.changeWhite .navbar-toggle .icon-bar {
+  background-color: white !important;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
 }
 
 .navbar-toggle:hover .icon-bar {

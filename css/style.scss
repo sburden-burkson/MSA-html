@@ -241,16 +241,14 @@ nav .container-fluid, header .container-fluid {
   padding-right: 45px;
   padding-left: 45px;
 }
-#navPad {
-  padding-top: 15px;
-  padding-bottom: 15px
-}
 
 .navbar-default {
   // border-top-width: 1px;
   // border-bottom-width: 0;
-  background-color: white;
+  // background-color: white;
   margin-bottom: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 .navbar-default.affix {
   position: fixed;
@@ -269,16 +267,28 @@ nav .container-fluid, header .container-fluid {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
   background-color: transparent;
 }
-// .navbar-default .navbar-nav>li>a {
-//   color: white;
-// }
-// .navbar-default .navbar-nav>li>a:hover {
-//   color: black;
-//   transition: color 1s;
-// }
-// .navbar-default .navbar-toggle .icon-bar {
-//     background-color: white;
-// }
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.changeBlack .navbar-nav>li>a,  {
+  color: #888 !important;
+  transition: color 0.4s;
+}
+.changeBlack .navbar-toggle .icon-bar {
+  background-color: #888 !important;
+  transition: background-color 0.4s;
+}
+.changeWhite .navbar-nav>li>a,  {
+  color: white !important;
+  transition: color 0.4s;
+}
+.changeWhite .navbar-toggle .icon-bar {
+  background-color: white !important;
+  transition: background-color 0.4s;
+}
 .navbar-toggle:hover .icon-bar {
   background-color: #333;
 }
