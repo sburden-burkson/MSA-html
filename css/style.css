@@ -338,6 +338,10 @@ nav .container-fluid, header .container-fluid {
   padding-bottom: 25px;
 }
 
+nav {
+  height: 80px;
+}
+
 .navbar-brand img {
   height: 30px;
 }

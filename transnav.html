@@ -24,12 +24,12 @@
         $(window).on('scroll', function () {
           var scrollTop = $(this).scrollTop();
           var navTop = scrollTop - $('header').outerHeight();
-          var navHeight = 80 - (navTop*.10);
+          var navHeight = 80 - (navTop*.1);
+          var opacity = 0 + Math.abs((navTop*.005));
           var navLogoHeight = $('#navLogo').outerHeight();
           var logoPad = (navHeight - navLogoHeight) / 2;
-          console.log("navLogoHeight: " + navLogoHeight  + "navHeight :" + navHeight);
           if (navHeight >= 60 && navHeight <= 80) {
-            $('.navbar-toggle').css(
+            $('nav, .navbar-toggle').css(
               'height', navHeight
             );
             $('.navbar-brand').css(
@@ -38,6 +38,9 @@
             );
             $('.nav>li>a').css(
               'line-height', navHeight + 'px'
+            );
+            $('#navPadOLD').css(
+              'background-color', 'rgba(255, 255, 255,'+opacity+')'
             );
           }
 
@@ -90,8 +93,8 @@
   </header>
 
   <div class="nav-wrapper" style="margin-bottom: -80px;">
-    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" style="border: none; background-color: rgba(255, 255, 255, 0);" data-spy="affix">
-      <div class="container-fluid" id="navPadOLD" style="background-color: rgba(255, 255, 255, 0.1);">
+    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" style="border: none; background-color: rgba(255, 255, 255, 0);" data-spy="affix" id="navPadOLD">
+      <div class="container-fluid" style="background-color: rgba(255, 255, 255, 0);">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
 		          <img alt="MSA Logo" id="navLogo" src="images/msa-logo.png">

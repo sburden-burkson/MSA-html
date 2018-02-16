@@ -300,8 +300,8 @@ nav .container-fluid, header .container-fluid {
   padding-top: ($navHeight - $navLogoHeight) / 2;
   padding-bottom: ($navHeight - $navLogoHeight) / 2;
 }
-nav, .nav-wrapper, .navbar-brand {
-  // height: $navHeight;
+nav {
+  height: $navHeight;
 }
 .navbar-brand img {
   height: $navLogoHeight;
