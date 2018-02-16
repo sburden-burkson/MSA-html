@@ -513,6 +513,9 @@ nav, .nav-wrapper, .navbar-brand {
   }
 }
 @media only screen and (max-width: 767px) {
+  #testing {
+    height: auto !important;
+  }
   footer {
     padding-top: 50px;
     .links {
