@@ -35,7 +35,7 @@
     </div>
   </header>
   <div class="nav-wrapper">
-    <nav class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="40" style="">
+    <nav class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="40">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
@@ -97,7 +97,7 @@
                   <img src="images/desert-atv.png" alt="Article 6">
               </div>
           </div>
-          <div class="col-sm-6" style="">
+          <div class="col-sm-6">
               <div class="featured-blog-info-wrap">
                   <p class="featured-blog-header text-uppercase">BUILD IT</p>
                   <p class="featured-blog-desc">Lorem neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus.</p>
@@ -109,30 +109,29 @@
           </div>
       </div><!-- /.row -->
     <!-- </div> -->
-    <div class="container-fluid" style="height: 500px; margin: 0 auto; width: 90%; padding: 50px 0;" id="featuredBlog">
+    <div class="container-fluid" id="featuredBlog">
       <div class="wp-full-height">
         <div class="row wp-full-height">
-          <div class="col-sm-6 wp-full-height" style="padding: 0; overflow: hidden;">
+          <div class="col-sm-6 wp-full-height image-col">
             <div class="wp-table wp-full-height">
               <div class="wp-table-cell-middle">
                 <div class="featured-blog-image-wrap">
-                  <img src="/images/desert-atv.png" alt="Article 6" style="max-height: 100%;margin-left: 50%;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);transform: translateX(-50%);min-width: 100%;" id="featured-blog-image">
+                  <img src="/images/desert-atv.png" alt="Article 6" id="featuredBlogImage">
                   <!-- <img src="https://dgtxewasd9qys.cloudfront.net/wp-content/uploads/2017/10/blog-landing-bg.png" alt="Article 6" style="max-height: 100%;margin-left: 50%;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);transform: translateX(-50%);min-width: 100%;" id="featured-blog-image"> -->
 
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 wp-full-height" style="background-color: white;">
+          <div class="col-sm-6 wp-full-height white-bg">
             <div class="wp-table wp-full-height">
               <div class="wp-table-cell-middle">
                 <div class="section-info-wrap" id="featuredBlogText">
-                  <div class="featured-blog-info-wrap" style="padding: 50px 50px 0px;">
+                  <div class="featured-blog-info-wrap">
                       <p class="featured-blog-header text-uppercase">BUILD IT</p>
                       <p class="featured-blog-desc">Lorem neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat. Lorem neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat.</p>
-                      <!-- <p class="featured-blog-desc">Lorem neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam.</p> -->
                     </div>
-                      <div class="featured-blog-more" style="padding-bottom: 20px;">
+                      <div class="featured-blog-more">
                         <p class=""><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">READ MORE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
                         <p class="featured-blog-date">Feb 21.</p>
                       </div>
@@ -327,14 +326,14 @@
       // Featured Blog Post Sizing
       function resizeFeatured() {
         var padding = parseInt($('#featuredBlog').css('padding-top')) + parseInt($('#featuredBlog').css('padding-bottom'));
-        var rightH = $('#featuredBlogText').outerHeight() + padding;
+        var rightH = $('#featuredBlogText').outerHeight();
         if ($(window).width() > 767) {
-          var rightH = $('#featuredBlogText').outerHeight() + padding;
-          $('#featuredBlog').css({ 'height': rightH });
-          $('#featured-blog-image').css({ 'height': rightH });
+          var rightH = $('#featuredBlogText').outerHeight();
+          $('#featuredBlog').css({ 'height': rightH + padding });
+          $('#featuredBlogImage').css({ 'height': rightH });
         } else {
           $('#featuredBlog').css({ 'height': "auto" });
-          $('#featured-blog-image').css({ 'height': "auto" });
+          $('#featuredBlogImage').css({ 'height': "auto" });
         }
       }
       resizeFeatured();
