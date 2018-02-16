@@ -1,6 +1,6 @@
 $lightblack: #2C3032;
 $navLogoHeight: 30px;
-$navHeight: 60px;
+$navHeight: 80px;
 $headerHeight: 40px;
 $headerFontSize: 12px;
 $navBorderColor: #e7e7e7;
@@ -288,7 +288,7 @@ nav .container-fluid, header .container-fluid {
 }
 .toggle-wrapper {
   position: absolute;
-  height: $navHeight;
+  // height: $navHeight;
   top: 0;
   right: 45px;
   .navbar-toggle {
@@ -296,8 +296,12 @@ nav .container-fluid, header .container-fluid {
     padding: 0;
   }
 }
+.navbar-brand {
+  padding-top: ($navHeight - $navLogoHeight) / 2;
+  padding-bottom: ($navHeight - $navLogoHeight) / 2;
+}
 nav, .nav-wrapper, .navbar-brand {
-  height: $navHeight;
+  // height: $navHeight;
 }
 .navbar-brand img {
   height: $navLogoHeight;
@@ -308,7 +312,8 @@ nav, .nav-wrapper, .navbar-brand {
 }
 
 .nav>li>a {
-  padding: 15px 35px;
+  padding: 0px 35px;
+  line-height: $navHeight;
 }
 .half-section {
   min-height: 500px;

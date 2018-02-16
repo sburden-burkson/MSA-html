@@ -302,7 +302,7 @@ nav .container-fluid, header .container-fluid {
 }
 
 .nav-wrapper {
-  min-height: 60px;
+  min-height: 80px;
 }
 
 .navbar-default .navbar-toggle {
@@ -324,18 +324,18 @@ nav .container-fluid, header .container-fluid {
 
 .toggle-wrapper {
   position: absolute;
-  height: 60px;
   top: 0;
   right: 45px;
 }
 
 .toggle-wrapper .navbar-toggle {
-  height: 60px;
+  height: 80px;
   padding: 0;
 }
 
-nav, .nav-wrapper, .navbar-brand {
-  height: 60px;
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .navbar-brand img {
@@ -348,7 +348,8 @@ nav, .nav-wrapper, .navbar-brand {
 }
 
 .nav > li > a {
-  padding: 15px 35px;
+  padding: 0px 35px;
+  line-height: 80px;
 }
 
 .half-section {
