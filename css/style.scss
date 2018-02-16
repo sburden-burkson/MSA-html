@@ -121,7 +121,7 @@ footer.black-footer {
 }
 .blog-item-container {
   width: 80%;
-  margin: 20px auto 40px;
+  margin: 30px auto 50px;
 }
 .footer-header {
   font-family: "Oswald", sans-serif;
@@ -184,6 +184,9 @@ input.form-control {
 }
 .no-padding {
   padding: 0;
+}
+.pad-top {
+  padding-top: 30px;
 }
 .pad-bottom {
   padding-bottom: 30px;
@@ -324,7 +327,7 @@ nav, .nav-wrapper, .navbar-brand {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 450px;
 }
 .full-bg {
   background-position: 50% 50%;
@@ -400,7 +403,7 @@ nav, .nav-wrapper, .navbar-brand {
 }
 .spaced-section {
   h1, h2, h3, h4 {
-    line-height: 50px;
+    // line-height: 50px;
     letter-spacing: 0.15em;
   }
   p {
@@ -425,11 +428,20 @@ nav, .nav-wrapper, .navbar-brand {
 .section-header {
   font-size: 36px;
 }
-.opaque-lg {
+.transparent-lg {
   font-family: oswald;
   opacity: .4;
   font-size: 100px;
-  letter-spacing: 30px;
+  letter-spacing: 0.15em;
+}
+.transparent-md {
+  font-family: oswald;
+  opacity: .4;
+  font-size: 50px;
+  letter-spacing: 0.15em;
+}
+.fw-300 {
+  font-weight: 300;
 }
 .wp-btn-transparent.wp-btn-white {
   border-color: white;
@@ -515,7 +527,7 @@ nav, .nav-wrapper, .navbar-brand {
     }
   }
   .blog-item-container {
-    margin: 30px auto 80px;
+    margin: 30px auto 50px;
   }
 }
 @media only screen and (max-width: 767px) {

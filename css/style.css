@@ -138,7 +138,7 @@ footer.black-footer a {
 
 .blog-item-container {
   width: 80%;
-  margin: 20px auto 40px;
+  margin: 30px auto 50px;
 }
 
 .footer-header {
@@ -213,6 +213,10 @@ input.form-control {
 
 .no-padding {
   padding: 0;
+}
+
+.pad-top {
+  padding-top: 30px;
 }
 
 .pad-bottom {
@@ -367,7 +371,7 @@ nav, .nav-wrapper, .navbar-brand {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 450px;
 }
 
 .full-bg {
@@ -454,7 +458,6 @@ nav, .nav-wrapper, .navbar-brand {
 }
 
 .spaced-section h1, .spaced-section h2, .spaced-section h3, .spaced-section h4 {
-  line-height: 50px;
   letter-spacing: 0.15em;
 }
 
@@ -482,11 +485,22 @@ nav, .nav-wrapper, .navbar-brand {
   font-size: 36px;
 }
 
-.opaque-lg {
+.transparent-lg {
   font-family: oswald;
   opacity: .4;
   font-size: 100px;
-  letter-spacing: 30px;
+  letter-spacing: 0.15em;
+}
+
+.transparent-md {
+  font-family: oswald;
+  opacity: .4;
+  font-size: 50px;
+  letter-spacing: 0.15em;
+}
+
+.fw-300 {
+  font-weight: 300;
 }
 
 .wp-btn-transparent.wp-btn-white {
@@ -578,7 +592,7 @@ nav, .nav-wrapper, .navbar-brand {
     margin-right: -20px;
   }
   .blog-item-container {
-    margin: 30px auto 80px;
+    margin: 30px auto 50px;
   }
 }
 
