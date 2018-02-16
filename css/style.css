@@ -575,7 +575,7 @@ nav, .nav-wrapper, .navbar-brand {
 }
 
 @media only screen and (max-width: 767px) {
-  #testing {
+  #featuredBlog {
     height: auto !important;
   }
   footer {
@@ -611,5 +611,11 @@ nav, .nav-wrapper, .navbar-brand {
   .featured-blog {
     width: 100%;
     padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  #featuredBlog {
+    width: 100% !important;
   }
 }
