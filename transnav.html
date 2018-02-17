@@ -13,52 +13,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540502979"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=540502979"></script>
     <![endif]-->
-    <script src="js/jquery-3.3.1.min.js?ckcachebust=a3ccded1f69784b6c9000da71e59396e"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        //Affix Navbar
-        var headerHeight = $('header').outerHeight();
-        $('.navbar-default').data('offset-top', headerHeight);
-
-        // Navbar Height and Transparency
-        var navHeight = $('nav').outerHeight();
-        $(window).on('scroll', function () {
-          var scrollTop = $(this).scrollTop();
-          var navTop = scrollTop - $('header').outerHeight();
-          var newNavHeight = navHeight - (navTop*.1);
-          var opacity = 0 + Math.abs((navTop*.005));
-          var navLogoHeight = $('#navLogo').outerHeight();
-          var logoPad = (newNavHeight - navLogoHeight) / 2;
-          if (scrollTop < $('header').outerHeight()) {
-            $('#navColor').css(
-              'background-color', 'rgba(255, 255, 255, 0.05)'
-            );
-          }
-          if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-            $('nav, .navbar-toggle').css(
-              'height', newNavHeight
-            );
-            $('.navbar-brand').css(
-              'padding-top', logoPad,
-              'padding-bottom', logoPad
-            );
-            $('.nav>li>a').css(
-              'line-height', newNavHeight + 'px'
-            );
-            $('#navColor').css(
-              'background-color', 'rgba(255, 255, 255,'+opacity+')'
-            );
-          }
-          if (opacity > 0.4) {
-            $('#navColor').removeClass("changeWhite");
-            $('#navColor').addClass("changeBlack");
-          } else {
-            $('#navColor').removeClass("changeBlack");
-            $('#navColor').addClass("changeWhite");
-          }
-        });
-      });
-    </script>
   <title>MSA Wheels</title>
 </head>
 
@@ -81,9 +35,9 @@
     </div>
   </header>
 
-  <div class="nav-wrapper" style="margin-bottom: -80px;">
-    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" style="" data-spy="affix" id="navColor">
-        <div class="container-fluid" style="">
+  <div class="nav-wrapper">
+    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" data-spy="affix" id="navColor">
+        <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
 		          <img alt="MSA Logo" id="navLogo" src="images/msa-logo.png">
@@ -408,9 +362,59 @@
     </div>
   </footer>
 
-
+  <script src="js/jquery-3.3.1.min.js?ckcachebust=a3ccded1f69784b6c9000da71e59396e"></script>
   <script src="js/bootstrap.min.js?ckcachebust=1ed1ed03eaf928ec1fb7b56311cc8266"></script>
   <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540502979"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //Affix Navbar
+      var headerHeight = $('header').outerHeight();
+      $('.navbar-default').data('offset-top', headerHeight);
+
+      // Navbar Height and Transparency
+      var navHeight = $('nav').outerHeight();
+      $(window).on('scroll', function () {
+        var scrollTop = $(this).scrollTop();
+        var navTop = scrollTop - $('header').outerHeight();
+        var newNavHeight = navHeight - (navTop*.1);
+        var opacity = 0 + Math.abs((navTop*.005));
+        var navLogoHeight = $('#navLogo').outerHeight();
+        var logoPad = (newNavHeight - navLogoHeight) / 2;
+        if (scrollTop < $('header').outerHeight()) {
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255, 0.05)'
+          );
+        }
+        if (navTop > 200) {
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255, 1)'
+          );
+        }
+        if (newNavHeight >= 60 && newNavHeight <= navHeight) {
+          $('nav, .navbar-toggle').css(
+            'height', newNavHeight
+          );
+          $('.navbar-brand').css(
+            'padding-top', logoPad,
+            'padding-bottom', logoPad
+          );
+          $('.nav>li>a').css(
+            'line-height', newNavHeight + 'px'
+          );
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255,'+opacity+')'
+          );
+        }
+        if (opacity > 0.4) {
+          $('#navColor').removeClass("changeWhite");
+          $('#navColor').addClass("changeBlack");
+        } else {
+          $('#navColor').removeClass("changeBlack");
+          $('#navColor').addClass("changeWhite");
+        }
+      });
+    });
+  </script>
 
 </body>
 

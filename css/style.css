@@ -299,6 +299,7 @@ nav .container-fluid, header .container-fluid {
 
 .nav-wrapper {
   min-height: 80px;
+  margin-bottom: -80px;
 }
 
 .navbar-default .navbar-toggle {
@@ -532,8 +533,30 @@ nav {
   letter-spacing: 0.15em;
 }
 
+.transparent-sm {
+  font-family: oswald;
+  opacity: .4;
+  font-size: 30px;
+  letter-spacing: 0.15em;
+}
+
+.transparent-xs {
+  font-family: oswald;
+  opacity: .4;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+}
+
 .fw-300 {
   font-weight: 300;
+}
+
+.blog-header {
+  font-family: oswald;
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
 }
 
 .wp-btn-transparent.wp-btn-white {

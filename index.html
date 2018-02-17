@@ -5,43 +5,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css?ckcachebust=c3bb8fef826a1ea81db268eee7d3bb7d" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ckcachebust=4be391a07023a51035898cf3fa01bff2" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Merriweather|Roboto" rel="stylesheet">
-  <link href="css/style.css?ckcachebust=5a3219c05ccc9aea2b50cf597bf79cfd" media="screen" rel="stylesheet" title="no title">
-  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540503562"></script> -->
+  <link href="css/style.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540518905"></script> -->
   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540503562"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=540503562"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540518905"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=540518905"></script>
     <![endif]-->
-    <script src="js/jquery-3.3.1.min.js?ckcachebust=1b0cae6ea94855f8ec4fe49f83067383"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        var header = $('header');
-        var navbar = $('.navbar-default');
-        var headerHeight = header.outerHeight();
-        $('.navbar-default').data('offset-top', headerHeight);
-
-        $(window).on('scroll', function () {
-        var navbarHeight = navbar.outerHeight();
-        var scrollTop = $(this).scrollTop();
-        var navTop = scrollTop - header.outerHeight();
-        console.log(navTop);
-        var navHeight = navbar.outerHeight();
-        // var offset = height / 2;
-        // var calc = 1 - (scrollTop - offset + range) / range;
-        var calc = 15 - (navTop*.25);
-        console.log("scrollTop: " + scrollTop);
-        console.log("calc: " + calc);
-        // navbar.css({ 'padding-top': calc });
-        // if (calc > '1') {
-        //   navbar.css({ 'opacity': 1 });
-        // } else if ( calc < '0' ) {
-        //   navbar.css({ 'opacity': 0 });
-        // }
-
-        });
-      });
-    </script>
   <title>MSA Wheels</title>
 </head>
 
@@ -63,12 +34,13 @@
       </div>
     </div>
   </header>
+
   <div class="nav-wrapper">
-    <nav class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="40">
-      <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" data-spy="affix" id="navColor">
+        <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
-		          <img alt="MSA Logo" class="navLogo" src="images/msa-logo.png">
+		          <img alt="MSA Logo" id="navLogo" src="images/msa-logo.png">
 		        </a>
         </div>
         <div class="navbar-right">
@@ -99,8 +71,7 @@
     </nav>
   </div>
   <!--/ END Navigation -->
-
-  <div class="dark-bg half-bg" style="background-image: url('images/quad-sky.png'); height: 700px;">
+  <div class="dark-bg full-bg" style="background-image: url('images/hills-bw.png');">
     <div class="container wp-full-height">
       <div class="row wp-full-height">
         <div class="col-sm-6 col-sm-offset-6 wp-full-height">
@@ -391,9 +362,59 @@
     </div>
   </footer>
 
+  <script src="js/jquery-3.3.1.min.js?ckcachebust=fa2c111d55625fb57b05a9652cd49567"></script>
+  <script src="js/bootstrap.min.js?ckcachebust=764e23860db155ce3fef799b94572e77"></script>
+  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540518905"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //Affix Navbar
+      var headerHeight = $('header').outerHeight();
+      $('.navbar-default').data('offset-top', headerHeight);
 
-  <script src="js/bootstrap.min.js?ckcachebust=93f9d368c6de5406ca190a3589256f3c"></script>
-  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540503562"></script>
+      // Navbar Height and Transparency
+      var navHeight = $('nav').outerHeight();
+      $(window).on('scroll', function () {
+        var scrollTop = $(this).scrollTop();
+        var navTop = scrollTop - $('header').outerHeight();
+        var newNavHeight = navHeight - (navTop*.1);
+        var opacity = 0 + Math.abs((navTop*.005));
+        var navLogoHeight = $('#navLogo').outerHeight();
+        var logoPad = (newNavHeight - navLogoHeight) / 2;
+        if (scrollTop < $('header').outerHeight()) {
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255, 0.05)'
+          );
+        }
+        if (navTop > 200) {
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255, 1)'
+          );
+        }
+        if (newNavHeight >= 60 && newNavHeight <= navHeight) {
+          $('nav, .navbar-toggle').css(
+            'height', newNavHeight
+          );
+          $('.navbar-brand').css(
+            'padding-top', logoPad,
+            'padding-bottom', logoPad
+          );
+          $('.nav>li>a').css(
+            'line-height', newNavHeight + 'px'
+          );
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255,'+opacity+')'
+          );
+        }
+        if (opacity > 0.4) {
+          $('#navColor').removeClass("changeWhite");
+          $('#navColor').addClass("changeBlack");
+        } else {
+          $('#navColor').removeClass("changeBlack");
+          $('#navColor').addClass("changeWhite");
+        }
+      });
+    });
+  </script>
 
 </body>
 

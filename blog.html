@@ -34,11 +34,11 @@
     </div>
   </header>
   <div class="nav-wrapper">
-    <nav class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="40">
-      <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" data-spy="affix" id="navColor">
+        <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
-		          <img alt="MSA Logo" class="navLogo" src="images/msa-logo.png">
+		          <img alt="MSA Logo" id="navLogo" src="images/msa-logo.png">
 		        </a>
         </div>
         <div class="navbar-right">
@@ -70,14 +70,15 @@
   </div>
   <!--/ END Navigation -->
 
-  <div class="dark-bg half-bg" style="background-image: url('images/quad-sky.png'); height: 700px;">
+  <div class="dark-bg half-bg" style="background-image: url('images/quad-sky.png');">
     <div class="container wp-full-height">
       <div class="row wp-full-height">
-        <div class="col-sm-6 col-sm-offset-6 wp-full-height">
+        <div class="wp-full-height">
           <div class="wp-table wp-full-height">
-            <div class="wp-table-cell">
-              <div class="section-info-wrap center">
-
+            <div class="wp-table-cell-middle">
+              <div class="section-info-wrap center spaced-section">
+                <h4 class="transparent-xs fw-300">MSA</h4>
+                <h1 class="blog-header" style="">BLOG</h1>
               </div>
             </div>
           </div>
@@ -388,6 +389,49 @@
       //Affix Navbar
       var headerHeight = $('header').outerHeight();
       $('.navbar-default').data('offset-top', headerHeight);
+
+      // Navbar Height and Transparency
+      var navHeight = $('nav').outerHeight();
+      $(window).on('scroll', function () {
+        var scrollTop = $(this).scrollTop();
+        var navTop = scrollTop - $('header').outerHeight();
+        var newNavHeight = navHeight - (navTop*.1);
+        var opacity = 0 + Math.abs((navTop*.005));
+        var navLogoHeight = $('#navLogo').outerHeight();
+        var logoPad = (newNavHeight - navLogoHeight) / 2;
+        if (scrollTop < $('header').outerHeight()) {
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255, 0.05)'
+          );
+        }
+        if (navTop > 200) {
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255, 1)'
+          );
+        }
+        if (newNavHeight >= 60 && newNavHeight <= navHeight) {
+          $('nav, .navbar-toggle').css(
+            'height', newNavHeight
+          );
+          $('.navbar-brand').css(
+            'padding-top', logoPad,
+            'padding-bottom', logoPad
+          );
+          $('.nav>li>a').css(
+            'line-height', newNavHeight + 'px'
+          );
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255,'+opacity+')'
+          );
+        }
+        if (opacity > 0.4) {
+          $('#navColor').removeClass("changeWhite");
+          $('#navColor').addClass("changeBlack");
+        } else {
+          $('#navColor').removeClass("changeBlack");
+          $('#navColor').addClass("changeWhite");
+        }
+      });
 
       // Featured Blog Post Sizing
       function resizeFeatured() {
