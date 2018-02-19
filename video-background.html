@@ -14,6 +14,29 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ckcachebust=540518905"></script>
     <![endif]-->
   <title>MSA Wheels</title>
+<!-- <script>var timeoutId;
+    var $videoBgAspect = $(".videobg-aspect");
+    var $videoBgWidth = $(".videobg-width");
+    var videoAspect = $videoBgAspect.outerHeight() / $videoBgAspect.outerWidth();
+
+    function videobgEnlarge() {
+        console.log('resize');
+        windowAspect = ($(window).height() / $(window).width());
+        if (windowAspect > videoAspect) {
+            $videoBgWidth.width((windowAspect / videoAspect) * 100 + '%');
+        } else {
+            $videoBgWidth.width(100 + "%")
+        }
+    }
+
+    $(window).resize(function () {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(videobgEnlarge, 100);
+    });
+
+    $(function () {
+        videobgEnlarge();
+    });</script> -->
 </head>
 
 <body>
@@ -71,7 +94,39 @@
     </nav>
   </div>
   <!--/ END Navigation -->
-  <div class="dark-bg full-bg" style="background-image: url('images/hills-bw.png');">
+<!-- <video autoplay muted loop id="myVideo" style="
+    min-width: 100%; 
+    min-height: 100%;">
+    <source src="https://www.youtube.com/watch?v=rg5CP3o4a80" type="video">
+</video> -->
+<!-- <iframe src="https://player.vimeo.com/video/233857756?background=1&loop=1" frameborder="0" webkitallowfullscreen
+    mozallowfullscreen allowfullscreen style=" min-width: 100%; min-height: 100%;"></iframe> -->
+   
+   <style>
+.home-video-wrapper {
+  position: relative;
+  /* padding-bottom: 56.25%; */
+  padding-bottom: 42.21%;
+  overflow: hidden;
+}
+		
+.home-video-wrapper iframe,
+.home-video-wrapper object,
+.home-video-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+</style>
+    <div class="home-video-wrapper">   
+        <iframe src="https://player.vimeo.com/video/233857756?background=1&loop=1" autoplay muted loop width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+    </div>
+ 
+  <!-- <div class="dark-bg full-bg" style="background-image: url('images/hills-bw.png');">
     <div class="container wp-full-height">
       <div class="row wp-full-height">
         <div class="col-sm-6 col-sm-offset-6 wp-full-height">
@@ -86,7 +141,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 <!-- INSTA -->
   <!-- <div class="instagrams" style="padding: 50px 0;">

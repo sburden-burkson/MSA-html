@@ -4,11 +4,19 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "DE62B479-F683-49B9-88EE-8C411EEBEC08"
+		"uuidString": "9C07328F-1085-4746-9D02-FBD298350D74"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
+	"\/.vscode\/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.vscode\/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/blog.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16,12 +24,19 @@
 		"oAP": "\/blog.html",
 		"oF": 0
 		},
+	"\/build\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/css\/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/bootstrap.min-min.css",
 		"oF": 0,
 		"oS": 3
@@ -38,7 +53,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
@@ -50,7 +65,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/style.css",
 		"oF": 0,
 		"oS": 1,
@@ -103,23 +118,23 @@
 		},
 	"\/images\/3-wheels.png": {
 		"ft": 32768,
-		"iS": 126015,
+		"iS": 55550,
 		"oA": 0,
 		"oAP": "\/images\/3-wheels.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/atv.jpg": {
 		"ft": 16384,
-		"iS": 21540700,
+		"iS": 118074,
 		"oA": 0,
 		"oAP": "\/images\/atv.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/black-fuzz.png": {
@@ -157,44 +172,44 @@
 		},
 	"\/images\/blue-sky.png": {
 		"ft": 32768,
-		"iS": 112010,
+		"iS": 150788,
 		"oA": 0,
 		"oAP": "\/images\/blue-sky.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/blue-truck.jpg": {
 		"ft": 16384,
-		"iS": 18369182,
+		"iS": 108288,
 		"oA": 0,
 		"oAP": "\/images\/blue-truck.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/custom-bg.png": {
 		"ft": 32768,
-		"iS": 821892,
+		"iS": 257057,
 		"oA": 0,
 		"oAP": "\/images\/custom-bg.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/custom.png": {
 		"ft": 32768,
-		"iS": 821892,
+		"iS": 211888,
 		"oA": 0,
 		"oAP": "\/images\/custom.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -211,51 +226,62 @@
 		},
 	"\/images\/desert-bw copy.png": {
 		"ft": 32768,
-		"iS": 162955,
+		"iS": 162949,
 		"oA": 0,
 		"oAP": "\/images\/desert-bw copy.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/desert-bw.png": {
 		"ft": 32768,
-		"iS": 120039,
+		"iS": 162955,
 		"oA": 0,
 		"oAP": "\/images\/desert-bw.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/hills-bw.png": {
 		"ft": 32768,
-		"iS": 799120,
+		"iS": 220892,
 		"oA": 0,
 		"oAP": "\/images\/hills-bw.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/instagram.png": {
+		"ft": 32768,
+		"iS": 219494,
+		"oA": 0,
+		"oAP": "\/images\/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/msa-logo.png": {
 		"ft": 32768,
-		"iS": 8141,
+		"iS": 3790,
 		"oA": 0,
 		"oAP": "\/images\/msa-logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/mud.png": {
 		"ft": 32768,
-		"iS": 77895,
+		"iS": 39919,
 		"oA": 0,
 		"oAP": "\/images\/mud.png",
 		"oF": 0,
@@ -266,7 +292,7 @@
 		},
 	"\/images\/quad-desert.png": {
 		"ft": 32768,
-		"iS": 161270,
+		"iS": 159700,
 		"oA": 0,
 		"oAP": "\/images\/quad-desert.png",
 		"oF": 0,
@@ -288,56 +314,56 @@
 		},
 	"\/images\/quad-sky.png": {
 		"ft": 32768,
-		"iS": 2077026,
+		"iS": 347983,
 		"oA": 0,
 		"oAP": "\/images\/quad-sky.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/quad-water-wide.png": {
 		"ft": 32768,
-		"iS": 2015847,
+		"iS": 390416,
 		"oA": 0,
 		"oAP": "\/images\/quad-water-wide.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/quad-water.png": {
 		"ft": 32768,
-		"iS": 636202,
+		"iS": 101131,
 		"oA": 0,
 		"oAP": "\/images\/quad-water.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/quad-wheelie.png": {
 		"ft": 32768,
-		"iS": 219440,
+		"iS": 59620,
 		"oA": 0,
 		"oAP": "\/images\/quad-wheelie.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/quad.png": {
 		"ft": 32768,
-		"iS": 236933,
+		"iS": 91757,
 		"oA": 0,
 		"oAP": "\/images\/quad.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -397,7 +423,7 @@
 		"q": 100
 		},
 	"\/index.html": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
@@ -407,7 +433,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/bootstrap.min-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -417,7 +443,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/imagesloaded.pkgd.min-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -427,7 +453,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/jquery-3.3.1.min-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -437,24 +463,17 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/masonry.pkgd.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/transnav.html": {
+	"\/video-background.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/transnav.html",
-		"oF": 0
-		},
-	"\/two.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/two.html",
+		"oAP": "\/video-background.html",
 		"oF": 0
 		}
 	},
@@ -466,7 +485,8 @@
 	"creationDate": 539634302,
 	"displayValue": "MSA-html",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-hart"
+	"iconImageName": "meme-hart",
+	"lastBuiltDate": 540767448
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -474,6 +494,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

@@ -5,9 +5,33 @@ $headerHeight: 40px;
 $headerFontSize: 12px;
 $navBorderColor: #e7e7e7;
 
+$transBlack: rgba(0, 0, 0, .84);
+$white: rgba(255, 255, 255, .97);
+$black: rgba(0, 0, 0, .97);
+$bodyBlack: rgba(0, 0, 0, .54);
+$dividerColor: rgba(0, 0, 0, .2);
+
+$navLinksFont: 15pt;
+$navSpacing: 0.15em;
+
+
 h1, h2, h3, h4 {
+  // letter-spacing: 0.2em;
   font-family: monospace;
 }
+// h1 {
+//   font-size: 70pt;
+// }
+// h2 {
+//   font-size: 55pt;
+// }
+// h3 {
+//   font-size: 32pt;
+// }
+// h4 {
+//   font-size: 21pt;
+// }
+
 p {
   font-weight: sans-serif;
 }
@@ -24,6 +48,23 @@ footer.black-footer {
     color: white;
   }
 }
+.home-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  // padding-bottom percentage is screen resolution ratio e.g.: (720/1280)*100%
+  padding-bottom: 42.25%;
+}
+		
+.home-video-wrapper iframe,
+.home-video-wrapper object,
+.home-video-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .blog-wrapper {
   background-color: #F2F2F2;
 }
