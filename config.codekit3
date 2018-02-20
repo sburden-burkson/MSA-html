@@ -498,11 +498,11 @@
 		"oAP": "\/transnav.html",
 		"oF": 0
 		},
-	"\/video-background.html": {
+	"\/video.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/video-background.html",
+		"oAP": "\/video.html",
 		"oF": 0
 		}
 	},
