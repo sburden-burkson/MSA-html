@@ -22,25 +22,20 @@ h1, h2, h3, h4 {
   font-family: 'Barlow Condensed', sans-serif;
 }
 h1 {
-  font-size: 70px;
   font-size: $h1Size;
 }
 h2 {
-  font-size: 55px;
   font-size: $h2Size;
 }
 h3 {
-  font-size: 32px;
   font-size: $h3Size;
 }
 h4 {
-  font-size: 21px;
   font-size: $h4Size;
 }
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 14px;
   font-size: $pSize;
   letter-spacing: 0.15em;
 }
