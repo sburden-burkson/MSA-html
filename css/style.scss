@@ -2,7 +2,6 @@ $navLogoHeight: 30px;
 $navHeight: 80px;
 $headerHeight: 40px;
 $headerFontSize: 12px;
-$navBorderColor: rgba(0, 0, 0, .2);
 
 $lightblack: rgba(0, 0, 0, .84);
 $white: rgba(255, 255, 255, .97);
@@ -176,7 +175,7 @@ footer.black-footer {
 header {
   height: $headerHeight;
   padding: 10px 0;
-  border-bottom: 2px solid $navBorderColor;
+  border-bottom: 2px solid $dividerColor;
   a {
     color: $bodyBlack;
     letter-spacing: 1px;
@@ -235,7 +234,7 @@ footer {
   .copyright {
     padding-top: 30px;
     padding-bottom: 30px;
-    border-bottom: 2px solid $navBorderColor;
+    border-bottom: 2px solid $dividerColor;
   }
   .links {
     padding-top: 50px;
@@ -244,7 +243,7 @@ footer {
     padding-bottom: 20px;
   }
   a {
-    color: black;
+    color: $black;
     font-weight: 200;
   }
   .links-heading {

@@ -253,7 +253,7 @@ footer .links [class*="col-"] {
 }
 
 footer a {
-  color: black;
+  color: rgba(0, 0, 0, 0.97);
   font-weight: 200;
 }
 
