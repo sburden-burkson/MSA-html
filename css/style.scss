@@ -1,7 +1,7 @@
 $navLogoHeight: 30px;
 $navHeight: 80px;
 $headerHeight: 40px;
-$headerFontSize: 13px;
+$headerFontSize: 14px;
 
 $lightblack: rgba(0, 0, 0, .84);
 $white: rgba(255, 255, 255, .97);
@@ -14,7 +14,7 @@ $navSpacing: 0.15em;
 
 h1, h2, h3, h4 {
   letter-spacing: 0.2em;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 h1 {
   font-size: 70px;
@@ -32,10 +32,10 @@ h4 {
 p {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
 }
 header, nav, footer, .btn, .oswald {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 footer.black-footer {
   background-color: black;
@@ -44,6 +44,10 @@ footer.black-footer {
     color: $white;
   }
 }
+.white {
+  color: $white;
+}
+
 .home-video-wrapper {
   position: relative;
   overflow: hidden;
@@ -71,10 +75,10 @@ footer.black-footer {
 .featured-blog-info-wrap {
   padding: 60px 60px 0px;
   .featured-blog-header {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     font-weight: 300;
-    letter-spacing: .15em;
+    letter-spacing: 0.15em;
   }
   .featured-blog-desc {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -91,9 +95,9 @@ footer.black-footer {
   padding-bottom: 20px;
   .featured-blog-date {
     text-align: right;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 12px;
-    letter-spacing: .15em;
+    letter-spacing: 0.15em;
     color: $bodyBlack;
   }
 }
@@ -137,9 +141,9 @@ footer.black-footer {
     padding: 35px;
     p {
       text-align: left;
-      font-family: "Oswald", sans-serif;
+      font-family: 'Barlow Condensed', sans-serif;
       font-size: 12px;
-      letter-spacing: .15em;
+      letter-spacing: 0.15em;
       color: $bodyBlack;
       span {
         float:right;
@@ -150,10 +154,10 @@ footer.black-footer {
     }
   }
   .blog-item-header {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     font-weight: 300;
-    letter-spacing: .15em;
+    letter-spacing: 0.15em;
   }
 }
 .blog-item-container {
@@ -161,7 +165,7 @@ footer.black-footer {
   margin: 30px auto 50px;
 }
 .footer-header {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   font-size: 70px;
@@ -179,7 +183,7 @@ header {
   border-bottom: 2px solid $dividerColor;
   a {
     color: $bodyBlack;
-    letter-spacing: .15em;
+    letter-spacing: 0.15em;
     padding-left: 15px;
     padding-right: 15px;
     font-size: $headerFontSize;
@@ -352,9 +356,8 @@ nav {
   height: $navLogoHeight;
 }
 .navbar-nav li a {
-  font-weight: 300;
   line-height: $navLogoHeight;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
   font-size: 15px;
 }
 
@@ -442,7 +445,7 @@ nav {
   padding-bottom: 50px;
 }
 .standard-link {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-weight: 400;
   color: black;
   .fa {
@@ -482,25 +485,25 @@ nav {
   font-size: 36px;
 }
 .transparent-lg {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
   font-size: 100px;
   letter-spacing: 0.15em;
 }
 .transparent-md {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 .transparent-sm {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 .transparent-xs {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
   font-size: 18px;
   letter-spacing: 0.15em;
@@ -509,7 +512,7 @@ nav {
   font-weight: 300;
 }
 .blog-header {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   color: $white;
   font-size: 60px;
   font-weight: 300;
@@ -534,7 +537,7 @@ nav {
   border-color: #888;
   border-radius: 0;
   color: #000;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 10px;
   letter-spacing: 0.15em;
   margin: 10px auto;
@@ -543,7 +546,7 @@ nav {
   background-image: url('../images/red-bg.png');
   border-radius: 0;
   color: $white;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 10px;
   letter-spacing: 0.15em;
   margin: 10px auto;
