@@ -1,7 +1,7 @@
 $navLogoHeight: 30px;
 $navHeight: 80px;
 $headerHeight: 40px;
-$headerFontSize: 12px;
+$headerFontSize: 13px;
 
 $lightblack: rgba(0, 0, 0, .84);
 $white: rgba(255, 255, 255, .97);
@@ -9,29 +9,30 @@ $black: rgba(0, 0, 0, .97);
 $bodyBlack: rgba(0, 0, 0, .54);
 $dividerColor: rgba(0, 0, 0, .2);
 
-$navLinksFont: 15pt;
 $navSpacing: 0.15em;
 
 
 h1, h2, h3, h4 {
-  // letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
   font-family: "Oswald", sans-serif;
 }
-// h1 {
-//   font-size: 70pt;
-// }
-// h2 {
-//   font-size: 55pt;
-// }
-// h3 {
-//   font-size: 32pt;
-// }
-// h4 {
-//   font-size: 21pt;
-// }
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 55px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 21px;
+}
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: .15em;
 }
 header, nav, footer, .btn, .oswald {
   font-family: "Oswald", sans-serif;
@@ -178,7 +179,7 @@ header {
   border-bottom: 2px solid $dividerColor;
   a {
     color: $bodyBlack;
-    letter-spacing: 1px;
+    letter-spacing: .15em;
     padding-left: 15px;
     padding-right: 15px;
     font-size: $headerFontSize;
@@ -351,8 +352,10 @@ nav {
   height: $navLogoHeight;
 }
 .navbar-nav li a {
- line-height: $navLogoHeight;
- letter-spacing: 1px;
+  font-weight: 300;
+  line-height: $navLogoHeight;
+  letter-spacing: .15em;
+  font-size: 15px;
 }
 
 .nav>li>a {
@@ -431,11 +434,9 @@ nav {
   width: 100%;
   height: 100%;
 }
-.section-info-wrap {
-  .pad-top-bottom {
-    padding-top: 50px;
-    padding-bottom: 50px;;
-  }
+.pad-top-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .red-bg {
   padding-bottom: 50px;
@@ -462,6 +463,9 @@ nav {
     padding-top: 10px;
     padding-bottom: 30px;
   }
+}
+.restricted-width-left {
+  max-width: 300px;
 }
 .restricted-width {
   max-width: 300px;

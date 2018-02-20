@@ -1,9 +1,28 @@
 h1, h2, h3, h4 {
+  letter-spacing: 0.2em;
   font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 21px;
 }
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: .15em;
 }
 
 header, nav, footer, .btn, .oswald {
@@ -171,14 +190,14 @@ header {
 
 header a {
   color: rgba(0, 0, 0, 0.54);
-  letter-spacing: 1px;
+  letter-spacing: .15em;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 header .icon {
-  font-size: 14px;
+  font-size: 15px;
   padding-left: 15px;
   padding-right: 10px;
 }
@@ -385,8 +404,10 @@ nav {
 }
 
 .navbar-nav li a {
+  font-weight: 300;
   line-height: 30px;
-  letter-spacing: 1px;
+  letter-spacing: .15em;
+  font-size: 15px;
 }
 
 .nav > li > a {
@@ -479,7 +500,7 @@ nav {
   height: 100%;
 }
 
-.section-info-wrap .pad-top-bottom {
+.pad-top-bottom {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -510,6 +531,10 @@ nav {
   font-weight: 300;
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+.restricted-width-left {
+  max-width: 300px;
 }
 
 .restricted-width {

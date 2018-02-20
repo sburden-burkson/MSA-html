@@ -7,7 +7,7 @@
 		"uuidString": "9C07328F-1085-4746-9D02-FBD298350D74"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26261",
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -22,13 +22,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/blog.html",
-		"oF": 0
-		},
-	"\/build\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
 	"\/collection.html": {
@@ -125,7 +118,7 @@
 		},
 	"\/images\/3-wheels.png": {
 		"ft": 32768,
-		"iS": 55550,
+		"iS": 126015,
 		"oA": 0,
 		"oAP": "\/images\/3-wheels.png",
 		"oF": 0,
@@ -136,7 +129,7 @@
 		},
 	"\/images\/atv.jpg": {
 		"ft": 16384,
-		"iS": 118074,
+		"iS": 21540700,
 		"oA": 0,
 		"oAP": "\/images\/atv.jpg",
 		"oF": 0,
@@ -179,7 +172,7 @@
 		},
 	"\/images\/blue-sky.png": {
 		"ft": 32768,
-		"iS": 150788,
+		"iS": 112010,
 		"oA": 0,
 		"oAP": "\/images\/blue-sky.png",
 		"oF": 0,
@@ -190,7 +183,7 @@
 		},
 	"\/images\/blue-truck.jpg": {
 		"ft": 16384,
-		"iS": 108288,
+		"iS": 18369182,
 		"oA": 0,
 		"oAP": "\/images\/blue-truck.jpg",
 		"oF": 0,
@@ -200,7 +193,7 @@
 		},
 	"\/images\/custom-bg.png": {
 		"ft": 32768,
-		"iS": 257057,
+		"iS": 821892,
 		"oA": 0,
 		"oAP": "\/images\/custom-bg.png",
 		"oF": 0,
@@ -211,7 +204,7 @@
 		},
 	"\/images\/custom.png": {
 		"ft": 32768,
-		"iS": 211888,
+		"iS": 821892,
 		"oA": 0,
 		"oAP": "\/images\/custom.png",
 		"oF": 0,
@@ -233,7 +226,7 @@
 		},
 	"\/images\/desert-bw copy.png": {
 		"ft": 32768,
-		"iS": 162949,
+		"iS": 162955,
 		"oA": 0,
 		"oAP": "\/images\/desert-bw copy.png",
 		"oF": 0,
@@ -244,7 +237,7 @@
 		},
 	"\/images\/desert-bw.png": {
 		"ft": 32768,
-		"iS": 162955,
+		"iS": 120039,
 		"oA": 0,
 		"oAP": "\/images\/desert-bw.png",
 		"oF": 0,
@@ -255,7 +248,7 @@
 		},
 	"\/images\/hills-bw.png": {
 		"ft": 32768,
-		"iS": 220892,
+		"iS": 799120,
 		"oA": 0,
 		"oAP": "\/images\/hills-bw.png",
 		"oF": 0,
@@ -277,7 +270,7 @@
 		},
 	"\/images\/msa-logo.png": {
 		"ft": 32768,
-		"iS": 3790,
+		"iS": 8141,
 		"oA": 0,
 		"oAP": "\/images\/msa-logo.png",
 		"oF": 0,
@@ -288,7 +281,7 @@
 		},
 	"\/images\/mud.png": {
 		"ft": 32768,
-		"iS": 39919,
+		"iS": 77895,
 		"oA": 0,
 		"oAP": "\/images\/mud.png",
 		"oF": 0,
@@ -299,12 +292,34 @@
 		},
 	"\/images\/quad-desert.png": {
 		"ft": 32768,
-		"iS": 159700,
+		"iS": 161270,
 		"oA": 0,
 		"oAP": "\/images\/quad-desert.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quad-jump.png": {
+		"ft": 32768,
+		"iS": 304261,
+		"oA": 0,
+		"oAP": "\/images\/quad-jump.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quad-jump2.png": {
+		"ft": 32768,
+		"iS": 603507,
+		"oA": 0,
+		"oAP": "\/images\/quad-jump2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -321,7 +336,7 @@
 		},
 	"\/images\/quad-sky.png": {
 		"ft": 32768,
-		"iS": 347983,
+		"iS": 2077026,
 		"oA": 0,
 		"oAP": "\/images\/quad-sky.png",
 		"oF": 0,
@@ -332,7 +347,7 @@
 		},
 	"\/images\/quad-water-wide.png": {
 		"ft": 32768,
-		"iS": 390416,
+		"iS": 2015847,
 		"oA": 0,
 		"oAP": "\/images\/quad-water-wide.png",
 		"oF": 0,
@@ -343,7 +358,7 @@
 		},
 	"\/images\/quad-water.png": {
 		"ft": 32768,
-		"iS": 101131,
+		"iS": 636202,
 		"oA": 0,
 		"oAP": "\/images\/quad-water.png",
 		"oF": 0,
@@ -354,7 +369,7 @@
 		},
 	"\/images\/quad-wheelie.png": {
 		"ft": 32768,
-		"iS": 59620,
+		"iS": 219440,
 		"oA": 0,
 		"oAP": "\/images\/quad-wheelie.png",
 		"oF": 0,
@@ -365,7 +380,7 @@
 		},
 	"\/images\/quad.png": {
 		"ft": 32768,
-		"iS": 91757,
+		"iS": 236933,
 		"oA": 0,
 		"oAP": "\/images\/quad.png",
 		"oF": 0,
@@ -501,7 +516,6 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
-	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
