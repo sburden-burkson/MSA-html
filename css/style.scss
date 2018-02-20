@@ -1,11 +1,10 @@
-$lightblack: rgba(0, 0, 0, .84);
 $navLogoHeight: 30px;
 $navHeight: 80px;
 $headerHeight: 40px;
 $headerFontSize: 12px;
 $navBorderColor: rgba(0, 0, 0, .2);
 
-$transBlack: rgba(0, 0, 0, .84);
+$lightblack: rgba(0, 0, 0, .84);
 $white: rgba(255, 255, 255, .97);
 $black: rgba(0, 0, 0, .97);
 $bodyBlack: rgba(0, 0, 0, .54);
@@ -40,9 +39,9 @@ header, nav, footer, .btn, .oswald {
 }
 footer.black-footer {
   background-color: black;
-  color: white;
+  color: $white;
   a {
-    color: white;
+    color: $white;
   }
 }
 .home-video-wrapper {
@@ -304,10 +303,10 @@ nav .container-fluid, header .container-fluid {
   background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
-  color: white;
+  color: $white;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: $white;
 }
 .changeBlack .navbar-nav>li>a,  {
   color: #888 !important;
@@ -318,11 +317,11 @@ nav .container-fluid, header .container-fluid {
   transition: background-color 0.4s;
 }
 .changeWhite .navbar-nav>li>a,  {
-  color: white !important;
+  color: $white !important;
   transition: color 0.4s;
 }
 .changeWhite .navbar-toggle .icon-bar {
-  background-color: white !important;
+  background-color: $white !important;
   transition: background-color 0.4s;
 }
 .navbar-toggle:hover .icon-bar {
@@ -372,7 +371,7 @@ nav {
   padding-bottom: 50px;
 }
 .white-bg {
-  background-color: white;
+  background-color: $white;
 }
 .half-bg {
   background-position: 50% 50%;
@@ -396,12 +395,12 @@ nav {
   height: 300px;
 }
 .row-section a {
-  color: white;
+  color: $white;
   text-decoration: none;
 }
 .dark-bg {
   h1, h2, h3, h4, p {
-    color: white;
+    color: $white;
   }
 }
 .wp-table {
@@ -508,14 +507,14 @@ nav {
 }
 .blog-header {
   font-family: "Oswald", sans-serif;
-  color: white;
+  color: $white;
   font-size: 60px;
   font-weight: 300;
   letter-spacing: 0.15em;
 }
 .wp-btn-transparent.wp-btn-white {
-  border-color: white;
-  color: white;
+  border-color: $white;
+  color: $white;
 }
 
 .wp-btn-extra-long {
@@ -540,7 +539,7 @@ nav {
 .wp-btn-red {
   background-image: url('../images/red-bg.png');
   border-radius: 0;
-  color: white;
+  color: $white;
   font-family: "Oswald", sans-serif;
   font-size: 10px;
   letter-spacing: 0.15em;
@@ -552,11 +551,11 @@ nav {
 
 .wp-input-btn-red, .wp-input-btn-red:active {
   background-image: url('../images/red-bg-sm.png') ;
-  color: white;
+  color: $white;
 }
 
 .wp-btn-red:hover, .wp-input-btn-red:hover, .wp-btn-red:focus, .wp-input-btn-red:focus {
-  color: white;
+  color: $white;
 }
 .section-header-sm {
   font-size: 30px;

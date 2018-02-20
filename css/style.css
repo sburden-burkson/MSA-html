@@ -12,11 +12,11 @@ header, nav, footer, .btn, .oswald {
 
 footer.black-footer {
   background-color: black;
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
 }
 
 footer.black-footer a {
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
 }
 
 .home-video-wrapper {
@@ -320,11 +320,11 @@ nav .container-fluid, header .container-fluid {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.97);
 }
 
 .changeBlack .navbar-nav > li > a {
@@ -340,13 +340,13 @@ nav .container-fluid, header .container-fluid {
 }
 
 .changeWhite .navbar-nav > li > a {
-  color: white !important;
+  color: rgba(255, 255, 255, 0.97) !important;
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
 .changeWhite .navbar-toggle .icon-bar {
-  background-color: white !important;
+  background-color: rgba(255, 255, 255, 0.97) !important;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
@@ -407,7 +407,7 @@ nav {
 }
 
 .white-bg {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.97);
 }
 
 .half-bg {
@@ -436,12 +436,12 @@ nav {
 }
 
 .row-section a {
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
   text-decoration: none;
 }
 
 .dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg p {
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
 }
 
 .wp-table {
@@ -562,15 +562,15 @@ nav {
 
 .blog-header {
   font-family: "Oswald", sans-serif;
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
   font-size: 60px;
   font-weight: 300;
   letter-spacing: 0.15em;
 }
 
 .wp-btn-transparent.wp-btn-white {
-  border-color: white;
-  color: white;
+  border-color: rgba(255, 255, 255, 0.97);
+  color: rgba(255, 255, 255, 0.97);
 }
 
 .wp-btn-extra-long {
@@ -597,7 +597,7 @@ nav {
 .wp-btn-red {
   background-image: url("../images/red-bg.png");
   border-radius: 0;
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
   font-family: "Oswald", sans-serif;
   font-size: 10px;
   letter-spacing: 0.15em;
@@ -610,11 +610,11 @@ nav {
 
 .wp-input-btn-red, .wp-input-btn-red:active {
   background-image: url("../images/red-bg-sm.png");
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
 }
 
 .wp-btn-red:hover, .wp-input-btn-red:hover, .wp-btn-red:focus, .wp-input-btn-red:focus {
-  color: white;
+  color: rgba(255, 255, 255, 0.97);
 }
 
 .section-header-sm {
