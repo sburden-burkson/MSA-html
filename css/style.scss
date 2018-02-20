@@ -59,6 +59,9 @@ footer.black-footer {
 .top-section {
   padding: 200px 100px 35px;
 }
+.top-section-sm {
+  padding: 100px 100px 35px;
+}
 .home-video-wrapper {
   position: relative;
   overflow: hidden;
@@ -107,7 +110,7 @@ footer.black-footer {
   .featured-blog-date {
     text-align: right;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 12px;
+    // font-size: 12px;
     letter-spacing: 0.15em;
     color: $bodyBlack;
   }
@@ -153,7 +156,7 @@ footer.black-footer {
     p {
       text-align: left;
       font-family: 'Barlow Condensed', sans-serif;
-      font-size: 12px;
+      // font-size: 12px;
       letter-spacing: 0.15em;
       color: $bodyBlack;
       span {
@@ -672,6 +675,9 @@ nav {
   .top-section {
     padding: 100px 35px 35px;
   }
+  .top-section-sm {
+    padding: 100px 35px 35px;
+  }
   #featuredBlog {
     height: auto !important;
     padding-top: 0;
@@ -734,6 +740,9 @@ nav {
     font-size: ($h1Size * 1.5) * 0.6;
   }
   .top-section {
+    padding: 100px 10px 10px;
+  }
+  .top-section-sm {
     padding: 100px 10px 10px;
   }
   .blog-wrapper .container-fluid {
