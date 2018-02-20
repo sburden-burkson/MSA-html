@@ -42,8 +42,13 @@ footer.black-footer a {
   color: rgba(255, 255, 255, 0.97);
 }
 
+.white:hover {
+  color: rgba(255, 255, 255, 0.97);
+  text-decoration: none;
+}
+
 .top-section {
-  padding: 200px 100px 30px;
+  padding: 200px 100px 35px;
 }
 
 .home-video-wrapper {
@@ -254,8 +259,16 @@ input.form-control {
   padding-top: 30px;
 }
 
+.pad-top-lg {
+  padding-top: 100px;
+}
+
 .pad-bottom {
   padding-bottom: 30px;
+}
+
+.pad-bottom-lg {
+  padding-bottom: 100px;
 }
 
 footer {
@@ -453,13 +466,6 @@ nav {
   background-position: 50% 100%;
 }
 
-.row-section [class*="col-"] {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-}
-
 .row-section a {
   color: rgba(255, 255, 255, 0.97);
   text-decoration: none;
@@ -531,16 +537,21 @@ nav {
   padding-left: 5px;
 }
 
-.spaced-section h1, .spaced-section h2, .spaced-section h3, .spaced-section h4 {
-  letter-spacing: 0.15em;
+.v-center-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.v-center-section-lg {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .spaced-section p {
-  line-height: 28px;
+  line-height: 2em;
   letter-spacing: 0.15em;
   font-weight: 300;
   padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 .restricted-width-left {
@@ -564,28 +575,24 @@ nav {
 }
 
 .transparent-lg {
-  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
-  font-size: 100px;
+  font-size: 105px;
   letter-spacing: 0.15em;
 }
 
 .transparent-md {
-  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 
 .transparent-sm {
-  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 
 .transparent-xs {
-  font-family: 'Barlow Condensed', sans-serif;
   opacity: .4;
   font-size: 18px;
   letter-spacing: 0.15em;
@@ -596,7 +603,6 @@ nav {
 }
 
 .blog-header {
-  font-family: 'Barlow Condensed', sans-serif;
   color: rgba(255, 255, 255, 0.97);
   font-size: 60px;
   font-weight: 300;
@@ -634,7 +640,7 @@ nav {
   border-radius: 0;
   color: rgba(255, 255, 255, 0.97);
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0.15em;
   margin: 10px auto;
 }
@@ -719,8 +725,23 @@ nav {
   p {
     font-size: 13.3px;
   }
+  .transparent-lg {
+    font-size: 84px;
+  }
+  .v-center-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .v-center-section-lg {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .row-section .v-center-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
   .top-section {
-    padding: 100px 30px 10px;
+    padding: 100px 35px 35px;
   }
   #featuredBlog {
     height: auto !important;
@@ -753,9 +774,6 @@ nav {
   .half-bg .wp-full-height, .full-bg .wp-full-height, .half-section .wp-full-height, .full-section .wp-full-height {
     min-height: 190px;
   }
-  .row-section [class*="col-"] {
-    height: 200px;
-  }
   .opaque-lg {
     font-size: 60px;
   }
@@ -781,8 +799,11 @@ nav {
   p {
     font-size: 12.6px;
   }
-  .footer-header {
-    font-size: 42px;
+  .transparent-lg {
+    font-size: 63px;
+  }
+  .top-section {
+    padding: 100px 10px 10px;
   }
   .blog-wrapper .container-fluid {
     padding-left: 0;
