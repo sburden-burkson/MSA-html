@@ -31,6 +31,13 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/collection.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/collection.html",
+		"oF": 0
+		},
 	"\/css\/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -65,9 +72,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/style.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 1,
 		"uL": 1
 		},
@@ -122,8 +129,8 @@
 		"oA": 0,
 		"oAP": "\/images\/3-wheels.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -134,7 +141,7 @@
 		"oAP": "\/images\/atv.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/black-fuzz.png": {
@@ -143,8 +150,8 @@
 		"oA": 0,
 		"oAP": "\/images\/black-fuzz.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -154,8 +161,8 @@
 		"oA": 0,
 		"oAP": "\/images\/black-graphic.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -165,8 +172,8 @@
 		"oA": 0,
 		"oAP": "\/images\/blog-image.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -176,8 +183,8 @@
 		"oA": 0,
 		"oAP": "\/images\/blue-sky.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -188,7 +195,7 @@
 		"oAP": "\/images\/blue-truck.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/custom-bg.png": {
@@ -197,8 +204,8 @@
 		"oA": 0,
 		"oAP": "\/images\/custom-bg.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -208,8 +215,8 @@
 		"oA": 0,
 		"oAP": "\/images\/custom.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -219,8 +226,8 @@
 		"oA": 0,
 		"oAP": "\/images\/desert-atv.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -230,8 +237,8 @@
 		"oA": 0,
 		"oAP": "\/images\/desert-bw copy.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -241,8 +248,8 @@
 		"oA": 0,
 		"oAP": "\/images\/desert-bw.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -252,8 +259,8 @@
 		"oA": 0,
 		"oAP": "\/images\/hills-bw.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -263,8 +270,8 @@
 		"oA": 0,
 		"oAP": "\/images\/instagram.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -274,8 +281,8 @@
 		"oA": 0,
 		"oAP": "\/images\/msa-logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -285,8 +292,8 @@
 		"oA": 0,
 		"oAP": "\/images\/mud.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -296,8 +303,8 @@
 		"oA": 0,
 		"oAP": "\/images\/quad-desert.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -307,8 +314,8 @@
 		"oA": 0,
 		"oAP": "\/images\/quad-layer.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -318,8 +325,8 @@
 		"oA": 0,
 		"oAP": "\/images\/quad-sky.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -329,8 +336,8 @@
 		"oA": 0,
 		"oAP": "\/images\/quad-water-wide.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -340,8 +347,8 @@
 		"oA": 0,
 		"oAP": "\/images\/quad-water.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -351,8 +358,8 @@
 		"oA": 0,
 		"oAP": "\/images\/quad-wheelie.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -362,8 +369,8 @@
 		"oA": 0,
 		"oAP": "\/images\/quad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -373,8 +380,8 @@
 		"oA": 0,
 		"oAP": "\/images\/red-bg-sm.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -384,8 +391,8 @@
 		"oA": 0,
 		"oAP": "\/images\/red-bg.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -395,8 +402,8 @@
 		"oA": 0,
 		"oAP": "\/images\/rim-1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -406,8 +413,8 @@
 		"oA": 0,
 		"oAP": "\/images\/rim-2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -417,8 +424,8 @@
 		"oA": 0,
 		"oAP": "\/images\/rim-art.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -486,7 +493,7 @@
 	"displayValue": "MSA-html",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-hart",
-	"lastBuiltDate": 540767448
+	"lastBuiltDate": 540772569
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

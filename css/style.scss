@@ -17,7 +17,7 @@ $navSpacing: 0.15em;
 
 h1, h2, h3, h4 {
   // letter-spacing: 0.2em;
-  font-family: monospace;
+  font-family: "Oswald", sans-serif;
 }
 // h1 {
 //   font-size: 70pt;
@@ -33,7 +33,7 @@ h1, h2, h3, h4 {
 // }
 
 p {
-  font-weight: sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 header, nav, footer, .btn, .oswald {
   font-family: "Oswald", sans-serif;
@@ -51,10 +51,10 @@ footer.black-footer {
 .home-video-wrapper {
   position: relative;
   overflow: hidden;
-  // padding-bottom percentage is screen resolution ratio e.g.: (720/1280)*100%
+  /* padding-bottom percentage is screen resolution ratio e.g.: (720/1280)*100% */
   padding-bottom: 42.25%;
 }
-		
+
 .home-video-wrapper iframe,
 .home-video-wrapper object,
 .home-video-wrapper embed {
@@ -173,9 +173,9 @@ footer.black-footer {
   letter-spacing: 0.2em;
 }
 .roboto {
-  h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif !important;
-  }
+  // h1, h2, h3, h4 {
+  //   font-family: 'Roboto', sans-serif !important;
+  // }
 }
 header {
   height: $headerHeight;
@@ -446,7 +446,7 @@ nav {
   padding-bottom: 50px;
 }
 .standard-link {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   color: black;
   .fa {
@@ -483,25 +483,25 @@ nav {
   font-size: 36px;
 }
 .transparent-lg {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 100px;
   letter-spacing: 0.15em;
 }
 .transparent-md {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 .transparent-sm {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 .transparent-xs {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 18px;
   letter-spacing: 0.15em;
@@ -510,7 +510,7 @@ nav {
   font-weight: 300;
 }
 .blog-header {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   color: white;
   font-size: 60px;
   font-weight: 300;

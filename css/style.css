@@ -1,9 +1,9 @@
 h1, h2, h3, h4 {
-  font-family: monospace;
+  font-family: "Oswald", sans-serif;
 }
 
 p {
-  font-weight: sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 header, nav, footer, .btn, .oswald {
@@ -21,6 +21,23 @@ footer.black-footer {
 
 footer.black-footer a {
   color: white;
+}
+
+.home-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  /* padding-bottom percentage is screen resolution ratio e.g.: (720/1280)*100% */
+  padding-bottom: 42.25%;
+}
+
+.home-video-wrapper iframe,
+.home-video-wrapper object,
+.home-video-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .blog-wrapper {
@@ -148,10 +165,6 @@ footer.black-footer a {
   font-size: 70px;
   font-weight: 300;
   letter-spacing: 0.2em;
-}
-
-.roboto h1, .roboto h2, .roboto h3, .roboto h4 {
-  font-family: 'Roboto', sans-serif !important;
 }
 
 header {
@@ -480,7 +493,7 @@ nav {
 }
 
 .standard-link {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   color: black;
 }
@@ -520,28 +533,28 @@ nav {
 }
 
 .transparent-lg {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 100px;
   letter-spacing: 0.15em;
 }
 
 .transparent-md {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 
 .transparent-sm {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 
 .transparent-xs {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   opacity: .4;
   font-size: 18px;
   letter-spacing: 0.15em;
@@ -552,7 +565,7 @@ nav {
 }
 
 .blog-header {
-  font-family: oswald;
+  font-family: "Oswald", sans-serif;
   color: white;
   font-size: 60px;
   font-weight: 300;
