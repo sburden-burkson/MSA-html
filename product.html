@@ -11,21 +11,15 @@
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
   <style media="screen">
-    .slick-slide, .slick-slide *{ outline: none !important; }
-    /* #product-image-carousel .slick-slide, #product-image-carousel {
-       height: 100%;
+    .slick-slide, .slick-slide * {
+      outline: none !important;
     }
-
-    #product-image-carousel .slick-slide img {
-       height: 100%;
-    } */
     #product-image-carousel, #product-thumbs {
       visibility: hidden;
     }
     .slick-initialized {
       visibility: visible !important;
     }
-
   </style>
   <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540518905"></script> -->
   <!--[if lt IE 9]>
@@ -90,10 +84,21 @@
     </nav>
   </div>
   <!--/ END Navigation -->
-  <div class="container" style="margin-top: 130px;">
+  <div class="container-fluid" style="margin-top: 130px;">
     <div class="row">
 
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-sm-push-4">
+        <div style="max-width: 450px; margin: 0px auto;" id="product-image-carousel">
+          <img src="images/rim-1.png" alt="">
+          <img src="images/rim-2.png" alt="">
+          <img src="images/rim-1.png" alt="">
+          <img src="images/rim-2.png" alt="">
+          <img src="images/rim-1.png" alt="">
+          <img src="images/rim-2.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-sm-pull-6">
         <h3>M25 BANDIT</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="product-customization">
@@ -105,26 +110,16 @@
         <p class="pad-top-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">ADD TO CART <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
       </div>
 
-      <div class="col-sm-6">
-        <div style="padding: 0 50px;" id="product-image-carousel">
-          <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-        </div>
-      </div>
 
       <div class="col-sm-2 hidden-xs">
-        <div style="height: auto;"><div id="product-thumbs"  style="padding: 25px 25px;">
+        <div id="product-thumbs" style="max-width: 100px;margin: 30px auto;">
           <img src="images/rim-1.png" alt="">
+          <img src="images/rim-2.png" alt="">
           <img src="images/rim-1.png" alt="">
+          <img src="images/rim-2.png" alt="">
           <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-          <img src="images/rim-1.png" alt="">
-        </div></div>
+          <img src="images/rim-2.png" alt="">
+        </div>
       </div>
 
     </div>
@@ -233,10 +228,6 @@
          arrows: false,
          // variableWidth: true,
        });
-
-       window.addEventListener("load", () => {
-        setTimeout(function(){$('#product-image-carousel, #product-thumbs').slick("refresh");}, 1000);
-      });
 
       //Affix Navbar
       var headerHeight = $('header').outerHeight();
