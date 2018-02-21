@@ -7,7 +7,7 @@
 		"uuidString": "9C07328F-1085-4746-9D02-FBD298350D74"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -22,6 +22,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/blog.html",
+		"oF": 0
+		},
+	"\/build\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
 	"\/collection.html": {
@@ -118,7 +125,7 @@
 		},
 	"\/images\/3-wheels.png": {
 		"ft": 32768,
-		"iS": 126015,
+		"iS": 55550,
 		"oA": 0,
 		"oAP": "\/images\/3-wheels.png",
 		"oF": 0,
@@ -129,7 +136,7 @@
 		},
 	"\/images\/atv.jpg": {
 		"ft": 16384,
-		"iS": 21540700,
+		"iS": 118074,
 		"oA": 0,
 		"oAP": "\/images\/atv.jpg",
 		"oF": 0,
@@ -172,7 +179,7 @@
 		},
 	"\/images\/blue-sky.png": {
 		"ft": 32768,
-		"iS": 112010,
+		"iS": 150788,
 		"oA": 0,
 		"oAP": "\/images\/blue-sky.png",
 		"oF": 0,
@@ -183,7 +190,7 @@
 		},
 	"\/images\/blue-truck.jpg": {
 		"ft": 16384,
-		"iS": 18369182,
+		"iS": 108288,
 		"oA": 0,
 		"oAP": "\/images\/blue-truck.jpg",
 		"oF": 0,
@@ -193,7 +200,7 @@
 		},
 	"\/images\/custom-bg.png": {
 		"ft": 32768,
-		"iS": 821892,
+		"iS": 257057,
 		"oA": 0,
 		"oAP": "\/images\/custom-bg.png",
 		"oF": 0,
@@ -204,7 +211,7 @@
 		},
 	"\/images\/custom.png": {
 		"ft": 32768,
-		"iS": 821892,
+		"iS": 211888,
 		"oA": 0,
 		"oAP": "\/images\/custom.png",
 		"oF": 0,
@@ -226,7 +233,7 @@
 		},
 	"\/images\/desert-bw copy.png": {
 		"ft": 32768,
-		"iS": 162955,
+		"iS": 162949,
 		"oA": 0,
 		"oAP": "\/images\/desert-bw copy.png",
 		"oF": 0,
@@ -237,7 +244,7 @@
 		},
 	"\/images\/desert-bw.png": {
 		"ft": 32768,
-		"iS": 120039,
+		"iS": 162955,
 		"oA": 0,
 		"oAP": "\/images\/desert-bw.png",
 		"oF": 0,
@@ -248,7 +255,7 @@
 		},
 	"\/images\/hills-bw.png": {
 		"ft": 32768,
-		"iS": 799120,
+		"iS": 220892,
 		"oA": 0,
 		"oAP": "\/images\/hills-bw.png",
 		"oF": 0,
@@ -270,7 +277,7 @@
 		},
 	"\/images\/msa-logo.png": {
 		"ft": 32768,
-		"iS": 8141,
+		"iS": 3790,
 		"oA": 0,
 		"oAP": "\/images\/msa-logo.png",
 		"oF": 0,
@@ -281,7 +288,7 @@
 		},
 	"\/images\/mud.png": {
 		"ft": 32768,
-		"iS": 77895,
+		"iS": 39919,
 		"oA": 0,
 		"oAP": "\/images\/mud.png",
 		"oF": 0,
@@ -292,7 +299,7 @@
 		},
 	"\/images\/quad-desert.png": {
 		"ft": 32768,
-		"iS": 161270,
+		"iS": 159700,
 		"oA": 0,
 		"oAP": "\/images\/quad-desert.png",
 		"oF": 0,
@@ -336,7 +343,7 @@
 		},
 	"\/images\/quad-sky.png": {
 		"ft": 32768,
-		"iS": 2077026,
+		"iS": 347983,
 		"oA": 0,
 		"oAP": "\/images\/quad-sky.png",
 		"oF": 0,
@@ -347,7 +354,7 @@
 		},
 	"\/images\/quad-water-wide.png": {
 		"ft": 32768,
-		"iS": 2015847,
+		"iS": 390416,
 		"oA": 0,
 		"oAP": "\/images\/quad-water-wide.png",
 		"oF": 0,
@@ -358,7 +365,7 @@
 		},
 	"\/images\/quad-water.png": {
 		"ft": 32768,
-		"iS": 636202,
+		"iS": 101131,
 		"oA": 0,
 		"oAP": "\/images\/quad-water.png",
 		"oF": 0,
@@ -369,7 +376,7 @@
 		},
 	"\/images\/quad-wheelie.png": {
 		"ft": 32768,
-		"iS": 219440,
+		"iS": 59620,
 		"oA": 0,
 		"oAP": "\/images\/quad-wheelie.png",
 		"oF": 0,
@@ -380,7 +387,7 @@
 		},
 	"\/images\/quad.png": {
 		"ft": 32768,
-		"iS": 236933,
+		"iS": 91757,
 		"oA": 0,
 		"oAP": "\/images\/quad.png",
 		"oF": 0,
@@ -491,12 +498,165 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/product.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/product.html",
+		"oF": 0
+		},
 	"\/sidenav.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidenav.html",
 		"oF": 0
+		},
+	"\/slick\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/slick\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/slick\/config.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slick\/config.rb",
+		"oF": 0
+		},
+	"\/slick\/fonts\/slick.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slick\/fonts\/slick.eot",
+		"oF": 0
+		},
+	"\/slick\/fonts\/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/slick\/fonts\/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/slick\/fonts\/slick.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slick\/fonts\/slick.ttf",
+		"oF": 0
+		},
+	"\/slick\/fonts\/slick.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slick\/fonts\/slick.woff",
+		"oF": 0
+		},
+	"\/slick\/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/slick\/slick-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/slick\/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/slick\/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/slick\/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/slick\/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/slick\/slick.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/slick\/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/slick\/slick.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/slick\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/transnav.html": {
 		"cB": 0,
@@ -530,6 +690,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
