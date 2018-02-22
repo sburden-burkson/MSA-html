@@ -29,6 +29,10 @@ header, nav, footer, .btn, .oswald {
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 footer.black-footer {
   background-color: black;
   color: rgba(255, 255, 255, 0.97);
@@ -74,7 +78,7 @@ footer.black-footer a {
 
 .product-pairing {
   position: absolute;
-  z-index: 999;
+  z-index: 9;
   right: -100px;
   font-weight: bold;
 }
@@ -143,6 +147,10 @@ footer.black-footer a {
 
 .product-customization .border-bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.p-similar a {
+  color: rgba(0, 0, 0, 0.97);
 }
 
 .blog-wrapper {

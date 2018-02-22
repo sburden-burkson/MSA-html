@@ -198,6 +198,61 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/button-bg-2.png": {
+		"ft": 32768,
+		"iS": 14535,
+		"oA": 0,
+		"oAP": "\/images\/button-bg-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/button-bg.png": {
+		"ft": 32768,
+		"iS": 5367,
+		"oA": 0,
+		"oAP": "\/images\/button-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/chevron-left.png": {
+		"ft": 32768,
+		"iS": 2078,
+		"oA": 0,
+		"oAP": "\/images\/chevron-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/chevron-right.png": {
+		"ft": 32768,
+		"iS": 2072,
+		"oA": 0,
+		"oAP": "\/images\/chevron-right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/container-bg.png": {
+		"ft": 32768,
+		"iS": 49435,
+		"oA": 0,
+		"oAP": "\/images\/container-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/custom-bg.png": {
 		"ft": 32768,
 		"iS": 257057,
@@ -253,6 +308,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/footer-image.png": {
+		"ft": 32768,
+		"iS": 1351603,
+		"oA": 0,
+		"oAP": "\/images\/footer-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/hills-bw.png": {
 		"ft": 32768,
 		"iS": 220892,
@@ -264,6 +330,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/home-banner.jpg": {
+		"ft": 16384,
+		"iS": 1002957,
+		"oA": 0,
+		"oAP": "\/images\/home-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/instagram.png": {
 		"ft": 32768,
 		"iS": 219494,
@@ -272,6 +348,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 4450,
+		"oA": 0,
+		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -448,6 +535,148 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/bg-nav-gradient-home.png": {
+		"ft": 32768,
+		"iS": 3538,
+		"oA": 0,
+		"oAP": "\/images\/textures\/bg-nav-gradient-home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/dirt-home-1.png": {
+		"ft": 32768,
+		"iS": 15284,
+		"oA": 0,
+		"oAP": "\/images\/textures\/dirt-home-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/dirt-home-2.png": {
+		"ft": 32768,
+		"iS": 23470,
+		"oA": 0,
+		"oAP": "\/images\/textures\/dirt-home-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/home-texture2.png": {
+		"ft": 32768,
+		"iS": 15325,
+		"oA": 0,
+		"oAP": "\/images\/textures\/home-texture2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/menu-home.png": {
+		"ft": 32768,
+		"iS": 1647,
+		"oA": 0,
+		"oAP": "\/images\/textures\/menu-home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-home-1.png": {
+		"ft": 32768,
+		"iS": 293204,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-home-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-home-2.png": {
+		"ft": 32768,
+		"iS": 9966,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-home-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-home-3.png": {
+		"ft": 32768,
+		"iS": 10860,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-home-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-home-4.png": {
+		"ft": 32768,
+		"iS": 223992,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-home-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-home-5.png": {
+		"ft": 32768,
+		"iS": 349342,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-home-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-home-6.png": {
+		"ft": 32768,
+		"iS": 10807,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-home-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tires-home.jpg": {
+		"ft": 16384,
+		"iS": 248991,
+		"oA": 0,
+		"oAP": "\/images\/tires-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/topography-bg.png": {
+		"ft": 32768,
+		"iS": 33869,
+		"oA": 0,
+		"oAP": "\/images\/topography-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
