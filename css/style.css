@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, th {
   letter-spacing: 0.2em;
   font-family: 'Barlow Condensed', sans-serif;
 }
@@ -19,7 +19,15 @@ h4 {
   font-size: 21px;
 }
 
-p {
+h5, th {
+  font-size: 18px;
+}
+
+th {
+  font-weight: 300;
+}
+
+p, li, td {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
   letter-spacing: 0.15em;
@@ -29,7 +37,7 @@ header, nav, footer, .btn, .oswald {
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-a:hover {
+a:hover, a:focus {
   text-decoration: none;
 }
 
@@ -49,6 +57,16 @@ footer.black-footer a {
 .white:hover {
   color: rgba(255, 255, 255, 0.97);
   text-decoration: none;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  border: 0;
+  padding: 15px 8px;
+}
+
+.table-borderless td,
+.table-borderless th, .table > thead > tr > th {
+  border: 0;
 }
 
 .top-section {
@@ -564,6 +582,24 @@ nav {
   color: rgba(255, 255, 255, 0.97);
 }
 
+.light-bg {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.light-bg h1, .light-bg h2, .light-bg h3, .light-bg h4, .light-bg p {
+  color: rgba(0, 0, 0, 0.97);
+}
+
+.bg-top {
+  background-position: 50% 0%;
+}
+
+.bg-bottom {
+  background-position: 50% 100%;
+}
+
 .wp-table {
   display: table;
   table-layout: fixed;
@@ -599,7 +635,7 @@ nav {
   height: 100%;
 }
 
-.pad-top-bottom {
+.pad-top-bottom, .spaced-section .pad-top-bottom {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -630,25 +666,38 @@ nav {
   padding-bottom: 150px;
 }
 
-.spaced-section p {
+.v-center-section-xl {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.spaced-section p, .spaced-section li {
   line-height: 2em;
   letter-spacing: 0.15em;
   font-weight: 300;
   padding-top: 10px;
 }
 
+.spaced-section li {
+  margin-bottom: 10px;
+}
+
+.spaced-section ul {
+  padding-left: 15px;
+}
+
 .restricted-width-left {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .restricted-width {
-  max-width: 300px;
+  max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .restricted-width-lg {
-  max-width: 840px;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -806,10 +855,10 @@ nav {
     font-size: 25.6px;
   }
   h4 {
-    font-size: 16.8px;
+    font-size: 17.85px;
   }
-  p {
-    font-size: 13.3px;
+  h5, th {
+    font-size: 16.2px;
   }
   .transparent-lg {
     font-size: 84px;
@@ -821,6 +870,10 @@ nav {
   .v-center-section-lg {
     padding-top: 75px;
     padding-bottom: 75px;
+  }
+  .v-center-section-xl {
+    padding-top: 125px;
+    padding-bottom: 125px;
   }
   .row-section .v-center-section {
     padding-top: 75px;
@@ -878,22 +931,22 @@ nav {
 
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 49px;
+    font-size: 52.5px;
   }
   h2 {
-    font-size: 38.5px;
+    font-size: 41.25px;
   }
   h3 {
-    font-size: 22.4px;
+    font-size: 24px;
   }
   h4 {
-    font-size: 14.7px;
+    font-size: 16.8px;
   }
-  p {
-    font-size: 12.6px;
+  h5, th {
+    font-size: 16.2px;
   }
   .transparent-lg {
-    font-size: 63px;
+    font-size: 68.25px;
   }
   .top-section {
     padding: 100px 10px 10px;

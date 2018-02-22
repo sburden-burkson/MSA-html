@@ -308,6 +308,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/dust.png": {
+		"ft": 32768,
+		"iS": 359700,
+		"oA": 0,
+		"oAP": "\/images\/dust.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/footer-image.png": {
 		"ft": 32768,
 		"iS": 1351603,
@@ -351,22 +362,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/logo.png": {
+	"\/images\/msa-logo.png": {
 		"ft": 32768,
 		"iS": 4450,
 		"oA": 0,
-		"oAP": "\/images\/logo.png",
+		"oAP": "\/images\/msa-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/msa-logo.png": {
+	"\/images\/msa-logo2.png": {
 		"ft": 32768,
 		"iS": 3790,
 		"oA": 0,
-		"oAP": "\/images\/msa-logo.png",
+		"oAP": "\/images\/msa-logo2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -535,6 +546,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sand.png": {
+		"ft": 32768,
+		"iS": 612614,
+		"oA": 0,
+		"oAP": "\/images\/sand.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

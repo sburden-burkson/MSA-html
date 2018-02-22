@@ -12,12 +12,13 @@ $h1Size: 70px;
 $h2Size: 55px;
 $h3Size: 32px;
 $h4Size: 21px;
+$h5Size: 18px;
 $pSize: 14px;
 
 $navSpacing: 0.15em;
 
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, th {
   letter-spacing: 0.2em;
   font-family: 'Barlow Condensed', sans-serif;
 }
@@ -33,8 +34,13 @@ h3 {
 h4 {
   font-size: $h4Size;
 }
-
-p {
+h5, th {
+  font-size: $h5Size;
+}
+th {
+  font-weight: 300;
+}
+p, li, td {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: $pSize;
   letter-spacing: 0.15em;
@@ -42,7 +48,7 @@ p {
 header, nav, footer, .btn, .oswald {
   font-family: 'Barlow Condensed', sans-serif;
 }
-a:hover {
+a:hover, a:focus {
   text-decoration: none;
 }
 footer.black-footer {
@@ -59,6 +65,15 @@ footer.black-footer {
   color: $white;
   text-decoration: none;
 }
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border: 0;
+  padding: 15px 8px;
+}
+.table-borderless td,
+.table-borderless th, .table>thead>tr>th {
+  border: 0;
+}
+
 .top-section {
   padding: 200px 100px 35px;
 }
@@ -494,6 +509,20 @@ nav {
     color: $white;
   }
 }
+.light-bg {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1, h2, h3, h4, p {
+    color: $black;
+  }
+}
+.bg-top {
+  background-position: 50% 0%;
+}
+.bg-bottom {
+  background-position: 50% 100%;
+}
 .wp-table {
   display: table;
   table-layout: fixed;
@@ -523,7 +552,7 @@ nav {
   width: 100%;
   height: 100%;
 }
-.pad-top-bottom {
+.pad-top-bottom, .spaced-section .pad-top-bottom {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -548,26 +577,36 @@ nav {
   padding-top: 150px;
   padding-bottom: 150px;
 }
+.v-center-section-xl {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .spaced-section {
-  p {
+  p, li {
     line-height: 2em;
     letter-spacing: 0.15em;
     font-weight: 300;
     padding-top: 10px;
     // padding-bottom: 30px;
   }
+  li {
+    margin-bottom: 10px;
+  }
+  ul {
+    padding-left: 15px;
+  }
 }
 .restricted-width-left {
-  max-width: 300px;
+  max-width: 350px;
 }
 .restricted-width {
-  max-width: 300px;
+  max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .restricted-width-lg {
-  max-width: 840px;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -719,12 +758,15 @@ nav {
     font-size: $h3Size * 0.8;
   }
   h4 {
-    font-size: $h4Size * 0.8;
+    font-size: $h4Size * 0.85;
+  }
+  h5, th {
+    font-size: $h5Size * 0.9;
   }
 
-  p {
-    font-size: $pSize * 0.95;
-  }
+  // p {
+  //   font-size: $pSize * 0.95;
+  // }
   .transparent-lg {
     font-size: ($h1Size * 1.5) * 0.8;
   }
@@ -735,6 +777,10 @@ nav {
   .v-center-section-lg {
      padding-top: 75px;
      padding-bottom: 75px;
+  }
+  .v-center-section-xl {
+     padding-top: 125px;
+     padding-bottom: 125px;
   }
   .row-section .v-center-section {
     padding-top: 75px;
@@ -794,22 +840,25 @@ nav {
 }
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: $h1Size * 0.7;
+    font-size: $h1Size * 0.75;
   }
   h2 {
-    font-size: $h2Size * 0.7;
+    font-size: $h2Size * 0.75;
   }
   h3 {
-    font-size: $h3Size * 0.7;
+    font-size: $h3Size * 0.75;
   }
   h4 {
-    font-size: $h4Size * 0.7;
+    font-size: $h4Size * 0.8;
   }
-  p {
-    font-size: $pSize * 0.9;
+  h5, th {
+    font-size: $h5Size * 0.9;
   }
+  // p {
+  //   font-size: $pSize * 0.9;
+  // }
   .transparent-lg {
-    font-size: ($h1Size * 1.5) * 0.6;
+    font-size: ($h1Size * 1.5) * 0.65;
   }
   .top-section {
     padding: 100px 10px 10px;
