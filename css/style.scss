@@ -78,6 +78,60 @@ footer.black-footer {
   width: 100%;
   height: 100%;
 }
+.product-pairing {
+  position: absolute;
+  right: -100px;
+  font-weight: bold;
+  a, a:hover {
+    color: $bodyBlack;
+    text-decoration: none;
+  }
+  span {
+    color: red;
+  }
+}
+.product-customization {
+  padding-top: 40px;
+  p {
+    font-weight: bold;
+    padding: 15px 0 25px;
+  }
+  .p-size span a {
+    float: right;
+    color: $bodyBlack;
+    border: solid $bodyBlack 1px;
+    padding: 3px 5px;
+    margin-left: 25px;
+  }
+  .p-size span a:hover {
+    color: $bodyBlack;
+    text-decoration: none;
+  }
+  .p-custom span a, .p-custom span a:hover {
+    float: right;
+    color: red;
+    text-decoration: none;
+  }
+  .p-finish span {
+    float: right;
+    border-radius: 50%;
+    border: 1px black solid;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: 25px;
+    .myCircle {
+      background-color: $bodyBlack;
+      width: 14px;
+      height: 14px;
+      margin: 5px 5px 0px;
+      display: inline-block;
+      border-radius: 50%;
+    }
+}
+  .border-bottom {
+    border-bottom: 1px solid $dividerColor;
+  }
+}
 
 .blog-wrapper {
   background-color: #F2F2F2;
@@ -619,6 +673,9 @@ nav {
   .blog-item-container {
     margin: 30px auto 50px;
   }
+  .product-options {
+    padding-left: 30px;
+  }
 }
 @media only screen and (min-width: 992px) {
   // .section-header {
@@ -677,6 +734,10 @@ nav {
   }
   .top-section-sm {
     padding: 100px 35px 35px;
+  }
+  .product-pairing {
+    position: absolute;
+    right: 15px;
   }
   #featuredBlog {
     height: auto !important;
@@ -748,5 +809,8 @@ nav {
   .blog-wrapper .container-fluid {
     padding-left: 0;
     padding-right: 0;
+  }
+  .toggle-wrapper {
+    right: 15px;
   }
 }

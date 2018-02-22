@@ -72,6 +72,71 @@ footer.black-footer a {
   height: 100%;
 }
 
+.product-pairing {
+  position: absolute;
+  right: -100px;
+  font-weight: bold;
+}
+
+.product-pairing a, .product-pairing a:hover {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+.product-pairing span {
+  color: red;
+}
+
+.product-customization {
+  padding-top: 40px;
+}
+
+.product-customization p {
+  font-weight: bold;
+  padding: 15px 0 25px;
+}
+
+.product-customization .p-size span a {
+  float: right;
+  color: rgba(0, 0, 0, 0.54);
+  border: solid rgba(0, 0, 0, 0.54) 1px;
+  padding: 3px 5px;
+  margin-left: 25px;
+}
+
+.product-customization .p-size span a:hover {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+.product-customization .p-custom span a, .product-customization .p-custom span a:hover {
+  float: right;
+  color: red;
+  text-decoration: none;
+}
+
+.product-customization .p-finish span {
+  float: right;
+  border-radius: 50%;
+  border: 1px black solid;
+  display: inline-block;
+  margin-top: -5px;
+  margin-left: 25px;
+}
+
+.product-customization .p-finish span .myCircle {
+  background-color: rgba(0, 0, 0, 0.54);
+  width: 14px;
+  height: 14px;
+  margin: 5px 5px 0px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.product-customization .border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 .blog-wrapper {
   background-color: #F2F2F2;
 }
@@ -696,6 +761,9 @@ nav {
   .blog-item-container {
     margin: 30px auto 50px;
   }
+  .product-options {
+    padding-left: 30px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -747,6 +815,10 @@ nav {
   }
   .top-section-sm {
     padding: 100px 35px 35px;
+  }
+  .product-pairing {
+    position: absolute;
+    right: 15px;
   }
   #featuredBlog {
     height: auto !important;
@@ -816,5 +888,8 @@ nav {
   .blog-wrapper .container-fluid {
     padding-left: 0;
     padding-right: 0;
+  }
+  .toggle-wrapper {
+    right: 15px;
   }
 }
