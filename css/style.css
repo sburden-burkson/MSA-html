@@ -110,6 +110,20 @@ footer.black-footer a {
   color: red;
 }
 
+.slick-slide,
+.slick-slide * {
+  outline: none !important;
+}
+
+#product-image-carousel,
+#product-thumbs {
+  visibility: hidden;
+}
+
+.slick-initialized {
+  visibility: visible !important;
+}
+
 .product-customization {
   padding-top: 40px;
 }

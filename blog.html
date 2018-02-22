@@ -384,98 +384,10 @@
   <script src="js/jquery-3.3.1.min.js?ckcachebust=9d99a8e136ca24f281d2f49fea4dbfa5"></script>
   <script src="js/bootstrap.min.js?ckcachebust=9b5f8c617bcf56849dd563b4b51689b9"></script>
   <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540409801"></script>
+  <script src="js/navbar-min.js"></script>
   <script src="js/masonry.pkgd.min.js"></script>
   <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      //Affix Navbar
-      var headerHeight = $('header').outerHeight();
-      $('.navbar-default').data('offset-top', headerHeight);
-
-      // Navbar Height and Transparency
-      var navHeight = $('nav').outerHeight();
-      $(window).on('scroll', function () {
-        var scrollTop = $(this).scrollTop();
-        var navTop = scrollTop - $('header').outerHeight();
-        var newNavHeight = navHeight - (navTop*.1);
-        var opacity = 0 + Math.abs((navTop * .01));
-        var navLogoHeight = $('#navLogo').outerHeight();
-        var logoPad = (newNavHeight - navLogoHeight) / 2;
-        if (scrollTop < $('header').outerHeight()) {
-          $('#navColor').css(
-            'background-color', 'rgba(255, 255, 255, 0.05)'
-          );
-        }
-        if (navTop > 200) {
-          $('#navColor').css(
-            'background-color', 'rgba(255, 255, 255, 1)'
-          );
-        }
-        if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-          $('nav, .navbar-toggle').css(
-            'height', newNavHeight
-          );
-          $('.navbar-brand').css(
-            'padding-top', logoPad,
-            'padding-bottom', logoPad
-          );
-          $('.nav>li>a').css(
-            'line-height', newNavHeight + 'px'
-          );
-          $('#navColor').css(
-            'background-color', 'rgba(255, 255, 255,'+opacity+')'
-          );
-        }
-        if (opacity > 0.4) {
-          $('#navColor').removeClass("changeWhite");
-          $('#navColor').addClass("changeBlack");
-        } else {
-          $('#navColor').removeClass("changeBlack");
-          $('#navColor').addClass("changeWhite");
-        }
-      });
-
-      // Featured Blog Post Sizing
-      function resizeFeatured() {
-        var padding = parseInt($('#featuredBlog').css('padding-top')) + parseInt($('#featuredBlog').css('padding-bottom'));
-        var rightH = $('#featuredBlogText').outerHeight();
-        if ($(window).width() > 767) {
-          var rightH = $('#featuredBlogText').outerHeight();
-          $('#featuredBlog').css({
-            'height': rightH + padding
-          });
-          $('#featuredBlogImage').css({
-            'height': rightH
-          });
-        } else {
-          $('#featuredBlog').css({
-            'height': "auto"
-          });
-          $('#featuredBlogImage').css({
-            'height': "auto"
-          });
-        }
-      }
-      resizeFeatured();
-      $(window).on('resize', function() {
-        resizeFeatured();
-      });
-
-      // Blog Item Masonry
-      var $blogGrid = $('.blog-item-container').masonry({
-        // options
-        itemSelector: '.blog-item',
-        columnWidth: 320,
-        isFitWidth: true,
-        gutter: 20,
-        horizontalOrder: true,
-      });
-      $blogGrid.imagesLoaded().progress(function() {
-        $blogGrid.masonry('layout');
-      });
-
-    });
-  </script>
+  <script src="js/blog-min.js"></script>
 </body>
 
 </html>
