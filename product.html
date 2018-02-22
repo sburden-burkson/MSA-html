@@ -267,6 +267,13 @@
       </div>
     </div>
   </div>
+  <div class="dark-bg v-center-section-xl bg-top" style="background-image: url('images/sand.png');">
+    <div class="container">
+      <div class="section-info-wrap">
+        <h2 class="text-center">1 YEAR WARRANTY <span><i class="fa fa-angle-double-right"></i></span></h2>
+      </div>
+    </div>
+  </div>
   <div class="light-bg v-center-section-xl bg-top" style="background-image: url('images/quad-layer.png');">
     <div class="container">
       <div class="section-info-wrap restricted-width spaced-section">
@@ -440,21 +447,13 @@
         arrows: false,
         // variableWidth: true,
       });
-      // $( window ).resize(function() {
-      //   if ($( window ).width() >= 768) {
-      //     // $('#product-thumbs').each(function() {
-      //     //    $(this).slick("getSlick").refresh();
-      //     // });
-      //   }
-      //
-      //  });
-      $('.col-sm-2').on('shown.bs.tab', function(e) {
-        console.log('hello');
-        $('#product-thumbs').each(function() {
-          $(this).slick("getSlick").refresh();
-        });
+      $( window ).resize(function() {
+        if ($(window).width() > 766 && $('#product-thumbs .slick-list').outerHeight() < 50) {
+          $('#product-thumbs').each(function() {
+            $(this).slick("getSlick").refresh();
+          });
+         }
       });
-
 
       //Affix Navbar
       var headerHeight = $('header').outerHeight();
