@@ -80,6 +80,7 @@ footer.black-footer {
 }
 .product-pairing {
   position: absolute;
+  z-index: 999;
   right: -100px;
   font-weight: bold;
   a, a:hover {
@@ -107,9 +108,14 @@ footer.black-footer {
     color: $bodyBlack;
     text-decoration: none;
   }
-  .p-custom span a, .p-custom span a:hover {
+  .p-custom a {
+    color: $black;
+  }
+  .p-custom a span {
     float: right;
     color: red;
+  }
+  .p-custom a:hover {
     text-decoration: none;
   }
   .p-finish span {

@@ -74,6 +74,7 @@ footer.black-footer a {
 
 .product-pairing {
   position: absolute;
+  z-index: 999;
   right: -100px;
   font-weight: bold;
 }
@@ -109,9 +110,16 @@ footer.black-footer a {
   text-decoration: none;
 }
 
-.product-customization .p-custom span a, .product-customization .p-custom span a:hover {
+.product-customization .p-custom a {
+  color: rgba(0, 0, 0, 0.97);
+}
+
+.product-customization .p-custom a span {
   float: right;
   color: red;
+}
+
+.product-customization .p-custom a:hover {
   text-decoration: none;
 }
 

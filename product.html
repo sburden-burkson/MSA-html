@@ -119,8 +119,8 @@
               <span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
             </p>
             <p class="p-custom">
-              Additional Customizations
-            <span><a href="javascript:void(0)"><i class="fa fa-plus"></i></a></span>
+              <a href="javascript:void(0)">Additional Customizations
+            <span><i class="fa fa-plus"></i></span></a>
             </p>
           </div>
           <h4 class="">BASE MODEL: $2000</h4>
@@ -246,20 +246,21 @@
          arrows: false,
          // variableWidth: true,
        });
-       $( window ).resize(function() {
-         if ($( window ).width() >= 768) {
-           // $('#product-thumbs').each(function() {
-           //    $(this).slick("getSlick").refresh();
-           // });
-         }
-
-        });
+       // $( window ).resize(function() {
+       //   if ($( window ).width() >= 768) {
+       //     // $('#product-thumbs').each(function() {
+       //     //    $(this).slick("getSlick").refresh();
+       //     // });
+       //   }
+       //
+       //  });
         $('.col-sm-2').on('shown.bs.tab', function (e) {
           console.log('hello');
           $('#product-thumbs').each(function() {
             $(this).slick("getSlick").refresh();
           });
         });
+
 
       //Affix Navbar
       var headerHeight = $('header').outerHeight();
