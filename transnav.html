@@ -283,7 +283,7 @@
     </div>
   </div>
 
-  <div class="full-bg footer-bg" style="background-image: url('/images/blue-sky.png');">
+  <div class="full-bg bg-bottom" style="background-image: url('/images/blue-sky.png');">
     <div class="wp-full-height">
       <div class="wp-table wp-full-height">
         <div class="wp-table-cell">
@@ -377,7 +377,7 @@
         var scrollTop = $(this).scrollTop();
         var navTop = scrollTop - $('header').outerHeight();
         var newNavHeight = navHeight - (navTop*.1);
-        var opacity = 0 + Math.abs((navTop*.005));
+        var opacity = 0 + Math.abs((navTop * .01));
         var navLogoHeight = $('#navLogo').outerHeight();
         var logoPad = (newNavHeight - navLogoHeight) / 2;
         if (scrollTop < $('header').outerHeight()) {

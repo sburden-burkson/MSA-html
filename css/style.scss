@@ -78,7 +78,7 @@ footer.black-footer {
   padding: 200px 100px 35px;
 }
 .top-section-sm {
-  padding: 100px 100px 35px;
+  padding: 125px 100px 35px;
 }
 .home-video-wrapper {
   position: relative;
@@ -261,9 +261,11 @@ footer.black-footer {
 .footer-header {
   font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
   font-weight: 300;
   letter-spacing: 0.2em;
+}
+.trans-white {
+  color: rgba(255, 255, 255, 0.3);
 }
 .roboto {
   // h1, h2, h3, h4 {
@@ -487,9 +489,6 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
-}
-.footer-bg {
-  background-position: 50% 100%;
 }
 // .row-section [class*="col-"] {
 //   background-position: 50% 50%;

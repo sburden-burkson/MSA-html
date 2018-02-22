@@ -26,6 +26,7 @@
           <a href="javascript:void(0)">ABOUT</a>
         </div>
         <div class="pull-right">
+          <a href="javascript:void(0)"><span class="glyphicon glyphicon-search"></span></a>
           <a href="javascript:void(0)">SIGN IN</a>
           <span class="navbar-divider">|</span>
           <a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official"></i></a>
@@ -71,7 +72,20 @@
     </nav>
   </div>
   <!--/ END Navigation -->
-  <div class="dark-bg top-section" style="background-image: url('images/quad-sky.png');">
+  <div class="dark-bg top-section-sm" style="background-image: url('images/home-banner.jpg');">
+    <div class="container-fluid">
+      <div class="section-info-wrap">
+        <!-- <h1>THE</h1>
+        <h1>OPEN</h1>
+        <h1>ROAD</h1> -->
+        <h1>THE<br>
+        OPEN<br>
+        ROAD</h1>
+        <p class="pad-top pad-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="dark-bg top-section" style="background-image: url('images/quad-sky.png');">
     <div class="container-fluid">
       <div class="section-info-wrap">
         <h4 class="fw-300">ATV WHEELS</h4>
@@ -81,7 +95,7 @@
         <p style="font-size: 44px;"><a href="javascript:void(0)" class="white"><i class="fa fa-angle-double-down"></i></a></p>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- /Fuzz Black2 -->
 <div class="dark-bg v-center-section" style="background-image: url('images/black-fuzz.png');">
   <div class="container">
@@ -256,10 +270,15 @@
     </div>
   </div>
 
-  <div class="full-bg footer-bg" style="background-image: url('/images/footer-image.png');">
+  <!-- <div class="full-bg bg-bottom" style="background-image: url('/images/footer-image.png');">
       <div class="section-info-wrap pad-top-lg">
         <h1 class="footer-header">PERFORMANCE</h1>
         <h1 class="footer-header">BUILDS</h1>
+      </div>
+  </div> -->
+  <div class="half-bg bg-bottom" style="background-image: url('/images/footer-image.png');">
+      <div class="section-info-wrap pad-top-lg">
+        <h1 class="footer-header white">RUGGED.</h1>
       </div>
   </div>
 
@@ -344,8 +363,9 @@
       $(window).on('scroll', function () {
         var scrollTop = $(this).scrollTop();
         var navTop = scrollTop - $('header').outerHeight();
-        var newNavHeight = navHeight - (navTop*.1);
-        var opacity = 0 + Math.abs((navTop*.005));
+        console.log('navTop: '+navTop);
+        var newNavHeight = navHeight - (navTop * .1);
+        var opacity = 0 + Math.abs((navTop * .01));
         var navLogoHeight = $('#navLogo').outerHeight();
         var logoPad = (newNavHeight - navLogoHeight) / 2;
         if (scrollTop < $('header').outerHeight()) {
