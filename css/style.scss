@@ -115,7 +115,7 @@ footer.black-footer {
     float: right;
     color: red;
   }
-  .p-custom a:hover {
+  .p-custom a:hover, .p-custom a:focus {
     text-decoration: none;
   }
   .p-finish span {

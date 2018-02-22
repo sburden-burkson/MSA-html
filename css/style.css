@@ -119,7 +119,7 @@ footer.black-footer a {
   color: red;
 }
 
-.product-customization .p-custom a:hover {
+.product-customization .p-custom a:hover, .product-customization .p-custom a:focus {
   text-decoration: none;
 }
 
