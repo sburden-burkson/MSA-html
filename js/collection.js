@@ -26,9 +26,9 @@ $(window).on('resize', function() {
 });
 
 // Blog Item Masonry
-var $blogGrid = $('.blog-item-container').masonry({
+var $blogGrid = $('.collection-item-container').masonry({
   // options
-  itemSelector: '.blog-item',
+  itemSelector: '.collection-item',
   columnWidth: 320,
   isFitWidth: true,
   gutter: 20,
