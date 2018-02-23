@@ -302,6 +302,7 @@ footer.black-footer a {
 }
 
 #footerAccordion .panel {
+  margin-top: 5px;
   margin-bottom: 5px;
   background-color: transparent;
 }
@@ -829,7 +830,7 @@ nav {
   font-size: 30px;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min--width: 480px) {
   nav .container-fluid, header .container-fluid {
     padding-right: 45px;
     padding-left: 45px;
