@@ -302,6 +302,7 @@ footer.black-footer a {
 }
 
 footer .panel {
+  margin-bottom: 5px;
   background-color: transparent;
 }
 
@@ -468,6 +469,7 @@ footer .footerLogo {
   margin-bottom: 0;
   border: none;
   background-color: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .navbar-default.affix {
@@ -877,6 +879,10 @@ nav {
 }
 
 @media only screen and (max-width: 767px) {
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   h1 {
     font-size: 56px;
   }
