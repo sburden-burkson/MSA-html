@@ -36,12 +36,17 @@ $(window).on('scroll', function() {
       'background-color', 'rgba(255, 255, 255,' + opacity + ')'
     );
   }
-  if (opacity > 0.4) {
-    // $('#navColor').removeClass("changeWhite");
-    $('#navColor').addClass("changeBlack");
+  if ($('[id^="top-section"]')[0] || $('.home-video-wrapper')[0]) {
+    if (opacity > 0.4) {
+      $('#navColor').removeClass("changeWhite");
+      $('#navColor').addClass("changeBlack");
+    } else {
+      $('#navColor').removeClass("changeBlack");
+      $('#navColor').addClass("changeWhite");
+      // $('#navColor').addClass("changeBlack");
+    }
   } else {
-    // $('#navColor').removeClass("changeBlack");
-    // $('#navColor').addClass("changeWhite");
     $('#navColor').addClass("changeBlack");
   }
+
 });

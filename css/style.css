@@ -69,11 +69,11 @@ footer.black-footer a {
   border: 0;
 }
 
-.top-section {
+#top-section {
   padding: 200px 100px 35px;
 }
 
-.top-section-sm {
+#top-section-sm {
   padding: 125px 100px 35px;
 }
 
@@ -830,7 +830,7 @@ nav {
   font-size: 30px;
 }
 
-@media only screen and (min--width: 480px) {
+@media only screen and (min-width: 480px) {
   nav .container-fluid, header .container-fluid {
     padding-right: 45px;
     padding-left: 45px;
@@ -919,10 +919,10 @@ nav {
     padding-top: 75px;
     padding-bottom: 75px;
   }
-  .top-section {
+  #top-section {
     padding: 100px 35px 35px;
   }
-  .top-section-sm {
+  #top-section-sm {
     padding: 100px 35px 35px;
   }
   .product-pairing {
@@ -1001,10 +1001,10 @@ nav {
   .transparent-lg {
     font-size: 68.25px;
   }
-  .top-section {
+  #top-section {
     padding: 100px 10px 10px;
   }
-  .top-section-sm {
+  #top-section-sm {
     padding: 100px 10px 10px;
   }
   .blog-wrapper .container-fluid {
