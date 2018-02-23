@@ -269,12 +269,29 @@ footer.black-footer {
   width: 80%;
   margin: 30px auto 50px;
 }
-.footer-header {
-  font-family: 'Barlow Condensed', sans-serif;
-  text-align: center;
-  font-weight: 300;
-  letter-spacing: 0.2em;
+footer {
+  .panel {
+    background-color: transparent;
+  }
+  .panel-heading, .panel, .panel-body, .panel-group {
+    border: 0 !important;
+    border-color: transparent;
+    box-shadow: none;
+  }
+  .panel-body {
+    padding: 0;
+  }
+  .panel-heading {
+    padding: 15px 0px;
+  }
+  .footer-header {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+  }
 }
+
 .trans-white {
   color: rgba(255, 255, 255, 0.3);
 }
