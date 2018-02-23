@@ -269,21 +269,22 @@ footer.black-footer {
   width: 80%;
   margin: 30px auto 50px;
 }
-footer {
+#footerAccordion {
   .panel {
     margin-bottom: 5px;
     background-color: transparent;
   }
   .panel-heading, .panel, .panel-body, .panel-group {
-    border: 0 !important;
+    border: 0;
     border-color: transparent;
     box-shadow: none;
   }
   .panel-body {
     padding: 0;
+    border: 0;
   }
   .panel-heading {
-    padding: 15px 0px;
+    padding: 0px 0px 20px;
   }
   .footer-header {
     font-family: 'Barlow Condensed', sans-serif;
@@ -847,6 +848,18 @@ nav {
     }
     .featured-blog-more {
       padding-bottom: 20px;
+    }
+  }
+  #footerAccordion {
+    #heading1 {
+      border-top: 1px solid $white;
+    }
+    .panel-heading {
+      padding: 20px 0px 20px;
+      border-bottom: 1px solid $white;
+    }
+    .panel-body {
+      padding-top: 10px;
     }
   }
   .navbar-toggle {

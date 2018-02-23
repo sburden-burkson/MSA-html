@@ -301,27 +301,28 @@ footer.black-footer a {
   margin: 30px auto 50px;
 }
 
-footer .panel {
+#footerAccordion .panel {
   margin-bottom: 5px;
   background-color: transparent;
 }
 
-footer .panel-heading, footer .panel, footer .panel-body, footer .panel-group {
-  border: 0 !important;
+#footerAccordion .panel-heading, #footerAccordion .panel, #footerAccordion .panel-body, #footerAccordion .panel-group {
+  border: 0;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-footer .panel-body {
+#footerAccordion .panel-body {
   padding: 0;
+  border: 0;
 }
 
-footer .panel-heading {
-  padding: 15px 0px;
+#footerAccordion .panel-heading {
+  padding: 0px 0px 20px;
 }
 
-footer .footer-header {
+#footerAccordion .footer-header {
   font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
   font-weight: 300;
@@ -946,6 +947,16 @@ nav {
   }
   footer .featured-blog-more {
     padding-bottom: 20px;
+  }
+  #footerAccordion #heading1 {
+    border-top: 1px solid rgba(255, 255, 255, 0.97);
+  }
+  #footerAccordion .panel-heading {
+    padding: 20px 0px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.97);
+  }
+  #footerAccordion .panel-body {
+    padding-top: 10px;
   }
   .navbar-toggle {
     display: block;
