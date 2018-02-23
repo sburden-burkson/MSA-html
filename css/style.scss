@@ -235,9 +235,38 @@ footer.black-footer {
   width: 320px;
   height: auto;
   overflow: hidden;
-  img {
-    width: 100%;
-    max-height: 100%;
+  .collection-info-wrap {
+    padding: 30px;
+    a {
+      color: $black;
+    }
+    p {
+      color: $black;
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: .15em;
+    }
+    span {
+      float: right;
+    }
+    i {
+      color: red;
+      font-size: 20px;
+    }
+  }
+  .collection-img-wrap {
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      width: 100%;
+      max-height: 100%;
+      display: block;
+      height: 200px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   .new-collection {
     position: absolute;
@@ -247,6 +276,10 @@ footer.black-footer {
       text-align: right;
       letter-spacing: .15em;
       margin-bottom: 0;
+      .new-box {
+        padding: 1px 8px;
+        border: 1px solid grey;
+      }
     }
   }
 }
@@ -266,6 +299,7 @@ footer.black-footer {
   .blog-item-more {
     padding: 35px;
     p {
+      color: $black;
       text-align: left;
       font-family: 'Barlow Condensed', sans-serif;
       // font-size: 12px;
