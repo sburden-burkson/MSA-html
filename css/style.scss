@@ -232,17 +232,17 @@ footer.black-footer {
 .collection-item {
   margin-top: 20px;
   background-color: #fff;
-  width: 320px;
+  width: 300px;
   height: auto;
   overflow: hidden;
   .collection-info-wrap {
-    padding: 0 30px 30px;
+    padding: 0 30px 20px;
     a {
       color: $black;
     }
     p {
       color: $black;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 300;
       letter-spacing: .15em;
     }
@@ -251,25 +251,27 @@ footer.black-footer {
     }
     i {
       color: red;
-      font-size: 16px;
-      line-height: 13px;
+      // font-size: 16px;
+      // line-height: 13px;
     }
     .collection-sizes {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 300;
       letter-spacing: .15em;
       color: gray;
     }
   }
   .collection-img-wrap {
-    height: 260px;
-    padding: 30px 0px;
+    // height: 250px;
+    // padding: 30px 0px;
+    padding: 30px 55px 20px;
     margin-left: auto;
     margin-right: auto;
     img {
       display: block;
-      height: 100%;
-      width: auto;
+      // height: 100%;
+      width: 100%;
+      // width: auto;
       margin-left: auto;
       margin-right: auto;
     }
@@ -282,6 +284,7 @@ footer.black-footer {
       text-align: right;
       letter-spacing: .15em;
       margin-bottom: 0;
+      font-size: 13px;
       .new-box {
         padding: 1px 8px;
         border: 1px solid grey;
@@ -949,6 +952,10 @@ nav {
     padding-top: 50px;
   }
   .collection-item {
+    .collection-img-wrap img {
+      height: 100%;
+      width: auto;
+    }
     .col-xs-6 {
       padding: 0 0 0 0;
     }
@@ -958,6 +965,9 @@ nav {
       p .new-box {
         font-size: 12px;
       }
+    }
+    .collection-item  {
+
     }
     .collection-img-wrap {
       height: 150px;

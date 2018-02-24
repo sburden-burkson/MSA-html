@@ -256,13 +256,13 @@ footer.black-footer a {
 .collection-item {
   margin-top: 20px;
   background-color: #fff;
-  width: 320px;
+  width: 300px;
   height: auto;
   overflow: hidden;
 }
 
 .collection-item .collection-info-wrap {
-  padding: 0 30px 30px;
+  padding: 0 30px 20px;
 }
 
 .collection-item .collection-info-wrap a {
@@ -271,7 +271,7 @@ footer.black-footer a {
 
 .collection-item .collection-info-wrap p {
   color: rgba(0, 0, 0, 0.97);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: .15em;
 }
@@ -282,28 +282,24 @@ footer.black-footer a {
 
 .collection-item .collection-info-wrap i {
   color: red;
-  font-size: 16px;
-  line-height: 13px;
 }
 
 .collection-item .collection-info-wrap .collection-sizes {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 300;
   letter-spacing: .15em;
   color: gray;
 }
 
 .collection-item .collection-img-wrap {
-  height: 260px;
-  padding: 30px 0px;
+  padding: 30px 55px 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .collection-item .collection-img-wrap img {
   display: block;
-  height: 100%;
-  width: auto;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -318,6 +314,7 @@ footer.black-footer a {
   text-align: right;
   letter-spacing: .15em;
   margin-bottom: 0;
+  font-size: 13px;
 }
 
 .collection-item .new-collection p .new-box {
@@ -1052,6 +1049,10 @@ nav {
   }
   .pad-top-lg {
     padding-top: 50px;
+  }
+  .collection-item .collection-img-wrap img {
+    height: 100%;
+    width: auto;
   }
   .collection-item .col-xs-6 {
     padding: 0 0 0 0;

@@ -29,7 +29,7 @@ $(window).on('resize', function() {
 var $blogGrid = $('.collection-item-container').masonry({
   // options
   itemSelector: '.collection-item',
-  columnWidth: 320,
+  columnWidth: 300,
   isFitWidth: true,
   gutter: 20,
   horizontalOrder: true,
