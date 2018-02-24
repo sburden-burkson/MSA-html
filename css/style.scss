@@ -236,7 +236,7 @@ footer.black-footer {
   height: auto;
   overflow: hidden;
   .collection-info-wrap {
-    padding: 30px;
+    padding: 0 30px 30px;
     a {
       color: $black;
     }
@@ -251,18 +251,24 @@ footer.black-footer {
     }
     i {
       color: red;
-      font-size: 20px;
+      font-size: 16px;
+      line-height: 13px;
+    }
+    .collection-sizes {
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: .15em;
+      color: gray;
     }
   }
   .collection-img-wrap {
-    padding-top: 30px;
+    height: 260px;
+    padding: 30px 0px;
     margin-left: auto;
     margin-right: auto;
     img {
-      width: 100%;
-      max-height: 100%;
       display: block;
-      height: 200px;
+      height: 100%;
       width: auto;
       margin-left: auto;
       margin-right: auto;
@@ -942,6 +948,41 @@ nav {
   .pad-top-lg {
     padding-top: 50px;
   }
+  .collection-item {
+    .col-xs-6 {
+      padding: 0 0 0 0;
+    }
+    .new-collection {
+      top: 15px;
+      right: 15px;
+      p .new-box {
+        font-size: 12px;
+      }
+    }
+    .collection-img-wrap {
+      height: 150px;
+      padding: 15px 0px 15px 15px;
+    }
+    .collection-info-wrap {
+      padding: 45px 0 0 0;
+      p {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      .collection-sizes {
+        font-size: 12px;
+      }
+      span {
+        padding-top: 10px;
+        float: none;
+        display: block;
+      }
+      i {
+        font-size: 14px;
+      }
+    }
+  }
+
 }
 @media only screen and (max-width: 480px) {
   h1 {
@@ -977,5 +1018,11 @@ nav {
   }
   .toggle-wrapper {
     right: 15px;
+  }
+  .collection-item-container {
+    width: 90% !important;
+    .collection-item {
+      width: 100%
+    }
   }
 }
