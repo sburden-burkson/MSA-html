@@ -73,7 +73,18 @@ footer.black-footer {
 .table-borderless th, .table>thead>tr>th {
   border: 0;
 }
-
+.texture-section {
+  position: relative;
+}
+.texture-bottom {
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 #top-section {
   padding: 200px 100px 35px;
 }
@@ -786,7 +797,13 @@ nav {
 .section-header-sm {
   font-size: 30px;
 }
-
+.article-header {
+  padding: 75px 0;
+}
+.article-body p {
+  margin-bottom: 60px;
+  line-height: 30px;
+}
 @media only screen and (min-width: 480px) {
   nav .container-fluid, header .container-fluid {
     padding-right: 45px;
@@ -820,6 +837,9 @@ nav {
   }
   .product-options {
     padding-left: 30px;
+  }
+  .article-body-wrap {
+    width: 760px;
   }
 }
 @media only screen and (min-width: 992px) {

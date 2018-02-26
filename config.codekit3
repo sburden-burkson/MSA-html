@@ -24,6 +24,13 @@
 		"oAP": "\/blog.html",
 		"oF": 0
 		},
+	"\/blog1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/blog1.html",
+		"oF": 0
+		},
 	"\/collection.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -313,6 +320,17 @@
 		"iS": 359700,
 		"oA": 0,
 		"oAP": "\/images\/dust.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/featured-blog.png": {
+		"ft": 32768,
+		"iS": 1312689,
+		"oA": 0,
+		"oAP": "\/images\/featured-blog.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -653,6 +671,17 @@
 		"iS": 223992,
 		"oA": 0,
 		"oAP": "\/images\/textures\/texture-home-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-home-5-2.png": {
+		"ft": 32768,
+		"iS": 211240,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-home-5-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
