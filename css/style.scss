@@ -77,12 +77,21 @@ footer.black-footer {
   position: relative;
 }
 .texture-bottom {
-  background-position: 50% 100%;
+  background-position: 50% 95%;
   background-repeat: no-repeat;
   height: 200px;
   width: 100%;
   position: absolute;
   bottom: 0;
+  left: 0;
+}
+.texture-top {
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 0;
   left: 0;
 }
 #top-section {
@@ -797,12 +806,33 @@ nav {
 .section-header-sm {
   font-size: 30px;
 }
+.article-top {
+  padding-top: 150px;
+  padding-bottom:75px;
+}
 .article-header {
-  padding: 75px 0;
+  margin-bottom: 60px;
 }
 .article-body p {
   margin-bottom: 60px;
   line-height: 30px;
+}
+.article-tags span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: $pSize;
+  letter-spacing: 0.15em;
+  padding: 1px 8px;
+  border: 1px solid red;
+  color: red;
+  margin-left: 15px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.article-info {
+  text-align: right;
+}
+.article-featured-image {
+  margin-bottom: 60px;
 }
 @media only screen and (min-width: 480px) {
   nav .container-fluid, header .container-fluid {
@@ -822,6 +852,12 @@ nav {
   }
   .section-header-sm {
     font-size: 40px;
+  }
+  .article-info {
+    margin-top: 40px;
+  }
+  .article-tag-wrap {
+    padding-top: 50px;
   }
   .wp-btn-extra-long {
     padding: 10px 45px 10px 25px;
@@ -904,6 +940,10 @@ nav {
   .row-section .v-center-section {
     padding-top: 75px;
     padding-bottom: 75px;
+  }
+  .article-top {
+    padding-top: 70px;
+    padding-bottom: 30px;
   }
   #top-section {
     padding: 100px 35px 35px;

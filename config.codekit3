@@ -624,7 +624,7 @@
 		},
 	"\/images\/textures\/menu-home.png": {
 		"ft": 32768,
-		"iS": 1647,
+		"iS": 2477,
 		"oA": 0,
 		"oAP": "\/images\/textures\/menu-home.png",
 		"oF": 0,
@@ -635,7 +635,7 @@
 		},
 	"\/images\/textures\/texture-home-1.png": {
 		"ft": 32768,
-		"iS": 293204,
+		"iS": 204986,
 		"oA": 0,
 		"oAP": "\/images\/textures\/texture-home-1.png",
 		"oF": 0,
@@ -668,7 +668,7 @@
 		},
 	"\/images\/textures\/texture-home-4.png": {
 		"ft": 32768,
-		"iS": 223992,
+		"iS": 134899,
 		"oA": 0,
 		"oAP": "\/images\/textures\/texture-home-4.png",
 		"oF": 0,
@@ -682,17 +682,6 @@
 		"iS": 211240,
 		"oA": 0,
 		"oAP": "\/images\/textures\/texture-home-5-2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/textures\/texture-home-5.png": {
-		"ft": 32768,
-		"iS": 349342,
-		"oA": 0,
-		"oAP": "\/images\/textures\/texture-home-5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

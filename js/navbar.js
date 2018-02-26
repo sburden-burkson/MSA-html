@@ -1,7 +1,14 @@
 //Affix Navbar
 var headerHeight = $('header').outerHeight();
 $('.navbar-default').data('offset-top', headerHeight);
+var topSection;
 
+if (!$('[id^="top-section"]')[0] || !$('.home-video-wrapper')[0]) {
+  topSection = false;
+  $('#navColor').addClass("changeBlack");
+} else {
+  topSection = true;
+}
 // Navbar Height and Transparency
 var navHeight = $('nav').outerHeight();
 $(window).on('scroll', function() {
@@ -36,7 +43,19 @@ $(window).on('scroll', function() {
       'background-color', 'rgba(255, 255, 255,' + opacity + ')'
     );
   }
-  if ($('[id^="top-section"]')[0] || $('.home-video-wrapper')[0]) {
+  // if ($('[id^="top-section"]')[0] || $('.home-video-wrapper')[0]) {
+  //   if (opacity > 0.4) {
+  //     $('#navColor').removeClass("changeWhite");
+  //     $('#navColor').addClass("changeBlack");
+  //   } else {
+  //     $('#navColor').removeClass("changeBlack");
+  //     $('#navColor').addClass("changeWhite");
+  //     // $('#navColor').addClass("changeBlack");
+  //   }
+  // } else {
+  //   $('#navColor').addClass("changeBlack");
+  // }
+  if (topSection) {
     if (opacity > 0.4) {
       $('#navColor').removeClass("changeWhite");
       $('#navColor').addClass("changeBlack");
@@ -45,8 +64,6 @@ $(window).on('scroll', function() {
       $('#navColor').addClass("changeWhite");
       // $('#navColor').addClass("changeBlack");
     }
-  } else {
-    $('#navColor').addClass("changeBlack");
   }
 
 });
