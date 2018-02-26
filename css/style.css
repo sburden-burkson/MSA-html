@@ -798,6 +798,12 @@ nav {
   padding-bottom: 200px;
 }
 
+.instagram-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
 .spaced-section p, .spaced-section li {
   line-height: 2em;
   letter-spacing: 0.15em;
@@ -1060,6 +1066,11 @@ nav {
   .v-center-section-xl {
     padding-top: 125px;
     padding-bottom: 125px;
+  }
+  .instagram-section {
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .row-section .v-center-section {
     padding-top: 75px;

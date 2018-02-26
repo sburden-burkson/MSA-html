@@ -525,7 +525,7 @@ footer {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: $white;
 }
-.changeBlack .navbar-nav>li>a,  {
+.changeBlack .navbar-nav>li>a {
   color: #888 !important;
   transition: color 0.4s;
 }
@@ -533,7 +533,7 @@ footer {
   background-color: #888 !important;
   transition: background-color 0.4s;
 }
-.changeWhite .navbar-nav>li>a,  {
+.changeWhite .navbar-nav>li>a {
   color: $white !important;
   transition: color 0.4s;
 }
@@ -713,6 +713,11 @@ nav {
 .v-center-section-xl {
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.instagram-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
 }
 .spaced-section {
   p, li {
@@ -963,6 +968,11 @@ nav {
   .v-center-section-xl {
      padding-top: 125px;
      padding-bottom: 125px;
+  }
+  .instagram-section {
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .row-section .v-center-section {
     padding-top: 75px;

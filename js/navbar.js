@@ -3,10 +3,11 @@ var headerHeight = $('header').outerHeight();
 $('.navbar-default').data('offset-top', headerHeight);
 var topSection;
 
-if (!$('[id^="top-section"]')[0] || !$('.home-video-wrapper')[0]) {
+if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
   topSection = false;
   $('#navColor').addClass("changeBlack");
 } else {
+  $('#navColor').addClass("changeWhite");
   topSection = true;
 }
 // Navbar Height and Transparency
