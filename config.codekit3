@@ -219,44 +219,22 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/button-bg-2.png": {
+	"\/images\/chevron-grey.png": {
 		"ft": 32768,
-		"iS": 14535,
+		"iS": 2055,
 		"oA": 0,
-		"oAP": "\/images\/button-bg-2.png",
+		"oAP": "\/images\/chevron-grey.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/button-bg.png": {
+	"\/images\/chevron-white.png": {
 		"ft": 32768,
-		"iS": 5367,
+		"iS": 1937,
 		"oA": 0,
-		"oAP": "\/images\/button-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/chevron-left.png": {
-		"ft": 32768,
-		"iS": 2078,
-		"oA": 0,
-		"oAP": "\/images\/chevron-left.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/chevron-right.png": {
-		"ft": 32768,
-		"iS": 2072,
-		"oA": 0,
-		"oAP": "\/images\/chevron-right.png",
+		"oAP": "\/images\/chevron-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -351,6 +329,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/footer-bg.jpg": {
+		"ft": 16384,
+		"iS": 989475,
+		"oA": 0,
+		"oAP": "\/images\/footer-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/footer-image.png": {
 		"ft": 32768,
 		"iS": 1351603,
@@ -402,6 +390,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 4450,
+		"oA": 0,
+		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -614,6 +613,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/search-white.png": {
+		"ft": 32768,
+		"iS": 1862,
+		"oA": 0,
+		"oAP": "\/images\/search-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/search.png": {
+		"ft": 32768,
+		"iS": 1860,
+		"oA": 0,
+		"oAP": "\/images\/search.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/textures\/bg-nav-gradient-home.png": {
 		"ft": 32768,
 		"iS": 3538,
@@ -809,6 +830,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/collection-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/faq-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/faq-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

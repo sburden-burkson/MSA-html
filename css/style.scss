@@ -76,28 +76,41 @@ footer.black-footer {
 }
 .texture-section {
   position: relative;
+  div, * {
+    position: relative;
+    z-index: 10;
+  }
+  .texture-bottom {
+    background-position: 50% 90%;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+  .texture-top {
+    // background-position: 50% 0%;
+    // height: 200px;
+    // background-size: cover;
+    // background-position: 50% 100%;
+    z-index: 0;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+  }
 }
-.texture-bottom {
-  background-position: 50% 95%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.texture-top {
-  background-position: 50% 0%;
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 #top-section {
+  min-height: 750px;
   padding: 200px 100px 35px;
+  background-position: 50% 75%;
 }
 #top-section-sm {
   padding: 125px 100px 35px;
@@ -432,6 +445,9 @@ footer.black-footer {
 .trans-white {
   color: rgba(255, 255, 255, 0.3);
 }
+.trans-white-md {
+  color: rgba(255, 255, 255, 0.5);
+}
 header {
   height: $headerHeight;
   padding: 10px 0;
@@ -667,6 +683,9 @@ nav {
   color: $white;
   text-decoration: none;
 }
+.fixed-bg {
+  background-attachment: fixed;
+}
 .dark-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -861,6 +880,9 @@ nav {
 }
 .wp-btn-red {
   background-image: url('../images/red-bg.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  // background-image: url('../images/button-bg-2.png');
   border-radius: 0;
   color: $white;
   font-family: 'Barlow Condensed', sans-serif;
@@ -975,6 +997,11 @@ nav {
   //     font-size: 48px;
   // }
 }
+@media only screen  and (min-width: 1824px) {
+  #top-section {
+    min-height: 850px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .featured-blog-info-wrap {
     padding: 30px 20px 0px;
@@ -1040,10 +1067,11 @@ nav {
     padding-bottom: 30px;
   }
   #top-section {
-    padding: 100px 35px 35px;
+    padding: 125px 35px 35px;
+    min-height: 600px;
   }
   #top-section-sm {
-    padding: 100px 35px 35px;
+    padding: 125px 35px 35px;
   }
   .product-pairing {
     position: absolute;
@@ -1181,10 +1209,10 @@ nav {
     font-size: ($h1Size * 1.5) * 0.65;
   }
   #top-section {
-    padding: 100px 10px 10px;
+    padding: 125px 10px 10px;
   }
   #top-section-sm {
-    padding: 100px 10px 10px;
+    padding: 125px 10px 10px;
   }
   .blog-wrapper .container-fluid, .collection-wrapper .container-fluid {
     padding-left: 0;
