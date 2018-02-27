@@ -75,6 +75,7 @@ footer.black-footer a {
 
 .texture-bottom {
   background-position: 50% 95%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
   width: 100%;
@@ -1133,6 +1134,9 @@ nav {
   }
   #footerAccordion .panel-body {
     padding-top: 10px;
+  }
+  #footerAccordion .fa {
+    font-size: 14px;
   }
   .navbar-toggle {
     display: block;
