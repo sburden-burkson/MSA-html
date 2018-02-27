@@ -431,7 +431,7 @@ footer.black-footer a {
 header {
   height: 40px;
   padding: 10px 0;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 header a {
@@ -514,7 +514,6 @@ footer {
 footer .copyright {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 footer .links {
@@ -565,7 +564,7 @@ footer .footerLogo {
   margin-bottom: 0;
   border: none;
   background-color: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .navbar-default.affix {
@@ -1126,11 +1125,11 @@ nav {
     padding-bottom: 20px;
   }
   #footerAccordion #heading1 {
-    border-top: 1px solid rgba(255, 255, 255, 0.97);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
   #footerAccordion .panel-heading {
     padding: 20px 0px 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.97);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
   #footerAccordion .panel-body {
     padding-top: 10px;

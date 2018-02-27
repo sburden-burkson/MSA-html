@@ -3,11 +3,12 @@ $navHeight: 80px;
 $headerHeight: 40px;
 $headerFontSize: 14px;
 
-$lightblack: rgba(0, 0, 0, .84);
-$white: rgba(255, 255, 255, .97);
-$black: rgba(0, 0, 0, .97);
-$bodyBlack: rgba(0, 0, 0, .54);
-$dividerColor: rgba(0, 0, 0, .2);
+$lightblack: rgba(0, 0, 0, 0.84);
+$white: rgba(255, 255, 255, 0.97);
+$black: rgba(0, 0, 0, 0.97);
+$bodyBlack: rgba(0, 0, 0, 0.54);
+$dividerColor: rgba(0, 0, 0, 0.2);
+$dividerColorb: rgba(255, 255, 255, 0.2);
 $h1Size: 70px;
 $h2Size: 55px;
 $h3Size: 32px;
@@ -390,7 +391,7 @@ footer.black-footer {
 header {
   height: $headerHeight;
   padding: 10px 0;
-  border-bottom: 2px solid $dividerColor;
+  border-bottom: 1px solid $dividerColor;
   a {
     color: $bodyBlack;
     letter-spacing: 0.15em;
@@ -455,7 +456,7 @@ footer {
   .copyright {
     padding-top: 30px;
     padding-bottom: 30px;
-    border-bottom: 2px solid $dividerColor;
+    // border-bottom: 2px solid $dividerColorb;
   }
   .links {
     padding-top: 50px;
@@ -499,7 +500,7 @@ footer {
   margin-bottom: 0;
   border: none;
   background-color: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid $dividerColor;
 }
 .navbar-default.affix {
   position: fixed;
@@ -1026,11 +1027,11 @@ nav {
   }
   #footerAccordion {
     #heading1 {
-      border-top: 1px solid $white;
+      border-top: 1px solid $dividerColorb;
     }
     .panel-heading {
       padding: 20px 0px 20px;
-      border-bottom: 1px solid $white;
+      border-bottom: 1px solid $dividerColorb;
     }
     .panel-body {
       padding-top: 10px;
