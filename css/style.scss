@@ -413,12 +413,15 @@ footer.black-footer {
       margin-top: 0;
       margin-bottom: 0;
       color: inherit;
+      padding-right: 50px;
+      line-height: 1.5em;
       a {
         color: inherit;
       }
       i {
         float: right;
         color: red;
+        margin-right: -30px;
       }
     }
     .fa {
@@ -1079,6 +1082,13 @@ nav {
     }
     .fa {
       font-size: 14px;
+    }
+  }
+  #faqAccordion {
+    .panel-heading {
+      h4 {
+        padding-right: 30px;
+      }
     }
   }
   .navbar-toggle {

@@ -465,6 +465,8 @@ footer.black-footer a {
   margin-top: 0;
   margin-bottom: 0;
   color: inherit;
+  padding-right: 50px;
+  line-height: 1.5em;
 }
 
 #faqAccordion .panel-heading h4 a {
@@ -474,6 +476,7 @@ footer.black-footer a {
 #faqAccordion .panel-heading h4 i {
   float: right;
   color: red;
+  margin-right: -30px;
 }
 
 #faqAccordion .panel-heading .fa {
@@ -1192,6 +1195,9 @@ nav {
   }
   #footerAccordion .fa {
     font-size: 14px;
+  }
+  #faqAccordion .panel-heading h4 {
+    padding-right: 30px;
   }
   .navbar-toggle {
     display: block;
