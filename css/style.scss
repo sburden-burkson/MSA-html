@@ -434,7 +434,7 @@ input.form-control {
   border-radius: 0;
 }
 .no-padding {
-  padding: 0;
+  padding: 0 0 0 0;
 }
 .pad-top {
   padding-top: 30px;
@@ -606,6 +606,12 @@ nav {
   background-size: cover;
   height: 600px;
 }
+.small-bg {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
 // .row-section [class*="col-"] {
 //   background-position: 50% 50%;
 //   background-repeat: no-repeat;
@@ -715,9 +721,12 @@ nav {
   padding-bottom: 200px;
 }
 .instagram-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: 0 auto;
+  img {
+    width: 100%;
+  }
 }
 .spaced-section {
   p, li {
@@ -829,17 +838,20 @@ nav {
 .section-header-sm {
   font-size: 30px;
 }
-.article-title {
-  line-height: 90px;
-}
-.article-top {
+.no-banner {
   padding-top: 150px;
   padding-bottom:75px;
+}
+.about-top {
+  max-width: 600px;
+}
+.article-title {
+  line-height: 90px;
 }
 .article-header {
   margin-bottom: 60px;
 }
-.article-body p {
+.article-body p, .about-top p {
   margin-bottom: 60px;
   line-height: 30px;
 }
@@ -978,7 +990,7 @@ nav {
     padding-top: 75px;
     padding-bottom: 75px;
   }
-  .article-top {
+  .no-banner {
     padding-top: 70px;
     padding-bottom: 30px;
   }
@@ -1027,7 +1039,7 @@ nav {
   .navbar-toggle {
     display: block;
   }
-  .half-bg, .full-bg, .half-section, .full-section {
+  .half-bg, .full-bg, .half-section, .full-section, .small-bg {
     height: auto;
     min-height: 250px;
     padding: 30px 0;

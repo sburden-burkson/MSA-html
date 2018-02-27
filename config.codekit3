@@ -17,6 +17,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/blog.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -388,6 +395,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/map.png": {
+		"ft": 32768,
+		"iS": 379631,
+		"oA": 0,
+		"oAP": "\/images\/map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
