@@ -1,8 +1,8 @@
 function footerAccordion() {
   if ($(window).width() > 767) {
-    $('[id^="collapse"]').addClass('in');
+    $('[id^="footerCollapse"]', 'footer').addClass('in');
   } else {
-    $('[id^="collapse"]').removeClass('in');
+    $('[id^="footerCollapse"]', 'footer').removeClass('in');
   }
 }
 footerAccordion();

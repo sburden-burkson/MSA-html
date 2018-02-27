@@ -380,14 +380,54 @@ footer.black-footer {
     letter-spacing: 0.2em;
   }
 }
-
+#faqAccordion {
+  .panel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: transparent;
+  }
+  .panel-heading, .panel, .panel-body, .panel-group {
+    border: 0;
+    border-color: transparent;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  .panel-body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: $pSize;
+    line-height: 2em;
+    letter-spacing: 0.15em;
+    padding: 30px 0 0;
+    border: 0;
+    border-top: 0;
+    p {
+      margin-bottom: 30px;
+    }
+  }
+  .border-bottom {
+    border-bottom: 1px solid $dividerColor;
+  }
+  .panel-heading {
+    padding: 50px 0px 20px;
+    h4 {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: inherit;
+      a {
+        color: inherit;
+      }
+      i {
+        float: right;
+        color: red;
+      }
+    }
+    .fa {
+      font-size: 14px;
+    }
+  }
+}
 .trans-white {
   color: rgba(255, 255, 255, 0.3);
-}
-.roboto {
-  // h1, h2, h3, h4 {
-  //   font-family: 'Roboto', sans-serif !important;
-  // }
 }
 header {
   height: $headerHeight;
@@ -1027,7 +1067,7 @@ nav {
     }
   }
   #footerAccordion {
-    #heading1 {
+    #footerH1 {
       border-top: 1px solid $dividerColorb;
     }
     .panel-heading {

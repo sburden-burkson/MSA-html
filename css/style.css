@@ -425,6 +425,61 @@ footer.black-footer a {
   letter-spacing: 0.2em;
 }
 
+#faqAccordion .panel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+#faqAccordion .panel-heading, #faqAccordion .panel, #faqAccordion .panel-body, #faqAccordion .panel-group {
+  border: 0;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+#faqAccordion .panel-body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: 0.15em;
+  padding: 30px 0 0;
+  border: 0;
+  border-top: 0;
+}
+
+#faqAccordion .panel-body p {
+  margin-bottom: 30px;
+}
+
+#faqAccordion .border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#faqAccordion .panel-heading {
+  padding: 50px 0px 20px;
+}
+
+#faqAccordion .panel-heading h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: inherit;
+}
+
+#faqAccordion .panel-heading h4 a {
+  color: inherit;
+}
+
+#faqAccordion .panel-heading h4 i {
+  float: right;
+  color: red;
+}
+
+#faqAccordion .panel-heading .fa {
+  font-size: 14px;
+}
+
 .trans-white {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -1125,7 +1180,7 @@ nav {
   footer .featured-blog-more {
     padding-bottom: 20px;
   }
-  #footerAccordion #heading1 {
+  #footerAccordion #footerH1 {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
   #footerAccordion .panel-heading {
