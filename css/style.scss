@@ -76,27 +76,24 @@ footer.black-footer {
 }
 .texture-section {
   position: relative;
-  div, * {
+  a {
     position: relative;
     z-index: 10;
   }
   .texture-bottom {
-    background-position: 50% 90%;
-    background-size: cover;
-    height: 180px;
+    background-position: 50% 100%;
+    background-size: contain;
+    height: 100%;
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
     background-repeat: no-repeat;
-    z-index: 0;
+    z-index: 1;
   }
   .texture-top {
-    // background-position: 50% 0%;
-    // height: 200px;
-    // background-size: cover;
-    // background-position: 50% 100%;
-    z-index: 0;
+    background-position: 50% 0%;
+    z-index: 1;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -111,6 +108,9 @@ footer.black-footer {
   min-height: 750px;
   padding: 200px 100px 35px;
   background-position: 50% 75%;
+  .down-arrows {
+    font-size: 44px;
+  }
 }
 #top-section-sm {
   padding: 125px 100px 35px;
@@ -448,6 +448,9 @@ footer.black-footer {
 .trans-white-md {
   color: rgba(255, 255, 255, 0.5);
 }
+a.trans-white-md:hover, a.trans-white-md:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
 header {
   height: $headerHeight;
   padding: 10px 0;
@@ -495,7 +498,13 @@ input.form-control {
   border-radius: 0;
 }
 .no-padding {
-  padding: 0 0 0 0;
+  padding: 0 0 0 0 !important;
+}
+.no-pad-right {
+  padding-right: 0;
+}
+.no-pad-left {
+  padding-left: 0;
 }
 .pad-top {
   padding-top: 30px;
@@ -649,6 +658,39 @@ nav {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.image-info-section {
+  margin-left: auto;
+  margin-right: auto;
+  .image-info-left {
+    height: 600px;
+    padding-left: 50px;
+  }
+  .image-info-right {
+    height: 600px;
+    padding-right: 50px;
+  }
+  .image-info-pad {
+    padding: 50px 50px;
+  }
+  .image-info-chevron-right {
+    position: absolute;
+    top: calc(50% - 15px);
+    right: 0;
+    height: 30px;
+  }
+  .image-info-chevron-left {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 0;
+    height: 30px;
+  }
+  .col-md-6.no-pad-left {
+    padding-left: 0;
+  }
+  .col-md-6.no-pad-right {
+    padding-right: 0;
+  }
+}
 .white-bg {
   background-color: $white;
   background-position: 50% 50%;
@@ -745,15 +787,23 @@ nav {
 }
 .wp-table-cell-middle {
   vertical-align: middle;
+  display: table-cell;
 }
 .wp-table-cell-bottom {
   vertical-align: bottom;
+  display: table-cell;
 }
 .wp-relative {
   position: relative;
 }
 .pad-left-right {
   padding: 0 15px;
+}
+.pad-left {
+  padding-left: 50px;
+}
+.pad-right {
+  padding-right: 50px;
 }
 .pad-top-bottom, .spaced-section .pad-top-bottom {
   padding-top: 50px;
@@ -1012,6 +1062,23 @@ nav {
   }
   #featuredBlog {
     width: 100%;
+  }
+  .image-info-section {
+    max-width: 600px;
+    .image-info-left {
+      height: auto;
+      padding-left: 0;
+    }
+    .image-info-right {
+      height: auto;
+      padding-right: 0;
+    }
+    .col-md-6.no-pad-left {
+      padding-left: 15px;
+    }
+    .col-md-6.no-pad-right {
+      padding-right: 15px;
+    }
   }
 }
 @media only screen and (max-width: 767px) {
