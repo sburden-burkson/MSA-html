@@ -113,7 +113,8 @@ footer.black-footer {
   }
 }
 #top-section-sm {
-  padding: 125px 100px 35px;
+  min-height: 550px;
+  padding: 200px 100px 35px;
 }
 .home-video-wrapper {
   position: relative;
@@ -555,6 +556,8 @@ footer {
   img {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    display: block;
   }
   h1, h2, h3, h4, h5, p {
     text-align: center;
@@ -1142,6 +1145,7 @@ nav {
   }
   #top-section-sm {
     padding: 125px 35px 35px;
+    min-height: 350px;
   }
   .product-pairing {
     position: absolute;

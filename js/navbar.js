@@ -13,15 +13,20 @@ if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
 // Navbar Height and Transparency
 var navHeight = $('nav').outerHeight();
 $(window).on('scroll', function() {
-  var scrollTop = $(this).scrollTop();
+  var scrollTop = $(document).scrollTop();
   var navTop = scrollTop - $('header').outerHeight();
   var newNavHeight = navHeight - (navTop * 0.1);
   var opacity = 0 + Math.abs((navTop * 0.01));
   var navLogoHeight = $('#navLogo').outerHeight();
   var logoPad = (newNavHeight - navLogoHeight) / 2;
-  if (scrollTop < $('header').outerHeight()) {
+  if (scrollTop <= headerHeight) {
+    console.log('hi');
     $('#navColor').css(
-      'background-color', 'rgba(255, 255, 255, 0.05)'
+      'background-color', 'rgba(255, 255, 255, 0.05)',
+      'height', '80px'
+    );
+    $('.nav>li>a').css(
+      'line-height', '80px'
     );
   }
   if (navTop > 200) {

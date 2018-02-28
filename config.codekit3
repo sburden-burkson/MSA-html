@@ -24,6 +24,13 @@
 		"oAP": "\/about.html",
 		"oF": 0
 		},
+	"\/accessories.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/accessories.html",
+		"oF": 0
+		},
 	"\/blog.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -155,6 +162,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/accessories-collection-header.jpg": {
+		"ft": 16384,
+		"iS": 458211,
+		"oA": 0,
+		"oAP": "\/images\/accessories-collection-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/atv.jpg": {
 		"ft": 16384,
 		"iS": 21540700,
@@ -239,6 +256,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cap-image-left.jpg": {
+		"ft": 16384,
+		"iS": 40597,
+		"oA": 0,
+		"oAP": "\/images\/cap-image-left.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cap-image-right.jpg": {
+		"ft": 16384,
+		"iS": 398961,
+		"oA": 0,
+		"oAP": "\/images\/cap-image-right.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/chevron-grey.png": {
@@ -446,6 +483,26 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/install-image-left.jpg": {
+		"ft": 16384,
+		"iS": 46673,
+		"oA": 0,
+		"oAP": "\/images\/install-image-left.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/install-image-right.jpg": {
+		"ft": 16384,
+		"iS": 362747,
+		"oA": 0,
+		"oAP": "\/images\/install-image-right.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/logo.png": {
@@ -667,6 +724,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/rivets.jpg": {
+		"ft": 16384,
+		"iS": 139825,
+		"oA": 0,
+		"oAP": "\/images\/rivets.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/sand.png": {
 		"ft": 32768,
 		"iS": 612614,
@@ -698,6 +765,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/star-image-left.jpg": {
+		"ft": 16384,
+		"iS": 304152,
+		"oA": 0,
+		"oAP": "\/images\/star-image-left.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/star-image-right.jpg": {
+		"ft": 16384,
+		"iS": 35508,
+		"oA": 0,
+		"oAP": "\/images\/star-image-right.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/textures\/bg-nav-gradient-home.png": {
@@ -749,6 +836,17 @@
 		"iS": 2477,
 		"oA": 0,
 		"oAP": "\/images\/textures\/menu-home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-accesories-collection-1.png": {
+		"ft": 32768,
+		"iS": 79065,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-accesories-collection-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -848,6 +946,26 @@
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/accessories-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/accessories-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/accessories.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/accessories-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/blog-min.js": {
 		"ft": 64,
@@ -955,6 +1073,26 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/jquery-3.3.1.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.matchHeight-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.matchHeight-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.matchHeight.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.matchHeight-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
