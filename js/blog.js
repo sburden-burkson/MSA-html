@@ -1,10 +1,13 @@
-var blogPageOptions = {
-  byRow: true,
+var blogItemOptions = {
+  byRow: false,
   // property: 'min-height',
   // target: null,
   // remove: false
 }
-$(".featuredBlogHeight").matchHeight(blogPageOptions);
+$(".featuredBlogHeight").matchHeight();
+$(".blog-item-image-wrap").matchHeight(blogItemOptions);
+$(".blog-item-info-wrap").matchHeight(blogItemOptions);
+$(".blog-item").matchHeight(blogItemOptions);
 
 // Featured Blog Post Sizing
 // function resizeFeatured() {
