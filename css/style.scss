@@ -559,9 +559,9 @@ footer {
     text-align: center;
     display: block;
   }
-  h1, h2, h3, h4, h5, p {
-    text-align: center;
-  }
+  // h1, h2, h3, h4, h5, p {
+  //   text-align: center;
+  // }
 }
 
 .text-uppercase {
@@ -859,6 +859,9 @@ nav {
   ul {
     padding-left: 15px;
   }
+}
+.width-85 {
+  width: 85%;
 }
 .restricted-width-left {
   max-width: 350px;

@@ -640,10 +640,6 @@ footer .footerLogo {
   display: block;
 }
 
-.center h1, .center h2, .center h3, .center h4, .center h5, .center p {
-  text-align: center;
-}
-
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -970,6 +966,10 @@ nav {
 
 .spaced-section ul {
   padding-left: 15px;
+}
+
+.width-85 {
+  width: 85%;
 }
 
 .restricted-width-left {
