@@ -348,13 +348,12 @@ footer.black-footer a {
   overflow: hidden;
 }
 
-.blog-item img {
-  width: 100%;
-  max-height: 100%;
+.blog-item .blog-item-image-wrap {
+  height: 200px;
 }
 
 .blog-item .blog-item-info-wrap {
-  padding: 35px;
+  padding: 35px 35px 0;
 }
 
 .blog-item .blog-item-more {
@@ -382,6 +381,12 @@ footer.black-footer a {
   font-size: 28px;
   font-weight: 300;
   letter-spacing: 0.15em;
+  color: rgba(0, 0, 0, 0.97);
+}
+
+.blog-item .blog-item-header:hover {
+  color: rgba(0, 0, 0, 0.97);
+  text-decoration: none;
 }
 
 .blog-item-container, .collection-item-container {
