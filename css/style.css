@@ -229,13 +229,17 @@ footer.black-footer a {
   background-color: #F2F2F2;
 }
 
+.featuredBlogHeight {
+  min-height: 250px;
+}
+
 .featured-blog {
   width: 90%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .featured-blog-info-wrap {
-  padding: 60px 60px 0px;
+  padding: 60px 60px 30px;
 }
 
 .featured-blog-info-wrap .featured-blog-header {
@@ -254,43 +258,17 @@ footer.black-footer a {
   padding-bottom: 30px;
 }
 
-.featured-blog-more {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 20px;
-}
-
-.featured-blog-more .featured-blog-date {
+.featured-blog-info-wrap .featured-blog-date {
   text-align: right;
   font-family: 'Barlow Condensed', sans-serif;
   letter-spacing: 0.15em;
   color: rgba(0, 0, 0, 0.54);
 }
 
-#featuredBlog {
-  height: 500px;
-  margin: 0 auto;
-  width: 90%;
-  padding: 50px 0 0;
-  overflow: hidden;
-}
-
-#featuredBlog .image-col {
-  padding: 0;
-  overflow: hidden;
-}
-
-.featured-blog-image-wrap {
-  overflow: hidden;
-  max-height: 100%;
-}
-
-.featured-blog-image-wrap #featuredBlogImage {
-  max-height: 100%;
-  margin-left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  min-width: 100%;
+.featured-blog-more {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
 }
 
 .collection-item {
@@ -802,9 +780,6 @@ nav {
 
 .white-bg {
   background-color: rgba(255, 255, 255, 0.97);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .half-bg {
@@ -1185,7 +1160,7 @@ nav {
 
 @media only screen and (max-width: 992px) {
   .featured-blog-info-wrap {
-    padding: 30px 20px 0px;
+    padding: 30px 20px 15px;
   }
   .featured-blog-more {
     padding-left: 20px;
@@ -1273,13 +1248,6 @@ nav {
     position: absolute;
     right: 15px;
   }
-  #featuredBlog {
-    height: auto !important;
-    padding-top: 0;
-  }
-  #featuredBlog .image-col {
-    height: 300px;
-  }
   footer {
     padding-top: 50px;
   }
@@ -1324,8 +1292,8 @@ nav {
     font-size: 60px;
   }
   .featured-blog {
-    width: 100%;
-    padding-top: 0px;
+    width: auto;
+    padding: 15px 30px 0;
   }
   .pad-top-lg {
     padding-top: 50px;
@@ -1393,7 +1361,10 @@ nav {
   #top-section-sm {
     padding: 125px 10px 10px;
   }
-  .blog-wrapper .container-fluid, .collection-wrapper .container-fluid {
+  .featured-blog {
+    padding: 15px 30px 0;
+  }
+  .collection-wrapper .container-fluid {
     padding-left: 0;
     padding-right: 0;
   }

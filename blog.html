@@ -100,7 +100,26 @@
   <div class="blog-wrapper">
 
     <!--  Featured Blog Item -->
-    <div class="container-fluid" id="featuredBlog">
+    <div class="container-fluid featured-blog" id="">
+      <div class="row">
+        <div class="col-sm-6 no-padding">
+          <div class="featuredBlogHeight dark-bg" style="background-image: url('images/desert-atv.png');">
+          </div>
+        </div>
+        <div class="col-sm-6 white-bg featuredBlogHeight">
+          <div class="featured-blog-info-wrap spaced-section">
+            <h3 class="text-uppercase pad-bottom">BUILD IT</h3>
+
+            <p class="">Lorem neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat. Lorem neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec</p>
+
+            <p class="pad-top"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">READ MORE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+
+            <p class="featured-blog-date">Feb 21.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container-fluid" id="featuredBlog">
       <div class="wp-full-height">
         <div class="row wp-full-height">
           <div class="col-sm-6 wp-full-height image-col">
@@ -131,7 +150,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Blog Items -->
     <div class="container-fluid">
@@ -304,7 +323,7 @@
   </div>
 </div></div>
   <!-- FOOTER Background -->
-  
+
   <footer class="black-footer">
     <div class="container copyright">
       <div class="pull-left">
@@ -375,98 +394,12 @@
   <script src="js/jquery-3.3.1.min.js?ckcachebust=9d99a8e136ca24f281d2f49fea4dbfa5"></script>
   <script src="js/bootstrap.min.js?ckcachebust=9b5f8c617bcf56849dd563b4b51689b9"></script>
   <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540409801"></script>
+  <script type="text/javascript" src="js/jquery.matchHeight-min.js" ></script>
   <script src="js/masonry.pkgd.min.js"></script>
   <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      //Affix Navbar
-      var headerHeight = $('header').outerHeight();
-      $('.navbar-default').data('offset-top', headerHeight);
-
-      // Navbar Height and Transparency
-      var navHeight = $('nav').outerHeight();
-      $(window).on('scroll', function () {
-        var scrollTop = $(this).scrollTop();
-        var navTop = scrollTop - $('header').outerHeight();
-        var newNavHeight = navHeight - (navTop*.1);
-        var opacity = 0 + Math.abs((navTop*.005));
-        var navLogoHeight = $('#navLogo').outerHeight();
-        var logoPad = (newNavHeight - navLogoHeight) / 2;
-        if (scrollTop < $('header').outerHeight()) {
-          $('#navColor').css(
-            'background-color', 'rgba(255, 255, 255, 0.05)'
-          );
-        }
-        if (navTop > 200) {
-          $('#navColor').css(
-            'background-color', 'rgba(255, 255, 255, 1)'
-          );
-        }
-        if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-          $('nav, .navbar-toggle').css(
-            'height', newNavHeight
-          );
-          $('.navbar-brand').css(
-            'padding-top', logoPad,
-            'padding-bottom', logoPad
-          );
-          $('.nav>li>a').css(
-            'line-height', newNavHeight + 'px'
-          );
-          $('#navColor').css(
-            'background-color', 'rgba(255, 255, 255,'+opacity+')'
-          );
-        }
-        if (opacity > 0.4) {
-          $('#navColor').removeClass("changeWhite");
-          $('#navColor').addClass("changeBlack");
-        } else {
-          $('#navColor').removeClass("changeBlack");
-          $('#navColor').addClass("changeWhite");
-        }
-      });
-
-      // Featured Blog Post Sizing
-      function resizeFeatured() {
-        var padding = parseInt($('#featuredBlog').css('padding-top')) + parseInt($('#featuredBlog').css('padding-bottom'));
-        var rightH = $('#featuredBlogText').outerHeight();
-        if ($(window).width() > 767) {
-          var rightH = $('#featuredBlogText').outerHeight();
-          $('#featuredBlog').css({
-            'height': rightH + padding
-          });
-          $('#featuredBlogImage').css({
-            'height': rightH
-          });
-        } else {
-          $('#featuredBlog').css({
-            'height': "auto"
-          });
-          $('#featuredBlogImage').css({
-            'height': "auto"
-          });
-        }
-      }
-      resizeFeatured();
-      $(window).on('resize', function() {
-        resizeFeatured();
-      });
-
-      // Blog Item Masonry
-      var $blogGrid = $('.blog-item-container').masonry({
-        // options
-        itemSelector: '.blog-item',
-        columnWidth: 320,
-        isFitWidth: true,
-        gutter: 20,
-        horizontalOrder: true,
-      });
-      $blogGrid.imagesLoaded().progress(function() {
-        $blogGrid.masonry('layout');
-      });
-
-    });
-  </script>
+  <script type="text/javascript" src="js/navbar-min.js"></script>
+  <script type="text/javascript" src="js/footer-min.js"></script>
+  <script type="text/javascript" src="js/blog-min.js"></script>
 </body>
 
 </html>
