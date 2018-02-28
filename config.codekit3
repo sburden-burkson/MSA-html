@@ -219,11 +219,55 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/button-bg-2.png": {
+		"ft": 32768,
+		"iS": 14535,
+		"oA": 0,
+		"oAP": "\/images\/button-bg-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/button-bg.png": {
+		"ft": 32768,
+		"iS": 5367,
+		"oA": 0,
+		"oAP": "\/images\/button-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/chevron-grey.png": {
 		"ft": 32768,
 		"iS": 2055,
 		"oA": 0,
 		"oAP": "\/images\/chevron-grey.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/chevron-left.png": {
+		"ft": 32768,
+		"iS": 2078,
+		"oA": 0,
+		"oAP": "\/images\/chevron-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/chevron-right.png": {
+		"ft": 32768,
+		"iS": 2072,
+		"oA": 0,
+		"oAP": "\/images\/chevron-right.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -446,6 +490,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/performance-bg.jpg": {
+		"ft": 16384,
+		"iS": 211958,
+		"oA": 0,
+		"oAP": "\/images\/performance-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/quad-desert.png": {
