@@ -554,10 +554,6 @@ header .navbar-divider {
   padding-right: 5px;
 }
 
-.nav li:last-of-type a {
-  padding-right: 100px;
-}
-
 input.form-control {
   border-radius: 0;
 }
@@ -1176,6 +1172,9 @@ nav {
   }
   .article-body-wrap {
     width: 760px;
+  }
+  .navbar-nav {
+    padding-right: 40px;
   }
 }
 
