@@ -175,7 +175,6 @@ input.form-control.black-bg {
   position: absolute;
   z-index: 9;
   right: -100px;
-  font-weight: bold;
   a, a:hover {
     color: $bodyBlack;
     text-decoration: none;
@@ -194,6 +193,9 @@ input.form-control.black-bg {
 }
 .slick-initialized {
   visibility: visible !important;
+}
+.slick-dots {
+  bottom: -10px;
 }
 .product-customization {
   padding-top: 40px;
@@ -1119,6 +1121,9 @@ nav {
   }
   .warranty-info {
     padding-right: 50px;
+  }
+  .slick-dots {
+    display: none;
   }
 }
 @media only screen and (min-width: 992px) {

@@ -180,7 +180,6 @@ input.form-control.black-bg {
   position: absolute;
   z-index: 9;
   right: -100px;
-  font-weight: bold;
 }
 
 .product-pairing a, .product-pairing a:hover {
@@ -204,6 +203,10 @@ input.form-control.black-bg {
 
 .slick-initialized {
   visibility: visible !important;
+}
+
+.slick-dots {
+  bottom: -10px;
 }
 
 .product-customization {
@@ -1231,6 +1234,9 @@ nav {
   }
   .warranty-info {
     padding-right: 50px;
+  }
+  .slick-dots {
+    display: none;
   }
 }
 

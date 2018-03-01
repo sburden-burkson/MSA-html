@@ -4,6 +4,7 @@ $('#product-image-carousel').slick({
   slidesToScroll: 1,
   arrows: false,
   asNavFor: '#product-thumbs',
+  dots: true
 });
 $('#product-thumbs').slick({
   slidesToShow: 3,
