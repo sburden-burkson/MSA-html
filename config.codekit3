@@ -31,6 +31,13 @@
 		"oAP": "\/accessories.html",
 		"oF": 0
 		},
+	"\/accessory-collection.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/accessory-collection.html",
+		"oF": 0
+		},
 	"\/blog.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -537,6 +544,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/install-bg.jpg": {
+		"ft": 16384,
+		"iS": 355644,
+		"oA": 0,
+		"oAP": "\/images\/install-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/install-image-left.jpg": {
@@ -1251,6 +1268,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/product-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/warranty-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/warranty-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
