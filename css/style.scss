@@ -59,6 +59,13 @@ footer.black-footer {
     color: $white;
   }
 }
+.black-bg {
+  background: black;
+  color: $white;
+}
+input.form-control.black-bg {
+    border: 1px solid $dividerColorb;
+}
 .white {
   color: $white;
 }
@@ -539,7 +546,7 @@ footer {
   letter-spacing: 0.15em;
   .copyright {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
     // border-bottom: 2px solid $dividerColorb;
   }
   .links {
@@ -1032,6 +1039,10 @@ nav {
   }
 }
 @media only screen and (min-width: 767px) {
+  .footer-link-wrap {
+    border-top: 1px solid $dividerColorb;
+    padding-top: 60px;
+  }
   .section-header {
     font-size: 54px;
   }

@@ -50,6 +50,15 @@ footer.black-footer a {
   color: rgba(255, 255, 255, 0.97);
 }
 
+.black-bg {
+  background: black;
+  color: rgba(255, 255, 255, 0.97);
+}
+
+input.form-control.black-bg {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .white {
   color: rgba(255, 255, 255, 0.97);
 }
@@ -586,7 +595,7 @@ footer {
 
 footer .copyright {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
 }
 
 footer .links {
@@ -1139,6 +1148,10 @@ nav {
 }
 
 @media only screen and (min-width: 767px) {
+  .footer-link-wrap {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 60px;
+  }
   .section-header {
     font-size: 54px;
   }
