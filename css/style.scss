@@ -81,7 +81,7 @@ footer.black-footer {
     z-index: 10;
   }
   .texture-bottom {
-    background-position: 50% 100%;
+    background-position: 50% 101%;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -92,7 +92,7 @@ footer.black-footer {
     z-index: 1;
   }
   .texture-top {
-    background-position: 50% 0%;
+    background-position: 50% -1%;
     z-index: 1;
     background-size: contain;
     height: 100%;
@@ -455,13 +455,16 @@ footer.black-footer {
   }
 }
 .trans-white {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3) !important;
 }
 .trans-white-md {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.54) !important;
+}
+.trans-white-sm {
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 a.trans-white-md:hover, a.trans-white-md:focus {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.54);
 }
 header {
   height: $headerHeight;
@@ -820,6 +823,16 @@ nav {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.margin-top {
+  margin-top: 50px;
+}
+.margin-bottom {
+  margin-bottom: 50px;
+}
+.margin-top-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .red-bg {
   padding-bottom: 50px;
 }
@@ -886,23 +899,23 @@ nav {
   font-size: 36px;
 }
 .transparent-lg {
-  opacity: .4;
+  opacity: 0.4;
   // font-size: 100px;
   font-size: $h1Size * 1.5;
   letter-spacing: 0.15em;
 }
 .transparent-md {
-  opacity: .4;
+  opacity: 0.4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 .transparent-sm {
-  opacity: .4;
+  opacity: 0.4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 .transparent-xs {
-  opacity: .4;
+  opacity: 0.4;
   font-size: 18px;
   letter-spacing: 0.15em;
 }
@@ -1041,7 +1054,7 @@ nav {
     }
   }
   .blog-item-container, .collection-item-container {
-    margin: 30px auto 50px;
+    margin: 50px auto 100px;
   }
   .product-options {
     padding-left: 30px;
@@ -1051,6 +1064,9 @@ nav {
   }
   .navbar-nav {
     padding-right: 40px;
+  }
+  .blog-middle-banner {
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 992px) {

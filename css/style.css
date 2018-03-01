@@ -79,7 +79,7 @@ footer.black-footer a {
 }
 
 .texture-section .texture-bottom {
-  background-position: 50% 100%;
+  background-position: 50% 101%;
   background-size: contain;
   height: 100%;
   width: 100%;
@@ -91,7 +91,7 @@ footer.black-footer a {
 }
 
 .texture-section .texture-top {
-  background-position: 50% 0%;
+  background-position: 50% -1%;
   z-index: 1;
   background-size: contain;
   height: 100%;
@@ -482,15 +482,19 @@ footer.black-footer a {
 }
 
 .trans-white {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3) !important;
 }
 
 .trans-white-md {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.trans-white-sm {
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 a.trans-white-md:hover, a.trans-white-md:focus {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.54);
 }
 
 header {
@@ -892,6 +896,19 @@ nav {
   padding-bottom: 50px;
 }
 
+.margin-top {
+  margin-top: 50px;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.margin-top-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .red-bg {
   padding-bottom: 50px;
 }
@@ -969,25 +986,25 @@ nav {
 }
 
 .transparent-lg {
-  opacity: .4;
+  opacity: 0.4;
   font-size: 105px;
   letter-spacing: 0.15em;
 }
 
 .transparent-md {
-  opacity: .4;
+  opacity: 0.4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 
 .transparent-sm {
-  opacity: .4;
+  opacity: 0.4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 
 .transparent-xs {
-  opacity: .4;
+  opacity: 0.4;
   font-size: 18px;
   letter-spacing: 0.15em;
 }
@@ -1144,7 +1161,7 @@ nav {
     margin-right: -20px;
   }
   .blog-item-container, .collection-item-container {
-    margin: 30px auto 50px;
+    margin: 50px auto 100px;
   }
   .product-options {
     padding-left: 30px;
@@ -1154,6 +1171,9 @@ nav {
   }
   .navbar-nav {
     padding-right: 40px;
+  }
+  .blog-middle-banner {
+    margin-bottom: 50px;
   }
 }
 
