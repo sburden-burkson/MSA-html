@@ -20,7 +20,6 @@ $(window).on('scroll', function() {
   var navLogoHeight = $('#navLogo').outerHeight();
   var logoPad = (newNavHeight - navLogoHeight) / 2;
   if (scrollTop <= headerHeight) {
-    console.log('hi');
     $('#navColor').css(
       'background-color', 'rgba(255, 255, 255, 0.05)',
       'height', '80px'
