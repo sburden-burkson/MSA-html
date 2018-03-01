@@ -300,6 +300,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/check.png": {
+		"ft": 32768,
+		"iS": 1770,
+		"oA": 0,
+		"oAP": "\/images\/check.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/chevron-grey.png": {
 		"ft": 32768,
 		"iS": 2055,
@@ -473,6 +484,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/header-warranty.jpg": {
+		"ft": 16384,
+		"iS": 722060,
+		"oA": 0,
+		"oAP": "\/images\/header-warranty.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hills-bw.png": {
@@ -875,6 +896,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/textures\/texture-1-warranty.png": {
+		"ft": 32768,
+		"iS": 16656,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-1-warranty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/textures\/texture-accesories-collection-1.png": {
 		"ft": 32768,
 		"iS": 79065,
@@ -1223,6 +1255,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/warranty.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/warranty-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/product.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1395,6 +1437,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/video.html",
+		"oF": 0
+		},
+	"\/warranty.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/warranty.html",
 		"oF": 0
 		}
 	},
