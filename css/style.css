@@ -158,7 +158,6 @@ input.form-control.black-bg {
 }
 
 .warranty-options h5 {
-  border-bottom: 2px red solid;
   padding-bottom: 25px;
   margin-bottom: -17px;
   display: inline-block;
@@ -166,6 +165,14 @@ input.form-control.black-bg {
 
 .warranty-options a {
   color: rgba(0, 0, 0, 0.97);
+}
+
+.warranty-options .active {
+  border-bottom: 2px red solid;
+}
+
+.warranty-options .active, .warranty-options .active a {
+  pointer-events: none;
 }
 
 .product-pairing {
