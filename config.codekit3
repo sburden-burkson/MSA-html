@@ -31,6 +31,13 @@
 		"oAP": "\/accessories.html",
 		"oF": 0
 		},
+	"\/accessory-collection.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/accessory-collection.html",
+		"oF": 0
+		},
 	"\/blog.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1251,6 +1258,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/product-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/warranty-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/warranty-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
