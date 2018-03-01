@@ -6,3 +6,5 @@ var warrantyPageOptions = {
 }
 $(".warrantyHeight").matchHeight();
 $(".warrantyOptionHeight").matchHeight();
+$(".tab-pane").matchHeight(false);
+$(".warrantyInfoHeight").matchHeight(false);

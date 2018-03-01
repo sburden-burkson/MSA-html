@@ -1,1 +1,1 @@
-var warrantyPageOptions={byRow:!1};$(".warrantyHeight").matchHeight(),$(".warrantyOptionHeight").matchHeight();
+var warrantyPageOptions={byRow:!1};$(".warrantyHeight").matchHeight(),$(".warrantyOptionHeight").matchHeight(),$(".tab-pane").matchHeight(!1),$(".warrantyInfoHeight").matchHeight(!1);
