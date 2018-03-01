@@ -18,9 +18,68 @@
 	opacity: 1;
 	overflow: auto;
 }
+#sidenav .toggle-wrapper {
+	top: 40px;
+}
 #sidenav .toggle-wrapper .side-nav-close {
 	width: 22px;
 	height: 80px;
 	padding: 0;
 	background: red;
+}
+#sidenav .sidenav-left {
+	height: 100%;
+	background: black;
+}
+#sidenav .sidenav-right {
+	height: 100%;
+	padding-top: 160px;
+	padding-right: 4%;
+	background-color: #FFF;
+}
+#sidenav .sidenav-right .nav .nav-item,
+#sidenav .sidenav-right .navbar-form,
+#sidenav .sidenav-right .navbar-form input,
+#sidenav .sidenav-right .navbar-form input::placeholder {
+	text-align: right;
+}
+#sidenav .sidenav-right .navbar-form input {
+	width: 100%;
+	padding-right: 20px;
+	border-style: solid;
+	border-color: transparent;
+	box-shadow: none;
+}
+#sidenav .sidenav-right .navbar-form input::placeholder {
+	text-transform: uppercase;
+}
+#sidenav .sidenav-right .nav .nav-item a,
+#sidenav .sidenav-right .nav .nav-item a:hover,
+#sidenav .sidenav-right .nav .nav-item a:active,
+#sidenav .sidenav-right .nav .nav-item a:visited,
+#sidenav .sidenav-right .navbar-form input,
+#sidenav .sidenav-right .navbar-form input::placeholder {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+#sidenav .sidenav-right .nav .nav-item a,
+#sidenav .sidenav-right .nav .nav-item a:hover,
+#sidenav .sidenav-right .nav .nav-item a:active,
+#sidenav .sidenav-right .nav .nav-item a:visited,
+#sidenav .sidenav-right .navbar-form input {
+	color: #000;
+}
+
+#sidenav .sidenav-right .nav .nav-item a.active span {
+	/* text-decoration: line-through; */
+	position: relative;
+}
+#sidenav .sidenav-right .nav .nav-item a.active span::after {
+	border-bottom: 1px solid #000;
+  content: "";
+  left: -20px;
+  position: absolute;
+  right: -20px;
+  top: 50%;
 }

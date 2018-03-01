@@ -62,6 +62,26 @@
 		"oAP": "\/css\/bootstrap.min.css.map",
 		"oF": 0
 		},
+	"\/css\/sidenav-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/sidenav-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/sidenav.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/sidenav-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1005,6 +1025,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/product-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/sidenav-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/sidenav-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/sidenav.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/sidenav-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
