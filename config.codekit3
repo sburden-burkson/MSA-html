@@ -62,16 +62,6 @@
 		"oAP": "\/css\/bootstrap.min.css.map",
 		"oF": 0
 		},
-	"\/css\/sidenav-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/sidenav-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/sidenav.css": {
 		"aP": 1,
 		"bl": 0,
@@ -81,6 +71,19 @@
 		"oAP": "\/css\/sidenav-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/sidenav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/sidenav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/css\/style.css": {
 		"aP": 1,
@@ -720,6 +723,45 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/sidenav-bg.jpg": {
+		"ft": 16384,
+		"iS": 146212,
+		"oA": 0,
+		"oAP": "\/images\/sidenav-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/sidenav-bg.png~": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/sidenav-bg.png~",
+		"oF": 0
+		},
+	"\/images\/sidenav-close-icon.png": {
+		"ft": 32768,
+		"iS": 3914,
+		"oA": 0,
+		"oAP": "\/images\/sidenav-close-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sidenav-logo.png": {
+		"ft": 32768,
+		"iS": 13211,
+		"oA": 0,
+		"oAP": "\/images\/sidenav-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/textures\/bg-nav-gradient-home.png": {
 		"ft": 32768,
 		"iS": 3538,
@@ -835,6 +877,17 @@
 		"iS": 10807,
 		"oA": 0,
 		"oAP": "\/images\/textures\/texture-home-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-sidenav.png": {
+		"ft": 32768,
+		"iS": 96505,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-sidenav.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

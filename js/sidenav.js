@@ -10,9 +10,12 @@
 
 $(function(){
 	$('nav .navbar-right .side-nav-open, #sidenav .side-nav-close').click(function(){
-		$('#sidenav').stop().toggleClass('active').removeClass('animated');
-		if($('#sidenav').hasClass('active') && !$('#sidenav').hasClass('animated')){
-			$('#sidenav').addClass('animated').css({'left': '10%'}).animate({'left': '0'}, 300);
+		$('#sidenav').stop().toggleClass('active');
+		if($('#sidenav').hasClass('active')){
+			$('#sidenav').css({'left': '10%'}).animate({'left': '0'}, 300);
+			$('html, body').css({'overflow': 'hidden'});
+		}else{
+			$('html, body').css({'overflow': 'auto'});
 		}
 	});
 	/* CLOSE BUTTON AUTO-ADJUST TO MEET OPEN BUTTON */
