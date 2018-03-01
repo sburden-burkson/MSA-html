@@ -42,11 +42,11 @@ th {
   font-weight: 300;
 }
 p, li, td {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: $pSize;
   letter-spacing: 0.15em;
 }
-header, nav, footer, .btn, .oswald {
+header, nav, footer, .btn, .nav li {
   font-family: 'Barlow Condensed', sans-serif;
 }
 a:hover, a:focus {
@@ -143,24 +143,31 @@ input.form-control.black-bg {
   width: 100%;
   height: 100%;
 }
+.warranty-heading {
+  padding: 15px 0;
+}
 .warranty-checks {
   padding-top: 10px;
 }
 .warranty-options {
-  padding: 30px 0 15px;
-  border-bottom: 2px solid $dividerColor;
-  h5 {
+  padding: 75px 0 15px;
+  border-bottom: 1.5px solid $dividerColor;
+  // h5 {
+  //   padding-bottom: 25px;
+  //   margin-bottom: -17px;
+  //   display: inline-block;
+  // }
+  .warrantyOptionHeight {
     padding-bottom: 25px;
     margin-bottom: -17px;
     display: inline-block;
-  }
-  a {
+    font-size: $h5Size;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.2em;
     color: $black;
   }
   .active {
     border-bottom: 2px red solid;
-  }
-  .active, .active a {
     pointer-events: none;
   }
 }
@@ -450,7 +457,7 @@ input.form-control.black-bg {
     background-color: transparent;
   }
   .panel-body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: $pSize;
     line-height: 2em;
     letter-spacing: 0.15em;
@@ -1035,7 +1042,7 @@ nav {
   line-height: 30px;
 }
 .article-tags span {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: $pSize;
   letter-spacing: 0.15em;
   padding: 1px 8px;
@@ -1115,6 +1122,9 @@ nav {
   }
 }
 @media only screen and (min-width: 992px) {
+  .warranty-heading {
+    padding: 50px 0;
+  }
   // .section-header {
   //   font-size: 68px;
   // }
@@ -1154,6 +1164,9 @@ nav {
     .col-md-6.no-pad-right {
       padding-right: 15px;
     }
+  }
+  .warranty-options {
+    padding: 45px 0 15px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1333,7 +1346,6 @@ nav {
       }
     }
   }
-
 }
 @media only screen and (max-width: 480px) {
   h1 {
@@ -1381,5 +1393,8 @@ nav {
     .collection-item {
       width: 100%
     }
+  }
+  .warranty-options .warrantyOptionHeight {
+    font-size: 16.5px;
   }
 }

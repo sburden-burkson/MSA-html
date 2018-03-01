@@ -28,12 +28,12 @@ th {
 }
 
 p, li, td {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   letter-spacing: 0.15em;
 }
 
-header, nav, footer, .btn, .oswald {
+header, nav, footer, .btn, .nav li {
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -148,30 +148,31 @@ input.form-control.black-bg {
   height: 100%;
 }
 
+.warranty-heading {
+  padding: 15px 0;
+}
+
 .warranty-checks {
   padding-top: 10px;
 }
 
 .warranty-options {
-  padding: 30px 0 15px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 75px 0 15px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
 }
 
-.warranty-options h5 {
+.warranty-options .warrantyOptionHeight {
   padding-bottom: 25px;
   margin-bottom: -17px;
   display: inline-block;
-}
-
-.warranty-options a {
+  font-size: 18px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.2em;
   color: rgba(0, 0, 0, 0.97);
 }
 
 .warranty-options .active {
   border-bottom: 2px red solid;
-}
-
-.warranty-options .active, .warranty-options .active a {
   pointer-events: none;
 }
 
@@ -479,7 +480,7 @@ input.form-control.black-bg {
 }
 
 #faqAccordion .panel-body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 2em;
   letter-spacing: 0.15em;
@@ -1147,7 +1148,7 @@ nav {
 }
 
 .article-tags span {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   letter-spacing: 0.15em;
   padding: 1px 8px;
@@ -1233,6 +1234,12 @@ nav {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .warranty-heading {
+    padding: 50px 0;
+  }
+}
+
 @media only screen and (min-width: 1824px) {
   #top-section {
     min-height: 850px;
@@ -1266,6 +1273,9 @@ nav {
   }
   .image-info-section .col-md-6.no-pad-right {
     padding-right: 15px;
+  }
+  .warranty-options {
+    padding: 45px 0 15px;
   }
 }
 
@@ -1464,5 +1474,8 @@ nav {
   }
   .collection-item-container .collection-item {
     width: 100%;
+  }
+  .warranty-options .warrantyOptionHeight {
+    font-size: 16.5px;
   }
 }
