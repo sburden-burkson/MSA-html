@@ -67,6 +67,28 @@ footer.black-footer {
   background: black;
   color: $white;
 }
+.modal-content {
+  border-radius: 0;
+}
+.modal-body {
+  padding: 50px;
+}
+.modal-header, .modal-footer {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 0;
+  border-top: 0;
+}
+.modal-footer {
+  padding-bottom: 50px;
+}
+.modal-close {
+  margin-right: -35px;
+}
+.modal-footer .btn+.btn {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
 input.form-control.black-bg {
     border: 1px solid $dividerColorb;
 }
@@ -989,11 +1011,12 @@ nav {
 }
 
 .wp-btn-extra-long {
-  padding: 7px 30px;
-  padding: 7px 30px 7px 20px;
+  // padding: 7px 30px;
+  // padding: 7px 30px 7px 20px;
+  padding: 10px 35px 10px 30px;
   .fa {
-    padding-left: 15px;
-    margin-right: -15px;
+    padding-left: 20px;
+    margin-right: -20px;
   }
 }
 
@@ -1004,6 +1027,16 @@ nav {
   color: #000;
   font-family: $mainFont;
   font-size: 10px;
+  letter-spacing: 0.15em;
+  margin: 10px auto;
+}
+.wp-btn-white {
+  background: transparent;
+  border-radius: 0;
+  color: $black;
+  border: 1px solid $black;
+  font-family: $mainFont;
+  font-size: $pSize;
   letter-spacing: 0.15em;
   margin: 10px auto;
 }
@@ -1018,6 +1051,9 @@ nav {
   font-size: $pSize;
   letter-spacing: 0.15em;
   margin: 10px auto;
+}
+.wp-btn-no-icon {
+  padding: 10px 35px;
 }
 .wp-btn-red:active {
   background-image: url('../images/red-bg.png');
@@ -1103,13 +1139,19 @@ nav {
   .article-tag-wrap {
     padding-top: 50px;
   }
+  .wp-btn-no-icon {
+    padding: 10px 50px;
+  }
   .wp-btn-extra-long {
-    padding: 10px 45px 10px 25px;
+    // padding: 10px 45px 10px 25px;
+    padding: 10px 50px 10px 45px;
     font-size: $pSize;
     font-weight: 300;
     .fa {
-      padding-left: 20px;
-      margin-right: -20px;
+      // padding-left: 20px;
+      // margin-right: -20px;
+      padding-left: 30px;
+      margin-right: -30px;
     }
   }
   .blog-item-container, .collection-item-container {
@@ -1372,6 +1414,22 @@ nav {
         font-size: 14px;
       }
     }
+  }
+  .modal-content {
+    border-radius: 0;
+  }
+  .modal-body {
+    padding: 30px;
+  }
+  .modal-header, .modal-footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .modal-footer {
+    padding-bottom: 10px;
+  }
+  .modal-close {
+    margin-right: -15px;
   }
 }
 @media only screen and (max-width: 480px) {
