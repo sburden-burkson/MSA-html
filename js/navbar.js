@@ -2,6 +2,7 @@
 var headerHeight = $('header').outerHeight();
 $('.navbar-default').data('offset-top', headerHeight);
 var topSection;
+var whiteTop = $('.white-top')[0];
 
 if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
   topSection = false;
@@ -9,6 +10,9 @@ if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
 } else {
   $('#navColor').addClass("changeWhite");
   topSection = true;
+  if (whiteTop) {
+    $('#navColor').css('background-image', 'url("images/textures/top-gradient.png")');
+  }
 }
 // Navbar Height and Transparency
 var navHeight = $('nav').outerHeight();
@@ -52,9 +56,13 @@ $(window).on('scroll', function() {
     if (opacity > 0.4) {
       $('#navColor').removeClass("changeWhite");
       $('#navColor').addClass("changeBlack");
+      $('#navColor').css('background-image', '');
     } else {
       $('#navColor').removeClass("changeBlack");
       $('#navColor').addClass("changeWhite");
+      if (whiteTop) {
+        $('#navColor').css('background-image', 'url("images/textures/top-gradient.png")');
+      }
       // $('#navColor').addClass("changeBlack");
     }
   }
