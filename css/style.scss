@@ -15,13 +15,14 @@ $h3Size: 32px;
 $h4Size: 21px;
 $h5Size: 18px;
 $pSize: 14px;
+$mainFont: 'Barlow Condensed', sans-serif;
 
 $navSpacing: 0.15em;
 
 
 h1, h2, h3, h4, h5, th {
   letter-spacing: 0.2em;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: $mainFont;
 }
 h1 {
   font-size: $h1Size;
@@ -47,7 +48,7 @@ p, li, td {
   letter-spacing: 0.15em;
 }
 header, nav, footer, .btn, .nav li {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: $mainFont;
 }
 a:hover, a:focus {
   text-decoration: none;
@@ -58,6 +59,9 @@ footer.black-footer {
   a {
     color: $white;
   }
+}
+.main-font {
+  font-family: $mainFont;
 }
 .black-bg {
   background: black;
@@ -162,7 +166,7 @@ input.form-control.black-bg {
     margin-bottom: -17px;
     display: inline-block;
     font-size: $h5Size;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $mainFont;
     letter-spacing: 0.2em;
     color: $black;
   }
@@ -260,7 +264,7 @@ input.form-control.black-bg {
 .featured-blog-info-wrap {
   padding: 60px 60px 30px;
   .featured-blog-header {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $mainFont;
     font-size: 28px;
     font-weight: 300;
     letter-spacing: 0.15em;
@@ -275,7 +279,7 @@ input.form-control.black-bg {
   }
   .featured-blog-date {
     text-align: right;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $mainFont;
     // font-size: 12px;
     letter-spacing: 0.15em;
     color: $bodyBlack;
@@ -360,6 +364,7 @@ input.form-control.black-bg {
     position: absolute;
     top: 20px;
     right: 20px;
+    z-index: 1;
     p {
       text-align: right;
       letter-spacing: .15em;
@@ -368,6 +373,7 @@ input.form-control.black-bg {
       .new-box {
         padding: 1px 8px;
         border: 1px solid grey;
+        font-family: $mainFont;
       }
     }
   }
@@ -393,7 +399,7 @@ input.form-control.black-bg {
     p {
       color: $black;
       text-align: left;
-      font-family: 'Barlow Condensed', sans-serif;
+      font-family: $mainFont;
       // font-size: 12px;
       letter-spacing: 0.15em;
       color: $bodyBlack;
@@ -406,7 +412,7 @@ input.form-control.black-bg {
     }
   }
   .blog-item-header {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $mainFont;
     font-size: 28px;
     font-weight: 300;
     letter-spacing: 0.15em;
@@ -440,7 +446,7 @@ input.form-control.black-bg {
     padding: 0px 0px 20px;
   }
   .footer-header {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $mainFont;
     text-align: center;
     font-weight: 300;
     letter-spacing: 0.2em;
@@ -884,7 +890,7 @@ nav {
   color: red;
 }
 .standard-link {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: $mainFont;
   font-weight: 400;
   color: black;
   .fa {
@@ -994,7 +1000,7 @@ nav {
   border-color: #888;
   border-radius: 0;
   color: #000;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: $mainFont;
   font-size: 10px;
   letter-spacing: 0.15em;
   margin: 10px auto;
@@ -1006,7 +1012,7 @@ nav {
   // background-image: url('../images/button-bg-2.png');
   border-radius: 0;
   color: $white;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: $mainFont;
   font-size: $pSize;
   letter-spacing: 0.15em;
   margin: 10px auto;

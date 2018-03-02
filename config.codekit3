@@ -546,6 +546,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/install-bg.jpg": {
+		"ft": 16384,
+		"iS": 355644,
+		"oA": 0,
+		"oAP": "\/images\/install-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/install-image-left.jpg": {
 		"ft": 16384,
 		"iS": 46673,

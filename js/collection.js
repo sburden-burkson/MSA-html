@@ -1,4 +1,11 @@
-$ = jQuery;
+var collectionHeightOptions = {
+  byRow: false
+}
+if ($(window).width() < 480) {
+  collectionHeightOptions = {
+    byRow: true
+  }
+}
 // Featured Blog Post Sizing
 function resizeFeatured() {
   var padding = parseInt($('#featuredBlog').css('padding-top')) + parseInt($('#featuredBlog').css('padding-bottom'));
@@ -22,7 +29,13 @@ function resizeFeatured() {
 }
 resizeFeatured();
 $(window).on('resize', function() {
+  if ($(window).width() < 480) {
+    collectionHeightOptions = {
+      byRow: true
+    }
+  }
   resizeFeatured();
+  $(".collectionHeight").matchHeight(collectionHeightOptions);
 });
 
 // Blog Item Masonry
@@ -37,3 +50,5 @@ var $blogGrid = $('.collection-item-container').masonry({
 $blogGrid.imagesLoaded().progress(function() {
   $blogGrid.masonry('layout');
 });
+
+$(".collectionHeight").matchHeight(collectionHeightOptions);
