@@ -253,7 +253,7 @@ input.form-control.black-bg {
   visibility: visible !important;
 }
 
-.slick-dots {
+#product-image-carousel .slick-dots {
   bottom: -10px;
 }
 
