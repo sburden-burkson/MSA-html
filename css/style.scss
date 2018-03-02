@@ -351,6 +351,8 @@ input.form-control.black-bg {
     padding: 30px 55px 20px;
     margin-left: auto;
     margin-right: auto;
+    display: table-cell;
+    vertical-align: middle;
     img {
       display: block;
       // height: 100%;
@@ -1131,6 +1133,9 @@ nav {
   #product-image-carousel .slick-dots {
     display: none !important;
   }
+  .collection-col[style] {
+    height: auto !important;
+  }
 }
 @media only screen and (min-width: 992px) {
   .warranty-heading {
@@ -1317,13 +1322,24 @@ nav {
     padding-top: 50px;
   }
   .collection-item {
-    .collection-img-wrap img {
-      height: 100%;
-      width: auto;
-    }
-    .col-xs-6 {
-      padding: 0 0 0 0;
-    }
+    // .collection-left {
+    //   padding: 0 0 0 15px;
+    // }
+    // .collection-right {
+    //   padding: 0 15px 0 0;
+    // }
+    // .collection-img-wrap {
+    //   position: relative;
+    //   img {
+    //     position: absolute;
+    //     top: 0;
+    //     bottom: 0;
+    //     margin: auto;
+    //   }
+    // }
+    // .col-xs-6 {
+    //   padding: 0 0 0 0;
+    // }
     .new-collection {
       top: 15px;
       right: 15px;
@@ -1331,8 +1347,8 @@ nav {
         font-size: 12px;
       }
     }
-    .collection-item  {
-
+    .collection-col {
+      display: table;
     }
     .collection-img-wrap {
       height: 150px;
@@ -1400,7 +1416,7 @@ nav {
     right: 15px;
   }
   .collection-item-container {
-    width: 90% !important;
+     width: 320px !important;
     .collection-item {
       width: 100%
     }
