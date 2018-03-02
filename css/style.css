@@ -228,6 +228,22 @@ input.form-control.black-bg {
   outline: none !important;
 }
 
+.slick-next:before {
+  content: url("../images/chevron-right.png");
+}
+
+.slick-prev:before {
+  content: url("../images/chevron-left.png");
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
 #product-image-carousel,
 #product-thumbs {
   visibility: hidden;
@@ -829,6 +845,10 @@ nav {
   min-height: 600px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.carousel-info-pad {
+  padding: 50px 50px;
 }
 
 .image-info-section {
