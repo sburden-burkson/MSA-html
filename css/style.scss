@@ -1213,6 +1213,9 @@ nav {
   }
 }
 @media only screen and (max-width: 992px) {
+  .carousel-info-pad {
+    padding: 30px 30px;
+  }
   .featured-blog-info-wrap {
     padding: 30px 20px 15px;
   }
@@ -1265,9 +1268,9 @@ nav {
     font-size: $h5Size * 0.9;
   }
 
-  // p {
-  //   font-size: $pSize * 0.95;
-  // }
+  p {
+    font-size: $pSize * 0.95;
+  }
   .transparent-lg {
     font-size: ($h1Size * 1.5) * 0.8;
   }
@@ -1282,6 +1285,9 @@ nav {
   .v-center-section-xl {
      padding-top: 125px;
      padding-bottom: 125px;
+  }
+  .carousel-info-pad {
+    padding: 10px 20px;
   }
   .instagram-section {
     max-width: 480px;
@@ -1465,9 +1471,9 @@ nav {
   h5, th {
     font-size: $h5Size * 0.9;
   }
-  // p {
-  //   font-size: $pSize * 0.9;
-  // }
+  p {
+    font-size: $pSize * 0.9;
+  }
   .transparent-lg {
     font-size: ($h1Size * 1.5) * 0.65;
   }

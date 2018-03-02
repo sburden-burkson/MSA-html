@@ -1329,6 +1329,9 @@ nav {
 }
 
 @media only screen and (max-width: 992px) {
+  .carousel-info-pad {
+    padding: 30px 30px;
+  }
   .featured-blog-info-wrap {
     padding: 30px 20px 15px;
   }
@@ -1381,6 +1384,9 @@ nav {
   h5, th {
     font-size: 16.2px;
   }
+  p {
+    font-size: 13.3px;
+  }
   .transparent-lg {
     font-size: 84px;
   }
@@ -1395,6 +1401,9 @@ nav {
   .v-center-section-xl {
     padding-top: 125px;
     padding-bottom: 125px;
+  }
+  .carousel-info-pad {
+    padding: 10px 20px;
   }
   .instagram-section {
     max-width: 480px;
@@ -1540,6 +1549,9 @@ nav {
   }
   h5, th {
     font-size: 16.2px;
+  }
+  p {
+    font-size: 12.6px;
   }
   .transparent-lg {
     font-size: 68.25px;
