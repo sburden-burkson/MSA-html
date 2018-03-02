@@ -1128,8 +1128,8 @@ nav {
   .warranty-info {
     padding-right: 50px;
   }
-  .slick-dots {
-    display: none;
+  #product-image-carousel .slick-dots {
+    display: none !important;
   }
 }
 @media only screen and (min-width: 992px) {
