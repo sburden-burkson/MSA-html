@@ -228,19 +228,19 @@ input.form-control.black-bg {
   outline: none !important;
 }
 
-.slick-next:before {
+#staggeredCarousel .slick-next:before {
   content: url("../images/chevron-right.png");
 }
 
-.slick-prev:before {
+#staggeredCarousel .slick-prev:before {
   content: url("../images/chevron-left.png");
 }
 
-.slick-next {
+#staggeredCarousel .slick-next {
   right: -50px;
 }
 
-.slick-prev {
+#staggeredCarousel .slick-prev {
   left: -50px;
 }
 
