@@ -482,9 +482,19 @@ input.form-control.black-bg {
   .panel-body {
     padding: 0;
     border: 0;
+    p {
+      font-size: 12px;
+      margin: 20px 0px;
+    }
+    a {
+      color: rgba(255, 255, 255, 0.54);
+    }
   }
   .panel-heading {
-    padding: 0px 0px 20px;
+    padding: 0px 0px 10px;
+    .panel-title {
+      font-family: $mainFont;
+    }
   }
   .footer-header {
     font-family: $mainFont;
@@ -622,12 +632,30 @@ input.form-control {
   padding-bottom: 100px;
 }
 footer {
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 20px;
   letter-spacing: 0.15em;
+  .footer-sub {
+    letter-spacing: 0.2em;
+    h4 {
+      font-size: 16px;
+      margin-top: 5px;
+      font-weight: 300;
+    }
+    input {
+      letter-spacing: .2em;
+    }
+    .input-group .form-control {
+      width: calc(100% + 10px);
+    }
+    .input-group-btn:last-child>.btn {
+      margin-left: -40px;
+      z-index: 10;
+    }
+  }
   .copyright {
     padding-top: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
     // border-bottom: 2px solid $dividerColorb;
   }
   .links {
@@ -638,10 +666,10 @@ footer {
   }
   a {
     color: $black;
-    font-weight: 200;
+    font-weight: 300;
   }
   .links-heading {
-    font-weight: 400;
+    font-weight: 300;
     padding-bottom: 15px;
   }
   .footerLogo {
@@ -832,6 +860,9 @@ nav {
 .row-section a {
   color: $white;
   text-decoration: none;
+}
+.trans-bg {
+  background: transparent;
 }
 .fixed-bg {
   background-attachment: fixed;
@@ -1143,6 +1174,10 @@ nav {
   }
 }
 @media only screen and (min-width: 767px) {
+  footer {
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
   .footer-link-wrap {
     border-top: 1px solid $dividerColorb;
     padding-top: 60px;
