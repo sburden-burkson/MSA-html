@@ -140,7 +140,7 @@
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited,
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::placeholder {
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Barlow Condensed', sans-serif;
         font-size: 26px;
         letter-spacing: 2px; }
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
@@ -181,7 +181,7 @@
         padding-top: 10px;
         padding-right: 45px;
         text-align: right;
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Barlow Condensed', sans-serif;
         font-size: 18px;
         color: rgba(0, 0, 0, 0.5); }
         @media screen and (max-width: 767px) {
