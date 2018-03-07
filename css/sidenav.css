@@ -20,16 +20,25 @@
     height: 100%;
     position: fixed;
     z-index: 1001;
-    background: rgba(255, 255, 255, 0.97);
     top: 0;
     left: 0;
     opacity: 1; }
   #sidenav .toggle-wrapper {
     top: 20px; }
+    @media screen and (max-width: 767px) {
+      #sidenav .toggle-wrapper {
+        top: 0;
+        right: 0;
+        padding-right: 20px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.97); } }
     #sidenav .toggle-wrapper .side-nav-close {
       min-width: 22px;
       height: 120px;
       padding: 0; }
+      @media screen and (max-width: 767px) {
+        #sidenav .toggle-wrapper .side-nav-close {
+          height: 100px; } }
       #sidenav .toggle-wrapper .side-nav-close .close-icon {
         width: 50px;
         height: 50px;
@@ -37,28 +46,41 @@
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center; }
-  #sidenav .sidenav-left {
-    position: relative;
-    height: 100%;
-    background-image: url("../images/sidenav-bg.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    #sidenav .sidenav-left .sidenav-logo-wrapper {
-      padding: 100px 7%; }
-    #sidenav .sidenav-left .sidenav-social-media {
+        @media screen and (max-width: 767px) {
+          #sidenav .toggle-wrapper .side-nav-close .close-icon {
+            width: 43px;
+            height: 43px; } }
+  @media screen and (min-width: 768px) {
+    #sidenav .sidenav-left {
+      position: relative;
+      height: 100%;
+      background-image: url("../images/sidenav-bg.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      #sidenav .sidenav-left .sidenav-logo-wrapper {
+        padding: 100px 7%; }
+      #sidenav .sidenav-left .sidenav-social-media {
+        position: absolute;
+        bottom: 45px;
+        left: 7%; }
+        #sidenav .sidenav-left .sidenav-social-media a {
+          display: inline-block;
+          padding-right: 20px; }
+          #sidenav .sidenav-left .sidenav-social-media a .fa {
+            color: rgba(255, 255, 255, 0.97); } }
+  @media screen and (max-width: 767px) {
+    #sidenav .sidenav-left {
       position: absolute;
-      bottom: 45px;
-      left: 7%; }
-      #sidenav .sidenav-left .sidenav-social-media a {
-        display: inline-block;
-        padding-right: 20px; }
-        #sidenav .sidenav-left .sidenav-social-media a .fa {
-          color: rgba(255, 255, 255, 0.97); }
+      z-index: 1003;
+      top: 30px;
+      left: 10%; }
+      #sidenav .sidenav-left .sidenav-social-media {
+        display: none; } }
   #sidenav .sidenav-right {
     position: relative;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.97); }
+    background-color: #FFF; }
     #sidenav .sidenav-right .sidenav-right-texture {
       position: absolute;
       z-index: 1002;
@@ -70,6 +92,12 @@
       background-position: right center;
       background-size: contain;
       background-repeat: no-repeat; }
+      @media screen and (max-width: 767px) {
+        #sidenav .sidenav-right .sidenav-right-texture {
+          left: 0;
+          background-image: url("../images/sidenav-bg-mobile.jpg");
+          background-position: -40px center;
+          background-size: cover; } }
     #sidenav .sidenav-right .sidenav-right-inner {
       height: 100%;
       overflow-y: auto;
@@ -77,6 +105,22 @@
       padding-top: 160px;
       padding-bottom: 160px;
       padding-right: 15%; }
+      #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media {
+        display: none; }
+      @media screen and (max-width: 767px) {
+        #sidenav .sidenav-right .sidenav-right-inner {
+          padding-top: 90px;
+          padding-bottom: 10px; }
+        #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media {
+          display: block;
+          text-align: right;
+          padding-top: 10px;
+          padding-right: 45px; }
+          #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a {
+            display: inline-block;
+            padding: 20px 0 20px 20px; }
+            #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fa {
+              color: rgba(0, 0, 0, 0.97); } }
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item,
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form,
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
@@ -110,10 +154,18 @@
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited {
-        padding: 10px 45px; }
+        padding: 0px 45px;
+        line-height: 80px; }
+        @media screen and (max-width: 767px) {
+          #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+          #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+          #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+          #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited {
+            line-height: 60px; } }
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form {
-        padding-bottom: 25px;
-        padding-right: 45px; }
+        padding-bottom: 5px;
+        padding-right: 45px;
+        margin-right: 0; }
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a.active span {
         /* text-decoration: line-through; */
         position: relative; }
@@ -126,9 +178,12 @@
         top: 50%; }
       #sidenav .sidenav-right .sidenav-right-inner .sidenav-copyright {
         width: 100%;
-        padding-top: 30px;
+        padding-top: 10px;
         padding-right: 45px;
         text-align: right;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 18px;
         color: rgba(0, 0, 0, 0.5); }
+        @media screen and (max-width: 767px) {
+          #sidenav .sidenav-right .sidenav-right-inner .sidenav-copyright {
+            padding-top: 20px; } }

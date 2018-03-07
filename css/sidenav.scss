@@ -1,7 +1,10 @@
 $sidenavPadRight: 45px;
 $sidenavPadLeft: 7%;
-$sidenavPadTopBot: 20px;
+$sidenavPadTopBot: 0px;
 $sidenavFontSize: 26px;
+$sidenavFontSizeMobile: 20px;
+$sidenavLineHeight: 80px;
+$sidenavLineHeightMobile: 60px;
 $gray: rgba(0, 0, 0, 0.5);
 $grey: $gray;
 
@@ -34,7 +37,6 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 		height: 100%;
 		position: fixed;
 		z-index: 1001;
-		background: $white;
 		top: 0;
 		left: 0;
 		opacity: 1;
@@ -43,10 +45,26 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 	.toggle-wrapper {
 		top: 20px;
 
+		@media screen and (max-width: 767px){
+			& {
+				top: 0;
+				right: 0;
+				padding-right: 20px;
+				width: 100%;
+				background: $white;
+			}
+		}
+
 		.side-nav-close {
 			min-width: 22px;
 			height: 120px;
 			padding: 0;
+
+			@media screen and (max-width: 767px){
+				& {
+					height: 100px;
+				}
+			}
 
 			.close-icon {
 				width: 50px;
@@ -55,40 +73,61 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 				background-size: 100%;
 				background-repeat: no-repeat;
 				background-position: center center;
+
+				@media screen and (max-width: 767px){
+					& {
+						width: 43px;
+						height: 43px;
+					}
+				}
 			}
 		}
 	}
 
-	.sidenav-left {
-		position: relative;
-		height: 100%;
-		background-image: url('../images/sidenav-bg.jpg');
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	@media screen and (min-width: 768px){
+		.sidenav-left {
+			position: relative;
+			height: 100%;
+			background-image: url('../images/sidenav-bg.jpg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
 
-		.sidenav-logo-wrapper {
-			padding: 100px $sidenavPadLeft;
-		}
-		.sidenav-social-media {
-			position: absolute;
-			bottom: 45px;
-			left: $sidenavPadLeft;
-			
-			a {
-				display: inline-block;
-				padding-right: 20px;
+			.sidenav-logo-wrapper {
+				padding: 100px $sidenavPadLeft;
+			}
+			.sidenav-social-media {
+				position: absolute;
+				bottom: 45px;
+				left: $sidenavPadLeft;
+				
+				a {
+					display: inline-block;
+					padding-right: 20px;
 
-				.fa {
-					color: $white;
+					.fa {
+						color: $white;
+					}
 				}
+			}
+		}
+	}
+	@media screen and (max-width: 767px){
+		.sidenav-left {
+			position: absolute;
+			z-index: 1003;
+			top: 30px;
+			left: 10%;
+
+			.sidenav-social-media {
+				display: none;
 			}
 		}
 	}
 	.sidenav-right {
 		position: relative;
 		height: 100%;
-		background-color: $white;
+		background-color: #FFF;
 
 		.sidenav-right-texture {
 			position: absolute;
@@ -101,6 +140,15 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 			background-position: right center;
 			background-size: contain;
 			background-repeat: no-repeat;
+
+			@media screen and (max-width: 767px){
+				& {
+					left: 0;
+					background-image: url('../images/sidenav-bg-mobile.jpg');
+					background-position: -40px center;
+					background-size: cover;
+				}
+			}
 		}
 
 		.sidenav-right-inner {
@@ -109,6 +157,36 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 			padding-top: 160px;
 			padding-bottom: 160px;
 			padding-right: 15%;
+
+			.sidenav-social-media {
+				display: none;
+			}
+
+			@media screen and (max-width: 767px){
+				& {
+					// background-image: url('../images/sidenav-bg-mobile.jpg');
+					// background-position: -40px center;
+					// background-size: contain;
+					// background-repeat: no-repeat;
+					padding-top: 90px;
+					padding-bottom: 10px;
+				}
+
+				.sidenav-social-media {
+					display: block;
+					text-align: right;
+					padding-top: ($sidenavPadTopBot+10);
+					padding-right: $sidenavPadRight;
+
+					a {
+						display: inline-block;
+						padding: 20px 0 20px 20px;
+						.fa {
+							color: $black;
+						}
+					}
+				}
+			}
 
 			.nav .nav-item,
 			.navbar-form,
@@ -150,10 +228,18 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 			.nav .nav-item a:active,
 			.nav .nav-item a:visited {
 				padding: ($sidenavPadTopBot/2) $sidenavPadRight;
+				line-height: $sidenavLineHeight;
+
+				@media screen and (max-width: 767px){
+					& {
+						line-height: $sidenavLineHeightMobile;
+					}
+				}
 			}
 			.navbar-form {
 				padding-bottom: ($sidenavPadTopBot+5);
 				padding-right: $sidenavPadRight;
+				margin-right: 0;
 			}
 
 			.nav .nav-item a.active span {
@@ -177,6 +263,12 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-size: 18px;
 				color: $gray;
+
+				@media screen and (max-width: 767px){
+					& {
+						padding-top: 20px;
+					}
+				}
 			}
 		}
 	}
