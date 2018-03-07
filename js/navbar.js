@@ -1,10 +1,18 @@
+// Next arrow scroll
+$(".down-arrows a").click(function() {
+  var section = $(this).closest('.section');
+  $('html,body').animate({
+    scrollTop: section.offset().top + section.outerHeight(true) - 60
+  }, 'slow');
+});
+
 //Affix Navbar
 var headerHeight = $('header').outerHeight();
 $('#navColor').data('offset-top', headerHeight);
 
 var topSection;
-var whiteTop = $('.white-top')[0];
-var blackGradientImage = "images/textures/top-gradient.png";
+// var whiteTop = $('.white-top')[0];
+// var blackGradientImage = "images/textures/top-gradient.png";
 
 if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
   topSection = false;
@@ -12,9 +20,9 @@ if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
 } else {
   $('#navColor').addClass("changeWhite");
   topSection = true;
-  if (whiteTop) {
-    $('#top-section').append('<div class="texture-top" style="background-image: url('+blackGradientImage+');"></div>');
-  }
+  // if (whiteTop) {
+  //   $('#top-section').append('<div class="texture-top" style="background-image: url('+blackGradientImage+');"></div>');
+  // }
 }
 // Navbar Height and Transparency
 var navHeight = $('nav').outerHeight();

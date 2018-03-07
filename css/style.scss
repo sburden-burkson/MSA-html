@@ -7,8 +7,10 @@ $lightblack: rgba(0, 0, 0, 0.84);
 $white: rgba(255, 255, 255, 0.97);
 $black: rgba(0, 0, 0, 0.97);
 $bodyBlack: rgba(0, 0, 0, 0.54);
+$transWhite: rgba(255, 255, 255, 0.54);
 $dividerColor: rgba(0, 0, 0, 0.2);
 $dividerColorb: rgba(255, 255, 255, 0.2);
+$grey: #888;
 $h1Size: 70px;
 $h2Size: 55px;
 $h3Size: 32px;
@@ -23,6 +25,7 @@ $navSpacing: 0.15em;
 h1, h2, h3, h4, h5, th {
   letter-spacing: 0.2em;
   font-family: $mainFont;
+  color: $black;
 }
 h1 {
   font-size: $h1Size;
@@ -41,6 +44,9 @@ h5, th {
 }
 th {
   font-weight: 300;
+}
+p {
+  color: $grey;
 }
 p, li, td {
   font-family: 'Open Sans', sans-serif;
@@ -139,18 +145,20 @@ input.form-control.black-bg {
     background-repeat: no-repeat;
   }
 }
-
+.down-arrows {
+  padding-top: 20px;
+  img {
+    width: 20px;
+  }
+}
 #top-section {
   min-height: 750px;
   padding: 150px 100px 35px;
   background-position: 50% 75%;
-  .down-arrows {
-    font-size: 44px;
-  }
 }
 #top-section-sm {
   min-height: 550px;
-  padding: 200px 100px 35px;
+  padding: 175px 100px 35px;
 }
 #top-section-xs {
   min-height: 400px;
@@ -177,6 +185,9 @@ input.form-control.black-bg {
 }
 .warranty-checks {
   padding-top: 10px;
+  svg {
+    margin-right: 5px;
+  }
 }
 .warranty-options {
   padding: 75px 0 15px;
@@ -487,7 +498,7 @@ input.form-control.black-bg {
       margin: 20px 0px;
     }
     a {
-      color: rgba(255, 255, 255, 0.54);
+      color: $transWhite;
     }
   }
   .panel-heading {
@@ -562,7 +573,7 @@ input.form-control.black-bg {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 a.trans-white-md:hover, a.trans-white-md:focus {
-  color: rgba(255, 255, 255, 0.54);
+  color: $transWhite;
 }
 header {
   height: $headerHeight;
