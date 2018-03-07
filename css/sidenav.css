@@ -154,18 +154,22 @@
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited {
-        padding: 0px 45px;
+        padding: 6px 45px;
         line-height: 80px; }
         @media screen and (max-width: 767px) {
           #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
           #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
           #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
           #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited {
+            padding: 0px 45px;
             line-height: 60px; } }
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form {
-        padding-bottom: 5px;
+        padding-bottom: 17px;
         padding-right: 45px;
         margin-right: 0; }
+        @media screen and (max-width: 767px) {
+          #sidenav .sidenav-right .sidenav-right-inner .navbar-form {
+            padding-bottom: 5px; } }
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a.active span {
         /* text-decoration: line-through; */
         position: relative; }
@@ -178,7 +182,7 @@
         top: 50%; }
       #sidenav .sidenav-right .sidenav-right-inner .sidenav-copyright {
         width: 100%;
-        padding-top: 10px;
+        padding-top: 22px;
         padding-right: 45px;
         text-align: right;
         font-family: 'Barlow Condensed', sans-serif;

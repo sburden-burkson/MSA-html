@@ -1,6 +1,7 @@
 $sidenavPadRight: 45px;
 $sidenavPadLeft: 7%;
-$sidenavPadTopBot: 0px;
+$sidenavPadTopBot: 12px;
+$sidenavPadTopBotMobile: 0px;
 $sidenavFontSize: 26px;
 $sidenavFontSizeMobile: 20px;
 $sidenavLineHeight: 80px;
@@ -175,7 +176,7 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 				.sidenav-social-media {
 					display: block;
 					text-align: right;
-					padding-top: ($sidenavPadTopBot+10);
+					padding-top: ($sidenavPadTopBotMobile+10);
 					padding-right: $sidenavPadRight;
 
 					a {
@@ -232,6 +233,7 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 
 				@media screen and (max-width: 767px){
 					& {
+						padding: ($sidenavPadTopBotMobile/2) $sidenavPadRight;
 						line-height: $sidenavLineHeightMobile;
 					}
 				}
@@ -240,6 +242,12 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 				padding-bottom: ($sidenavPadTopBot+5);
 				padding-right: $sidenavPadRight;
 				margin-right: 0;
+
+				@media screen and (max-width: 767px){
+					& {
+						padding-bottom: ($sidenavPadTopBotMobile+5);
+					}
+				}
 			}
 
 			.nav .nav-item a.active span {
