@@ -535,13 +535,13 @@ input.form-control.black-bg {
     h4 {
       margin-top: 0;
       margin-bottom: 0;
-      color: inherit;
+      color: $black;
       padding-right: 50px;
       line-height: 1.5em;
       a {
-        color: inherit;
+        color: $black;
       }
-      i {
+      svg {
         float: right;
         color: red;
         margin-right: -30px;

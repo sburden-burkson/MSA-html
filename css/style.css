@@ -684,18 +684,18 @@ input.form-control.black-bg {
 #faqAccordion .panel-heading h4 {
   margin-top: 0;
   margin-bottom: 0;
-  color: inherit;
+  color: rgba(0, 0, 0, 0.97);
   padding-right: 50px;
   line-height: 1.5em;
 }
 
 /* line 541, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-heading h4 a {
-  color: inherit;
+  color: rgba(0, 0, 0, 0.97);
 }
 
 /* line 544, Users/stephenburden/Desktop/MSA-html/css/style.scss */
-#faqAccordion .panel-heading h4 i {
+#faqAccordion .panel-heading h4 svg {
   float: right;
   color: red;
   margin-right: -30px;
