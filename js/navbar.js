@@ -16,7 +16,7 @@ if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
   }
 }
 // Navbar Height and Transparency
-var navHeight = $('nav').outerHeight();
+var navHeight = $('.navbar-default nav').outerHeight();
 $(window).on('scroll', function() {
   var scrollTop = $(document).scrollTop();
   var navTop = scrollTop - $('header').outerHeight();
@@ -39,7 +39,7 @@ $(window).on('scroll', function() {
     );
   }
   if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-    $('nav, .navbar-toggle').css(
+    $('.navbar-default nav, .navbar-toggle').css(
       'height', newNavHeight
     );
     $('.navbar-brand').css(

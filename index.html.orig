@@ -10,7 +10,11 @@
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   <link href="css/style.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
+<<<<<<< HEAD
   <link href="css/sidenav-min.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
+=======
+  <link href="css/sidenav.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
+>>>>>>> sidenav
   <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540518905"></script> -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540518905"></script>
@@ -588,15 +592,82 @@
 <<<<<<< HEAD
   <!-- /Footer -->
 
-=======
   <div id="sidenav">
     <div class="toggle-wrapper">
         <button type="button" class="navbar-toggle side-nav-close">
             <span class="sr-only">Toggle navigation</span>
+=======
+  <div id="sidenav">
+		<!-- <div class="sidenav-left hidden-xs hidden-sm col-md-6 col-lg-8"> -->
+		<div class="sidenav-left col-sm-12 col-md-6 col-lg-8">
+			<div class="sidenav-logo-wrapper">
+				<a href="#" class="sidenav-logo">
+					<img alt="MSA Logo" src="images/sidenav-logo.jpg" />
+				</a>
+			</div>
+			<div class="sidenav-social-media">
+				<a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official fa-2x"></i></a>
+				<a href="javascript:void(0)" class="icon"><i class="fa fa-instagram fa-2x"></i></a>
+			</div>
+		</div>
+		<div class="sidenav-right col-sm-12 col-md-6 col-lg-4">
+			<div class="sidenav-right-inner">
+				<form class="navbar-form" role="search">
+					<div class="input-wrapper">
+							<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+					</div>
+				</form>
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>WHEELS</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>TIRES</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#"><span>ACCESSORIES</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>ABOUT US</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>BLOG</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>GALLERY</span></a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" href="#"><span>GALLERY</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>GALLERY</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>GALLERY</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>GALLERY</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span>GALLERY</span></a>
+					</li> -->
+				</ul>
+				<div class="sidenav-social-media">
+					<a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official fa-2x"></i></a>
+					<a href="javascript:void(0)" class="icon"><i class="fa fa-instagram fa-2x"></i></a>
+				</div>
+				<div class="sidenav-copyright">MSA COPYRIGHT &copy; 2018</div>
+			</div>
+			<div class="sidenav-right-texture"></div>
+		</div>
+    <div class="toggle-wrapper">
+        <button type="button" class="navbar-toggle side-nav-close">
+            <span class="sr-only">Toggle navigation</span>
+						<div class="close-icon"></div>
+>>>>>>> sidenav
         </button>
     </div>
   </div>
->>>>>>> Sidenav open/close function
   <script src="js/jquery-3.3.1.min.js?ckcachebust=fa2c111d55625fb57b05a9652cd49567"></script>
   <script src="js/bootstrap.min.js?ckcachebust=764e23860db155ce3fef799b94572e77"></script>
   <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540518905"></script>
