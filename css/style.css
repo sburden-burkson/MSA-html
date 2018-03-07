@@ -1938,43 +1938,50 @@ nav {
     font-size: 12.6px;
   }
   /* line 1515, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  header {
+    height: 0 !important;
+    display: none;
+    padding: 0;
+    border-bottom: 0;
+  }
+  /* line 1521, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .transparent-lg {
     font-size: 68.25px;
   }
-  /* line 1518, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1524, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section {
     padding: 125px 10px 10px;
   }
-  /* line 1521, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1527, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section-sm {
     padding: 125px 10px 10px;
   }
-  /* line 1524, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1530, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section-xs {
     padding: 125px 10px 10px;
   }
-  /* line 1527, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1533, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .featured-blog {
     padding: 15px 30px 0;
   }
-  /* line 1530, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1536, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-wrapper .container-fluid {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 1534, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1540, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .toggle-wrapper {
     right: 15px;
   }
-  /* line 1537, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1543, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item-container {
     width: 320px !important;
   }
-  /* line 1539, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1545, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item-container .collection-item {
     width: 100%;
   }
-  /* line 1543, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1549, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .warranty-options .warrantyOptionHeight {
     font-size: 16.5px;
   }

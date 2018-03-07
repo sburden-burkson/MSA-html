@@ -1,6 +1,7 @@
 //Affix Navbar
 var headerHeight = $('header').outerHeight();
-$('.navbar-default').data('offset-top', headerHeight);
+$('#navColor').data('offset-top', headerHeight);
+
 var topSection;
 var whiteTop = $('.white-top')[0];
 var blackGradientImage = "images/textures/top-gradient.png";
@@ -16,7 +17,7 @@ if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
   }
 }
 // Navbar Height and Transparency
-var navHeight = $('.navbar-default nav').outerHeight();
+var navHeight = $('nav').outerHeight();
 $(window).on('scroll', function() {
   var scrollTop = $(document).scrollTop();
   var navTop = scrollTop - $('header').outerHeight();
@@ -39,7 +40,7 @@ $(window).on('scroll', function() {
     );
   }
   if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-    $('.navbar-default nav, .navbar-toggle').css(
+    $('nav, .navbar-toggle').css(
       'height', newNavHeight
     );
     $('.navbar-brand').css(

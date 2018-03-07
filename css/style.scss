@@ -1512,6 +1512,12 @@ nav {
   p {
     font-size: $pSize * 0.9;
   }
+  header {
+    height: 0 !important;
+    display: none;
+    padding: 0;
+    border-bottom: 0;
+  }
   .transparent-lg {
     font-size: ($h1Size * 1.5) * 0.65;
   }
