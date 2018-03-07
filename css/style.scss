@@ -705,7 +705,6 @@ footer {
   margin-bottom: 0;
   border: none;
   background-color: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid $dividerColor;
 }
 .navbar-default.affix {
   position: fixed;
@@ -730,6 +729,12 @@ footer {
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: $white;
+}
+.changeBlack {
+  border-bottom: 1px solid $dividerColor;
+}
+.changeWhite {
+  border-bottom: 1px solid $dividerColorb;
 }
 .changeBlack .navbar-nav>li>a {
   color: #888 !important;
