@@ -81,22 +81,22 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
 	"\/css\/style.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/style.css",
-		"oF": 1,
-		"oS": 1,
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/faq.html": {
@@ -1160,6 +1160,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/carousel-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/carousel-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
