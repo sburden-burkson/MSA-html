@@ -27,9 +27,10 @@ $(function(){
 		// }
 	}
 	// Navbar Height and Transparency
-	var navHeight = $('.navbar-default nav').outerHeight();
+	var navHeight = $('nav').outerHeight();
+	var brandPad = $('.navbar-brand').css('padding-top');
 	function navResize(){
-		var scrollTop = $(document).scrollTop();
+		var scrollTop = $(window).scrollTop();
 		var navTop = scrollTop - $('header').outerHeight();
 		var newNavHeight = navHeight - (navTop * 0.1);
 		var opacity = 0 + Math.abs((navTop * 0.01));
@@ -42,6 +43,13 @@ $(function(){
 			);
 			$('.nav>li>a').css(
 				'line-height', '80px'
+			);
+			$('nav, .navbar-toggle').css(
+				'height', '80px'
+			);
+			$('.navbar-brand').css(
+				'padding-top', brandPad,
+				'padding-bottom', brandPad
 			);
 		}
 		if (navTop > 200) {
