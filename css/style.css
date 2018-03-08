@@ -81,7 +81,7 @@ footer.black-footer a {
 
 /* line 76, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 a .fa-long-arrow-right {
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 /* line 79, Users/stephenburden/Desktop/MSA-html/css/style.scss */
@@ -500,7 +500,12 @@ input.form-control.black-bg {
   color: gray;
 }
 
-/* line 398, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 396, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+.collection-item .collection-info-wrap .collection-sizes a {
+  color: red;
+}
+
+/* line 401, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .collection-item .collection-img-wrap {
   padding: 30px 55px 20px;
   margin-left: auto;
@@ -509,7 +514,7 @@ input.form-control.black-bg {
   vertical-align: middle;
 }
 
-/* line 406, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 409, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .collection-item .collection-img-wrap img {
   display: block;
   width: 100%;
@@ -517,7 +522,7 @@ input.form-control.black-bg {
   margin-right: auto;
 }
 
-/* line 415, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 418, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .collection-item .new-collection {
   position: absolute;
   top: 20px;
@@ -525,7 +530,7 @@ input.form-control.black-bg {
   z-index: 1;
 }
 
-/* line 420, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 423, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .collection-item .new-collection p {
   text-align: right;
   letter-spacing: .15em;
@@ -533,14 +538,14 @@ input.form-control.black-bg {
   font-size: 13px;
 }
 
-/* line 425, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 428, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .collection-item .new-collection p .new-box {
   padding: 1px 8px;
   border: 1px solid grey;
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 433, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 436, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item {
   margin-top: 20px;
   background-color: #fff;
@@ -549,22 +554,22 @@ input.form-control.black-bg {
   overflow: hidden;
 }
 
-/* line 443, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 446, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-image-wrap {
   height: 200px;
 }
 
-/* line 446, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 449, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-info-wrap {
   padding: 35px 35px 0;
 }
 
-/* line 449, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 452, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-more {
   padding: 35px;
 }
 
-/* line 451, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 454, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-more p {
   color: rgba(0, 0, 0, 0.97);
   text-align: left;
@@ -573,17 +578,17 @@ input.form-control.black-bg {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 458, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 461, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-more p span {
   float: right;
 }
 
-/* line 460, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 463, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-more p span a {
   color: red;
 }
 
-/* line 466, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 469, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-header {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 28px;
@@ -592,26 +597,26 @@ input.form-control.black-bg {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 473, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 476, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item .blog-item-header:hover {
   color: rgba(0, 0, 0, 0.97);
   text-decoration: none;
 }
 
-/* line 478, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 481, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-item-container, .collection-item-container {
   width: 80%;
   margin: 30px auto 50px;
 }
 
-/* line 483, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 486, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .panel {
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: transparent;
 }
 
-/* line 488, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 491, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .panel-heading, #footerAccordion .panel, #footerAccordion .panel-body, #footerAccordion .panel-group {
   border: 0;
   border-color: transparent;
@@ -619,34 +624,34 @@ input.form-control.black-bg {
           box-shadow: none;
 }
 
-/* line 493, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 496, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .panel-body {
   padding: 0;
   border: 0;
 }
 
-/* line 496, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 499, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .panel-body p {
   font-size: 12px;
   margin: 20px 0px;
 }
 
-/* line 500, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 503, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .panel-body a {
   color: rgba(255, 255, 255, 0.54);
 }
 
-/* line 504, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 507, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .panel-heading {
   padding: 0px 0px 10px;
 }
 
-/* line 506, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 509, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .panel-heading .panel-title {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 510, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 513, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #footerAccordion .footer-header {
   font-family: "Barlow Condensed", sans-serif;
   text-align: center;
@@ -654,14 +659,14 @@ input.form-control.black-bg {
   letter-spacing: 0.2em;
 }
 
-/* line 518, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 521, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel {
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: transparent;
 }
 
-/* line 523, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 526, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-heading, #faqAccordion .panel, #faqAccordion .panel-body, #faqAccordion .panel-group {
   border: 0;
   border-color: transparent;
@@ -670,7 +675,7 @@ input.form-control.black-bg {
   background-color: transparent;
 }
 
-/* line 529, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 532, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -681,22 +686,22 @@ input.form-control.black-bg {
   border-top: 0;
 }
 
-/* line 537, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 540, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-body p {
   margin-bottom: 30px;
 }
 
-/* line 541, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 544, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .border-bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 544, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 547, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-heading {
   padding: 50px 0px 20px;
 }
 
-/* line 546, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 549, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-heading h4 {
   margin-top: 0;
   margin-bottom: 0;
@@ -705,51 +710,51 @@ input.form-control.black-bg {
   line-height: 1.5em;
 }
 
-/* line 552, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 555, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-heading h4 a {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 555, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 558, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-heading h4 svg {
   float: right;
   color: red;
   margin-right: -30px;
 }
 
-/* line 561, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 564, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 #faqAccordion .panel-heading .fa, #faqAccordion .panel-heading .fal, #faqAccordion .panel-heading .far {
   font-size: 14px;
 }
 
-/* line 566, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 569, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .trans-white {
   color: rgba(255, 255, 255, 0.3) !important;
 }
 
-/* line 569, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 572, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .trans-white-md {
   color: rgba(255, 255, 255, 0.54) !important;
 }
 
-/* line 572, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 575, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .trans-white-sm {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
-/* line 575, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 578, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 a.trans-white-md:hover, a.trans-white-md:focus {
   color: rgba(255, 255, 255, 0.54);
 }
 
-/* line 578, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 581, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header {
   height: 40px;
   padding: 10px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 582, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 585, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header a {
   color: rgba(0, 0, 0, 0.54);
   letter-spacing: 0.15em;
@@ -758,173 +763,173 @@ header a {
   font-size: 14px;
 }
 
-/* line 589, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 592, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header .icon {
   font-size: 16px;
   padding-left: 15px;
   padding-right: 10px;
 }
 
-/* line 594, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 597, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header .icon ~ .icon {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 598, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 601, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header a:hover, header a:focus {
   color: #333;
   background-color: transparent;
   text-decoration: none;
 }
 
-/* line 603, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 606, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header a:first-of-type {
   padding-left: 0 !important;
 }
 
-/* line 606, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 609, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header a:last-of-type {
   padding-right: 0 !important;
 }
 
-/* line 609, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 612, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 header .navbar-divider {
   color: rgba(0, 0, 0, 0.2);
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 618, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 621, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 input.form-control {
   border-radius: 0;
 }
 
-/* line 621, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 624, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .input-group span .btn {
   border-radius: 0;
 }
 
-/* line 624, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 627, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .no-padding {
   padding: 0 0 0 0 !important;
 }
 
-/* line 627, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 630, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .no-pad-right {
   padding-right: 0;
 }
 
-/* line 630, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 633, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .no-pad-left {
   padding-left: 0;
 }
 
-/* line 633, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 636, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-top {
   padding-top: 30px;
 }
 
-/* line 636, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 639, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-top-lg {
   padding-top: 100px;
 }
 
-/* line 639, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 642, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-bottom {
   padding-bottom: 30px;
 }
 
-/* line 642, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 645, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-bottom-lg {
   padding-bottom: 100px;
 }
 
-/* line 645, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 648, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer {
   padding-top: 75px;
   padding-bottom: 20px;
   letter-spacing: 0.15em;
 }
 
-/* line 649, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 652, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .footer-sub {
   letter-spacing: 0.2em;
 }
 
-/* line 651, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 654, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .footer-sub h4 {
   font-size: 16px;
   margin-top: 5px;
   font-weight: 300;
 }
 
-/* line 656, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 659, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .footer-sub input {
   letter-spacing: .2em;
 }
 
-/* line 659, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 662, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .footer-sub .input-group .form-control {
   width: calc(100% + 10px);
 }
 
-/* line 662, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 665, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .footer-sub .input-group-btn:last-child > .btn {
   margin-left: -40px;
   z-index: 10;
 }
 
-/* line 667, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 670, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .copyright {
   padding-top: 30px;
   padding-bottom: 40px;
 }
 
-/* line 672, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 675, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .links {
   padding-top: 50px;
 }
 
-/* line 675, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 678, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .links [class*="col-"] {
   padding-bottom: 20px;
 }
 
-/* line 678, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 681, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer a {
   color: rgba(0, 0, 0, 0.97);
   font-weight: 300;
 }
 
-/* line 682, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 685, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .links-heading {
   font-weight: 300;
   padding-bottom: 15px;
 }
 
-/* line 686, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 689, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 footer .footerLogo {
   height: 30px;
 }
 
-/* line 691, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 694, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 694, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 697, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 697, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 700, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 700, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 703, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .center img {
   margin-left: auto;
   margin-right: auto;
@@ -932,19 +937,19 @@ footer .footerLogo {
   display: block;
 }
 
-/* line 711, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 714, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .text-uppercase {
   text-transform: uppercase;
 }
 
-/* line 715, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 718, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-default {
   margin-bottom: 0;
   border: none;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-/* line 720, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 723, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-default.affix {
   position: fixed;
   top: 0;
@@ -952,166 +957,166 @@ footer .footerLogo {
   z-index: 999;
 }
 
-/* line 727, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 730, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .nav-wrapper {
   min-height: 80px;
   margin-bottom: -80px;
 }
 
-/* line 731, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 734, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
 
-/* line 735, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 738, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
   background-color: transparent;
 }
 
-/* line 738, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 741, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 741, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 744, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 744, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 747, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .changeBlack {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 747, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 750, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .changeWhite {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* line 750, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 753, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .changeBlack .navbar-nav > li > a {
   color: #888 !important;
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
-/* line 754, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 757, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .changeBlack .navbar-toggle .icon-bar {
   background-color: #888 !important;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
 
-/* line 758, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 761, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .changeWhite .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.97) !important;
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
-/* line 762, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 765, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .changeWhite .navbar-toggle .icon-bar {
   background-color: rgba(255, 255, 255, 0.97) !important;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
 
-/* line 766, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 769, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-toggle:hover .icon-bar {
   background-color: #333;
 }
 
-/* line 769, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 772, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-toggle {
   display: block;
   margin: auto;
 }
 
-/* line 773, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 776, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .toggle-wrapper {
   position: absolute;
   top: 0;
   right: 45px;
 }
 
-/* line 778, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 781, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .toggle-wrapper .navbar-toggle {
   height: 80px;
   padding: 0;
 }
 
-/* line 783, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 786, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-brand {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-/* line 787, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 790, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 nav {
   height: 80px;
 }
 
-/* line 790, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 793, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-brand img {
   height: 30px;
 }
 
-/* line 793, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 796, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .navbar-nav li a {
   line-height: 30px;
   letter-spacing: 0.15em;
   font-size: 15px;
 }
 
-/* line 799, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 802, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .nav > li > a {
   padding: 0px 35px;
   line-height: 80px;
 }
 
-/* line 803, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 806, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .half-section {
   min-height: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 808, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 811, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .full-section {
   min-height: 600px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 813, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 816, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .carousel-info-pad {
   padding: 50px 50px;
 }
 
-/* line 816, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 819, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 819, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 822, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section .image-info-left {
   height: 600px;
   padding-left: 50px;
 }
 
-/* line 823, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 826, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section .image-info-right {
   height: 600px;
   padding-right: 50px;
 }
 
-/* line 827, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 830, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section .image-info-pad {
   padding: 50px 50px;
 }
 
-/* line 830, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 833, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section .image-info-chevron-right {
   position: absolute;
   top: calc(50% - 15px);
@@ -1119,7 +1124,7 @@ nav {
   height: 30px;
 }
 
-/* line 836, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 839, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section .image-info-chevron-left {
   position: absolute;
   top: calc(50% - 15px);
@@ -1127,22 +1132,22 @@ nav {
   height: 30px;
 }
 
-/* line 842, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 845, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section .col-md-6.no-pad-left {
   padding-left: 0;
 }
 
-/* line 845, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 848, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .image-info-section .col-md-6.no-pad-right {
   padding-right: 0;
 }
 
-/* line 849, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 852, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .white-bg {
   background-color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 852, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 855, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .half-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1150,7 +1155,7 @@ nav {
   height: 450px;
 }
 
-/* line 858, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 861, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .full-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1158,7 +1163,7 @@ nav {
   height: 600px;
 }
 
-/* line 864, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 867, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .small-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1166,185 +1171,185 @@ nav {
   height: 350px;
 }
 
-/* line 876, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 879, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .row-section a {
   color: rgba(255, 255, 255, 0.97);
   text-decoration: none;
 }
 
-/* line 880, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 883, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .trans-bg {
   background: transparent;
 }
 
-/* line 883, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 886, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .fixed-bg {
   background-attachment: fixed;
 }
 
-/* line 886, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 889, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .dark-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 890, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 893, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg p {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 894, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 897, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .light-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 898, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 901, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .light-bg h1, .light-bg h2, .light-bg h3, .light-bg h4, .light-bg p {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 902, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 905, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .bg-top {
   background-position: 50% 0%;
 }
 
-/* line 905, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 908, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .bg-bottom {
   background-position: 50% 100%;
 }
 
-/* line 908, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 911, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-full-height {
   height: 100%;
 }
 
-/* line 911, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 914, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-full-width {
   width: 100%;
 }
 
-/* line 937, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 940, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-table {
   display: table;
 }
 
-/* line 940, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 943, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-table-cell {
   display: table-cell;
 }
 
-/* line 943, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 946, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-table-cell-middle {
   vertical-align: middle;
   display: table-cell;
 }
 
-/* line 947, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 950, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-table-cell-bottom {
   vertical-align: bottom;
   display: table-cell;
 }
 
-/* line 951, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 954, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-relative {
   position: relative;
 }
 
-/* line 954, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 957, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-left-right {
   padding: 0 15px;
 }
 
-/* line 957, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 960, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-left {
   padding-left: 50px;
 }
 
-/* line 960, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 963, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-right {
   padding-right: 50px;
 }
 
-/* line 963, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 966, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .pad-top-bottom, .spaced-section .pad-top-bottom {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 967, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 970, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .margin-top {
   margin-top: 50px;
 }
 
-/* line 970, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 973, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .margin-bottom {
   margin-bottom: 50px;
 }
 
-/* line 973, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 976, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .margin-top-bottom {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* line 977, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 980, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .red-bg {
   padding-bottom: 50px;
 }
 
-/* line 980, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 983, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .red {
   color: red;
 }
 
-/* line 983, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 986, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .standard-link {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   color: black;
 }
 
-/* line 987, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 990, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .standard-link .fa, .standard-link .fal, .standard-link .far {
   color: red;
   font-size: 18px;
   padding-left: 5px;
 }
 
-/* line 993, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 996, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .v-center-section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 997, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1000, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .v-center-section-lg {
   padding-top: 150px;
   padding-bottom: 150px;
 }
 
-/* line 1001, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1004, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .v-center-section-xl {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-/* line 1005, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1008, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .instagram-section {
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 0 auto;
 }
 
-/* line 1009, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1012, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .instagram-section img {
   width: 100%;
 }
 
-/* line 1014, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1017, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .spaced-section p, .spaced-section li {
   line-height: 2em;
   letter-spacing: 0.15em;
@@ -1352,74 +1357,74 @@ nav {
   padding-top: 10px;
 }
 
-/* line 1021, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1024, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .spaced-section li {
   margin-bottom: 10px;
 }
 
-/* line 1024, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1027, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .spaced-section ul {
   padding-left: 15px;
 }
 
-/* line 1028, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1031, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .restricted-width-left {
   max-width: 350px;
 }
 
-/* line 1031, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1034, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .restricted-width {
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 1037, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1040, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .restricted-width-lg {
   max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 1042, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1045, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .section-header {
   font-size: 36px;
 }
 
-/* line 1045, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1048, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .transparent-lg {
   opacity: 0.4;
   font-size: 105px;
   letter-spacing: 0.15em;
 }
 
-/* line 1051, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1054, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .transparent-md {
   opacity: 0.4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 
-/* line 1056, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1059, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .transparent-sm {
   opacity: 0.4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 
-/* line 1061, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1064, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .transparent-xs {
   opacity: 0.4;
   font-size: 18px;
   letter-spacing: 0.15em;
 }
 
-/* line 1066, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1069, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .fw-300 {
   font-weight: 300;
 }
 
-/* line 1069, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1072, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .blog-header {
   color: rgba(255, 255, 255, 0.97);
   font-size: 60px;
@@ -1427,24 +1432,29 @@ nav {
   letter-spacing: 0.15em;
 }
 
-/* line 1075, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1078, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-transparent.wp-btn-white {
   border-color: rgba(255, 255, 255, 0.97);
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1080, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1083, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-extra-long {
-  padding: 10px 35px 10px 30px;
+  padding: 10px 15px 10px 30px;
 }
 
-/* line 1084, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1087, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-extra-long .fa, .wp-btn-extra-long .fal, .wp-btn-extra-long .far {
   padding-left: 20px;
   margin-right: -20px;
 }
 
-/* line 1090, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1091, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+.wp-btn-extra-long svg {
+  margin-left: 30px;
+}
+
+/* line 1096, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-transparent {
   background: transparent;
   border-color: #888;
@@ -1456,7 +1466,7 @@ nav {
   margin: 10px auto;
 }
 
-/* line 1100, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1106, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-white {
   background: transparent;
   border-radius: 0;
@@ -1468,7 +1478,7 @@ nav {
   margin: 10px auto;
 }
 
-/* line 1110, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1116, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-red {
   background-image: url("../images/red-bg.png");
   background-position: 50% 50%;
@@ -1481,60 +1491,60 @@ nav {
   margin: 10px auto;
 }
 
-/* line 1122, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1128, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-no-icon {
   padding: 10px 35px;
 }
 
-/* line 1125, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1131, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-red:active {
   background-image: url("../images/red-bg.png");
 }
 
-/* line 1129, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1135, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-input-btn-red, .wp-input-btn-red:active {
   background-image: url("../images/red-bg-sm.png");
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1134, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1140, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .wp-btn-red:hover, .wp-input-btn-red:hover, .wp-btn-red:focus, .wp-input-btn-red:focus {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1137, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1143, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .section-header-sm {
   font-size: 30px;
 }
 
-/* line 1140, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1146, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .no-banner {
   padding-top: 150px;
   padding-bottom: 75px;
 }
 
-/* line 1144, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1150, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .about-top {
   max-width: 600px;
 }
 
-/* line 1147, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1153, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .article-title {
   line-height: 90px;
 }
 
-/* line 1150, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1156, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .article-header {
   margin-bottom: 60px;
 }
 
-/* line 1153, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1159, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .article-body p, .about-top p {
   margin-bottom: 60px;
   line-height: 30px;
 }
 
-/* line 1157, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1163, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .article-tags span {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -1547,466 +1557,466 @@ nav {
   display: inline-block;
 }
 
-/* line 1168, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1174, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .article-info {
   text-align: right;
 }
 
-/* line 1171, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1177, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .article-featured-image {
   margin-bottom: 60px;
 }
 
-/* line 1174, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1180, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .staggered-image-section {
   padding: 30px 0 60px;
 }
 
-/* line 1176, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+/* line 1182, Users/stephenburden/Desktop/MSA-html/css/style.scss */
 .staggered-image-section .stagger-top {
   margin-top: -30px;
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 1181, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1187, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   nav .container-fluid, header .container-fluid {
     padding-right: 45px;
     padding-left: 45px;
   }
-  /* line 1185, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1191, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .section-header {
     font-size: 42px;
   }
-  /* line 1188, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1194, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .section-header-sm {
     font-size: 36px;
   }
 }
 
 @media only screen and (min-width: 767px) {
-  /* line 1193, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1199, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   footer {
     padding-top: 75px;
     padding-bottom: 150px;
   }
-  /* line 1197, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1203, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .footer-link-wrap {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding-top: 60px;
   }
-  /* line 1201, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1207, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .section-header {
     font-size: 54px;
   }
-  /* line 1204, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1210, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .section-header-sm {
     font-size: 40px;
   }
-  /* line 1207, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1213, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .article-info {
     margin-top: 40px;
   }
-  /* line 1210, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1216, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .article-tag-wrap {
     padding-top: 50px;
   }
-  /* line 1213, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1219, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .wp-btn-no-icon {
     padding: 10px 50px;
   }
-  /* line 1216, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1222, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .wp-btn-extra-long {
-    padding: 10px 50px 10px 45px;
+    padding: 10px 15px 10px 45px;
     font-size: 14px;
     font-weight: 300;
   }
-  /* line 1221, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1227, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .wp-btn-extra-long .fa, .wp-btn-extra-long .fal, .wp-btn-extra-long .far {
     padding-left: 30px;
     margin-right: -30px;
   }
-  /* line 1228, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1234, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .blog-item-container, .collection-item-container {
     margin: 50px auto 100px;
   }
-  /* line 1231, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1237, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .product-options {
     padding-left: 30px;
   }
-  /* line 1234, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1240, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .article-body-wrap {
     width: 760px;
   }
-  /* line 1237, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1243, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .navbar-nav {
     padding-right: 40px;
   }
-  /* line 1240, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1246, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .blog-middle-banner {
     margin-bottom: 50px;
   }
-  /* line 1243, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1249, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .warranty-info {
     padding-right: 50px;
   }
-  /* line 1246, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1252, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #product-image-carousel .slick-dots {
     display: none !important;
   }
-  /* line 1249, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1255, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-col[style] {
     height: auto !important;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 1254, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1260, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .warranty-heading {
     padding: 50px 0;
   }
 }
 
 @media only screen and (min-width: 1824px) {
-  /* line 1265, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1271, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section {
     min-height: 850px;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 1270, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1276, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .carousel-info-pad {
     padding: 30px 30px;
   }
-  /* line 1273, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1279, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .featured-blog-info-wrap {
     padding: 30px 20px 15px;
   }
-  /* line 1276, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1282, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .featured-blog-more {
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 1280, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1286, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #featuredBlog {
     width: 100%;
   }
-  /* line 1283, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1289, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .image-info-section {
     max-width: 600px;
   }
-  /* line 1285, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1291, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .image-info-section .image-info-left {
     height: auto;
     padding-left: 0;
   }
-  /* line 1289, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1295, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .image-info-section .image-info-right {
     height: auto;
     padding-right: 0;
   }
-  /* line 1293, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1299, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .image-info-section .col-md-6.no-pad-left {
     padding-left: 15px;
   }
-  /* line 1296, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1302, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .image-info-section .col-md-6.no-pad-right {
     padding-right: 15px;
   }
-  /* line 1300, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1306, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .warranty-options {
     padding: 45px 0 15px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 1305, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1311, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   footer {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 1309, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1315, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h1 {
     font-size: 56px;
   }
-  /* line 1312, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1318, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h2 {
     font-size: 44px;
   }
-  /* line 1315, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1321, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h3 {
     font-size: 25.6px;
   }
-  /* line 1318, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1324, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h4 {
     font-size: 17.85px;
   }
-  /* line 1321, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1327, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h5, th {
     font-size: 16.2px;
   }
-  /* line 1325, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1331, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   p {
     font-size: 13.3px;
   }
-  /* line 1328, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1334, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .transparent-lg {
     font-size: 84px;
   }
-  /* line 1331, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1337, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .v-center-section {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  /* line 1335, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1341, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .v-center-section-lg {
     padding-top: 75px;
     padding-bottom: 75px;
   }
-  /* line 1339, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1345, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .v-center-section-xl {
     padding-top: 125px;
     padding-bottom: 125px;
   }
-  /* line 1343, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1349, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .carousel-info-pad {
     padding: 10px 20px;
   }
-  /* line 1346, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1352, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .instagram-section {
     max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 1351, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1357, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .row-section .v-center-section {
     padding-top: 75px;
     padding-bottom: 75px;
   }
-  /* line 1355, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1361, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .no-banner {
     padding-top: 70px;
     padding-bottom: 30px;
   }
-  /* line 1359, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1365, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section {
     padding: 125px 35px 35px;
     min-height: 600px;
   }
-  /* line 1363, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1369, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section-sm {
     padding: 125px 35px 35px;
     min-height: 350px;
   }
-  /* line 1367, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1373, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section-xs {
     min-height: 300px;
     padding: 125px 35px 35px;
   }
-  /* line 1371, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1377, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .product-pairing {
     position: absolute;
     right: 15px;
   }
-  /* line 1382, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1388, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   footer {
     padding-top: 50px;
   }
-  /* line 1384, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1390, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   footer .links {
     padding-top: 20px;
   }
-  /* line 1387, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1393, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   footer .links [class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 1391, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1397, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   footer .featured-blog-more {
     padding-bottom: 20px;
   }
-  /* line 1396, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1402, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #footerAccordion #footerH1 {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
-  /* line 1399, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1405, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #footerAccordion .panel-heading {
     padding: 20px 0px 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
-  /* line 1403, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1409, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #footerAccordion .panel-body {
     padding-top: 10px;
   }
-  /* line 1406, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1412, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #footerAccordion .fa, #footerAccordion .fal, #footerAccordion .far {
     font-size: 14px;
   }
-  /* line 1412, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1418, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #faqAccordion .panel-heading h4 {
     padding-right: 30px;
   }
-  /* line 1417, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1423, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .navbar-toggle {
     display: block;
   }
-  /* line 1420, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1426, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .half-bg, .full-bg, .half-section, .full-section, .small-bg {
     height: auto;
     min-height: 250px;
     padding: 30px 0;
   }
-  /* line 1424, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1430, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .half-bg .wp-full-height, .full-bg .wp-full-height, .half-section .wp-full-height, .full-section .wp-full-height, .small-bg .wp-full-height {
     min-height: 190px;
   }
-  /* line 1431, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1437, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .opaque-lg {
     font-size: 60px;
   }
-  /* line 1434, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1440, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .featured-blog {
     width: auto;
     padding: 15px 30px 0;
   }
-  /* line 1440, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1446, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .pad-top-lg {
     padding-top: 50px;
   }
-  /* line 1462, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1468, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .new-collection {
     top: 15px;
     right: 15px;
   }
-  /* line 1465, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1471, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .new-collection p .new-box {
     font-size: 12px;
   }
-  /* line 1469, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1475, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .collection-col {
     display: table;
   }
-  /* line 1472, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1478, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .collection-img-wrap {
     height: 150px;
     padding: 15px 0px 15px 15px;
   }
-  /* line 1476, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1482, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap {
     padding: 45px 0 0 0;
   }
-  /* line 1478, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1484, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap p {
     font-size: 16px;
     margin-bottom: 5px;
   }
-  /* line 1482, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1488, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap .collection-sizes {
     font-size: 12px;
   }
-  /* line 1485, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1491, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap span {
     padding-top: 10px;
     float: none;
     display: block;
   }
-  /* line 1490, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1496, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap i {
     font-size: 14px;
   }
-  /* line 1495, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1501, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .modal-content {
     border-radius: 0;
   }
-  /* line 1498, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1504, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .modal-body {
     padding: 30px;
   }
-  /* line 1501, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1507, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .modal-header, .modal-footer {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 1505, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1511, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .modal-footer {
     padding-bottom: 10px;
   }
-  /* line 1508, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1514, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .modal-close {
     margin-right: -15px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 1513, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1519, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h1 {
     font-size: 52.5px;
   }
-  /* line 1516, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1522, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h2 {
     font-size: 41.25px;
   }
-  /* line 1519, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1525, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h3 {
     font-size: 24px;
   }
-  /* line 1522, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1528, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h4 {
     font-size: 16.8px;
   }
-  /* line 1525, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1531, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   h5, th {
     font-size: 16.2px;
   }
-  /* line 1528, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1534, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   p {
     font-size: 12.6px;
   }
-  /* line 1531, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1537, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   header {
     height: 0 !important;
     display: none;
     padding: 0;
     border-bottom: 0;
   }
-  /* line 1537, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1543, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .transparent-lg {
     font-size: 68.25px;
   }
-  /* line 1540, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1546, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section {
     padding: 125px 10px 10px;
   }
-  /* line 1543, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1549, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section-sm {
     padding: 125px 10px 10px;
   }
-  /* line 1546, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1552, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   #top-section-xs {
     padding: 125px 10px 10px;
   }
-  /* line 1549, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1555, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .featured-blog {
     padding: 15px 30px 0;
   }
-  /* line 1552, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1558, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-wrapper .container-fluid {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 1556, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1562, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .toggle-wrapper {
     right: 15px;
   }
-  /* line 1559, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1565, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item-container {
     width: 320px !important;
   }
-  /* line 1561, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1567, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .collection-item-container .collection-item {
     width: 100%;
   }
-  /* line 1565, Users/stephenburden/Desktop/MSA-html/css/style.scss */
+  /* line 1571, Users/stephenburden/Desktop/MSA-html/css/style.scss */
   .warranty-options .warrantyOptionHeight {
     font-size: 16.5px;
   }

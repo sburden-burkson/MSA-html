@@ -74,7 +74,7 @@ footer.black-footer {
   color: $white;
 }
 a .fa-long-arrow-right {
-  margin-left: 15px;
+  margin-left: 50px;
 }
 .modal-content {
   border-radius: 0;
@@ -393,6 +393,9 @@ input.form-control.black-bg {
       font-weight: 300;
       letter-spacing: .15em;
       color: gray;
+      a {
+        color: red;
+      }
     }
   }
   .collection-img-wrap {
@@ -1080,10 +1083,13 @@ nav {
 .wp-btn-extra-long {
   // padding: 7px 30px;
   // padding: 7px 30px 7px 20px;
-  padding: 10px 35px 10px 30px;
+  padding: 10px 15px 10px 30px;
   .fa, .fal, .far {
     padding-left: 20px;
     margin-right: -20px;
+  }
+  svg {
+    margin-left: 30px;
   }
 }
 
@@ -1215,7 +1221,7 @@ nav {
   }
   .wp-btn-extra-long {
     // padding: 10px 45px 10px 25px;
-    padding: 10px 50px 10px 45px;
+    padding: 10px 15px 10px 45px;
     font-size: $pSize;
     font-weight: 300;
     .fa, .fal, .far {

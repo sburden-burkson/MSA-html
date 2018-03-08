@@ -1,4 +1,5 @@
 // Next arrow scroll
+// every section must have a class of 'section' to scrol past the bottom of it
 $(".down-arrows a").click(function() {
   var section = $(this).closest('.section');
   $('html,body').animate({
