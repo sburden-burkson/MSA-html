@@ -9,8 +9,9 @@ $(function(){
 	});
 
 	//Affix Navbar
-	var headerHeight = $('header').outerHeight();
-	$('#navColor').data('offset-top', headerHeight);
+	// var headerHeight = $('header').outerHeight();
+	// $('#navColor').data('offset-top', headerHeight);
+  var headerHeight = 40;
 
 	var topSection;
 	// var whiteTop = $('.white-top')[0];

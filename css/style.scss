@@ -1249,15 +1249,34 @@ nav {
 		width: 100%;
 	}
 }
-.spaced-section {
-  p, li {
+// .spaced-section {
+//   p, li {
+//     line-height: 2em;
+//     letter-spacing: 0.15em;
+//     font-weight: 300;
+//     padding-top: 10px;
+//     // padding-bottom: 30px;
+//   }
+//   li {
+//     margin-bottom: 10px;
+//   }
+//   ul {
+//     padding-left: 15px;
+//   }
+// }
+p {
+  line-height: 2em;
+  letter-spacing: 0.15em;
+  font-weight: 300;
+  padding-top: 10px;
+  // padding-bottom: 30px;
+}
+.section {
+  li {
     line-height: 2em;
     letter-spacing: 0.15em;
     font-weight: 300;
     padding-top: 10px;
-    // padding-bottom: 30px;
-  }
-  li {
     margin-bottom: 10px;
   }
   ul {
@@ -1803,6 +1822,12 @@ nav {
     display: none;
     padding: 0;
     border-bottom: 0;
+  }
+  .navbar-default {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
   }
   .transparent-lg {
     font-size: ($h1Size * 1.5) * 0.65;
