@@ -7,7 +7,7 @@
 		"uuidString": "9C07328F-1085-4746-9D02-FBD298350D74"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -134,16 +134,16 @@
 		"oS": 3
 		},
 	"\/css\/style.scss": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"\/faq.html": {
@@ -491,6 +491,17 @@
 		"iS": 23470,
 		"oA": 0,
 		"oAP": "\/images\/dirt-home-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/dirt-wheels-collection-1.png": {
+		"ft": 32768,
+		"iS": 16981,
+		"oA": 0,
+		"oAP": "\/images\/dirt-wheels-collection-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1203,11 +1214,31 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/warranty-panel.jpg": {
+		"ft": 16384,
+		"iS": 711803,
+		"oA": 0,
+		"oAP": "\/images\/warranty-panel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/wheels-ad-bg.jpg": {
 		"ft": 16384,
 		"iS": 447856,
 		"oA": 0,
 		"oAP": "\/images\/wheels-ad-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wheels-header.jpg": {
+		"ft": 16384,
+		"iS": 619022,
+		"oA": 0,
+		"oAP": "\/images\/wheels-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

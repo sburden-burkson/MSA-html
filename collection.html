@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.min.css?ckcachebust=56a9abaef2f13ff4ecab873b4d0e8f88" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400|Open+Sans,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400|Open+Sans:300,700" rel="stylesheet">
   <link href="css/style.css" media="screen" rel="stylesheet" title="no title">
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540409801"></script>
@@ -36,7 +36,7 @@
   </header>
 
   <div class="nav-wrapper">
-    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" data-spy="affix" id="navColor" style="border-bottom: 1px rgba(0, 0, 0, .2) solid;">
+    <nav class="navbar navbar-default navbar-static-top" data-offset-top="40" data-spy="affix" id="navColor" style="">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
@@ -71,42 +71,77 @@
     </nav>
   </div>
   <!--/ END Navigation -->
-
-  <div class="dark-bg" id="top-section" style="background-image: url('images/quad-sky.png');">
+  <div class="section dark-bg texture-section" id="top-section-sm" style="background-image: url('images/wheels-header.jpg');">
+    <div class="texture-top" style="background-image: url('images/textures/top-gradient.png');"></div>
+    <div class="texture-bottom" style="background-image: url('images/textures/texture-accesories-collection-1.png');">
+    </div>
     <div class="container-fluid">
-      <div class="section-info-wrap">
-        <h4 class="fw-300">ATV WHEELS</h4>
-        <h2 class="">YOUR ONRAMP</h2>
-        <h2 class="">TO THE FOREST</h2>
-        <p class="pad-top pad-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
-        <p style="font-size: 44px;"><a href="javascript:void(0)" class="white"><i class="fa fa-angle-double-down"></i></a></p>
+      <div class="section-info-wrap text-center">
+        <h4 class="fw-300">COLLECTION</h4>
+        <h1 class="fw-300">WHEELS</h1>
+        <div class="down-arrows">
+          <a href="javascript:void(0)" class="trans-white-md">
+            <img src="images/chevron-white.png" alt="">
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- <div class="dark-bg half-bg" style="background-image: url('images/quad-sky.png');">
-    <div class="container wp-full-height">
-      <div class="row wp-full-height">
-        <div class="wp-full-height">
-          <div class="wp-table wp-full-height">
-            <div class="wp-table-cell-middle">
-              <div class="section-info-wrap center spaced-section">
-                <h4 class="transparent-xs fw-300">COLLECTION</h4>
-                <h1 class="blog-header">WHEELS</h1>
-                <p><i class="fa fa-angle-double-down"></i></p>
-              </div>
-            </div>
+  <!-- Filter Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="text-right modal-close">
+            <a href="javascript:void(0)" data-dismiss="modal"><img src="images/x-icon.png" alt="" style="width: 35px;"></a>
           </div>
+          <h4 class="modal-title">FILTER</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="javascript:void(0)" class="btn text-uppercase pad-top wp-btn-white wp-btn-no-icon">CLEAR</a>
+          <a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red pad-top">APPLY <i class="fal fa-long-arrow-right fa-lg"></i></a>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+  <!-- /modal -->
 
-  <div class="collection-wrapper">
+
+  <div class="section collection-wrapper">
+
     <!-- Blog Items -->
     <div class="container-fluid">
-      <div class="collection-item-container">
 
+      <div class="filter-container">
+        <div class="row">
+          <div class="col-xs-9">
+            <h5>FILTER BY:
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">VEHICLE
+              <i class="fas fa-plus"></i>
+            </a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">WHEEL SPECS
+              <i class="fas fa-plus"></i>
+            </a>
+          </h5>
+          </div>
+          <div class="col-xs-3">
+            <h5 class="filter-results">208 RESULTS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="collection-item-container">
         <div class="collection-item">
             <div class="new-collection">
               <p>
@@ -124,8 +159,8 @@
                 <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
                 <p class="collection-sizes">Size: 18, 19, 20
                   <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <a href="javascript:void(0)">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
                     </a>
                   </span>
                 </p>
@@ -151,8 +186,8 @@
                 <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE TWO LINES ARE HERE NOW</a></h5>
                 <p class="collection-sizes">Size: 18, 19, 20
                   <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <a href="javascript:void(0)">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
                     </a>
                   </span>
                 </p>
@@ -178,8 +213,8 @@
                 <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
                 <p class="collection-sizes">Size: 18, 19, 20
                   <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <a href="javascript:void(0)">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
                     </a>
                   </span>
                 </p>
@@ -205,8 +240,8 @@
                 <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
                 <p class="collection-sizes">Size: 18, 19, 20
                   <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <a href="javascript:void(0)">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
                     </a>
                   </span>
                 </p>
@@ -232,8 +267,8 @@
                 <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
                 <p class="collection-sizes">Size: 18, 19, 20
                   <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <a href="javascript:void(0)">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
                     </a>
                   </span>
                 </p>
@@ -259,8 +294,35 @@
                 <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
                 <p class="collection-sizes">Size: 18, 19, 20
                   <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <a href="javascript:void(0)">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collection-item">
+            <div class="new-collection">
+              <p>
+                <span class="new-box">NEW</span>
+              </p>
+            </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-12 collection-col">
+              <div class="collection-img-wrap">
+                <a href=""><img src="images/rim-2.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-12 collection-col">
+              <div class="collection-info-wrap">
+                <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
+                <p class="collection-sizes">Size: 18, 19, 23
+                  <span>
+                    <a href="javascript:void(0)">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
                     </a>
                   </span>
                 </p>
@@ -286,35 +348,8 @@
                 <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
                 <p class="collection-sizes">Size: 18, 19, 20
                   <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                    </a>
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="collection-item">
-            <div class="new-collection">
-              <p>
-                <span class="new-box">NEW</span>
-              </p>
-            </div>
-          <div class="row">
-            <div class="col-xs-6 col-sm-12 collection-col">
-              <div class="collection-img-wrap">
-                <a href=""><img src="images/rim-2.png" alt=""></a>
-              </div>
-            </div>
-            <div class="col-xs-6 col-sm-12 collection-col">
-              <div class="collection-info-wrap">
-                <h5 class="collectionHeight"><a href="javascript:void(0)">RESPONSIVE</a></h5>
-                <p class="collection-sizes">Size: 18, 19, 20
-                  <span>
-                    <a href="#">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <a href="javascript:void(0)" class="red">
+                      <i class="fal fa-long-arrow-right fa-lg"></i>
                     </a>
                   </span>
                 </p>
@@ -324,28 +359,73 @@
         </div>
       </div>
     </div>
-
+    <div class="down-arrows center pad-top-bottom">
+      <a href="javascript:void(0)" class="trans-white-md">
+        <img src="images/chevron-grey.png" alt="">
+      </a>
+    </div>
   </div>
   <!-- /blog-wrapper -->
 
-  <!-- / Black -->
-<!-- <div class="half-bg dark-bg" style="background-image: url('images/black-graphic.png');">
-  <div class="container wp-full-height">
-    <div class="row wp-full-height">
-      <div class="wp-full-height">
-        <div class="wp-table wp-full-height">
-          <div class="wp-table-cell-middle">
-            <div class="section-info-wrap">
-              <h2 class="text-center transparent-md fw-300">NEED WHEELS?</h2>
-              <p class="text-center pad-top-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">BROWSE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
-            </div>
-          </div>
-        </div>
+  <!-- Warranty  -->
+  <div class="dark-bg v-center-section-xl texture-section" style="background-image: url('images/warranty-panel.jpg');">
+    <div class="texture-top" style="background-image: url('images/textures/texture-home-2.png');">
+    </div>
+    <div class="texture-bottom" style="background-image: url('images/textures/texture-home-1.png');">
+    </div>
+    <div class="container">
+      <div class="section-info-wrap text-center">
+        <h2 class="">1 YEAR WARRANTY</h2>
+        <p class="pad-top-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">DETAILS <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
       </div>
     </div>
   </div>
-</div> -->
-<!-- / Black -->
+<!-- /Warranty  -->
+
+<!-- INSTA -->
+
+<div class="section instagram-section">
+  <div class="container">
+    <h3 class="text-center pad-top-bottom">#MSA ON INSTAGRAM</h3>
+    <div class="row">
+
+      <div class="col-sm-4 no-padding">
+        <img src="images/insta.png" alt="">
+      </div>
+
+      <div class="col-sm-4" style="">
+        <div class="row">
+          <div class="col-xs-6 no-padding">
+            <img src="images/insta.png" alt="">
+            <img src="images/insta.png" alt="">
+          </div>
+          <div class="col-xs-6 no-padding">
+            <img src="images/insta.png" alt="">
+            <img src="images/insta.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4" style="">
+        <div class="row">
+          <div class="col-xs-6 no-padding">
+            <img src="images/insta.png" alt="">
+            <img src="images/insta.png" alt="">
+          </div>
+          <div class="col-xs-6 no-padding">
+            <img src="images/insta.png" alt="">
+            <img src="images/insta.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="text-center pad-top-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">VIEW <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
+  </div>
+
+</div>
+<!--/ INSTA -->
 
   <!-- FOOTER Background -->
   <div class="full-bg bg-bottom" style="background-image: url('images/footer-image.png');">
@@ -374,7 +454,7 @@
   								<div class="panel-heading" id="heading1" role="tab">
   									<h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse1"
   									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse1" role=
-  									"button"><i class="fa fa-plus"></i></a></span></h4>
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
   								</div>
   								<div aria-labelledby="heading1" class="panel-collapse collapse" id="collapse1" role="tabpanel">
   									<div class="panel-body">
@@ -391,7 +471,7 @@
   								<div class="panel-heading" id="heading2" role="tab">
   									<h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse2"
   									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse2" role=
-  									"button"><i class="fa fa-plus"></i></a></span></h4>
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
   								</div>
   								<div aria-labelledby="heading2" class="panel-collapse collapse" id="collapse2" role="tabpanel">
   									<div class="panel-body">
@@ -408,7 +488,7 @@
   								<div class="panel-heading" id="heading3" role="tab">
   									<h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse3"
   									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse3" role=
-  									"button"><i class="fa fa-plus"></i></a></span></h4>
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
   								</div>
   								<div aria-labelledby="heading3" class="panel-collapse collapse" id="collapse3" role="tabpanel">
   									<div class="panel-body">
@@ -425,7 +505,7 @@
   								<div class="panel-heading" id="heading4" role="tab">
   									<h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse4"
   									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse4" role=
-  									"button"><i class="fa fa-plus"></i></a></span></h4>
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
   								</div>
   								<div aria-labelledby="heading4" class="panel-collapse collapse" id="collapse4" role="tabpanel">
   									<div class="panel-body">
@@ -442,7 +522,7 @@
   								<div class="panel-heading" id="heading5" role="tab">
   									<h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse5"
   									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse5" role=
-  									"button"><i class="fa fa-plus"></i></a></span></h4>
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
   								</div>
   								<div aria-labelledby="heading5" class="panel-collapse collapse" id="collapse5" role="tabpanel">
   									<div class="panel-body">
@@ -459,7 +539,7 @@
   								<div class="panel-heading" id="heading6" role="tab">
   									<h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse6"
   									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse6" role=
-  									"button"><i class="fa fa-plus"></i></a></span></h4>
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
   								</div>
   								<div aria-labelledby="heading6" class="panel-collapse collapse" id="collapse6" role="tabpanel">
   									<div class="panel-body">
@@ -480,7 +560,7 @@
 
   <script src="js/jquery-3.3.1.min.js?ckcachebust=9d99a8e136ca24f281d2f49fea4dbfa5"></script>
   <script src="js/bootstrap.min.js?ckcachebust=9b5f8c617bcf56849dd563b4b51689b9"></script>
-  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540409801"></script>
+  <script defer src="js/fontawesome-all.js"></script>
   <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
   <script src="js/navbar-min.js"></script>
   <script src="js/footer-min.js"></script>
