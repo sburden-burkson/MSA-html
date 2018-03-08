@@ -88,11 +88,60 @@
     </div>
   </div>
 
+  <!-- Filter Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="text-right modal-close">
+            <a href="javascript:void(0)" data-dismiss="modal"><img src="images/x-icon.png" alt="" style="width: 35px;"></a>
+          </div>
+          <h4 class="modal-title">FILTER</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="javascript:void(0)" class="btn text-uppercase pad-top wp-btn-white wp-btn-no-icon">CLEAR</a>
+          <a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red pad-top">APPLY <i class="fal fa-long-arrow-right fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /modal -->
+
+
   <div class="section collection-wrapper">
+
     <!-- Blog Items -->
     <div class="container-fluid">
-      <div class="collection-item-container">
 
+      <div class="filter-container">
+        <div class="row">
+          <div class="col-xs-9">
+            <h5>FILTER BY:
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">VEHICLE
+              <i class="fas fa-plus"></i>
+            </a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">WHEEL SPECS
+              <i class="fas fa-plus"></i>
+            </a>
+          </h5>
+          </div>
+          <div class="col-xs-3">
+            <h5 class="filter-results">208 RESULTS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="collection-item-container">
         <div class="collection-item">
             <div class="new-collection">
               <p>

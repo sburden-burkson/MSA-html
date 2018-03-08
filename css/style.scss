@@ -304,6 +304,23 @@ input.form-control.black-bg {
 .blog-wrapper, .collection-wrapper {
   background-color: #F2F2F2;
 }
+.filter-container {
+  margin: 15px;
+  h5 {
+    font-weight: 300;
+    color: $grey;
+  }
+  a {
+    color: $black;
+    margin-left: 20px;
+    svg {
+      color: red;
+      margin-bottom: 4px;
+      height: 10px;
+    }
+  }
+
+}
 .featuredBlogHeight {
   min-height: 250px;
 }
@@ -392,7 +409,7 @@ input.form-control.black-bg {
       font-size: 13px;
       font-weight: 300;
       letter-spacing: .15em;
-      color: gray;
+      color: $grey;
       a {
         color: red;
       }
@@ -427,7 +444,7 @@ input.form-control.black-bg {
       font-size: 13px;
       .new-box {
         padding: 1px 8px;
-        border: 1px solid grey;
+        border: 1px solid $grey;
         font-family: $mainFont;
       }
     }
@@ -480,7 +497,7 @@ input.form-control.black-bg {
 }
 .blog-item-container, .collection-item-container {
   width: 80%;
-  margin: 30px auto 50px;
+  margin: 0px auto 50px;
 }
 #footerAccordion {
   .panel {
@@ -781,6 +798,7 @@ footer {
   .navbar-toggle {
     height: $navHeight;
     padding: 0;
+    border: 0;
   }
 }
 .navbar-brand {
@@ -1231,8 +1249,11 @@ nav {
       margin-right: -30px;
     }
   }
+  .filter-container .filter-results {
+    text-align: right;
+  }
   .blog-item-container, .collection-item-container {
-    margin: 50px auto 100px;
+    margin: 0px auto 100px;
   }
   .product-options {
     padding-left: 30px;
@@ -1377,6 +1398,11 @@ nav {
   .product-pairing {
     position: absolute;
     right: 15px;
+  }
+  .filter-container a {
+    margin-left: 0;
+    margin-top: 5px;
+    display: block;
   }
   // #featuredBlog {
   //   height: auto !important;
