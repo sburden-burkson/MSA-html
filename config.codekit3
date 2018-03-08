@@ -634,6 +634,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/m35_padded.png": {
+		"ft": 32768,
+		"iS": 714751,
+		"oA": 0,
+		"oAP": "\/images\/m35_padded.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/map.png": {
 		"ft": 32768,
 		"iS": 379631,
@@ -1333,6 +1344,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/faq-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/fontawesome-all.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/fontawesome-all-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

@@ -75,11 +75,11 @@
   </div>
   <!--/ END Navigation -->
   <div class="container-fluid" style="margin-top: 110px;">
-    <div class="row">
+    <div class="row product-pairing-wrapper">
 
-      <div class="col-sm-5 col-sm-push-5 col-md-6 col-md-push-4">
-        <p class="product-pairing"><a href="javascript:void(0)">ADD A TIRE PAIRING <span><i class="fa fa-plus"></i></span></a></p>
-        <div style="max-width: 450px; margin: 0px auto; padding-top: 20px;" id="product-image-carousel">
+			<p class="product-pairing"><a href="javascript:void(0)">ADD A TIRE PAIRING <span><i class="fal fa-plus"></i></span></a></p>
+      <div class="col-sm-6 col-sm-push-5 col-md-7 col-md-push-4">
+        <div class="product-image-height" style="max-width: 450px; margin: 0px auto; padding-top: 20px;" id="product-image-carousel">
           <img src="images/rim-1.png" alt="">
           <img src="images/rim-2.png" alt="">
           <img src="images/rim-1.png" alt="">
@@ -89,80 +89,107 @@
         </div>
       </div>
 
-      <div class="col-sm-5 col-sm-pull-5 col-md-4 col-md-pull-6">
+      <div class="col-sm-5 col-sm-pull-6 col-md-4 col-md-pull-7">
         <div class="product-options" style="">
-          <h3>M25 BANDIT</h3>
-          <p class="pad-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-          <div class="product-customization">
-            <p class="p-size border-bottom">
-              Size:
-              <span><a href="javascript:void(0)">17</a></span>
-              <span><a href="javascript:void(0)">16</a></span>
-              <span><a href="javascript:void(0)">15</a></span>
-              <span><a href="javascript:void(0)">14</a></span>
-            </p>
-            <p class="p-finish border-bottom">
-              Finish:
-              <span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
-              <span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
-              <span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
-              <span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
-            </p>
-            <p class="p-custom">
-              <a href="javascript:void(0)">Additional Customizations
-            <span><i class="fa fa-plus"></i></span></a>
-            </p>
-          </div>
+          <h3 class="no-margin-top-desktop">M25 BANDIT</h3>
+					<div class="container-fluid product-tabs">
+						<div class="row">
+							<div class="col-xs-4">
+								<div class="product-tabs-option">
+									<a href="#configure" class="productTabsHeight text-uppercase active" data-toggle="tab">Configure</a>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="product-tabs-option">
+									<a href="#description" class="productTabsHeight text-uppercase" data-toggle="tab">Description</a>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="product-tabs-option">
+									<a href="#specs" class="productTabsHeight active-skip text-uppercase">Specs</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-content">
+						<div class="tab-pane fade in active" id="configure">
+							<div class="product-customization">
+								<p class="p-size border-bottom">
+									Size:
+									<span><a href="javascript:void(0)">17</a></span>
+									<span><a href="javascript:void(0)">16</a></span>
+									<span><a href="javascript:void(0)">15</a></span>
+									<span><a href="javascript:void(0)">14</a></span>
+								</p>
+								<p class="p-finish border-bottom">
+									Finish:
+									<span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
+									<span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
+									<span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
+									<span><a href="javascript:void(0)"><i class="myCircle"></i></a></span>
+								</p>
+								<p class="p-custom">
+									<a href="javascript:void(0)">Additional Customizations
+								<span><i class="fal fa-plus"></i></span></a>
+								</p>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="description">
+							<p class="pad-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
           <h5 class="" style="padding-top: 15px; padding-bottom: 15px;">BASE MODEL: $2000</h5>
-          <p class=""><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">ADD TO CART <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+          <p class=""><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">ADD TO CART <i class="fal fa-long-arrow-right fa-lg pin-right" aria-hidden="true"></i></a></p>
         </div>
       </div>
 
 
-      <div class="col-sm-2 hidden-xs">
-        <div style="height: 400px; display:table;">
-          <div style="display: table-cell; vertical-align: middle;">
-            <div id="product-thumbs" style="max-width: 80px; margin: 50px auto;">
-              <img src="images/rim-1.png" alt="">
-              <img src="images/rim-2.png" alt="">
-              <img src="images/rim-1.png" alt="">
-              <img src="images/rim-2.png" alt="">
-              <img src="images/rim-1.png" alt="">
-              <img src="images/rim-2.png" alt="">
-            </div>
-          </div>
+      <div id="product-thumbs-outer" class="col-sm-1 hidden-xs">
+				<div id="product-thumbs-wrapper">
+					<div class="product-image-height" style="heightBREAK: 500px; display:table;">
+						<div style="display: table-cell; vertical-align: middle;">
+							<div id="product-thumbs" style="max-width: 80px; margin: 50px auto;">
+								<div class="product-thumb"><img class="img-responsive" src="images/rim-1.png" alt=""></div>
+								<div class="product-thumb"><img class="img-responsive" src="images/rim-2.png" alt=""></div>
+								<div class="product-thumb"><img class="img-responsive" src="images/rim-1.png" alt=""></div>
+								<div class="product-thumb"><img class="img-responsive" src="images/rim-2.png" alt=""></div>
+								<div class="product-thumb"><img class="img-responsive" src="images/rim-1.png" alt=""></div>
+								<div class="product-thumb"><img class="img-responsive" src="images/rim-2.png" alt=""></div>
+							</div>
+						</div>
+					</div>
         </div>
       </div>
 
     </div>
   </div>
 
-  <div class="v-center-section-lg light-bg" style="background-image: url('images/topography-bg.png');">
-    <div class="container">
-      <div style="padding: 0 15px;">
-        <h3>FEATURES</h3>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="section-info-wrap spaced-section" style="padding: 30px 15px 0px 15px;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="section-info-wrap spaced-section" style="padding: 30px 15px 0px 15px;">
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- <div class="v-center-section-lg light-bg" style="background-image: url('images/topography-bg.png');"> -->
+  <!--   <div class="container"> -->
+  <!--     <div style="padding: 0 15px;"> -->
+  <!--       <h3>FEATURES</h3> -->
+  <!--     </div> -->
+  <!--     <div class="row"> -->
+  <!--       <div class="col-sm-6"> -->
+  <!--         <div class="section-info-wrap spaced-section" style="padding: 30px 15px 0px 15px;"> -->
+  <!--           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> -->
+  <!--           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> -->
+  <!--         </div> -->
+  <!--       </div> -->
+  <!--       <div class="col-sm-6"> -->
+  <!--         <div class="section-info-wrap spaced-section" style="padding: 30px 15px 0px 15px;"> -->
+  <!--           <ul> -->
+  <!--             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li> -->
+  <!--             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li> -->
+  <!--             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li> -->
+  <!--           </ul> -->
+  <!--         </div> -->
+  <!--       </div> -->
+  <!--     </div> -->
+  <!--   </div> -->
+  <!-- </div> -->
 
-  <div class="v-center-section" style="">
+  <!-- <div id="specs" class="v-center-section" style="">
     <div class="container">
       <h3 class="text-center pad-bottom">SPECS</h3>
       <div class="table-responsive" style="">
@@ -251,31 +278,106 @@
         </table>
       </div>
     </div>
-  </div>
-  <div class="dark-bg v-center-section-xl bg-top" style="background-image: url('images/sand.png');">
-    <div class="container">
+	</div> -->
+	<div class="container product-specs-wrapper">
+		<div id="specs" class="product-specs row">
+			<div class="product-specs-title col-xs-12">
+				<h3 class="text-center pad-bottom">SPECS</h3>
+			</div>
+			<div class="product-specs-table col-xs-12">
+				<div class="product-specs-thead desktop-only">
+					<div class="product-specs-cell">Part<span class="mobile-only desktop-also">#</span><span class="desktop-wide-only"> Number</span></div>
+					<div class="product-specs-cell">Finish</div>
+					<div class="product-specs-cell">Size</div>
+					<div class="product-specs-cell">Offset</div>
+					<div class="product-specs-cell">Backspace</div>
+					<div class="product-specs-cell">Bolt Pat.</div>
+					<div class="product-specs-cell">Load</div>
+					<div class="product-specs-cell">Weight</div>
+				</div>
+				<div class="product-specs-tbody">
+					<div class="product-specs-row">
+						<div class="product-specs-cell"><span class="mobile-only">Part#: </span>M36-018756M</div>
+						<div class="product-specs-cell"><span class="mobile-only">Finish: </span>Matte Black</div>
+						<div class="product-specs-cell"><span class="mobile-only">Size: </span>18" x 7"</div>
+						<div class="product-specs-cell"><span class="mobile-only">Offset: </span>0mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Backspace: </span>4+3</div>
+						<div class="product-specs-cell"><span class="mobile-only">Bolt Pat.: </span>4 x 110mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Load: </span>1000lbs</div>
+						<div class="product-specs-cell"><span class="mobile-only">Weight: </span>13.9lbs</div>
+					</div>
+					<div class="product-specs-row">
+						<div class="product-specs-cell"><span class="mobile-only">Part#: </span>M36-018756M</div>
+						<div class="product-specs-cell"><span class="mobile-only">Finish: </span>Matte Black</div>
+						<div class="product-specs-cell"><span class="mobile-only">Size: </span>18" x 7"</div>
+						<div class="product-specs-cell"><span class="mobile-only">Offset: </span>0mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Backspace: </span>4+3</div>
+						<div class="product-specs-cell"><span class="mobile-only">Bolt Pat.: </span>4 x 110mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Load: </span>1000lbs</div>
+						<div class="product-specs-cell"><span class="mobile-only">Weight: </span>13.9lbs</div>
+					</div>
+					<div class="product-specs-row">
+						<div class="product-specs-cell"><span class="mobile-only">Part#: </span>M36-018756M</div>
+						<div class="product-specs-cell"><span class="mobile-only">Finish: </span>Matte Black</div>
+						<div class="product-specs-cell"><span class="mobile-only">Size: </span>18" x 7"</div>
+						<div class="product-specs-cell"><span class="mobile-only">Offset: </span>0mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Backspace: </span>4+3</div>
+						<div class="product-specs-cell"><span class="mobile-only">Bolt Pat.: </span>4 x 110mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Load: </span>1000lbs</div>
+						<div class="product-specs-cell"><span class="mobile-only">Weight: </span>13.9lbs</div>
+					</div>
+					<div class="product-specs-row">
+						<div class="product-specs-cell"><span class="mobile-only">Part#: </span>M36-018756M</div>
+						<div class="product-specs-cell"><span class="mobile-only">Finish: </span>Matte Black</div>
+						<div class="product-specs-cell"><span class="mobile-only">Size: </span>18" x 7"</div>
+						<div class="product-specs-cell"><span class="mobile-only">Offset: </span>0mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Backspace: </span>4+3</div>
+						<div class="product-specs-cell"><span class="mobile-only">Bolt Pat.: </span>4 x 110mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Load: </span>1000lbs</div>
+						<div class="product-specs-cell"><span class="mobile-only">Weight: </span>13.9lbs</div>
+					</div>
+					<div class="product-specs-row">
+						<div class="product-specs-cell"><span class="mobile-only">Part#: </span>M36-018756M</div>
+						<div class="product-specs-cell"><span class="mobile-only">Finish: </span>Matte Black</div>
+						<div class="product-specs-cell"><span class="mobile-only">Size: </span>18" x 7"</div>
+						<div class="product-specs-cell"><span class="mobile-only">Offset: </span>0mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Backspace: </span>4+3</div>
+						<div class="product-specs-cell"><span class="mobile-only">Bolt Pat.: </span>4 x 110mm</div>
+						<div class="product-specs-cell"><span class="mobile-only">Load: </span>1000lbs</div>
+						<div class="product-specs-cell"><span class="mobile-only">Weight: </span>13.9lbs</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="dark-bg bg-top texture-section" style="background-image: url('images/blog-header.png');">
+		<div class="texture-top" style="background-image: url('images/textures/texture-home-2.png');"></div>
+    <div class="container-fluid v-center-section-xl dark-overlay">
       <div class="section-info-wrap">
-        <h2 class="text-center">1 YEAR WARRANTY <span><i class="fa fa-angle-double-right"></i></span></h2>
+        <h2 class="text-center pad-bottom">1 YEAR WARRANTY</h2>
+        <p class="text-center"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">DETAILS<i class="fal fa-long-arrow-right fa-lg pin-right" aria-hidden="true"></i></a></p>
       </div>
     </div>
+		<div class="texture-bottom" style="background-image: url('images/textures/texture-home-3.png');"></div>
   </div>
   <div class="light-bg v-center-section-xl bg-top" style="background-image: url('images/quad-layer.png');">
     <div class="container">
-      <div class="section-info-wrap restricted-width spaced-section">
+      <div class="section-info-wrap restricted-width spaced-section spaced-section-xtra">
         <h4 class="text-center">take the path less</h4>
         <h4 class="text-center">travelled lorem</h4>
         <h4 class="text-center">ipsum dolor</h4>
       </div>
     </div>
   </div>
-  <div class="dark-bg v-center-section-lg" style="background-image: url('images/dust.png');">
+  <div class="dark-bg v-center-section-lg texture-section" style="background-image: url('images/wheels-ad-bg.jpg');">
+		<div class="texture-top" style="background-image: url('images/textures/texture-home-2.png');"></div>
     <div class="container">
-      <div class="section-info-wrap restricted-width spaced-section">
-        <h2 class="text-center">ADD TIRES</h2>
-        <p class="text-center pad-top-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        <p class="text-center"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">BROWSE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+      <div class="section-info-wrap spaced-section">
+        <h2 class="text-center pad-bottom">NEED WHEELS?</h2>
+        <p class="text-center"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">BROWSE<i class="fal fa-long-arrow-right fa-lg pin-right" aria-hidden="true"></i></a></p>
       </div>
     </div>
+		<div class="texture-bottom" style="background-image: url('images/textures/texture-home-3.png');"></div>
   </div>
   <div class="v-center-section p-similar">
     <div class="container">
@@ -486,7 +588,8 @@
 
   <script src="js/jquery-3.3.1.min.js?ckcachebust=fa2c111d55625fb57b05a9652cd49567"></script>
   <script src="js/bootstrap.min.js?ckcachebust=764e23860db155ce3fef799b94572e77"></script>
-  <script src="https://use.fontawesome.com/94b014e044.js?ckcachebust=540518905"></script>
+	<script defer src="js/fontawesome-all.js"></script>
+  <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
   <script type="text/javascript" src="js/navbar-min.js"></script>
   <script type="text/javascript" src="js/footer-min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
