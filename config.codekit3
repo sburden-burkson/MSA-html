@@ -111,8 +111,8 @@
 		"oF": 0
 		},
 	"\/css\/sidenav.scss": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -120,7 +120,7 @@
 		"oA": 0,
 		"oAP": "\/css\/sidenav.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"\/css\/style.css": {
