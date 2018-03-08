@@ -50,7 +50,7 @@
           #sidenav .toggle-wrapper .side-nav-close .close-icon {
             width: 43px;
             height: 43px; } }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1000px) {
     #sidenav .sidenav-left {
       position: relative;
       height: 100%;
@@ -69,7 +69,7 @@
           padding-right: 20px; }
           #sidenav .sidenav-left .sidenav-social-media a .fa {
             color: rgba(255, 255, 255, 0.97); } }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 999px) {
     #sidenav .sidenav-left {
       position: absolute;
       z-index: 1003;
@@ -92,7 +92,7 @@
       background-position: right center;
       background-size: contain;
       background-repeat: no-repeat; }
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 999px) {
         #sidenav .sidenav-right .sidenav-right-texture {
           left: 0;
           background-image: url("../images/sidenav-bg-mobile.jpg");

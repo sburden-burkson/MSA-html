@@ -160,6 +160,16 @@
 		"oAP": "\/css\/style.scss.orig",
 		"oF": 0
 		},
+	"\/css\/styleOLD.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styleOLD-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/faq.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -653,6 +663,17 @@
 		"iS": 4450,
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/m35_padded.png": {
+		"ft": 32768,
+		"iS": 714751,
+		"oA": 0,
+		"oAP": "\/images\/m35_padded.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1566,6 +1587,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/warranty-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/navbarOLD.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/navbarOLD-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

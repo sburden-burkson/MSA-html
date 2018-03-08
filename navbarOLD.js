@@ -1,20 +1,10 @@
 $(function(){
-	// Next arrow scroll
-	// every section must have a class of 'section' to scrol past the bottom of it
-	$(".down-arrows a").click(function() {
-		var section = $(this).closest('.section');
-		$('html,body').animate({
-			scrollTop: section.offset().top + section.outerHeight(true) - 60
-		}, 'slow');
-	});
-
 	//Affix Navbar
 	var headerHeight = $('header').outerHeight();
-	$('#navColor').data('offset-top', headerHeight);
-
+	$('.navbar-default').data('offset-top', headerHeight);
 	var topSection;
-	// var whiteTop = $('.white-top')[0];
-	// var blackGradientImage = "images/textures/top-gradient.png";
+	var whiteTop = $('.white-top')[0];
+	var blackGradientImage = "images/textures/top-gradient.png";
 
 	if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
 		topSection = false;
@@ -22,13 +12,13 @@ $(function(){
 	} else {
 		$('#navColor').addClass("changeWhite");
 		topSection = true;
-		// if (whiteTop) {
-		//   $('#top-section').append('<div class="texture-top" style="background-image: url('+blackGradientImage+');"></div>');
-		// }
+		if (whiteTop) {
+			$('#top-section').append('<div class="texture-top" style="background-image: url('+blackGradientImage+');"></div>');
+		}
 	}
 	// Navbar Height and Transparency
 	var navHeight = $('.navbar-default nav').outerHeight();
-	function navResize(){
+	function adjustNav(){
 		var scrollTop = $(document).scrollTop();
 		var navTop = scrollTop - $('header').outerHeight();
 		var newNavHeight = navHeight - (navTop * 0.1);
@@ -50,7 +40,7 @@ $(function(){
 			);
 		}
 		if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-			$('nav, .navbar-toggle').css(
+			$('.navbar-default nav, .navbar-toggle').css(
 				'height', newNavHeight
 			);
 			$('.navbar-brand').css(
@@ -76,7 +66,7 @@ $(function(){
 		}
 	}
 	$(window).on('scroll', function() {
-		navResize();
+		adjustNav();
 	});
-	navResize();
+	adjustNav();
 });
