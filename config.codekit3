@@ -7,7 +7,7 @@
 		"uuidString": "9C07328F-1085-4746-9D02-FBD298350D74"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26268",
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -133,6 +133,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/style.css.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/style.css.orig",
+		"oF": 0
+		},
 	"\/css\/style.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -145,6 +152,23 @@
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
+		},
+	"\/css\/style.scss.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/style.scss.orig",
+		"oF": 0
+		},
+	"\/css\/styleOLD.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styleOLD-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/faq.html": {
 		"cB": 0,
@@ -1486,6 +1510,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/navbar.js.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/navbar.js.orig",
+		"oF": 0
+		},
 	"\/js\/product-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1560,11 +1591,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/navbarOLD.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/navbarOLD-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/product.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/product.html",
+		"oF": 0
+		},
+	"\/product.html.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/product.html.orig",
 		"oF": 0
 		},
 	"\/sidenav.html": {
