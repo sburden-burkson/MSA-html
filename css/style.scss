@@ -189,6 +189,28 @@ input.form-control.black-bg {
     left: 0;
     background-repeat: no-repeat;
   }
+  .texture-left {
+    background-position: 0% 50%;
+    z-index: 1;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+  }
+  .texture-right {
+    background-position: 100% 50%;
+    z-index: 1;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+  }
 }
 .down-arrows {
   padding-top: 20px;
