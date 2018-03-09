@@ -502,27 +502,27 @@ input.form-control.black-bg {
 }
 .featured-blog-info-wrap {
   padding: 60px 60px 30px;
-  .featured-blog-header {
-    font-family: $mainFont;
-    font-size: 28px;
-    font-weight: 300;
-    letter-spacing: 0.15em;
-  }
-  .featured-blog-desc {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 28px;
-    letter-spacing: 0.15em;
-    font-weight: 300;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .featured-blog-date {
-    text-align: right;
-    font-family: $mainFont;
-    // font-size: 12px;
-    letter-spacing: 0.15em;
-    color: $bodyBlack;
-  }
+  // .featured-blog-header {
+  //   font-family: $mainFont;
+  //   font-size: 28px;
+  //   font-weight: 300;
+  //   letter-spacing: 0.15em;
+  // }
+  // .featured-blog-desc {
+  //   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //   line-height: 28px;
+  //   letter-spacing: 0.15em;
+  //   font-weight: 300;
+  //   padding-top: 30px;
+  //   padding-bottom: 30px;
+  // }
+  // .featured-blog-date {
+  //   text-align: right;
+  //   font-family: $mainFont;
+  //   // font-size: 12px;
+  //   letter-spacing: 0.15em;
+  //   color: $bodyBlack;
+  // }
 }
 .featured-blog-more {
   padding-left: 60px;
@@ -624,7 +624,7 @@ input.form-control.black-bg {
 }
 .blog-item {
   margin-top: 20px;
-  background-color: #fff;
+  background-color: white;
   width: 320px;
   height: auto;
   overflow: hidden;
@@ -636,19 +636,19 @@ input.form-control.black-bg {
     height: 200px;
   }
   .blog-item-info-wrap {
-    padding: 35px 35px 0;
+    padding: 15px 35px 0;
   }
   .blog-item-more {
     padding: 35px;
     p {
-      color: $black;
-      text-align: left;
+      // color: $grey;
+      // text-align: left;
       font-family: $mainFont;
       // font-size: 12px;
-      letter-spacing: 0.15em;
-      color: $bodyBlack;
+      // letter-spacing: 0.15em;
+      // color: $bodyBlack;
       span {
-        float:right;
+        float: right;
         a {
           color: red;
         }
@@ -657,9 +657,7 @@ input.form-control.black-bg {
   }
   .blog-item-header {
     font-family: $mainFont;
-    font-size: 28px;
     font-weight: 300;
-    letter-spacing: 0.15em;
     color: $black;
   }
   .blog-item-header:hover {

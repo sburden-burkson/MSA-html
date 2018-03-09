@@ -559,29 +559,6 @@ input.form-control.black-bg {
   padding: 60px 60px 30px;
 }
 
-.featured-blog-info-wrap .featured-blog-header {
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 28px;
-  font-weight: 300;
-  letter-spacing: 0.15em;
-}
-
-.featured-blog-info-wrap .featured-blog-desc {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 28px;
-  letter-spacing: 0.15em;
-  font-weight: 300;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.featured-blog-info-wrap .featured-blog-date {
-  text-align: right;
-  font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 0.15em;
-  color: rgba(0, 0, 0, 0.54);
-}
-
 .featured-blog-more {
   padding-left: 60px;
   padding-right: 60px;
@@ -667,7 +644,7 @@ input.form-control.black-bg {
 
 .blog-item {
   margin-top: 20px;
-  background-color: #fff;
+  background-color: white;
   width: 320px;
   height: auto;
   overflow: hidden;
@@ -678,7 +655,7 @@ input.form-control.black-bg {
 }
 
 .blog-item .blog-item-info-wrap {
-  padding: 35px 35px 0;
+  padding: 15px 35px 0;
 }
 
 .blog-item .blog-item-more {
@@ -686,11 +663,7 @@ input.form-control.black-bg {
 }
 
 .blog-item .blog-item-more p {
-  color: rgba(0, 0, 0, 0.97);
-  text-align: left;
   font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 0.15em;
-  color: rgba(0, 0, 0, 0.54);
 }
 
 .blog-item .blog-item-more p span {
@@ -703,9 +676,7 @@ input.form-control.black-bg {
 
 .blog-item .blog-item-header {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 28px;
   font-weight: 300;
-  letter-spacing: 0.15em;
   color: rgba(0, 0, 0, 0.97);
 }
 
