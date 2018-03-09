@@ -26,6 +26,29 @@ $navSpacing: 0.15em;
   background: transparent;
 }
 
+.scroll {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // background-size: cover;
+//   -moz-background-size: auto 50%;
+// -webkit-background-size: auto 50%;
+// -o-background-size: auto 50%;
+// background-size: auto 50%;
+    /*Dont mind the rest*/
+    // width:500px;
+    height:300px;
+    // line-height:300px;
+    // margin:0 auto;
+    // margin-top:150px;
+    // text-align:center;
+    // color:#fff;
+    // font-family:'Open Sans' sans-serif;
+
+    /* For texture */
+    // position: relative;
+}
+
 // .parallax {
 //   background-size: cover;
 //   box-sizing: border-box;
@@ -506,7 +529,31 @@ input.form-control.black-bg {
       height: 10px;
     }
   }
-
+}
+.stamp {
+  height: 80px;
+}
+.filter-container2 {
+  width: 100%;
+  // height: 80px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: block;
+  h5 {
+    font-weight: 300;
+    color: $grey;
+  }
+  a {
+    color: $black;
+    margin-left: 20px;
+    font-weight: 500;
+    svg {
+      color: red;
+      margin-bottom: 4px;
+      height: 10px;
+    }
+  }
 }
 .featuredBlogHeight {
   min-height: 250px;
@@ -683,6 +730,9 @@ input.form-control.black-bg {
 .blog-item-container, .collection-item-container {
   width: 80%;
   margin: 0px auto 50px;
+}
+.collection-item-container {
+  padding-top: 100px;
 }
 #footerAccordion {
   .panel {
@@ -1523,6 +1573,9 @@ nav {
   .blog-item-container, .collection-item-container {
     margin: 0px auto 100px;
   }
+  .collection-item-container {
+    padding-top: 50px;
+  }
 	.product-pairing-wrapper {
 		padding: 30px;
 		position: relative;
@@ -1685,6 +1738,13 @@ nav {
     margin-left: 0;
     margin-top: 5px;
     display: block;
+  }
+  .filter-container2{
+    a {
+      margin-left: 0;
+      margin-top: 5px;
+      display: block;
+    }
   }
   // #featuredBlog {
   //   height: auto !important;

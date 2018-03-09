@@ -1,10 +1,19 @@
 $(function(){
 
   //Parallax
-  // $(window).scroll(function(){
-  //   var scroll = $(this).scrollTop()
-  //   $(".fixed-bg").css({"background-position":"0px "+scroll/2+"px"})
-  // })
+	function simpleParallax() {
+    //This variable is storing the distance scrolled
+    var scrolled = $(window).scrollTop() + 1;
+
+    //Every element with the class "scroll" will have parallax background
+    //Change the "0.3" for adjusting scroll speed.
+    $('.scroll').css('background-position', '50%' + -(scrolled * 0.3) + 'px');
+		// $('.scroll').css('background-position', '50%' + -(scrolled * 0.3) + 'px');
+	}
+	//Everytime we scroll, it will fire the function
+	$(window).scroll(function (e) {
+	    simpleParallax();
+	});
 
 	// Next arrow scroll
 	// every section must have a class of 'section' to scrol past the bottom of it

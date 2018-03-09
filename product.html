@@ -195,23 +195,37 @@
 </div> -->
 
 <!--  -->
+<!-- <div id="scene">
+  <div data-depth="0.2">My first Layer!</div>
+  <div data-depth="0.6">My second Layer!</div>
+</div> -->
+<!-- <section id="slide-1" class="homeSlide">
+            <div class="bcg">
+                <div class="hsContainer">
+                    <div class="hsContent">
+                        <h2>Simple parallax scrolling is...</h2>
+                    </div>
+                </div>
+            </div>
+        </section> -->
   <!-- 3 Image Parrallax -->
-  <div class="container-fluid texture-section" style="overflow: hidden;min-height:450px;">
+  <!-- <div class="container-fluid texture-section" style="">
     <div class="texture-top" style="background-image: url('images/textures/texture-home-2.png');">
     </div>
-    <div class="texture-bottom" style="background-image: url('images/textures/texture-home-1.png');"></div>
+    <div class="texture-bottom" style="background-image: url('images/textures/texture-home-3.png');">
+    </div>
 
     <div class="row">
 
-      <div class="col-sm-4 no-padding">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="images/featured-blog.png" data-speed="0.4"  data-bleed="-10"></div>
+      <div class="col-sm-4">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="images/featured-blog.png" data-speed="0.4"  data-bleed="-5"></div>
       </div>
-      <div class="col-sm-4 no-padding">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="images/home-banner.jpg" data-speed="0.5" data-bleed="-10"></div>
+      <div class="col-sm-4">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="images/home-banner.jpg" data-speed="0.5" data-bleed="-5"></div>
       </div>
-      <div class="col-sm-4 no-padding">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="images/footer-image.png" data-speed="0.3" data-bleed="-10"></div>
-      </div>
+      <div class="col-sm-4">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="images/footer-image.png" data-speed="0.3" data-bleed="-5"></div>
+      </div> -->
 
 
       <!-- <div class="col-sm-6 no-padding">
@@ -225,8 +239,26 @@
         <div class="parallax-window" data-parallax="scroll" data-image-src="images/home-banner.jpg" data-speed="0.5"></div>
       </div> -->
 
-    </div>
-  </div>
+    <!-- </div>
+  </div> -->
+  <!-- jsFiddle -->
+  <div class="container-fluid" style="" id="hello">
+    <div class="row texture-section">
+      <div class="texture-top" style="background-image: url('images/textures/texture-home-2.png');">
+      </div>
+      <div class="texture-bottom" style="background-image: url('images/textures/texture-home-3.png');">
+      </div>
+      <div class="col-sm-4 no-padding">
+        <div class="scroll" style="background-image: url('images/featured-blog.png');"></div>
+      </div>
+      <div class="col-sm-4 no-padding">
+        <div class="scroll" style="background-image: url('images/home-banner.jpg');"></div>
+      </div>
+      <div class="col-sm-4 no-padding">
+        <div class="scroll" style="background-image: url('images/footer-image.png');"></div>
+      </div>
+  </div></div>
+  <!-- /jsFiddle -->
   <!-- /3 Image Parrallax  -->
 
   <!-- <div class="v-center-section-lg light-bg" style="background-image: url('images/topography-bg.png');"> -->
@@ -415,6 +447,8 @@
 			</div>
 		</div>
 	</div>
+
+
   <div class="dark-bg bg-top texture-section" style="background-image: url('images/blog-header.png');">
 		<div class="texture-top" style="background-image: url('images/textures/texture-home-2.png');"></div>
     <div class="container-fluid v-center-section-xl dark-overlay">
@@ -655,6 +689,7 @@
   <script src="js/bootstrap.min.js?ckcachebust=764e23860db155ce3fef799b94572e77"></script>
 	<script defer src="js/fontawesome-all.js"></script>
   <script src="js/parallax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <!-- <script src="js/rellax.min.js"></script>
   <script src="js/parallax-google.js"></script> -->
   <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
@@ -668,6 +703,14 @@
     center: true
   });
 </script> -->
+<!-- <script type="text/javascript">
+  var scene = document.getElementById('scene');
+  var parallaxInstance = new Parallax(scene);
+</script> -->
+<!-- <script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script> -->
 </body>
 
 </html>

@@ -3,6 +3,15 @@
   background: transparent;
 }
 
+.scroll {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*Dont mind the rest*/
+  height: 300px;
+  /* For texture */
+}
+
 h1, h2, h3, h4, h5, th {
   letter-spacing: 0.2em;
   font-family: "Barlow Condensed", sans-serif;
@@ -551,6 +560,35 @@ input.form-control.black-bg {
   height: 10px;
 }
 
+.stamp {
+  height: 80px;
+}
+
+.filter-container2 {
+  width: 100%;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: block;
+}
+
+.filter-container2 h5 {
+  font-weight: 300;
+  color: #888;
+}
+
+.filter-container2 a {
+  color: rgba(0, 0, 0, 0.97);
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.filter-container2 a svg {
+  color: red;
+  margin-bottom: 4px;
+  height: 10px;
+}
+
 .featuredBlogHeight {
   min-height: 250px;
 }
@@ -693,6 +731,10 @@ input.form-control.black-bg {
 .blog-item-container, .collection-item-container {
   width: 80%;
   margin: 0px auto 50px;
+}
+
+.collection-item-container {
+  padding-top: 100px;
 }
 
 #footerAccordion .panel {
@@ -1634,6 +1676,9 @@ nav {
   .blog-item-container, .collection-item-container {
     margin: 0px auto 100px;
   }
+  .collection-item-container {
+    padding-top: 50px;
+  }
   .product-pairing-wrapper {
     padding: 30px;
     position: relative;
@@ -1793,6 +1838,11 @@ nav {
     margin-top: 0;
   }
   .filter-container a {
+    margin-left: 0;
+    margin-top: 5px;
+    display: block;
+  }
+  .filter-container2 a {
     margin-left: 0;
     margin-top: 5px;
     display: block;

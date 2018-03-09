@@ -5,7 +5,7 @@ var $blogGrid = $('.collection-item-container').masonry({
   columnWidth: 300,
   isFitWidth: true,
   gutter: 20,
-  horizontalOrder: true,
+  horizontalOrder: true
 });
 $blogGrid.imagesLoaded().progress(function() {
   $blogGrid.masonry('layout');
