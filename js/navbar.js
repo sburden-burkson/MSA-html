@@ -1,4 +1,11 @@
 $(function(){
+
+  //Parallax
+  // $(window).scroll(function(){
+  //   var scroll = $(this).scrollTop()
+  //   $(".fixed-bg").css({"background-position":"0px "+scroll/2+"px"})
+  // })
+
 	// Next arrow scroll
 	// every section must have a class of 'section' to scrol past the bottom of it
 	$(".down-arrows a").click(function() {

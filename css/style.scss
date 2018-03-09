@@ -21,7 +21,10 @@ $mainFont: 'Barlow Condensed', sans-serif;
 
 $navSpacing: 0.15em;
 
-
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
 h1, h2, h3, h4, h5, th {
   letter-spacing: 0.2em;
   font-family: $mainFont;
@@ -1088,7 +1091,6 @@ nav {
   background-attachment: fixed;
 }
 .dark-bg {
-	background-color: black;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1100,7 +1102,6 @@ nav {
 	background-color: rgba(0,0,0,0.5);
 }
 .light-bg {
-	background-color: white;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1531,9 +1532,6 @@ nav {
   }
   .navbar-nav {
     padding-right: 40px;
-  }
-  .blog-middle-banner {
-    margin-bottom: 50px;
   }
   .warranty-info {
     padding-right: 50px;
