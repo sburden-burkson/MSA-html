@@ -230,10 +230,79 @@ input.form-control.black-bg {
 	background-image: url('../images/dirt-blog-1.png');
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	@media screen and (max-width: 850px) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+#product-specs-carousel {
+	text-align: left;
+	margin: 0px auto;
+
+	@media screen and (min-width: 1214px) {
+		& {
+			display: inline-block;
+		}
+	}
+	@media screen and (max-width: 1213px) {
+		& {
+	max-width: 1000px; /* Change this if adding/removing columns */
+		}
+	}
+
+	.product-specs-carousel-button {
+		width: auto;
+    position: absolute;
+    // right: 35px;
+		left: 100%;
+    top: 50%;
+    border: 0;
+    box-shadow: none;
+		transform: translateY(-50%);
+    font-size: 24px;
+
+		&.carousel-button-left {
+			left: -35px;
+			left: auto;
+			right: 100%;
+		}
+
+		&.slick-disabled {
+			opacity: 0.2;
+		}
+	}
+
+	.product-specs-carousel-slide {
+		
+		// @media screen and (min-width: 1200px) {
+			& {
+				float: left;
+			}
+		// }
+		&.slick-initialized {
+			float: none;
+		}
+
+		.product-specs-carousel-head,
+		.product-specs-carousel-row {
+			padding-right: 50px;
+			padding-left: 6px;
+		}
+
+		.product-specs-carousel-row {
+			padding-top: 6px;
+			padding-bottom: 6px;
+
+			&:nth-child(even) {
+				background-color: #e4e4e4;
+			}
+		}
+	}
 }
 .product-specs {
-	padding: 175px 0;
+	padding: 100px 0 175px;
 	font-family: $mainFont;
+	text-align: center;
 
 	.desktop-only,
 	.desktop-also,
@@ -242,6 +311,10 @@ input.form-control.black-bg {
 		display: none;
 	}
 
+	.product-specs-table {
+		display: none !important;
+		text-align: left;
+	}
 
 	@media screen and (max-width: 767px) {
 		.mobile-only,
