@@ -146,6 +146,9 @@ a .fa-long-arrow-right {
 input.form-control.black-bg {
     border: 1px solid $dividerColorb;
 }
+.black {
+  color: $black;
+}
 .white {
   color: $white;
 }
@@ -1424,6 +1427,9 @@ nav {
 .fw-300 {
   font-weight: 300;
 }
+.fw-600 {
+  font-weight: 600;
+}
 .blog-header {
   color: $white;
   font-size: 60px;
@@ -1516,7 +1522,7 @@ nav {
   line-height: 30px;
 }
 .article-tags span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $mainFont;
   font-size: $pSize;
   letter-spacing: 0.15em;
   padding: 1px 8px;
@@ -1618,7 +1624,7 @@ nav {
 		}
   }
   .navbar-nav {
-    padding-right: 40px;
+    padding-right: 75px;
   }
   .warranty-info {
     padding-right: 50px;
@@ -1633,6 +1639,9 @@ nav {
 @media only screen and (min-width: 992px) {
   .warranty-heading {
     padding: 50px 0;
+  }
+  .article-title {
+    padding-right: 50px;
   }
   // .section-header {
   //   font-size: 68px;
