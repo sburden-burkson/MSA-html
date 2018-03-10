@@ -301,6 +301,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/blog-post-bg.jpg": {
+		"ft": 16384,
+		"iS": 987452,
+		"oA": 0,
+		"oAP": "\/images\/blog-post-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/blue-sky.png": {
 		"ft": 32768,
 		"iS": 112010,
@@ -485,17 +495,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dirt-blog-1.png": {
-		"ft": 32768,
-		"iS": 21802,
-		"oA": 0,
-		"oAP": "\/images\/dirt-blog-1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/dirt-home-2.png": {
 		"ft": 32768,
 		"iS": 23470,
@@ -559,6 +558,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/header-blog-post.jpg": {
+		"ft": 16384,
+		"iS": 946830,
+		"oA": 0,
+		"oAP": "\/images\/header-blog-post.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/header-warranty.jpg": {
@@ -1211,17 +1220,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/images\/topography-bg.png": {
-		"ft": 32768,
-		"iS": 33869,
-		"oA": 0,
-		"oAP": "\/images\/topography-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/warranty-panel.jpg": {

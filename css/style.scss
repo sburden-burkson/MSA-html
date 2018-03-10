@@ -926,6 +926,9 @@ input.form-control {
 .pad-top {
   padding-top: 30px;
 }
+.pad-top-md {
+  padding-top: 30px;
+}
 .pad-top-lg {
   padding-top: 100px;
 }
@@ -999,6 +1002,13 @@ footer {
   // h1, h2, h3, h4, h5, p {
   //   text-align: center;
   // }
+}
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
 .text-uppercase {
@@ -1177,25 +1187,35 @@ nav {
 .fixed-bg {
   background-attachment: fixed;
 }
-.dark-bg {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  h1, h2, h3, h4, p {
-    color: $white;
-  }
-}
-.dark-overlay {
-	background-color: rgba(0,0,0,0.5);
-}
 .light-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  h1, h2, h3, h4, p {
+  h1, h2, h3, h4 {
     color: $black;
   }
+  p {
+    color: $grey;
+  }
 }
+.dark-bg {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1, h2, h3, h4 {
+    color: $white;
+  }
+  p {
+    color: $grey;
+  }
+}
+.contain-bg {
+  background-size: contain;
+}
+.dark-overlay {
+	background-color: rgba(0,0,0,0.5);
+}
+
 .light-overlay {
 	background-color: rgba(255,255,255,0.5);
 }
@@ -1426,6 +1446,12 @@ nav {
 }
 .fw-300 {
   font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
 }
 .fw-600 {
   font-weight: 600;

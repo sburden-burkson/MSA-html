@@ -967,6 +967,10 @@ input.form-control {
   padding-top: 30px;
 }
 
+.pad-top-md {
+  padding-top: 30px;
+}
+
 .pad-top-lg {
   padding-top: 100px;
 }
@@ -1053,6 +1057,15 @@ footer .footerLogo {
   margin-right: auto;
   text-align: center;
   display: block;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
 }
 
 .text-uppercase {
@@ -1265,28 +1278,40 @@ nav {
   background-attachment: fixed;
 }
 
-.dark-bg {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg p {
-  color: rgba(255, 255, 255, 0.97);
-}
-
-.dark-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .light-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.light-bg h1, .light-bg h2, .light-bg h3, .light-bg h4, .light-bg p {
+.light-bg h1, .light-bg h2, .light-bg h3, .light-bg h4 {
   color: rgba(0, 0, 0, 0.97);
+}
+
+.light-bg p {
+  color: #888;
+}
+
+.dark-bg {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4 {
+  color: rgba(255, 255, 255, 0.97);
+}
+
+.dark-bg p {
+  color: #888;
+}
+
+.contain-bg {
+  background-size: contain;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .light-overlay {
@@ -1517,6 +1542,14 @@ nav {
 
 .fw-300 {
   font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
 }
 
 .fw-600 {
