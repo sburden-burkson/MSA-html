@@ -13,6 +13,14 @@ var $blogGrid = $('.blog-item-container').masonry({
   gutter: 20,
   horizontalOrder: true,
 });
+
 $blogGrid.imagesLoaded().progress(function() {
   $blogGrid.masonry('layout');
+});
+
+// Match Height & Masonry to work in tandem
+var timer;
+$(window).bind('resize', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function(){ $(".featuredBlogHeight").matchHeight(); $blogGrid.masonry('layout'); }, 200);
 });
