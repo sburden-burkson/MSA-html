@@ -8,4 +8,5 @@ $(".accessoryHeight1").matchHeight(accessoryPageOptions);
 $(".accessoryHeight2").matchHeight(accessoryPageOptions);
 $(".accessoryHeight3").matchHeight(accessoryPageOptions);
 $(".accessoryHeight4").matchHeight(accessoryPageOptions);
-$(".accessoryHeight5").matchHeight();
+// $(".accessoryHeight").matchHeight();
+$(".accessoryHeightCTA").matchHeight();

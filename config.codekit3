@@ -271,28 +271,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/black-fuzz.png": {
-		"ft": 32768,
-		"iS": 150187,
-		"oA": 0,
-		"oAP": "\/images\/black-fuzz.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/black-graphic.png": {
-		"ft": 32768,
-		"iS": 30244,
-		"oA": 0,
-		"oAP": "\/images\/black-graphic.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/blog-header.png": {
 		"ft": 32768,
 		"iS": 1263488,
@@ -313,6 +291,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blog-post-bg.jpg": {
+		"ft": 16384,
+		"iS": 987452,
+		"oA": 0,
+		"oAP": "\/images\/blog-post-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/blue-sky.png": {
@@ -477,28 +465,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/desert-bw copy.png": {
-		"ft": 32768,
-		"iS": 162955,
-		"oA": 0,
-		"oAP": "\/images\/desert-bw copy.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/desert-bw.png": {
-		"ft": 32768,
-		"iS": 120039,
-		"oA": 0,
-		"oAP": "\/images\/desert-bw.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/dirt-blog-1.png": {
 		"ft": 32768,
 		"iS": 21802,
@@ -573,6 +539,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/header-blog-post.jpg": {
+		"ft": 16384,
+		"iS": 946830,
+		"oA": 0,
+		"oAP": "\/images\/header-blog-post.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/header-warranty.jpg": {
@@ -713,17 +689,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/mud.png": {
-		"ft": 32768,
-		"iS": 77895,
-		"oA": 0,
-		"oAP": "\/images\/mud.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/performance-bg.jpg": {
 		"ft": 16384,
 		"iS": 211958,
@@ -767,17 +732,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/quad-layer.png": {
-		"ft": 32768,
-		"iS": 272944,
-		"oA": 0,
-		"oAP": "\/images\/quad-layer.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/quad-sky.png": {
 		"ft": 32768,
 		"iS": 2077026,
@@ -805,17 +759,6 @@
 		"iS": 636202,
 		"oA": 0,
 		"oAP": "\/images\/quad-water.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/quad-wheelie.png": {
-		"ft": 32768,
-		"iS": 219440,
-		"oA": 0,
-		"oAP": "\/images\/quad-wheelie.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -970,13 +913,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/images\/sidenav-bg.png~": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/images\/sidenav-bg.png~",
-		"oF": 0
 		},
 	"\/images\/sidenav-close-icon.png": {
 		"ft": 32768,
