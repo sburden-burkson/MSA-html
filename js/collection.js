@@ -17,5 +17,4 @@ var collectionHeightOptions = {
 }
 $(".collectionHeight").matchHeight(collectionHeightOptions);
 $(".collection-img-wrap").matchHeight(collectionHeightOptions);
-
 $(".collection-col").matchHeight(collectionHeightOptions);

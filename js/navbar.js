@@ -4,7 +4,6 @@ $(function(){
 	function simpleParallax() {
     //This variable is storing the distance scrolled
     var scrolled = $(window).scrollTop() + 1;
-
     //Every element with the class "scroll" will have parallax background
     //Change the "0.3" for adjusting scroll speed.
     $('.scroll').css('background-position', '50%' + -(scrolled * 0.3) + 'px');
@@ -16,7 +15,7 @@ $(function(){
 	});
 
 	// Next arrow scroll
-	// every section must have a class of 'section' to scrol past the bottom of it
+	// every section must have a class of 'section' to scroll past the bottom of it
 	$(".down-arrows a").click(function() {
 		var section = $(this).closest('.section');
 		$('html,body').animate({
@@ -30,8 +29,6 @@ $(function(){
   var headerHeight = 40;
 
 	var topSection;
-	// var whiteTop = $('.white-top')[0];
-	// var blackGradientImage = "images/textures/top-gradient.png";
 
 	if (!$('[id^="top-section"]')[0] && !$('.home-video-wrapper')[0]) {
 		topSection = false;
@@ -39,9 +36,6 @@ $(function(){
 	} else {
 		$('#navColor').addClass("changeWhite");
 		topSection = true;
-		// if (whiteTop) {
-		//   $('#top-section').append('<div class="texture-top" style="background-image: url('+blackGradientImage+');"></div>');
-		// }
 	}
 	// Navbar Height and Transparency
 	var navHeight = $('nav').outerHeight();
@@ -104,6 +98,4 @@ $(function(){
 		navResize();
 	});
 	navResize();
-
-	// $('.signInHeight').matchHeight();
 });
