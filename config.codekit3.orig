@@ -271,28 +271,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/black-fuzz.png": {
-		"ft": 32768,
-		"iS": 150187,
-		"oA": 0,
-		"oAP": "\/images\/black-fuzz.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/black-graphic.png": {
-		"ft": 32768,
-		"iS": 30244,
-		"oA": 0,
-		"oAP": "\/images\/black-graphic.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/blog-header.png": {
 		"ft": 32768,
 		"iS": 1263488,
@@ -313,6 +291,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blog-post-bg.jpg": {
+		"ft": 16384,
+		"iS": 987452,
+		"oA": 0,
+		"oAP": "\/images\/blog-post-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/blue-sky.png": {
@@ -477,28 +465,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/desert-bw copy.png": {
-		"ft": 32768,
-		"iS": 162955,
-		"oA": 0,
-		"oAP": "\/images\/desert-bw copy.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/desert-bw.png": {
-		"ft": 32768,
-		"iS": 120039,
-		"oA": 0,
-		"oAP": "\/images\/desert-bw.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/dirt-blog-1.png": {
 		"ft": 32768,
 		"iS": 21802,
@@ -573,6 +539,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/header-blog-post.jpg": {
+		"ft": 16384,
+		"iS": 946830,
+		"oA": 0,
+		"oAP": "\/images\/header-blog-post.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/header-warranty.jpg": {
@@ -713,17 +689,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/mud.png": {
-		"ft": 32768,
-		"iS": 77895,
-		"oA": 0,
-		"oAP": "\/images\/mud.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/performance-bg.jpg": {
 		"ft": 16384,
 		"iS": 211958,
@@ -805,17 +770,6 @@
 		"iS": 636202,
 		"oA": 0,
 		"oAP": "\/images\/quad-water.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/quad-wheelie.png": {
-		"ft": 32768,
-		"iS": 219440,
-		"oA": 0,
-		"oAP": "\/images\/quad-wheelie.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -970,13 +924,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/images\/sidenav-bg.png~": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/images\/sidenav-bg.png~",
-		"oF": 0
 		},
 	"\/images\/sidenav-close-icon.png": {
 		"ft": 32768,
@@ -1211,6 +1158,17 @@
 		"iS": 3289,
 		"oA": 0,
 		"oAP": "\/images\/textures\/top-gradient.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tire-screenshot.png": {
+		"ft": 32768,
+		"iS": 40104,
+		"oA": 0,
+		"oAP": "\/images\/tire-screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1517,6 +1475,56 @@
 		"oAP": "\/js\/navbar.js.orig",
 		"oF": 0
 		},
+	"\/js\/parallax-google-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax-google-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/parallax-google.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax-google-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/parallax-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/parallax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/parallax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/product-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1533,6 +1541,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/product-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/rellax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/rellax.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1570,6 +1588,36 @@
 		"oA": 0,
 		"oAP": "\/js\/sidenav.js.orig",
 		"oF": 0
+		},
+	"\/js\/signin-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/signin-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/signin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/signin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/skrollr.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/skrollr.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/warranty-min.js": {
 		"ft": 64,
@@ -1620,6 +1668,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidenav.html",
+		"oF": 0
+		},
+	"\/signin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/signin.html",
 		"oF": 0
 		},
 	"\/slick\/ajax-loader.gif": {
@@ -1767,6 +1822,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/thankyou.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/thankyou.html",
+		"oF": 0
 		},
 	"\/transnav.html": {
 		"cB": 0,

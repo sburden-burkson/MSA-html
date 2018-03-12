@@ -21,52 +21,25 @@ $mainFont: 'Barlow Condensed', sans-serif;
 
 $navSpacing: 0.15em;
 
-.parallax-window {
-  min-height: 400px;
-  background: transparent;
-}
-
-.scroll {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  // background-size: cover;
-//   -moz-background-size: auto 50%;
-// -webkit-background-size: auto 50%;
-// -o-background-size: auto 50%;
-// background-size: auto 50%;
-    /*Dont mind the rest*/
-    // width:500px;
-    height:300px;
-    // line-height:300px;
-    // margin:0 auto;
-    // margin-top:150px;
-    // text-align:center;
-    // color:#fff;
-    // font-family:'Open Sans' sans-serif;
-
-    /* For texture */
-    // position: relative;
-}
-
-// .parallax {
-//   background-size: cover;
-//   box-sizing: border-box;
-//   width: 100%;
-//   height: 130vh;
-//   /* Since the parallax elements still consume space, we set the margin to undo
-//      the height of this parallax element making it essentially consume 0 space.
-//   */
-//   margin-bottom: -130vh;
-// }
-
 h1, h2, h3, h4, h5, th {
   letter-spacing: 0.2em;
   font-family: $mainFont;
   color: $black;
 }
+h1.h-light, h2.h-light, h3.h-light, h4.h-light, h5.h-light, th.h-light,
+h1 > .h-light, h2 > .h-light, h3 > .h-light, h4 > .h-light, h5 > .h-light, th > .h-light {
+	color: $lightblack;
+}
+h1.h-grey, h2.h-grey, h3.h-grey, h4.h-grey, h5.h-grey, th.h-grey,
+h1 > .h-grey, h2 > .h-grey, h3 > .h-grey, h4 > .h-grey, h5 > .h-grey, th > .h-grey {
+	color: $grey;
+}
 h1 {
   font-size: $h1Size;
+}
+h1.extra-bold {
+	font-weight: bold;
+	line-height: 1.3em;
 }
 h2 {
   font-size: $h2Size;
@@ -121,6 +94,11 @@ footer.black-footer {
 a .fa-long-arrow-right {
   margin-left: 50px;
 }
+.background-cover-center {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 .modal-content {
   border-radius: 0;
 }
@@ -158,6 +136,17 @@ input.form-control.black-bg {
 .white:hover {
   color: $white;
   text-decoration: none;
+}
+.border-bottom {
+	border-bottom: 1px solid $dividerColor;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid $dividerColor;
+	margin: 1em 0;
+	padding: 0;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
   border: 0;
@@ -265,6 +254,25 @@ input.form-control.black-bg {
 .sign-in-right .form-group {
   margin-top: 20px;
 }
+.accessoryHeightCTA {
+	min-height: 300px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	img {
+		opacity: 0;
+	}
+}
+.accessoryHeight1,
+.accessoryHeight2,
+.accessoryHeight3,
+.accessoryHeight4 {
+	min-height: 400px;
+
+	h3.no-image {
+		padding-top: 60px;
+	}
+}
 .warranty-heading {
   padding: 15px 0;
 }
@@ -291,15 +299,20 @@ input.form-control.black-bg {
     font-size: $h5Size;
     font-family: $mainFont;
     letter-spacing: 0.2em;
-    color: $black;
+    color: $grey;
   }
   .productTabsHeight {
-		padding-bottom: 3px;
+		padding-bottom: 4px;
 	}
-  .active {
+  .warrantyOptionHeight.active,
+  .productTabsHeight.active {
+		color: $black;
     border-bottom: 2px red solid;
     pointer-events: none;
   }
+}
+.product-options .product-tabs .product-tabs-option a {
+	font-size: 16px;
 }
 .product-options .product-tabs {
 	padding: 25px 0 4px;
@@ -308,110 +321,80 @@ input.form-control.black-bg {
 	background-image: url('../images/dirt-blog-1.png');
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	@media screen and (max-width: 850px) {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+#product-specs-carousel {
+	text-align: left;
+	margin: 0px auto;
+
+	@media screen and (min-width: 1214px) {
+		& {
+			display: inline-block;
+		}
+	}
+	@media screen and (max-width: 1213px) {
+		& {
+			max-width: 1040px; /* Change this if adding/removing columns */
+		}
+	}
+
+	.product-specs-carousel-button {
+		width: auto;
+    position: absolute;
+    // right: 35px;
+		left: 100%;
+    top: 50%;
+    border: 0;
+    box-shadow: none;
+		transform: translateY(-50%);
+    font-size: 34px;
+		color: $lightblack;
+
+		&.carousel-button-left {
+			left: -35px;
+			left: auto;
+			right: 100%;
+		}
+
+		&.slick-disabled {
+			opacity: 0.2;
+		}
+	}
+
+	.product-specs-carousel-slide {
+		float: left;
+
+		&.slick-initialized {
+			float: none;
+		}
+
+		.product-specs-carousel-head,
+		.product-specs-carousel-row {
+			padding-right: 50px;
+			padding-left: 12px;
+		}
+
+		.product-specs-carousel-row {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			letter-spacing: 1px;
+
+			&:nth-child(even) {
+				background-color: #e4e4e4;
+			}
+		}
+	}
 }
 .product-specs {
-	padding: 175px 0;
+	padding: 100px 0 175px;
 	font-family: $mainFont;
+	text-align: center;
 
-	.desktop-only,
-	.desktop-also,
-	.desktop-wide-only,
-	.mobile-only {
-		display: none;
-	}
-
-
-	@media screen and (max-width: 767px) {
-		.mobile-only,
-		.mobile-also {
-			display: block;
-		}
-		span.mobile-only,
-		span.mobile-also {
-			display: inline;
-		}
-		.product-specs-row {
-			padding: 12px;
-			position: relative;
-			float: left;
-			width: 50%;
-			border-bottom: solid 1px gray;
-
-			&:nth-child(odd) {
-				border-right: solid 1px gray;
-			}
-
-			.product-specs-cell {
-				font-size: 18px;
-
-			 	span.mobile-only {
-					display: inline-block;
-					min-width: 48%;
-					font-size: 14px;
-					text-align: right;
-					padding-right: 2%;
-				}
-			}
-		}
-	}
-	@media screen and (max-width: 480px) {
-		.product-specs-row {
-			float: none;
-			width: 100%;
-
-			&:nth-child(odd) {
-				border-right: 0;
-			}
-		}
-	}
-	@media screen and (min-width: 768px) {
-		.desktop-only,
-	 	.desktop-also	{
-			display: block;
-		}
-		span.desktop-only,
-	 	span.desktop-also	{
-			display: inline;
-		}
-		.product-specs-table {
-			display: table;
-
-			.product-specs-tbody {
-				display: table-row-group;
-
-				.product-specs-row {
-					display: table-row;
-				}
-				.product-specs-row:nth-child(odd) {
-					background: #e4e4e4;
-				}
-			}
-			.product-specs-cell {
-				display: table-cell;
-				padding: 6px 12px;
-			}
-			.product-specs-thead {
-				display: table-header-group;
-				.product-specs-cell {
-					padding-bottom: 24px;
-					font-size: 18px;
-				}
-			}
-		}
-	}
-	@media screen and (min-width: 1200px) {
-		.desktop-also,
-	 	span.desktop-also	{
-			display: none;
-		}
-		.desktop-wide-only,
-		.desktop-wide-also {
-			display: block;
-		}
-		span.desktop-wide-only,
-		span.desktop-wide-also {
-			display: inline;
-		}
+	.product-specs-table {
+		text-align: left;
 	}
 }
 .product-pairing {
@@ -434,25 +417,27 @@ input.form-control.black-bg {
 .slick-slide * {
   outline: none !important;
 }
-.slick-slide {
-	opacity: 0.5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.slick-slide.slick-current {
-	position: relative;
-	opacity: 1;
+.product-wrapper {
+	.slick-slide {
+		opacity: 0.5;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.slick-slide.slick-current {
+		position: relative;
+		opacity: 1;
 
-	&:after {
-		content: ' ';
-		display: block;
-		position: absolute;
-		width: 20px;
-		height: 2px;
-		background: red;
-		left: 50%;
-		bottom: 0px;
-		transform: translateX(-50%);
+		&:after {
+			content: ' ';
+			display: block;
+			position: absolute;
+			width: 20px;
+			height: 2px;
+			background: red;
+			left: 50%;
+			bottom: 0px;
+			transform: translateX(-50%);
+		}
 	}
 }
 #staggeredCarousel {
@@ -476,14 +461,30 @@ input.form-control.black-bg {
 }
 #product-thumbs-outer {
 	text-align: right;
-	// padding-right: 40px;
 }
 #product-thumbs-wrapper {
 	display: inline-block;
 }
+#product-image-carousel {
+	max-width: 450px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
 #product-image-carousel,
 #product-thumbs {
   visibility: hidden;
+}
+#product-thumbs-wrapper .product-thumbs-table {
+	display: table;
+
+	.product-thumbs-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+#product-thumbs {
+	max-width: 80px;
+	margin: 50px auto;	
 }
 .slick-initialized {
   visibility: visible !important;
@@ -493,9 +494,13 @@ input.form-control.black-bg {
 }
 .product-customization {
   padding-top: 40px;
-  p {
-    font-weight: bold;
+  p, & > div {
+		color: $grey;
     padding: 15px 0 25px;
+		margin: 0 0 10px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: $pSize;
+		letter-spacing: 0.15em;
   }
   .p-size span a {
     float: right;
@@ -533,10 +538,7 @@ input.form-control.black-bg {
       display: inline-block;
       border-radius: 50%;
     }
-}
-  .border-bottom {
-    border-bottom: 1px solid $dividerColor;
-  }
+	}
 }
 .p-similar a {
   color: $black;
@@ -827,9 +829,6 @@ input.form-control.black-bg {
       margin-bottom: 30px;
     }
   }
-  .border-bottom {
-    border-bottom: 1px solid $dividerColor;
-  }
   .panel-heading {
     padding: 50px 0px 20px;
     h4 {
@@ -938,14 +937,20 @@ input.form-control {
 .pad-top {
   padding-top: 30px;
 }
+.pad-top-sm {
+	padding-top: 15px;
+}
 .pad-top-md {
-  padding-top: 30px;
+	padding-top: 50px;
 }
 .pad-top-lg {
   padding-top: 100px;
 }
 .pad-bottom {
   padding-bottom: 30px;
+}
+.pad-bottom-sm {
+	padding-bottom: 15px;
 }
 .pad-bottom-md {
 	padding-bottom: 50px;
@@ -1289,8 +1294,14 @@ nav {
 .pad-left {
   padding-left: 50px;
 }
+.pad-left-lg {
+	padding-left: 100px;
+}
 .pad-right {
   padding-right: 50px;
+}
+.pad-right-lg {
+	padding-right: 100px;
 }
 .pad-top-bottom, .spaced-section .pad-top-bottom {
   padding-top: 50px;
@@ -1686,6 +1697,9 @@ nav {
   .warranty-heading {
     padding: 50px 0;
   }
+	.pad-desktop {
+		padding: 0 50px;
+	}
   .article-title {
     padding-right: 50px;
   }
@@ -1738,8 +1752,7 @@ nav {
       padding-right: 15px;
     }
   }
-  .warranty-options,
-  .product-options .product-tabs {
+  .warranty-options {
     padding: 45px 0 15px;
   }
 }
@@ -1795,7 +1808,7 @@ nav {
     padding-bottom: 75px;
   }
   .no-banner {
-    padding-top: 70px;
+    padding-top: 80px;
     padding-bottom: 30px;
   }
   #top-section {
@@ -1813,12 +1826,21 @@ nav {
   .sign-in-left {
     padding-top: 20px;
   }
+	.product-wrapper .slick-slide {
+		padding-top: 30px;
+	}
   .product-pairing {
     position: absolute;
     right: 15px;
+		padding-top: 20px;
+		-webkit-transform: none;
+		transform: none;
   }
 	.no-margin-top-mobile {
 		margin-top: 0;
+	}
+	.no-pad-mobile {
+		padding: 0 0 0 0 !important;
 	}
   .filter-container a {
     margin-left: 0;
@@ -2040,5 +2062,17 @@ nav {
 		max-width: 100%;
 		min-width: 100%;
 		width: 100%;
+	}
+  .product-pairing {
+    position: relative;
+		padding-top: 20px;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+		display: block;
+		text-align: center;
+  }
+	.product-wrapper .slick-slide {
+		padding-top: 0;
 	}
 }

@@ -123,6 +123,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/sidenav.scss.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/sidenav.scss.orig",
+		"oF": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -269,28 +276,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"\/images\/black-fuzz.png": {
-		"ft": 32768,
-		"iS": 150187,
-		"oA": 0,
-		"oAP": "\/images\/black-fuzz.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/black-graphic.png": {
-		"ft": 32768,
-		"iS": 30244,
-		"oA": 0,
-		"oAP": "\/images\/black-graphic.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/blog-header.png": {
@@ -481,28 +466,6 @@
 		"iS": 785808,
 		"oA": 0,
 		"oAP": "\/images\/desert-atv.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/desert-bw copy.png": {
-		"ft": 32768,
-		"iS": 162955,
-		"oA": 0,
-		"oAP": "\/images\/desert-bw copy.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/desert-bw.png": {
-		"ft": 32768,
-		"iS": 120039,
-		"oA": 0,
-		"oAP": "\/images\/desert-bw.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -733,17 +696,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/mud.png": {
-		"ft": 32768,
-		"iS": 77895,
-		"oA": 0,
-		"oAP": "\/images\/mud.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/performance-bg.jpg": {
 		"ft": 16384,
 		"iS": 211958,
@@ -825,17 +777,6 @@
 		"iS": 636202,
 		"oA": 0,
 		"oAP": "\/images\/quad-water.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/quad-wheelie.png": {
-		"ft": 32768,
-		"iS": 219440,
-		"oA": 0,
-		"oAP": "\/images\/quad-wheelie.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -990,13 +931,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/images\/sidenav-bg.png~": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/images\/sidenav-bg.png~",
-		"oF": 0
 		},
 	"\/images\/sidenav-close-icon.png": {
 		"ft": 32768,
@@ -1564,6 +1498,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/parallax-google-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/parallax-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/parallax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

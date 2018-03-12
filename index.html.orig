@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.min.css?ckcachebust=4be391a07023a51035898cf3fa01bff2" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400|Open+Sans:300" rel="stylesheet">
+<<<<<<< HEAD
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500|Open+Sans:300" rel="stylesheet">
+=======
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400|Open+Sans:300,400" rel="stylesheet">
+>>>>>>> cleanupc2
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   <link href="css/style.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
-<<<<<<< HEAD
-  <link href="css/sidenav-min.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
-=======
   <link href="css/sidenav.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
->>>>>>> sidenav
   <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js?ckcachebust=540518905"></script> -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?ckcachebust=540518905"></script>
@@ -28,16 +28,15 @@
     <div id="header">
       <div class="container-fluid">
         <div class="pull-left">
-          <a href="javascript:void(0)">CHAT</a>
-          <span class="navbar-divider">|</span>
           <a href="javascript:void(0)">ABOUT</a>
+          <span class="navbar-divider">|</span>
+          <a href="javascript:void(0)"><i class="far fa-search"></i></a>
         </div>
         <div class="pull-right">
-          <a href="javascript:void(0)"><span class="glyphicon glyphicon-search"></span></a>
           <a href="javascript:void(0)">SIGN IN</a>
           <span class="navbar-divider">|</span>
-          <a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official"></i></a>
-          <a href="javascript:void(0)" class="icon"><i class="fa fa-instagram"></i></a>
+          <a href="javascript:void(0)" class="icon"><i class="fab fa-facebook"></i></a>
+          <a href="javascript:void(0)" class="icon"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </div>
@@ -48,8 +47,8 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="javascript:void(0)">
-		          <img alt="MSA Logo" id="navLogo" src="images/msa-logo.png">
-		        </a>
+            <img alt="MSA Logo" id="navLogo" src="images/msa-logo.png">
+          </a>
         </div>
         <div class="navbar-right">
           <div class="navbar-collapse collapse" id="navbar">
@@ -67,30 +66,64 @@
           </div>
           <!--/.nav-collapse -->
           <div class="toggle-wrapper">
-            <button type="button" class="navbar-toggle side-nav-open">
-  							<span class="sr-only">Toggle navigation</span>
-  							<span class="icon-bar"></span>
-  							<span class="icon-bar"></span>
-  							<span class="icon-bar"></span>
-  						</button>
+            <button type="button" class="navbar-toggle side-nav-open" data-sidenav="sidenav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
           </div>
         </div>
       </div>
     </nav>
   </div>
   <!--/ END Navigation -->
-  <div class="dark-bg texture-section fixed-bg white-top" id="top-section" style="background-image: url('images/home-banner.jpg');">
+<<<<<<< HEAD
+  <!-- <div class="dark-bg texture-section fixed-bg" id="top-section" style="background-image: url('images/home-banner.jpg');">
+=======
+    
+  <div class="dark-bg texture-section fixed-bg scroll-effect" id="top-section" style="background-image: url('images/home-banner.jpg');">
+>>>>>>> cleanupc2
     <div class="texture-bottom" style="background-image: url('images/textures/texture-home-1.png');">
     </div>
     <div class="container-fluid">
       <div class="section-info-wrap">
-        <h1 style="font-weight: bold; line-height: 1.3em;">THE<br>
+<<<<<<< HEAD
+        <h1>THE</h1>
+        <h1>OPEN</h1>
+        <h1>ROAD</h1>
+=======
+        <h1 class="extra-bold">THE<br>
         OPEN<br>
         ROAD</h1>
+>>>>>>> cleanupc2
         <p class="pad-top pad-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
       </div>
     </div>
+    <div class="texture-top" style="background-image: url('images/textures/top-gradient.png');"></div>
+  </div> -->
+<!-- <br><br> -->
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/home-banner.jpg" data-speed="0.5">
+  <div class="dark-bg texture-section" id="top-section">
+
+    <div class="texture-top" style="background-image: url('images/textures/top-gradient.png');"></div>
+    <div class="texture-bottom" style="background-image: url('images/textures/texture-home-1.png');"></div>
+
+    <div class="container-fluid">
+      <div class="section-info-wrap">
+        <h1>THE</h1>
+        <h1>OPEN</h1>
+        <h1>ROAD</h1>
+        <p class="pad-top pad-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
+      </div>
+    </div>
+
   </div>
+</div>
+
+  <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="images/blue-truck.jpg"></div> -->
+
   <!-- <div class="dark-bg texture-section fixed-bg" id="top-section" style="background-image: url('images/quad-sky.png');">
     <div class="container-fluid">
       <div class="section-info-wrap">
@@ -98,7 +131,7 @@
         <h2 class="">YOUR ONRAMP</h2>
         <h2 class="">TO THE FOREST</h2>
         <p class="pad-top pad-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
-        <p style="">
+        <p>
           <a href="javascript:void(0)" class="down-arrows trans-white-md"><i class="fa fa-angle-double-down"></i></a>
         </p>
       </div>
@@ -114,7 +147,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <div class="text-right modal-close">
-            <a href="javascript:void(0)" data-dismiss="modal"><img src="images/x-icon.png" alt="" style="width: 35px;"></a>
+            <a href="javascript:void(0)" data-dismiss="modal"><img src="images/x-icon.png" alt="" style=""></a>
           </div>
           <h4 class="modal-title">FILTER</h4>
         </div>
@@ -135,9 +168,10 @@
     </div>
   </div>
   <!-- /modal -->
+
   <!-- carousel  -->
-  <div class="container v-center-section visible-md visible-lg pad-left pad-right" style="">
-    <div class="center" id="staggeredCarousel" style="">
+  <div class="container v-center-section visible-md visible-lg pad-left pad-right background-cover-center" style="background-image: url('images/dirt-home-2.png');">
+    <div class="center" id="staggeredCarousel">
 
       <div class="carosel-item staggeredCarouselHeight pad-top-bottom">
         <div class="dark-bg wp-full-height" style="background-image: url('images/tires-home.jpg');"></div>
@@ -188,11 +222,11 @@
 <!-- /carousel  -->
 
   <!--  Carosel on smaller screen-->
-  <div class="container v-center-section visible-sm visible-xs pad-left-right" style="">
+  <div class="container v-center-section visible-sm visible-xs pad-left-right">
     <div class="" id="staggeredCarouselMobile">
 
       <div class="carosel-item">
-        <div class="dark-bg carousel-info-image" style="background-image: url('images/tires-home.jpg');height: 300px;"></div>
+        <div class="dark-bg carousel-info-image" style="background-image: url('images/tires-home.jpg');"></div>
         <div class="dark-bg" style="background-image: url('images/container-bg.png');">
           <div class="carousel-info-pad spaced-section">
               <div class="carouselInfoMobileHeight"><h3>BUILD IT</h3>
@@ -203,7 +237,7 @@
       </div>
 
       <div class="carosel-item">
-        <div class="dark-bg carousel-info-image" style="background-image: url('images/tires-home.jpg');height: 300px;"></div>
+        <div class="dark-bg carousel-info-image" style="background-image: url('images/tires-home.jpg');"></div>
         <div class="dark-bg" style="background-image: url('images/container-bg.png');">
           <div class="carousel-info-pad spaced-section">
               <div class="carouselInfoMobileHeight">
@@ -218,7 +252,7 @@
       </div>
 
       <div class="carosel-item">
-        <div class="dark-bg carousel-info-image" style="background-image: url('images/tires-home.jpg');height: 300px;"></div>
+        <div class="dark-bg carousel-info-image" style="background-image: url('images/tires-home.jpg');"></div>
         <div class="dark-bg" style="background-image: url('images/container-bg.png');">
           <div class="carousel-info-pad spaced-section">
               <div class="carouselInfoMobileHeight"><h3>BUILD IT</h3>
@@ -233,7 +267,7 @@
   <!-- /carousel on smaller -->
 
   <!-- image-info-section  -->
-  <!-- <div class="container v-center-section image-info-section" style="">
+  <!-- <div class="container v-center-section image-info-section">
     <div class="row">
       <div class="col-md-6 no-pad-right">
         <div class="wp-full-width wp-table image-info-left">
@@ -250,7 +284,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <p class="pad-top"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red pad-top">SEE WHEELS <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
-              <img src="images/chevron-right.png" alt="" style="" class="image-info-chevron-right hidden-xs hidden-sm"></div>
+              <img src="images/chevron-right.png" alt="" class="image-info-chevron-right hidden-xs hidden-sm"></div>
           </div>
         </div>
       </div>
@@ -282,23 +316,23 @@
   </div>
 
   <!--  Centered Header w 2 Columns -->
-  <div class="v-center-section">
+  <div class="light-bg v-center-section-lg contain-bg" style="background-image: url('images/topography-bg.png');">
     <div class="container">
       <div class="section-info-wrap center pad-bottom">
-        <h3 class="text-center">TRAILS & PEOPLE</h3>
-        <h3 class="text-center">NEAR YOU</h3>
+        <h3 class="fw-400 text-center">TRAILS & PEOPLE</h3>
+        <h3 class="fw-400 text-center">NEAR YOU</h3>
       </div>
       <div class="row pad-top">
         <div class="col-sm-6">
           <div class="section-info-wrap restricted-width spaced-section">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <p><a href="javascript:void(0)" class="text-uppercase standard-link">SEE WHEELS <i class="fa fa-angle-double-right"></i></a></p>
+            <p><a href="javascript:void(0)" class="text-uppercase standard-link">SEE WHEELS <i class="far fa-angle-double-right"></i></a></p>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="section-info-wrap restricted-width spaced-section">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <p><a href="javascript:void(0)" class="text-uppercase standard-link">SEE WHEELS <i class="fa fa-angle-double-right"></i></a></p>
+            <p><a href="javascript:void(0)" class="text-uppercase standard-link">SEE WHEELS <i class="far fa-angle-double-right"></i></a></p>
           </div>
         </div>
       </div>
@@ -306,30 +340,13 @@
     </div>
   </div>
 
-  <!-- <div class="container v-center-section">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="restricted-width-left">
-          <h3>TRAILS & PEOPLE</h3>
-          <h3>NEAR YOU</h3>
-          <p class="pad-top-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <img src="images/quad-water.png" alt="" class="img-responsive" style="padding-bottom: 50px;">
-        <img src="images/quad-jump.png" alt="" class="img-responsive" style="padding-bottom: 50px;">
-      </div>
-      <div class="col-sm-6">
-        <img src="images/quad-jump2.png" alt="" class="img-responsive" style="padding-bottom: 50px;">
-        <img src="images/atv.jpg" alt="" class="img-responsive" style="">
-      </div>
-    </div>
-  </div> -->
   <!-- /Fuzz Black2 -->
   <div class="dark-bg v-center-section-xl texture-section" style="background-image: url('images/performance-bg.jpg');">
     <div class="texture-top" style="background-image: url('images/textures/texture-home-2.png');">
     </div>
     <div class="container">
       <div class="section-info-wrap restricted-width spaced-section">
-        <h3 class="text-center pad-bottom">PERFORMANCE</h3>
+        <h3 class="text-center pad-bottom fw-300">PERFORMANCE</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         <p class="text-center pad-top pad-bottom"><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
       </div>
@@ -338,64 +355,11 @@
     </div>
   </div>
   <!-- /Fuzz Black2 -->
-  <!-- INSTA -->
-
-  <!-- <div class="instagram-section">
-    <div class="container">
-      <h3 class="text-center pad-bottom">#MSA ON INSTAGRAM</h3>
-      <div class="row">
-
-        <div class="col-sm-4 no-padding">
-          <img src="images/insta.png" alt="">
-        </div>
-
-        <div class="col-sm-4" style="">
-          <div class="row">
-            <div class="col-xs-6 no-padding">
-              <img src="images/insta.png" alt="">
-              <img src="images/insta.png" alt="">
-            </div>
-            <div class="col-xs-6 no-padding">
-              <img src="images/insta.png" alt="">
-              <img src="images/insta.png" alt="">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-4" style="">
-          <div class="row">
-            <div class="col-xs-6 no-padding">
-              <img src="images/insta.png" alt="">
-              <img src="images/insta.png" alt="">
-            </div>
-            <div class="col-xs-6 no-padding">
-              <img src="images/insta.png" alt="">
-              <img src="images/insta.png" alt="">
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div> -->
-  <!--/ INSTA -->
-
-  <!-- <div class="v-center-section">
-    <div class="container">
-      <div class="section-info-wrap center spaced-section">
-        <h2 class="section-header-sm">drive free.</h2>
-        <img src="images/3-wheels.png" alt="" class="img-responsive center">
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p><a href="javascript:void(0)" class="btn wp-btn-extra-long text-uppercase wp-btn-red">SEE WHEELS <i class="fal fa-long-arrow-right fa-lg"></i></a></p>
-      </div>
-    </div>
-  </div> -->
 
   <div class="v-center-section light-bg" style="background-image: url('images/dirt-home-2.png');">
     <div class="container">
       <div class="section-info-wrap restricted-width-lg spaced-section center">
         <div class="pad-bottom text-center">
-          <h4 class="fw-300">updates</h4>
           <h3>TAKE THE PATH LESS</h3>
           <h3>TRAVELLED LOREM </h3>
           <h3>IPSUM DOLOR</h3>
@@ -410,6 +374,7 @@
     </div>
   </div>
 
+<<<<<<< HEAD
   <!-- <div class="v-center-section dark-bg" style="background-image: url('images/mud.png');">
     <div class="container ">
       <div class="row ">
@@ -451,135 +416,140 @@
     </div>
   </div> -->
 
+<!-- Old Footer (Image) -->
   <!-- <div class="full-bg bg-bottom" style="background-image: url('images/footer-image.png');">
       <div class="section-info-wrap pad-top-lg">
         <h1 class="footer-header">PERFORMANCE</h1>
         <h1 class="footer-header">BUILDS</h1>
       </div>
   </div> -->
-  <div class="half-bg bg-bottom texture-section" style="background-image: url('images/footer-image.png');">
+  <div class="full-bg bg-bottom texture-section v-center-section-xl" style="background-image: url('images/footer-image.png');">
+=======
+  <div class="half-bg bg-bottom texture-section scroll-effect" style="background-image: url('images/footer-image.png');">
+>>>>>>> cleanupc2
     <div class="texture-top" style="background-image: url('images/textures/home-texture2.png');">
     </div>
-    <div class="section-info-wrap pad-top-lg">
-      <h1 class="footer-header white text-center">RUGGED.</h1>
+    <div class="section-info-wrap">
+      <h1 class="footer-header white text-center fw-400">RUGGED.</h1>
     </div>
   </div>
+  <!-- Old Footer (Image) -->
+
+<!-- New Footer (Image) -->
+  <!-- <div class="texture-section no-padding" style="">
+    <div class="texture-top" style="background-image: url('images/textures/home-texture2.png');">
+    </div>
+    <img src="images/footer-image.png" alt="" class="wp-full-width" />
+    <div class="absolute-center"><h1 class="fw-400 no-margin white">RUGGED.</h1></div>
+  </div> -->
+  <!-- /New Footer (Image) -->
 
   <!-- Footer -->
   <footer class="black-footer">
     <div class="container copyright">
       <div class="pull-left"><img alt="MSA Logo" class="footerLogo" src="images/msa-logo.png"></div>
-      <div class="pull-right">
-        <p>&copy; 2018</p>
-      </div>
     </div>
     <div class="container footer-link-wrap">
       <div class="row">
-        <div class="col-sm-3 col-sm-push-9 pad-bottom">
-          <p><b>STAY INFORMED</b></p><input class="form-control black-bg" placeholder="email" type="text">
+        <div class="col-sm-3 col-sm-push-9 pad-bottom footer-sub">
+            <h4 class="">STAY INFORMED</h4>
+            <div class="input-group">
+            <input class="form-control black-bg" placeholder="email" type="text">
+            <span class="input-group-btn">
+              <button class="btn trans-bg" type="button"><i class="fal fa-long-arrow-right fa-lg"></i></button>
+             </span>
+          </div>
         </div>
         <div class="col-sm-9 col-sm-pull-3">
           <div class="row">
             <div aria-multiselectable="true" class="panel-group" id="footerAccordion" role="tablist">
-              <div class="col-sm-2">
-                <div class="panel">
-                  <div class="panel-heading" id="heading1" role="tab">
-                    <h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse1"
-                    aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse1" role=
-                    "button"><i class="fal fa-plus"></i></a></span></h4>
-                  </div>
-                  <div aria-labelledby="heading1" class="panel-collapse collapse" id="collapse1" role="tabpanel">
-                    <div class="panel-body">
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                    </div>
+              <div class="panel col-sm-2">
+                <div class="panel-heading" id="heading1" role="tab">
+                  <h4 class="panel-title"><a href="javascript:void(0)">WHEELS</a> <span class="visible-xs pull-right"><a aria-controls="collapse1"
+  									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse1" role=
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
+                </div>
+                <div aria-labelledby="heading1" class="panel-collapse collapse" id="collapse1" role="tabpanel">
+                  <div class="panel-body">
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-2">
-                <div class="panel">
-                  <div class="panel-heading" id="heading2" role="tab">
-                    <h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse2"
-                    aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse2" role=
-                    "button"><i class="fal fa-plus"></i></a></span></h4>
-                  </div>
-                  <div aria-labelledby="heading2" class="panel-collapse collapse" id="collapse2" role="tabpanel">
-                    <div class="panel-body">
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                    </div>
+              <div class="panel col-sm-2">
+                <div class="panel-heading" id="heading2" role="tab">
+                  <h4 class="panel-title"><a href="javascript:void(0)">WHEELS</a> <span class="visible-xs pull-right"><a aria-controls="collapse2"
+  									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse2" role=
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
+                </div>
+                <div aria-labelledby="heading2" class="panel-collapse collapse" id="collapse2" role="tabpanel">
+                  <div class="panel-body">
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-2">
-                <div class="panel">
-                  <div class="panel-heading" id="heading3" role="tab">
-                    <h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse3"
-                    aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse3" role=
-                    "button"><i class="fal fa-plus"></i></a></span></h4>
-                  </div>
-                  <div aria-labelledby="heading3" class="panel-collapse collapse" id="collapse3" role="tabpanel">
-                    <div class="panel-body">
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                    </div>
+              <div class="panel col-sm-2">
+                <div class="panel-heading" id="heading3" role="tab">
+                  <h4 class="panel-title"><a href="javascript:void(0)">WHEELS</a> <span class="visible-xs pull-right"><a aria-controls="collapse3"
+  									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse3" role=
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
+                </div>
+                <div aria-labelledby="heading3" class="panel-collapse collapse" id="collapse3" role="tabpanel">
+                  <div class="panel-body">
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-2">
-                <div class="panel">
-                  <div class="panel-heading" id="heading4" role="tab">
-                    <h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse4"
-                    aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse4" role=
-                    "button"><i class="fal fa-plus"></i></a></span></h4>
-                  </div>
-                  <div aria-labelledby="heading4" class="panel-collapse collapse" id="collapse4" role="tabpanel">
-                    <div class="panel-body">
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                    </div>
+              <div class="panel col-sm-2">
+                <div class="panel-heading" id="heading4" role="tab">
+                  <h4 class="panel-title"><a href="javascript:void(0)">WHEELS</a> <span class="visible-xs pull-right"><a aria-controls="collapse4"
+  									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse4" role=
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
+                </div>
+                <div aria-labelledby="heading4" class="panel-collapse collapse" id="collapse4" role="tabpanel">
+                  <div class="panel-body">
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-2">
-                <div class="panel">
-                  <div class="panel-heading" id="heading5" role="tab">
-                    <h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse5"
-                    aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse5" role=
-                    "button"><i class="fal fa-plus"></i></a></span></h4>
-                  </div>
-                  <div aria-labelledby="heading5" class="panel-collapse collapse" id="collapse5" role="tabpanel">
-                    <div class="panel-body">
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                    </div>
+              <div class="panel col-sm-2">
+                <div class="panel-heading" id="heading5" role="tab">
+                  <h4 class="panel-title"><a href="javascript:void(0)">WHEELS</a> <span class="visible-xs pull-right"><a aria-controls="collapse5"
+  									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse5" role=
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
+                </div>
+                <div aria-labelledby="heading5" class="panel-collapse collapse" id="collapse5" role="tabpanel">
+                  <div class="panel-body">
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-2">
-                <div class="panel">
-                  <div class="panel-heading" id="heading6" role="tab">
-                    <h4 class="panel-title"><a href="javascript:void(0)">Wheels</a> <span class="visible-xs pull-right"><a aria-controls="collapse6"
-                    aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse6" role=
-                    "button"><i class="fal fa-plus"></i></a></span></h4>
-                  </div>
-                  <div aria-labelledby="heading6" class="panel-collapse collapse" id="collapse6" role="tabpanel">
-                    <div class="panel-body">
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                      <p><a href="javascript:void(0)">Link here</a></p>
-                    </div>
+              <div class="panel col-sm-2">
+                <div class="panel-heading" id="heading6" role="tab">
+                  <h4 class="panel-title"><a href="javascript:void(0)">WHEELS</a> <span class="visible-xs pull-right"><a aria-controls="collapse6"
+  									aria-expanded="false" class="collapsed" data-parent="#footerAccordion" data-toggle="collapse" href="#collapse6" role=
+  									"button"><i class="fal fa-plus"></i></a></span></h4>
+                </div>
+                <div aria-labelledby="heading6" class="panel-collapse collapse" id="collapse6" role="tabpanel">
+                  <div class="panel-body">
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
+                    <p><a href="javascript:void(0)">Link here</a></p>
                   </div>
                 </div>
               </div>
@@ -589,16 +559,7 @@
       </div>
     </div>
   </footer>
-<<<<<<< HEAD
-  <!-- /Footer -->
-
-  <div id="sidenav">
-    <div class="toggle-wrapper">
-        <button type="button" class="navbar-toggle side-nav-close">
-            <span class="sr-only">Toggle navigation</span>
-=======
-  <div id="sidenav">
-		<!-- <div class="sidenav-left hidden-xs hidden-sm col-md-6 col-lg-8"> -->
+  <div id="sidenav" class="sidenav full-screen">
 		<div class="sidenav-left col-sm-12 col-md-6 col-lg-8">
 			<div class="sidenav-logo-wrapper">
 				<a href="#" class="sidenav-logo">
@@ -606,12 +567,12 @@
 				</a>
 			</div>
 			<div class="sidenav-social-media">
-				<a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official fa-2x"></i></a>
-				<a href="javascript:void(0)" class="icon"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="javascript:void(0)" class="icon"><i class="fab fa-facebook fa-2x"></i></a>
+				<a href="javascript:void(0)" class="icon"><i class="fab fa-instagram fa-2x"></i></a>
 			</div>
 		</div>
 		<div class="sidenav-right col-sm-12 col-md-6 col-lg-4">
-			<div class="sidenav-right-inner">
+			<div class="sidenav-right-inner sidenav-inner">
 				<form class="navbar-form" role="search">
 					<div class="input-wrapper">
 							<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
@@ -636,35 +597,19 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#"><span>GALLERY</span></a>
 					</li>
-					<!-- <li class="nav-item">
-						<a class="nav-link" href="#"><span>GALLERY</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><span>GALLERY</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><span>GALLERY</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><span>GALLERY</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><span>GALLERY</span></a>
-					</li> -->
 				</ul>
 				<div class="sidenav-social-media">
-					<a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official fa-2x"></i></a>
-					<a href="javascript:void(0)" class="icon"><i class="fa fa-instagram fa-2x"></i></a>
+					<a href="javascript:void(0)" class="icon"><i class="fab fa-facebook fa-2x"></i></a>
+					<a href="javascript:void(0)" class="icon"><i class="fab fa-instagram fa-2x"></i></a>
 				</div>
 				<div class="sidenav-copyright">MSA COPYRIGHT &copy; 2018</div>
 			</div>
 			<div class="sidenav-right-texture"></div>
 		</div>
     <div class="toggle-wrapper">
-        <button type="button" class="navbar-toggle side-nav-close">
+        <button type="button" class="navbar-toggle side-nav-close" data-sidenav="sidenav">
             <span class="sr-only">Toggle navigation</span>
 						<div class="close-icon"></div>
->>>>>>> sidenav
         </button>
     </div>
   </div>
@@ -672,12 +617,12 @@
   <script src="js/bootstrap.min.js?ckcachebust=764e23860db155ce3fef799b94572e77"></script>
   <script defer src="js/fontawesome-all.js"></script>
   <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+  <script src="js/parallax.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript" src="js/navbar-min.js"></script>
   <script type="text/javascript" src="js/sidenav-min.js"></script>
   <script type="text/javascript" src="js/footer-min.js"></script>
   <script type="text/javascript" src="js/carousel-min.js"></script>
-
+  <script type="text/javascript" src="js/parallax-min.js"></script>
 </body>
-
 </html>

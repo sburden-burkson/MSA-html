@@ -45,7 +45,7 @@ $(function(){
 	}
 	// Navbar Height and Transparency
 	var navHeight = $('nav').outerHeight();
-	var brandPad = $('.navbar-brand').css('padding-top');
+	var brandPad = $('nav .navbar-brand').css('padding-top');
 	function navResize(){
 		var scrollTop = $(window).scrollTop();
 		var navTop = scrollTop - $('header').outerHeight();
@@ -58,13 +58,13 @@ $(function(){
 				'background-color', 'rgba(255, 255, 255, 0.05)',
 				'height', '80px'
 			);
-			$('.nav>li>a').css(
+			$('nav .nav>li>a').css(
 				'line-height', '80px'
 			);
-			$('nav, .navbar-toggle').css(
+			$('nav, nav .navbar-toggle').css(
 				'height', '80px'
 			);
-			$('.navbar-brand').css(
+			$('nav .navbar-brand').css(
 				'padding-top', brandPad,
 				'padding-bottom', brandPad
 			);
@@ -75,14 +75,14 @@ $(function(){
 			);
 		}
 		if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-			$('nav, .navbar-toggle').css(
+			$('nav, nav .navbar-toggle').css(
 				'height', newNavHeight
 			);
-			$('.navbar-brand').css(
+			$('nav .navbar-brand').css(
 				'padding-top', logoPad,
 				'padding-bottom', logoPad
 			);
-			$('.nav>li>a').css(
+			$('nav .nav>li>a').css(
 				'line-height', newNavHeight + 'px'
 			);
 			$('#navColor').css(
