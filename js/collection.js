@@ -1,5 +1,5 @@
-// Blog Item Masonry
-var $blogGrid = $('.collection-item-container').masonry({
+// Collection Masonry
+var $collectionGrid = $('.collection-item-container').masonry({
   // options
   itemSelector: '.collection-item',
   columnWidth: 300,
@@ -7,14 +7,11 @@ var $blogGrid = $('.collection-item-container').masonry({
   gutter: 20,
   horizontalOrder: true
 });
-$blogGrid.imagesLoaded().progress(function() {
-  $blogGrid.masonry('layout');
+$collectionGrid.imagesLoaded().progress(function() {
+  $collectionGrid.masonry('layout');
 });
 
 // Match Height JS
-var collectionHeightOptions = {
-  byRow: false
-}
-$(".collectionHeight").matchHeight(collectionHeightOptions);
-$(".collection-img-wrap").matchHeight(collectionHeightOptions);
-$(".collection-col").matchHeight(collectionHeightOptions);
+$(".collectionHeight").matchHeight({byRow: false});
+$(".collection-img-wrap").matchHeight({byRow: false});
+$(".collection-col").matchHeight({byRow: false});
