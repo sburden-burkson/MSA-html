@@ -7,7 +7,7 @@
 		"uuidString": "9C07328F-1085-4746-9D02-FBD298350D74"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26268",
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -133,6 +133,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/style.css.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/style.css.orig",
+		"oF": 0
+		},
 	"\/css\/style.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -145,6 +152,13 @@
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
+		},
+	"\/css\/style.scss.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/style.scss.orig",
+		"oF": 0
 		},
 	"\/css\/styleOLD.css": {
 		"aP": 1,
@@ -1527,6 +1541,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/navbar.js.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/navbar.js.orig",
+		"oF": 0
+		},
 	"\/js\/parallax-google-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1686,6 +1707,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/product.html",
+		"oF": 0
+		},
+	"\/product.html.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/product.html.orig",
 		"oF": 0
 		},
 	"\/sidenav.html": {
