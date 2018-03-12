@@ -111,6 +111,9 @@ footer.black-footer {
 .main-font {
   font-family: $mainFont;
 }
+.italic {
+  font-style: italic;
+}
 .black-bg {
   background: black;
   color: $white;
@@ -258,6 +261,9 @@ input.form-control.black-bg {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.sign-in-right .form-group {
+  margin-top: 20px;
 }
 .warranty-heading {
   padding: 15px 0;
@@ -917,6 +923,12 @@ input.form-control {
 .no-margin-top {
 	margin-top: 0;
 }
+.no-pad-top {
+  padding-top: 0;
+}
+.no-pad-bottom {
+  padding-bottom: 0;
+}
 .no-pad-right {
   padding-right: 0;
 }
@@ -1218,6 +1230,7 @@ nav {
 .light-overlay {
 	background-color: rgba(255,255,255,0.5);
 }
+
 .bg-top {
   background-position: 50% 0%;
 }
@@ -1581,7 +1594,7 @@ nav {
     font-size: 36px;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   footer {
     padding-top: 75px;
     padding-bottom: 150px;
@@ -1595,6 +1608,13 @@ nav {
   }
   .section-header-sm {
     font-size: 40px;
+  }
+  .sign-in-right {
+    padding-left: 75px;
+  }
+  .sign-in-left {
+    border-right: 1px solid $dividerColor;
+    padding-right: 75px;
   }
   .article-info {
     margin-top: 40px;
@@ -1667,6 +1687,12 @@ nav {
   }
   .article-title {
     padding-right: 50px;
+  }
+  .sign-in-right {
+    padding-left: 125px;
+  }
+  .sign-in-left {
+    padding-right: 125px;
   }
   // .section-header {
   //   font-size: 68px;
@@ -1782,6 +1808,9 @@ nav {
   #top-section-xs {
     min-height: 300px;
     padding: 125px 35px 35px;
+  }
+  .sign-in-left {
+    padding-top: 20px;
   }
   .product-pairing {
     position: absolute;

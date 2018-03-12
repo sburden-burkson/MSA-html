@@ -495,6 +495,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/dirt-blog-1.png": {
+		"ft": 32768,
+		"iS": 21802,
+		"oA": 0,
+		"oAP": "\/images\/dirt-blog-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/dirt-home-2.png": {
 		"ft": 32768,
 		"iS": 23470,
@@ -1222,6 +1233,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/topography-bg.png": {
+		"ft": 32768,
+		"iS": 33869,
+		"oA": 0,
+		"oAP": "\/images\/topography-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/warranty-panel.jpg": {
 		"ft": 16384,
 		"iS": 711803,
@@ -1588,6 +1610,16 @@
 		"oAP": "\/js\/sidenav.js.orig",
 		"oF": 0
 		},
+	"\/js\/signin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/signin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/skrollr.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1640,6 +1672,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidenav.html",
+		"oF": 0
+		},
+	"\/signin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/signin.html",
 		"oF": 0
 		},
 	"\/slick\/ajax-loader.gif": {
