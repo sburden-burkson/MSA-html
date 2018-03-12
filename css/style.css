@@ -426,8 +426,7 @@ input.form-control.black-bg {
 @media screen and (max-width: 767px) {
   .product-pairing {
     right: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }
 
@@ -465,8 +464,7 @@ input.form-control.black-bg {
   background: red;
   left: 50%;
   bottom: 0px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 #staggeredCarousel .slick-next:before {
@@ -786,8 +784,7 @@ input.form-control.black-bg {
 #footerAccordion .panel-heading, #footerAccordion .panel, #footerAccordion .panel-body, #footerAccordion .panel-group {
   border: 0;
   border-color: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 #footerAccordion .panel-body {
@@ -828,8 +825,7 @@ input.form-control.black-bg {
 #faqAccordion .panel-heading, #faqAccordion .panel, #faqAccordion .panel-body, #faqAccordion .panel-group {
   border: 0;
   border-color: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: transparent;
 }
 
@@ -1079,8 +1075,7 @@ footer .footerLogo {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .text-uppercase {
@@ -1131,25 +1126,21 @@ footer .footerLogo {
 
 .changeBlack .navbar-nav > li > a {
   color: #888 !important;
-  -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
 .changeBlack .navbar-toggle .icon-bar {
   background-color: #888 !important;
-  -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
 
 .changeWhite .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.97) !important;
-  -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
 .changeWhite .navbar-toggle .icon-bar {
   background-color: rgba(255, 255, 255, 0.97) !important;
-  -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
 
@@ -1636,6 +1627,7 @@ nav {
 
 .wp-btn-red:active {
   background-image: url("../images/red-bg.png");
+  box-shadow: none;
 }
 
 .wp-input-btn-red, .wp-input-btn-red:active {
