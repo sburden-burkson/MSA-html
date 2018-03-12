@@ -101,12 +101,12 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 				position: absolute;
 				bottom: 45px;
 				left: $sidenavPadLeft;
-				
+
 				a {
 					display: inline-block;
 					padding-right: 20px;
 
-					.fa {
+					.fa, .fab, svg  {
 						color: $white;
 					}
 				}
@@ -182,7 +182,7 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 					a {
 						display: inline-block;
 						padding: 20px 0 20px 20px;
-						.fa {
+						.fa, .fab, svg {
 							color: $black;
 						}
 					}

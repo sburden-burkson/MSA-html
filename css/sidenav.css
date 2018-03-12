@@ -7,6 +7,7 @@
   width: 0;
   height: 0;
   overflow: hidden;
+  -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
   /* Remove gutters */
   margin-right: 0;
@@ -67,7 +68,7 @@
         #sidenav .sidenav-left .sidenav-social-media a {
           display: inline-block;
           padding-right: 20px; }
-          #sidenav .sidenav-left .sidenav-social-media a .fa {
+          #sidenav .sidenav-left .sidenav-social-media a .fa, #sidenav .sidenav-left .sidenav-social-media a .fab, #sidenav .sidenav-left .sidenav-social-media a svg {
             color: rgba(255, 255, 255, 0.97); } }
   @media screen and (max-width: 999px) {
     #sidenav .sidenav-left {
@@ -119,8 +120,23 @@
           #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a {
             display: inline-block;
             padding: 20px 0 20px 20px; }
-            #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fa {
+            #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fa, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fab, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a svg {
               color: rgba(0, 0, 0, 0.97); } }
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::-webkit-input-placeholder {
+        text-align: right; }
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input:-ms-input-placeholder {
+        text-align: right; }
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::-ms-input-placeholder {
+        text-align: right; }
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item,
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form,
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
@@ -131,9 +147,43 @@
         padding-right: 0;
         border-style: solid;
         border-color: transparent;
-        box-shadow: none; }
+        -webkit-box-shadow: none;
+                box-shadow: none; }
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::-webkit-input-placeholder {
+        text-transform: uppercase; }
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input:-ms-input-placeholder {
+        text-transform: uppercase; }
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::-ms-input-placeholder {
+        text-transform: uppercase; }
       #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::placeholder {
         text-transform: uppercase; }
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::-webkit-input-placeholder {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 26px;
+        letter-spacing: 2px; }
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input:-ms-input-placeholder {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 26px;
+        letter-spacing: 2px; }
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+      #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+      #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::-ms-input-placeholder {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 26px;
+        letter-spacing: 2px; }
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
       #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
