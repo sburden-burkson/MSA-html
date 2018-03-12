@@ -26,10 +26,12 @@ h1, h2, h3, h4, h5, th {
   font-family: $mainFont;
   color: $black;
 }
-h1.h-light, h2.h-light, h3.h-light, h4.h-light, h5.h-light, th.h-light {
+h1.h-light, h2.h-light, h3.h-light, h4.h-light, h5.h-light, th.h-light,
+h1 > .h-light, h2 > .h-light, h3 > .h-light, h4 > .h-light, h5 > .h-light, th > .h-light {
 	color: $lightblack;
 }
-h1.h-grey, h2.h-grey, h3.h-grey, h4.h-grey, h5.h-grey, th.h-grey {
+h1.h-grey, h2.h-grey, h3.h-grey, h4.h-grey, h5.h-grey, th.h-grey,
+h1 > .h-grey, h2 > .h-grey, h3 > .h-grey, h4 > .h-grey, h5 > .h-grey, th > .h-grey {
 	color: $grey;
 }
 h1 {
@@ -121,6 +123,17 @@ input.form-control.black-bg {
 .white:hover {
   color: $white;
   text-decoration: none;
+}
+.border-bottom {
+	border-bottom: 1px solid $dividerColor;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid $dividerColor;
+	margin: 1em 0;
+	padding: 0;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
   border: 0;
@@ -429,9 +442,13 @@ input.form-control.black-bg {
 }
 .product-customization {
   padding-top: 40px;
-  p {
-    font-weight: bold;
+  p, & > div {
+		color: $grey;
     padding: 15px 0 25px;
+		margin: 0 0 10px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: $pSize;
+		letter-spacing: 0.15em;
   }
   .p-size span a {
     float: right;
@@ -469,10 +486,7 @@ input.form-control.black-bg {
       display: inline-block;
       border-radius: 50%;
     }
-}
-  .border-bottom {
-    border-bottom: 1px solid $dividerColor;
-  }
+	}
 }
 .p-similar a {
   color: $black;
@@ -733,9 +747,6 @@ input.form-control.black-bg {
     p {
       margin-bottom: 30px;
     }
-  }
-  .border-bottom {
-    border-bottom: 1px solid $dividerColor;
   }
   .panel-heading {
     padding: 50px 0px 20px;

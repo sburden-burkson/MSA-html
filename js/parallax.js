@@ -30,7 +30,7 @@ function parallaxScroll() {
 			scrolledAdjusted = scrolled - (elTop - $(window).height()/2);
 			scrolledAdjusted = elTop - (scrolled + $(window).height());
 			scrolledAdjusted = (scrolled + $(window).height()) - elTop;
-			console.log('scrolledAdjusted = '+scrolledAdjusted);
+			// console.log('scrolledAdjusted = '+scrolledAdjusted);
 
 			// Get actual img height
 			var elImgHeight = $(this).data('imgHeight');

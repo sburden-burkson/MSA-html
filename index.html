@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.min.css?ckcachebust=4be391a07023a51035898cf3fa01bff2" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400|Open+Sans:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400|Open+Sans:300,400" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   <link href="css/style.css?ckcachebust=2012114e922170206c5815aae3544a2a" media="screen" rel="stylesheet" title="no title">
@@ -62,7 +62,7 @@
           </div>
           <!--/.nav-collapse -->
           <div class="toggle-wrapper">
-            <button type="button" class="navbar-toggle side-nav-open">
+            <button type="button" class="navbar-toggle side-nav-open" data-sidenav="sidenav">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -75,7 +75,7 @@
   </div>
   <!--/ END Navigation -->
     
-  <div class="dark-bg texture-section fixed-bg scroll-effect" id="top-section" style="background-image: url('images/quad-jump2.png');">
+  <div class="dark-bg texture-section fixed-bg scroll-effect" id="top-section" style="background-image: url('images/home-banner.jpg');">
     <div class="texture-bottom" style="background-image: url('images/textures/texture-home-1.png');">
     </div>
     <div class="container-fluid">
@@ -461,7 +461,7 @@
       </div>
     </div>
   </footer>
-  <div id="sidenav">
+  <div id="sidenav" class="sidenav full-screen">
 		<div class="sidenav-left col-sm-12 col-md-6 col-lg-8">
 			<div class="sidenav-logo-wrapper">
 				<a href="#" class="sidenav-logo">
@@ -469,12 +469,12 @@
 				</a>
 			</div>
 			<div class="sidenav-social-media">
-				<a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official fa-2x"></i></a>
-				<a href="javascript:void(0)" class="icon"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="javascript:void(0)" class="icon"><i class="fab fa-facebook fa-2x"></i></a>
+				<a href="javascript:void(0)" class="icon"><i class="fab fa-instagram fa-2x"></i></a>
 			</div>
 		</div>
 		<div class="sidenav-right col-sm-12 col-md-6 col-lg-4">
-			<div class="sidenav-right-inner">
+			<div class="sidenav-right-inner sidenav-inner">
 				<form class="navbar-form" role="search">
 					<div class="input-wrapper">
 							<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
@@ -501,15 +501,15 @@
 					</li>
 				</ul>
 				<div class="sidenav-social-media">
-					<a href="javascript:void(0)" class="icon"><i class="fa fa-facebook-official fa-2x"></i></a>
-					<a href="javascript:void(0)" class="icon"><i class="fa fa-instagram fa-2x"></i></a>
+					<a href="javascript:void(0)" class="icon"><i class="fab fa-facebook fa-2x"></i></a>
+					<a href="javascript:void(0)" class="icon"><i class="fab fa-instagram fa-2x"></i></a>
 				</div>
 				<div class="sidenav-copyright">MSA COPYRIGHT &copy; 2018</div>
 			</div>
 			<div class="sidenav-right-texture"></div>
 		</div>
     <div class="toggle-wrapper">
-        <button type="button" class="navbar-toggle side-nav-close">
+        <button type="button" class="navbar-toggle side-nav-close" data-sidenav="sidenav">
             <span class="sr-only">Toggle navigation</span>
 						<div class="close-icon"></div>
         </button>

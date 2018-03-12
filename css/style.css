@@ -6,118 +6,120 @@ h1, h2, h3, h4, h5, th {
 }
 
 /* line 29, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
-h1.h-light, h2.h-light, h3.h-light, h4.h-light, h5.h-light, th.h-light {
+h1.h-light, h2.h-light, h3.h-light, h4.h-light, h5.h-light, th.h-light,
+h1 > .h-light, h2 > .h-light, h3 > .h-light, h4 > .h-light, h5 > .h-light, th > .h-light {
   color: rgba(0, 0, 0, 0.84);
 }
 
-/* line 32, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
-h1.h-grey, h2.h-grey, h3.h-grey, h4.h-grey, h5.h-grey, th.h-grey {
+/* line 33, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+h1.h-grey, h2.h-grey, h3.h-grey, h4.h-grey, h5.h-grey, th.h-grey,
+h1 > .h-grey, h2 > .h-grey, h3 > .h-grey, h4 > .h-grey, h5 > .h-grey, th > .h-grey {
   color: #888;
 }
 
-/* line 35, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 37, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 h1 {
   font-size: 70px;
 }
 
-/* line 38, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 40, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 h1.extra-bold {
   font-weight: bold;
   line-height: 1.3em;
 }
 
-/* line 42, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 44, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 h2 {
   font-size: 55px;
 }
 
-/* line 45, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 47, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 h3 {
   font-size: 32px;
 }
 
-/* line 48, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 50, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 h4 {
   font-size: 21px;
 }
 
-/* line 51, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 53, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 h5, th {
   font-size: 18px;
 }
 
-/* line 54, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 56, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 th {
   font-weight: 300;
 }
 
-/* line 57, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 59, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 p {
   color: #888;
 }
 
-/* line 60, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 62, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 p, li, td {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   letter-spacing: 0.15em;
 }
 
-/* line 65, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 67, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header, nav, footer, .btn, .nav li {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 68, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 70, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 a:hover, a:focus {
   text-decoration: none;
 }
 
-/* line 71, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 73, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer.black-footer {
   background-color: black;
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 74, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 76, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer.black-footer a {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 78, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 80, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .main-font {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 81, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 83, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .black-bg {
   background: black;
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 85, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 87, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 a .fa-long-arrow-right {
   margin-left: 50px;
 }
 
-/* line 88, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 90, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .background-cover-center {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-/* line 93, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 95, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .modal-content {
   border-radius: 0;
 }
 
-/* line 96, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 98, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .modal-body {
   padding: 50px;
 }
 
-/* line 99, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 101, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .modal-header, .modal-footer {
   padding-left: 50px;
   padding-right: 50px;
@@ -125,62 +127,77 @@ a .fa-long-arrow-right {
   border-top: 0;
 }
 
-/* line 105, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 107, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .modal-footer {
   padding-bottom: 50px;
 }
 
-/* line 108, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 110, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .modal-close {
   margin-right: -35px;
 }
 
-/* line 111, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 113, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .modal-footer .btn + .btn {
   margin-bottom: 10px;
   margin-left: 5px;
 }
 
-/* line 115, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 117, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 input.form-control.black-bg {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* line 118, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 120, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .white {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 121, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 123, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .white:hover {
   color: rgba(255, 255, 255, 0.97);
   text-decoration: none;
 }
 
-/* line 125, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 127, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 130, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 138, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
   border: 0;
   padding: 15px 8px;
 }
 
-/* line 129, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 142, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .table-borderless td,
 .table-borderless th, .table > thead > tr > th {
   border: 0;
 }
 
-/* line 133, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 146, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .texture-section {
   position: relative;
 }
 
-/* line 135, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 148, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .texture-section a {
   position: relative;
   z-index: 10;
 }
 
-/* line 139, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 152, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .texture-section .texture-bottom {
   background-position: 50% 101%;
   background-size: contain;
@@ -193,7 +210,7 @@ input.form-control.black-bg {
   z-index: 1;
 }
 
-/* line 150, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 163, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .texture-section .texture-top {
   background-position: 50% -1%;
   z-index: 1;
@@ -206,36 +223,36 @@ input.form-control.black-bg {
   background-repeat: no-repeat;
 }
 
-/* line 162, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 175, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .down-arrows {
   padding-top: 20px;
 }
 
-/* line 164, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 177, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .down-arrows img {
   width: 20px;
 }
 
-/* line 168, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 181, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #top-section {
   min-height: 750px;
   padding: 150px 100px 35px;
   background-position: 50% 75%;
 }
 
-/* line 173, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 186, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #top-section-sm {
   min-height: 550px;
   padding: 175px 100px 35px;
 }
 
-/* line 177, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 190, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #top-section-xs {
   min-height: 400px;
   padding: 150px 100px 35px;
 }
 
-/* line 181, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 194, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .home-video-wrapper {
   position: relative;
   overflow: hidden;
@@ -243,7 +260,7 @@ input.form-control.black-bg {
   padding-bottom: 42.25%;
 }
 
-/* line 188, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 201, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .home-video-wrapper iframe,
 .home-video-wrapper object,
 .home-video-wrapper embed {
@@ -254,7 +271,7 @@ input.form-control.black-bg {
   height: 100%;
 }
 
-/* line 197, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 210, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .accessoryHeightCTA {
   min-height: 300px;
   background-position: center center;
@@ -262,12 +279,12 @@ input.form-control.black-bg {
   background-repeat: no-repeat;
 }
 
-/* line 202, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 215, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .accessoryHeightCTA img {
   opacity: 0;
 }
 
-/* line 206, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 219, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .accessoryHeight1,
 .accessoryHeight2,
 .accessoryHeight3,
@@ -275,7 +292,7 @@ input.form-control.black-bg {
   min-height: 400px;
 }
 
-/* line 212, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 225, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .accessoryHeight1 h3.no-image,
 .accessoryHeight2 h3.no-image,
 .accessoryHeight3 h3.no-image,
@@ -283,29 +300,29 @@ input.form-control.black-bg {
   padding-top: 60px;
 }
 
-/* line 216, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 229, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .warranty-heading {
   padding: 15px 0;
 }
 
-/* line 219, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 232, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .warranty-checks {
   padding-top: 10px;
 }
 
-/* line 221, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 234, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .warranty-checks svg {
   margin-right: 5px;
 }
 
-/* line 225, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 238, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .warranty-options,
 .product-options .product-tabs {
   padding: 75px 0 15px;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 234, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 247, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .warranty-options .warrantyOptionHeight,
 .warranty-options .productTabsHeight,
 .product-options .product-tabs .warrantyOptionHeight,
@@ -319,13 +336,13 @@ input.form-control.black-bg {
   color: #888;
 }
 
-/* line 244, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 257, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .warranty-options .productTabsHeight,
 .product-options .product-tabs .productTabsHeight {
   padding-bottom: 4px;
 }
 
-/* line 247, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 260, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .warranty-options .warrantyOptionHeight.active,
 .warranty-options .productTabsHeight.active,
 .product-options .product-tabs .warrantyOptionHeight.active,
@@ -335,17 +352,17 @@ input.form-control.black-bg {
   pointer-events: none;
 }
 
-/* line 254, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 267, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-options .product-tabs .product-tabs-option a {
   font-size: 16px;
 }
 
-/* line 257, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 270, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-options .product-tabs {
   padding: 25px 0 4px;
 }
 
-/* line 260, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 273, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-specs-wrapper {
   background-image: url("../images/dirt-blog-1.png");
   background-repeat: no-repeat;
@@ -353,35 +370,35 @@ input.form-control.black-bg {
 }
 
 @media screen and (max-width: 850px) {
-  /* line 260, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 273, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-specs-wrapper {
     padding-left: 50px;
     padding-right: 50px;
   }
 }
 
-/* line 269, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 282, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel {
   text-align: left;
   margin: 0px auto;
 }
 
 @media screen and (min-width: 1214px) {
-  /* line 274, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 287, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #product-specs-carousel {
     display: inline-block;
   }
 }
 
 @media screen and (max-width: 1213px) {
-  /* line 279, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 292, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #product-specs-carousel {
     max-width: 1040px;
     /* Change this if adding/removing columns */
   }
 }
 
-/* line 284, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 297, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-button {
   width: auto;
   position: absolute;
@@ -396,60 +413,60 @@ input.form-control.black-bg {
   color: rgba(0, 0, 0, 0.84);
 }
 
-/* line 296, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 309, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-button.carousel-button-left {
   left: -35px;
   left: auto;
   right: 100%;
 }
 
-/* line 302, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 315, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-button.slick-disabled {
   opacity: 0.2;
 }
 
-/* line 307, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 320, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-slide {
   float: left;
 }
 
-/* line 310, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 323, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-slide.slick-initialized {
   float: none;
 }
 
-/* line 314, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 327, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-slide .product-specs-carousel-head,
 #product-specs-carousel .product-specs-carousel-slide .product-specs-carousel-row {
   padding-right: 50px;
   padding-left: 12px;
 }
 
-/* line 320, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 333, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-slide .product-specs-carousel-row {
   padding-top: 12px;
   padding-bottom: 12px;
   letter-spacing: 1px;
 }
 
-/* line 325, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 338, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-specs-carousel .product-specs-carousel-slide .product-specs-carousel-row:nth-child(even) {
   background-color: #e4e4e4;
 }
 
-/* line 331, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 344, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-specs {
   padding: 100px 0 175px;
   font-family: "Barlow Condensed", sans-serif;
   text-align: center;
 }
 
-/* line 336, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 349, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-specs .product-specs-table {
   text-align: left;
 }
 
-/* line 340, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 353, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-pairing {
   position: absolute;
   z-index: 9;
@@ -457,7 +474,7 @@ input.form-control.black-bg {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 340, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 353, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-pairing {
     right: 50%;
     -webkit-transform: translateX(-50%);
@@ -465,37 +482,37 @@ input.form-control.black-bg {
   }
 }
 
-/* line 348, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 361, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-pairing a, .product-pairing a:hover {
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
 }
 
-/* line 352, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 365, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-pairing span {
   color: red;
 }
 
-/* line 356, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 369, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .slick-slide,
 .slick-slide * {
   outline: none !important;
 }
 
-/* line 361, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 374, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-wrapper .slick-slide {
   opacity: 0.5;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 366, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 379, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-wrapper .slick-slide.slick-current {
   position: relative;
   opacity: 1;
 }
 
-/* line 370, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 383, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-wrapper .slick-slide.slick-current:after {
   content: ' ';
   display: block;
@@ -509,88 +526,92 @@ input.form-control.black-bg {
           transform: translateX(-50%);
 }
 
-/* line 384, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 397, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #staggeredCarousel .slick-next:before {
   content: url("../images/chevron-right.png");
 }
 
-/* line 387, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 400, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #staggeredCarousel .slick-prev:before {
   content: url("../images/chevron-left.png");
 }
 
-/* line 390, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 403, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #staggeredCarousel .slick-next {
   right: -50px;
 }
 
-/* line 393, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 406, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #staggeredCarousel .slick-prev {
   left: -50px;
 }
 
-/* line 397, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 410, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-thumbs-outer {
   text-align: right;
 }
 
-/* line 400, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 413, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-thumbs-wrapper {
   display: inline-block;
 }
 
-/* line 403, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 416, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-image-carousel {
   max-width: 450px;
   margin: 0px auto;
   padding-top: 20px;
 }
 
-/* line 408, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 421, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-image-carousel,
 #product-thumbs {
   visibility: hidden;
 }
 
-/* line 412, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 425, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-thumbs-wrapper .product-thumbs-table {
   display: table;
 }
 
-/* line 415, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 428, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-thumbs-wrapper .product-thumbs-table .product-thumbs-cell {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 420, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 433, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-thumbs {
   max-width: 80px;
   margin: 50px auto;
 }
 
-/* line 424, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 437, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .slick-initialized {
   visibility: visible !important;
 }
 
-/* line 427, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 440, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #product-image-carousel .slick-dots {
   bottom: -10px;
 }
 
-/* line 430, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 443, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization {
   padding-top: 40px;
 }
 
-/* line 432, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
-.product-customization p {
-  font-weight: bold;
+/* line 445, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+.product-customization p, .product-customization > div {
+  color: #888;
   padding: 15px 0 25px;
+  margin: 0 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.15em;
 }
 
-/* line 436, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 453, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization .p-size span a {
   float: right;
   color: rgba(0, 0, 0, 0.54);
@@ -599,29 +620,29 @@ input.form-control.black-bg {
   margin-left: 25px;
 }
 
-/* line 443, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 460, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization .p-size span a:hover {
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
 }
 
-/* line 447, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 464, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization .p-custom a {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 450, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 467, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization .p-custom a span {
   float: right;
   color: red;
 }
 
-/* line 454, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 471, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization .p-custom a:hover, .product-customization .p-custom a:focus {
   text-decoration: none;
 }
 
-/* line 457, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 474, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization .p-finish span {
   float: right;
   border-radius: 50%;
@@ -631,7 +652,7 @@ input.form-control.black-bg {
   margin-left: 25px;
 }
 
-/* line 464, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 481, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .product-customization .p-finish span .myCircle {
   background-color: rgba(0, 0, 0, 0.54);
   width: 14px;
@@ -641,62 +662,57 @@ input.form-control.black-bg {
   border-radius: 50%;
 }
 
-/* line 473, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
-.product-customization .border-bottom {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-/* line 477, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 491, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .p-similar a {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 480, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 494, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-wrapper, .collection-wrapper {
   background-color: #F2F2F2;
 }
 
-/* line 483, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 497, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .filter-container {
   margin: 15px;
 }
 
-/* line 485, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 499, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .filter-container h5 {
   font-weight: 300;
   color: #888;
 }
 
-/* line 489, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 503, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .filter-container a {
   color: rgba(0, 0, 0, 0.97);
   margin-left: 20px;
 }
 
-/* line 492, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 506, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .filter-container a svg {
   color: red;
   margin-bottom: 4px;
   height: 10px;
 }
 
-/* line 500, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 514, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .featuredBlogHeight {
   min-height: 250px;
 }
 
-/* line 503, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 517, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .featured-blog {
   width: 90%;
   padding-top: 50px;
 }
 
-/* line 507, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 521, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .featured-blog-info-wrap {
   padding: 60px 60px 30px;
 }
 
-/* line 509, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 523, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .featured-blog-info-wrap .featured-blog-header {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 28px;
@@ -704,7 +720,7 @@ input.form-control.black-bg {
   letter-spacing: 0.15em;
 }
 
-/* line 515, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 529, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .featured-blog-info-wrap .featured-blog-desc {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 28px;
@@ -714,7 +730,7 @@ input.form-control.black-bg {
   padding-bottom: 30px;
 }
 
-/* line 523, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 537, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .featured-blog-info-wrap .featured-blog-date {
   text-align: right;
   font-family: "Barlow Condensed", sans-serif;
@@ -722,14 +738,14 @@ input.form-control.black-bg {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 531, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 545, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .featured-blog-more {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 20px;
 }
 
-/* line 559, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 573, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item {
   margin-top: 20px;
   background-color: #fff;
@@ -738,17 +754,17 @@ input.form-control.black-bg {
   overflow: hidden;
 }
 
-/* line 565, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 579, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-info-wrap {
   padding: 0 30px 20px;
 }
 
-/* line 567, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 581, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-info-wrap a {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 570, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 584, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-info-wrap p {
   color: rgba(0, 0, 0, 0.97);
   font-size: 18px;
@@ -756,17 +772,17 @@ input.form-control.black-bg {
   letter-spacing: .15em;
 }
 
-/* line 576, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 590, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-info-wrap span {
   float: right;
 }
 
-/* line 579, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 593, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-info-wrap i {
   color: red;
 }
 
-/* line 584, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 598, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-info-wrap .collection-sizes {
   font-size: 13px;
   font-weight: 300;
@@ -774,12 +790,12 @@ input.form-control.black-bg {
   color: #888;
 }
 
-/* line 589, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 603, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-info-wrap .collection-sizes a {
   color: red;
 }
 
-/* line 594, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 608, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-img-wrap {
   padding: 30px 55px 20px;
   margin-left: auto;
@@ -788,7 +804,7 @@ input.form-control.black-bg {
   vertical-align: middle;
 }
 
-/* line 602, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 616, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .collection-img-wrap img {
   display: block;
   width: 100%;
@@ -796,7 +812,7 @@ input.form-control.black-bg {
   margin-right: auto;
 }
 
-/* line 611, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 625, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .new-collection {
   position: absolute;
   top: 20px;
@@ -804,7 +820,7 @@ input.form-control.black-bg {
   z-index: 1;
 }
 
-/* line 616, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 630, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .new-collection p {
   text-align: right;
   letter-spacing: .15em;
@@ -812,14 +828,14 @@ input.form-control.black-bg {
   font-size: 13px;
 }
 
-/* line 621, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 635, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .collection-item .new-collection p .new-box {
   padding: 1px 8px;
   border: 1px solid #888;
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 629, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 643, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item {
   margin-top: 20px;
   background-color: #fff;
@@ -828,22 +844,22 @@ input.form-control.black-bg {
   overflow: hidden;
 }
 
-/* line 639, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 653, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-image-wrap {
   height: 200px;
 }
 
-/* line 642, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 656, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-info-wrap {
   padding: 35px 35px 0;
 }
 
-/* line 645, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 659, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-more {
   padding: 35px;
 }
 
-/* line 647, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 661, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-more p {
   color: rgba(0, 0, 0, 0.97);
   text-align: left;
@@ -852,17 +868,17 @@ input.form-control.black-bg {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 654, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 668, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-more p span {
   float: right;
 }
 
-/* line 656, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 670, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-more p span a {
   color: red;
 }
 
-/* line 662, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 676, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-header {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 28px;
@@ -871,26 +887,26 @@ input.form-control.black-bg {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 669, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 683, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item .blog-item-header:hover {
   color: rgba(0, 0, 0, 0.97);
   text-decoration: none;
 }
 
-/* line 674, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 688, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-item-container, .collection-item-container {
   width: 80%;
   margin: 0px auto 50px;
 }
 
-/* line 679, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 693, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .panel {
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: transparent;
 }
 
-/* line 684, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 698, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .panel-heading, #footerAccordion .panel, #footerAccordion .panel-body, #footerAccordion .panel-group {
   border: 0;
   border-color: transparent;
@@ -898,34 +914,34 @@ input.form-control.black-bg {
           box-shadow: none;
 }
 
-/* line 689, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 703, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .panel-body {
   padding: 0;
   border: 0;
 }
 
-/* line 692, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 706, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .panel-body p {
   font-size: 12px;
   margin: 20px 0px;
 }
 
-/* line 696, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 710, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .panel-body a {
   color: rgba(255, 255, 255, 0.54);
 }
 
-/* line 700, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 714, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .panel-heading {
   padding: 0px 0px 10px;
 }
 
-/* line 702, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 716, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .panel-heading .panel-title {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 706, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 720, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #footerAccordion .footer-header {
   font-family: "Barlow Condensed", sans-serif;
   text-align: center;
@@ -933,14 +949,14 @@ input.form-control.black-bg {
   letter-spacing: 0.2em;
 }
 
-/* line 714, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 728, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel {
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: transparent;
 }
 
-/* line 719, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 733, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-heading, #faqAccordion .panel, #faqAccordion .panel-body, #faqAccordion .panel-group {
   border: 0;
   border-color: transparent;
@@ -949,7 +965,7 @@ input.form-control.black-bg {
   background-color: transparent;
 }
 
-/* line 725, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 739, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -960,22 +976,17 @@ input.form-control.black-bg {
   border-top: 0;
 }
 
-/* line 733, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 747, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-body p {
   margin-bottom: 30px;
 }
 
-/* line 737, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
-#faqAccordion .border-bottom {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-/* line 740, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 751, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-heading {
   padding: 50px 0px 20px;
 }
 
-/* line 742, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 753, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-heading h4 {
   margin-top: 0;
   margin-bottom: 0;
@@ -984,51 +995,51 @@ input.form-control.black-bg {
   line-height: 1.5em;
 }
 
-/* line 748, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 759, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-heading h4 a {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 751, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 762, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-heading h4 svg {
   float: right;
   color: red;
   margin-right: -30px;
 }
 
-/* line 757, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 768, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 #faqAccordion .panel-heading .fa, #faqAccordion .panel-heading .fal, #faqAccordion .panel-heading .far {
   font-size: 14px;
 }
 
-/* line 762, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 773, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .trans-white {
   color: rgba(255, 255, 255, 0.3) !important;
 }
 
-/* line 765, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 776, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .trans-white-md {
   color: rgba(255, 255, 255, 0.54) !important;
 }
 
-/* line 768, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 779, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .trans-white-sm {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
-/* line 771, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 782, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 a.trans-white-md:hover, a.trans-white-md:focus {
   color: rgba(255, 255, 255, 0.54);
 }
 
-/* line 774, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 785, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header {
   height: 40px;
   padding: 10px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 778, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 789, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header a {
   color: rgba(0, 0, 0, 0.54);
   letter-spacing: 0.15em;
@@ -1037,209 +1048,209 @@ header a {
   font-size: 14px;
 }
 
-/* line 785, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 796, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header .icon {
   font-size: 16px;
   padding-left: 15px;
   padding-right: 10px;
 }
 
-/* line 790, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 801, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header .icon ~ .icon {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 794, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 805, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header a:hover, header a:focus {
   color: #333;
   background-color: transparent;
   text-decoration: none;
 }
 
-/* line 799, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 810, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header a:first-of-type {
   padding-left: 0 !important;
 }
 
-/* line 802, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 813, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header a:last-of-type {
   padding-right: 0 !important;
 }
 
-/* line 805, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 816, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 header .navbar-divider {
   color: rgba(0, 0, 0, 0.2);
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 814, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 825, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 input.form-control {
   border-radius: 0;
 }
 
-/* line 817, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 828, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .input-group span .btn {
   border-radius: 0;
 }
 
-/* line 820, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 831, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 824, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 835, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .no-padding {
   padding: 0 0 0 0 !important;
 }
 
-/* line 827, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 838, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .no-margin {
   margin: 0 0 0 0 !important;
 }
 
-/* line 830, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 841, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .no-margin-top {
   margin-top: 0;
 }
 
-/* line 833, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 844, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .no-pad-right {
   padding-right: 0;
 }
 
-/* line 836, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 847, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .no-pad-left {
   padding-left: 0;
 }
 
-/* line 839, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 850, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-top {
   padding-top: 30px;
 }
 
-/* line 842, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 853, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-top-sm {
   padding-top: 15px;
 }
 
-/* line 845, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 856, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-top-md {
   padding-top: 50px;
 }
 
-/* line 848, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 859, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-top-lg {
   padding-top: 100px;
 }
 
-/* line 851, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 862, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-bottom {
   padding-bottom: 30px;
 }
 
-/* line 854, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 865, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-bottom-sm {
   padding-bottom: 15px;
 }
 
-/* line 857, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 868, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-bottom-md {
   padding-bottom: 50px;
 }
 
-/* line 860, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 871, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-bottom-lg {
   padding-bottom: 100px;
 }
 
-/* line 863, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 874, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer {
   padding-top: 75px;
   padding-bottom: 20px;
   letter-spacing: 0.15em;
 }
 
-/* line 867, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 878, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .footer-sub {
   letter-spacing: 0.2em;
 }
 
-/* line 869, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 880, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .footer-sub h4 {
   font-size: 16px;
   margin-top: 5px;
   font-weight: 300;
 }
 
-/* line 874, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 885, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .footer-sub input {
   letter-spacing: .2em;
 }
 
-/* line 877, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 888, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .footer-sub .input-group .form-control {
   width: calc(100% + 10px);
 }
 
-/* line 880, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 891, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .footer-sub .input-group-btn:last-child > .btn {
   margin-left: -40px;
   z-index: 10;
 }
 
-/* line 885, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 896, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .copyright {
   padding-top: 30px;
   padding-bottom: 40px;
 }
 
-/* line 890, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 901, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .links {
   padding-top: 50px;
 }
 
-/* line 893, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 904, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .links [class*="col-"] {
   padding-bottom: 20px;
 }
 
-/* line 896, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 907, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer a {
   color: rgba(0, 0, 0, 0.97);
   font-weight: 300;
 }
 
-/* line 900, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 911, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .links-heading {
   font-weight: 300;
   padding-bottom: 15px;
 }
 
-/* line 904, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 915, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 footer .footerLogo {
   height: 30px;
 }
 
-/* line 909, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 920, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 912, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 923, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 915, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 926, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 918, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 929, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .center img {
   margin-left: auto;
   margin-right: auto;
@@ -1247,19 +1258,19 @@ footer .footerLogo {
   display: block;
 }
 
-/* line 929, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 940, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .text-uppercase {
   text-transform: uppercase;
 }
 
-/* line 933, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 944, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-default {
   margin-bottom: 0;
   border: none;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-/* line 938, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 949, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-default.affix {
   position: fixed;
   top: 0;
@@ -1267,167 +1278,167 @@ footer .footerLogo {
   z-index: 999;
 }
 
-/* line 945, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 956, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .nav-wrapper {
   min-height: 80px;
   margin-bottom: -80px;
 }
 
-/* line 949, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 960, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
 
-/* line 953, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 964, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
   background-color: transparent;
 }
 
-/* line 956, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 967, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 959, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 970, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 962, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 973, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .changeBlack {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 965, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 976, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .changeWhite {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* line 968, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 979, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .changeBlack .navbar-nav > li > a {
   color: #888 !important;
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
-/* line 972, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 983, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .changeBlack .navbar-toggle .icon-bar {
   background-color: #888 !important;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
 
-/* line 976, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 987, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .changeWhite .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.97) !important;
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
-/* line 980, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 991, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .changeWhite .navbar-toggle .icon-bar {
   background-color: rgba(255, 255, 255, 0.97) !important;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
 
-/* line 984, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 995, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-toggle:hover .icon-bar {
   background-color: #333;
 }
 
-/* line 987, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 998, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-toggle {
   display: block;
   margin: auto;
 }
 
-/* line 991, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1002, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .toggle-wrapper {
   position: absolute;
   top: 0;
   right: 45px;
 }
 
-/* line 996, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1007, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .toggle-wrapper .navbar-toggle {
   height: 80px;
   padding: 0;
   border: 0;
 }
 
-/* line 1002, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1013, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-brand {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-/* line 1006, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1017, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 nav {
   height: 80px;
 }
 
-/* line 1009, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1020, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-brand img {
   height: 30px;
 }
 
-/* line 1012, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1023, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .navbar-nav li a {
   line-height: 30px;
   letter-spacing: 0.15em;
   font-size: 15px;
 }
 
-/* line 1018, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1029, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .nav > li > a {
   padding: 0px 35px;
   line-height: 80px;
 }
 
-/* line 1022, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1033, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .half-section {
   min-height: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 1027, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1038, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .full-section {
   min-height: 600px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 1032, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1043, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .carousel-info-pad {
   padding: 50px 50px;
 }
 
-/* line 1035, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1046, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 1038, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1049, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section .image-info-left {
   height: 600px;
   padding-left: 50px;
 }
 
-/* line 1042, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1053, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section .image-info-right {
   height: 600px;
   padding-right: 50px;
 }
 
-/* line 1046, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1057, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section .image-info-pad {
   padding: 50px 50px;
 }
 
-/* line 1049, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1060, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section .image-info-chevron-right {
   position: absolute;
   top: calc(50% - 15px);
@@ -1435,7 +1446,7 @@ nav {
   height: 30px;
 }
 
-/* line 1055, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1066, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section .image-info-chevron-left {
   position: absolute;
   top: calc(50% - 15px);
@@ -1443,22 +1454,22 @@ nav {
   height: 30px;
 }
 
-/* line 1061, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1072, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section .col-md-6.no-pad-left {
   padding-left: 0;
 }
 
-/* line 1064, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1075, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .image-info-section .col-md-6.no-pad-right {
   padding-right: 0;
 }
 
-/* line 1068, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1079, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .white-bg {
   background-color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1071, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1082, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .half-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1466,7 +1477,7 @@ nav {
   height: 450px;
 }
 
-/* line 1077, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1088, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .full-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1474,7 +1485,7 @@ nav {
   height: 600px;
 }
 
-/* line 1083, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1094, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .small-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1482,23 +1493,23 @@ nav {
   height: 350px;
 }
 
-/* line 1095, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1106, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .row-section a {
   color: rgba(255, 255, 255, 0.97);
   text-decoration: none;
 }
 
-/* line 1099, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1110, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .trans-bg {
   background: transparent;
 }
 
-/* line 1102, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1113, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .fixed-bg {
   background-attachment: fixed;
 }
 
-/* line 1105, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1116, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .dark-bg {
   background-color: black;
   background-position: 50% 50%;
@@ -1506,17 +1517,17 @@ nav {
   background-size: cover;
 }
 
-/* line 1110, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1121, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg p {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1114, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1125, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 1117, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1128, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .light-bg {
   background-color: white;
   background-position: 50% 50%;
@@ -1524,214 +1535,214 @@ nav {
   background-size: cover;
 }
 
-/* line 1122, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1133, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .light-bg h1, .light-bg h2, .light-bg h3, .light-bg h4 {
   color: rgba(0, 0, 0, 0.97);
 }
 
-/* line 1125, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1136, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .light-bg p {
   color: #888;
 }
 
-/* line 1129, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1140, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .light-overlay {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 1132, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1143, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .bg-top {
   background-position: 50% 0%;
 }
 
-/* line 1135, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1146, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .bg-bottom {
   background-position: 50% 100%;
 }
 
-/* line 1138, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1149, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-full-height {
   height: 100%;
 }
 
-/* line 1141, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1152, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-full-width {
   width: 100%;
 }
 
-/* line 1167, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1178, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-table {
   display: table;
 }
 
-/* line 1170, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1181, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-table-cell {
   display: table-cell;
 }
 
-/* line 1173, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1184, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-table-cell-middle {
   vertical-align: middle;
   display: table-cell;
 }
 
-/* line 1177, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1188, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-table-cell-bottom {
   vertical-align: bottom;
   display: table-cell;
 }
 
-/* line 1181, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1192, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-relative {
   position: relative;
 }
 
-/* line 1184, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1195, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-left-right {
   padding: 0 15px;
 }
 
-/* line 1187, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1198, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-left {
   padding-left: 50px;
 }
 
-/* line 1190, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1201, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-left-lg {
   padding-left: 100px;
 }
 
-/* line 1193, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1204, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-right {
   padding-right: 50px;
 }
 
-/* line 1196, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1207, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-right-lg {
   padding-right: 100px;
 }
 
-/* line 1199, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1210, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-top-bottom, .spaced-section .pad-top-bottom {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 1203, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1214, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .pad-top-bottom-xtra, .spaced-section .pad-top-bottom-xtra {
   padding-top: 50px;
   padding-bottom: 70px;
 }
 
-/* line 1207, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1218, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .margin-top {
   margin-top: 50px;
 }
 
-/* line 1210, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1221, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .margin-bottom {
   margin-bottom: 50px;
 }
 
-/* line 1213, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1224, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .margin-top-bottom {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* line 1217, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1228, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .red-bg {
   padding-bottom: 50px;
 }
 
-/* line 1220, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1231, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .red {
   color: red;
 }
 
-/* line 1223, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1234, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .standard-link {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   color: black;
 }
 
-/* line 1227, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1238, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .standard-link .fa, .standard-link .fal, .standard-link .far {
   color: red;
   font-size: 18px;
   padding-left: 5px;
 }
 
-/* line 1233, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1244, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .v-center-section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 1237, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1248, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .v-center-section-lg {
   padding-top: 150px;
   padding-bottom: 150px;
 }
 
-/* line 1241, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1252, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .v-center-section-xl {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-/* line 1245, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1256, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .instagram-section {
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 0 auto;
 }
 
-/* line 1249, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1260, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .instagram-section img {
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1254, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1265, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .container.container-wide {
     width: 85%;
   }
 }
 
-/* line 1259, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1270, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .photo-grid .photo-grid-img {
   padding-bottom: 60px;
   width: 100%;
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 1264, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1275, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .photo-grid .photo-grid-left .photo-grid-text,
   .photo-grid .photo-grid-left .photo-grid-img {
     padding-right: 20px;
   }
-  /* line 1268, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1279, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .photo-grid .photo-grid-right .photo-grid-text,
   .photo-grid .photo-grid-right .photo-grid-img {
     padding-left: 20px;
   }
 }
 
-/* line 1275, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1286, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .photo-grid-lg .photo-grid-img {
   padding-bottom: 15%;
   width: 100%;
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 1280, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1291, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .photo-grid-lg .photo-grid-left .photo-grid-text,
   .photo-grid-lg .photo-grid-left .photo-grid-img {
     padding-right: 8%;
   }
-  /* line 1284, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1295, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .photo-grid-lg .photo-grid-right .photo-grid-text,
   .photo-grid-lg .photo-grid-right .photo-grid-img {
     padding-left: 8%;
@@ -1739,14 +1750,14 @@ nav {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1291, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1302, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .mobile-center {
     text-align: center;
     width: 100%;
   }
 }
 
-/* line 1297, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1308, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .spaced-section p, .spaced-section li {
   line-height: 2em;
   letter-spacing: 0.15em;
@@ -1754,74 +1765,74 @@ nav {
   padding-top: 10px;
 }
 
-/* line 1304, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1315, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .spaced-section li {
   margin-bottom: 10px;
 }
 
-/* line 1307, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1318, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .spaced-section ul {
   padding-left: 15px;
 }
 
-/* line 1311, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1322, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .restricted-width-left {
   max-width: 350px;
 }
 
-/* line 1314, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1325, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .restricted-width {
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 1320, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1331, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .restricted-width-lg {
   max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 1325, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1336, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .section-header {
   font-size: 36px;
 }
 
-/* line 1328, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1339, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .transparent-lg {
   opacity: 0.4;
   font-size: 105px;
   letter-spacing: 0.15em;
 }
 
-/* line 1334, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1345, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .transparent-md {
   opacity: 0.4;
   font-size: 50px;
   letter-spacing: 0.15em;
 }
 
-/* line 1339, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1350, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .transparent-sm {
   opacity: 0.4;
   font-size: 30px;
   letter-spacing: 0.15em;
 }
 
-/* line 1344, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1355, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .transparent-xs {
   opacity: 0.4;
   font-size: 18px;
   letter-spacing: 0.15em;
 }
 
-/* line 1349, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1360, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .fw-300 {
   font-weight: 300;
 }
 
-/* line 1352, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1363, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .blog-header {
   color: rgba(255, 255, 255, 0.97);
   font-size: 60px;
@@ -1829,29 +1840,29 @@ nav {
   letter-spacing: 0.15em;
 }
 
-/* line 1358, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1369, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-transparent.wp-btn-white {
   border-color: rgba(255, 255, 255, 0.97);
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1363, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1374, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-extra-long {
   padding: 10px 15px 10px 30px;
 }
 
-/* line 1367, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1378, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-extra-long .fa, .wp-btn-extra-long .fal, .wp-btn-extra-long .far {
   padding-left: 20px;
   margin-right: -20px;
 }
 
-/* line 1371, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1382, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-extra-long svg {
   margin-left: 30px;
 }
 
-/* line 1376, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1387, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-transparent {
   background: transparent;
   border-color: #888;
@@ -1863,7 +1874,7 @@ nav {
   margin: 10px auto;
 }
 
-/* line 1386, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1397, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-white {
   background: transparent;
   border-radius: 0;
@@ -1875,7 +1886,7 @@ nav {
   margin: 10px auto;
 }
 
-/* line 1396, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1407, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-red {
   background-image: url("../images/red-bg.png");
   background-position: 50% 50%;
@@ -1888,60 +1899,60 @@ nav {
   margin: 10px auto;
 }
 
-/* line 1408, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1419, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-no-icon {
   padding: 10px 35px;
 }
 
-/* line 1411, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1422, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-red:active {
   background-image: url("../images/red-bg.png");
 }
 
-/* line 1415, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1426, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-input-btn-red, .wp-input-btn-red:active {
   background-image: url("../images/red-bg-sm.png");
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1420, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1431, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .wp-btn-red:hover, .wp-input-btn-red:hover, .wp-btn-red:focus, .wp-input-btn-red:focus {
   color: rgba(255, 255, 255, 0.97);
 }
 
-/* line 1423, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1434, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .section-header-sm {
   font-size: 30px;
 }
 
-/* line 1426, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1437, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .no-banner {
   padding-top: 150px;
   padding-bottom: 75px;
 }
 
-/* line 1430, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1441, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .about-top {
   max-width: 600px;
 }
 
-/* line 1433, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1444, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .article-title {
   line-height: 90px;
 }
 
-/* line 1436, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1447, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .article-header {
   margin-bottom: 60px;
 }
 
-/* line 1439, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1450, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .article-body p, .about-top p {
   margin-bottom: 60px;
   line-height: 30px;
 }
 
-/* line 1443, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1454, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .article-tags span {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -1954,297 +1965,297 @@ nav {
   display: inline-block;
 }
 
-/* line 1454, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1465, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .article-info {
   text-align: right;
 }
 
-/* line 1457, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1468, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .article-featured-image {
   margin-bottom: 60px;
 }
 
-/* line 1460, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1471, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .staggered-image-section {
   padding: 30px 0 60px;
 }
 
-/* line 1462, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+/* line 1473, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
 .staggered-image-section .stagger-top {
   margin-top: -30px;
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 1467, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1478, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   nav .container-fluid, header .container-fluid {
     padding-right: 45px;
     padding-left: 45px;
   }
-  /* line 1471, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1482, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .section-header {
     font-size: 42px;
   }
-  /* line 1474, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1485, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .section-header-sm {
     font-size: 36px;
   }
 }
 
 @media only screen and (min-width: 767px) {
-  /* line 1479, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1490, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   footer {
     padding-top: 75px;
     padding-bottom: 150px;
   }
-  /* line 1483, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1494, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .footer-link-wrap {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding-top: 60px;
   }
-  /* line 1487, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1498, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .section-header {
     font-size: 54px;
   }
-  /* line 1490, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1501, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .section-header-sm {
     font-size: 40px;
   }
-  /* line 1493, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1504, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .article-info {
     margin-top: 40px;
   }
-  /* line 1496, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1507, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .article-tag-wrap {
     padding-top: 50px;
   }
-  /* line 1499, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1510, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .wp-btn-no-icon {
     padding: 10px 50px;
   }
-  /* line 1502, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1513, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .no-margin-top-desktop {
     margin-top: 0;
   }
-  /* line 1505, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1516, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .wp-btn-extra-long {
     padding: 10px 15px 10px 45px;
     font-size: 14px;
     font-weight: 300;
   }
-  /* line 1510, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1521, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .wp-btn-extra-long .fa, .wp-btn-extra-long .fal, .wp-btn-extra-long .far {
     padding-left: 30px;
     margin-right: -30px;
   }
-  /* line 1517, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1528, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .filter-container .filter-results {
     text-align: right;
   }
-  /* line 1520, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1531, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .blog-item-container, .collection-item-container {
     margin: 0px auto 100px;
   }
-  /* line 1523, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1534, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-pairing-wrapper {
     padding: 30px;
     position: relative;
   }
-  /* line 1527, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1538, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-options {
     padding-left: 30px;
   }
 }
 
 @media only screen and (min-width: 767px) and (min-width: 768px) {
-  /* line 1532, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1543, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .article-body-wrap {
     width: 760px;
   }
 }
 
 @media only screen and (min-width: 767px) and (min-width: 1400px) {
-  /* line 1537, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1548, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .article-body-wrap {
     width: 850px;
   }
 }
 
 @media only screen and (min-width: 767px) {
-  /* line 1542, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1553, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .navbar-nav {
     padding-right: 40px;
   }
-  /* line 1545, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1556, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .blog-middle-banner {
     margin-bottom: 50px;
   }
-  /* line 1548, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1559, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .warranty-info {
     padding-right: 50px;
   }
-  /* line 1551, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1562, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #product-image-carousel .slick-dots {
     display: none !important;
   }
-  /* line 1554, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1565, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-col[style] {
     height: auto !important;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 1559, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1570, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .warranty-heading {
     padding: 50px 0;
   }
-  /* line 1562, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1573, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .pad-desktop {
     padding: 0 50px;
   }
 }
 
 @media only screen and (min-width: 1824px) {
-  /* line 1573, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1584, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #top-section {
     min-height: 850px;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 1578, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1589, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .carousel-info-pad {
     padding: 30px 30px;
   }
-  /* line 1581, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1592, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .featured-blog-info-wrap {
     padding: 30px 20px 15px;
   }
-  /* line 1584, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1595, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .featured-blog-more {
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 1588, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1599, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #featuredBlog {
     width: 100%;
   }
-  /* line 1591, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1602, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .image-info-section {
     max-width: 600px;
   }
-  /* line 1593, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1604, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .image-info-section .image-info-left {
     height: auto;
     padding-left: 0;
   }
-  /* line 1597, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1608, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .image-info-section .image-info-right {
     height: auto;
     padding-right: 0;
   }
-  /* line 1601, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1612, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .image-info-section .col-md-6.no-pad-left {
     padding-left: 15px;
   }
-  /* line 1604, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1615, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .image-info-section .col-md-6.no-pad-right {
     padding-right: 15px;
   }
-  /* line 1608, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1619, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .warranty-options {
     padding: 45px 0 15px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 1613, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1624, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   footer {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 1617, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1628, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h1 {
     font-size: 56px;
   }
-  /* line 1620, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1631, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h2 {
     font-size: 44px;
   }
-  /* line 1623, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1634, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h3 {
     font-size: 25.6px;
   }
-  /* line 1626, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1637, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h4 {
     font-size: 17.85px;
   }
-  /* line 1629, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1640, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h5, th {
     font-size: 16.2px;
   }
-  /* line 1633, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1644, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   p {
     font-size: 13.3px;
   }
-  /* line 1636, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1647, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .transparent-lg {
     font-size: 84px;
   }
-  /* line 1639, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1650, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .v-center-section {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  /* line 1643, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1654, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .v-center-section-lg {
     padding-top: 75px;
     padding-bottom: 75px;
   }
-  /* line 1647, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1658, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .v-center-section-xl {
     padding-top: 125px;
     padding-bottom: 125px;
   }
-  /* line 1651, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1662, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .carousel-info-pad {
     padding: 10px 20px;
   }
-  /* line 1654, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1665, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .instagram-section {
     max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 1659, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1670, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .row-section .v-center-section {
     padding-top: 75px;
     padding-bottom: 75px;
   }
-  /* line 1663, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1674, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .no-banner {
     padding-top: 80px;
     padding-bottom: 30px;
   }
-  /* line 1667, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1678, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #top-section {
     padding: 125px 35px 35px;
     min-height: 600px;
   }
-  /* line 1671, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1682, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #top-section-sm {
     padding: 125px 35px 35px;
     min-height: 350px;
   }
-  /* line 1675, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1686, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #top-section-xs {
     min-height: 300px;
     padding: 125px 35px 35px;
   }
-  /* line 1679, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1690, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-wrapper .slick-slide {
     padding-top: 30px;
   }
-  /* line 1682, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1693, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-pairing {
     position: absolute;
     right: 15px;
@@ -2252,230 +2263,230 @@ nav {
     -webkit-transform: none;
     transform: none;
   }
-  /* line 1689, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1700, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .no-margin-top-mobile {
     margin-top: 0;
   }
-  /* line 1692, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1703, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .no-pad-mobile {
     padding: 0 0 0 0 !important;
   }
-  /* line 1695, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1706, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .filter-container a {
     margin-left: 0;
     margin-top: 5px;
     display: block;
   }
-  /* line 1707, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1718, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   footer {
     padding-top: 50px;
   }
-  /* line 1709, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1720, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   footer .links {
     padding-top: 20px;
   }
-  /* line 1712, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1723, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   footer .links [class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 1716, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1727, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   footer .featured-blog-more {
     padding-bottom: 20px;
   }
-  /* line 1721, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1732, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #footerAccordion #footerH1 {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
-  /* line 1724, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1735, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #footerAccordion .panel-heading {
     padding: 20px 0px 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
-  /* line 1728, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1739, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #footerAccordion .panel-body {
     padding-top: 10px;
   }
-  /* line 1731, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1742, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #footerAccordion .fa, #footerAccordion .fal, #footerAccordion .far {
     font-size: 14px;
   }
-  /* line 1737, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1748, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #faqAccordion .panel-heading h4 {
     padding-right: 30px;
   }
-  /* line 1742, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1753, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .navbar-toggle {
     display: block;
   }
-  /* line 1745, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1756, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .half-bg, .full-bg, .half-section, .full-section, .small-bg {
     height: auto;
     min-height: 250px;
     padding: 30px 0;
   }
-  /* line 1749, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1760, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .half-bg .wp-full-height, .full-bg .wp-full-height, .half-section .wp-full-height, .full-section .wp-full-height, .small-bg .wp-full-height {
     min-height: 190px;
   }
-  /* line 1756, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1767, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .opaque-lg {
     font-size: 60px;
   }
-  /* line 1759, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1770, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .featured-blog {
     width: auto;
     padding: 15px 30px 0;
   }
-  /* line 1765, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1776, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .pad-top-lg {
     padding-top: 50px;
   }
-  /* line 1787, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1798, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .new-collection {
     top: 15px;
     right: 15px;
   }
-  /* line 1790, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1801, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .new-collection p .new-box {
     font-size: 12px;
   }
-  /* line 1794, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1805, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .collection-col {
     display: table;
   }
-  /* line 1797, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1808, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .collection-img-wrap {
     height: 150px;
     padding: 15px 0px 15px 15px;
   }
-  /* line 1801, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1812, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap {
     padding: 45px 0 0 0;
   }
-  /* line 1803, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1814, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap p {
     font-size: 16px;
     margin-bottom: 5px;
   }
-  /* line 1807, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1818, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap .collection-sizes {
     font-size: 12px;
   }
-  /* line 1810, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1821, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap span {
     padding-top: 10px;
     float: none;
     display: block;
   }
-  /* line 1815, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1826, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item .collection-info-wrap i {
     font-size: 14px;
   }
-  /* line 1820, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1831, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .modal-content {
     border-radius: 0;
   }
-  /* line 1823, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1834, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .modal-body {
     padding: 30px;
   }
-  /* line 1826, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1837, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .modal-header, .modal-footer {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 1830, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1841, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .modal-footer {
     padding-bottom: 10px;
   }
-  /* line 1833, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1844, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .modal-close {
     margin-right: -15px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 1838, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1849, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h1 {
     font-size: 52.5px;
   }
-  /* line 1841, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1852, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h2 {
     font-size: 41.25px;
   }
-  /* line 1844, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1855, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h3 {
     font-size: 24px;
   }
-  /* line 1847, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1858, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h4 {
     font-size: 16.8px;
   }
-  /* line 1850, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1861, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   h5, th {
     font-size: 16.2px;
   }
-  /* line 1853, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1864, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   p {
     font-size: 12.6px;
   }
-  /* line 1856, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1867, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   header {
     height: 0 !important;
     display: none;
     padding: 0;
     border-bottom: 0;
   }
-  /* line 1862, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1873, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .transparent-lg {
     font-size: 68.25px;
   }
-  /* line 1865, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1876, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #top-section {
     padding: 125px 10px 10px;
   }
-  /* line 1868, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1879, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #top-section-sm {
     padding: 125px 10px 10px;
   }
-  /* line 1871, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1882, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   #top-section-xs {
     padding: 125px 10px 10px;
   }
-  /* line 1874, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1885, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .featured-blog {
     padding: 15px 30px 0;
   }
-  /* line 1877, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1888, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-wrapper .container-fluid {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 1881, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1892, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .toggle-wrapper {
     right: 15px;
   }
-  /* line 1884, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1895, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item-container {
     width: 320px !important;
   }
-  /* line 1886, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1897, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .collection-item-container .collection-item {
     width: 100%;
   }
-  /* line 1890, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1901, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .warranty-options .warrantyOptionHeight,
   .product-options .productTabsHeight {
     font-size: 16.5px;
   }
-  /* line 1894, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1905, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .full-width-mobile {
     max-width: 100%;
     min-width: 100%;
     width: 100%;
   }
-  /* line 1899, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1910, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-pairing {
     position: relative;
     padding-top: 20px;
@@ -2485,7 +2496,7 @@ nav {
     display: block;
     text-align: center;
   }
-  /* line 1908, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
+  /* line 1919, Users/ploki/Documents/PROJECTS/WHEELPROS/MSA-html/css/style.scss */
   .product-wrapper .slick-slide {
     padding-top: 0;
   }

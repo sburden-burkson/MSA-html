@@ -15,9 +15,9 @@ $black: rgba(0, 0, 0, 0.97);
 $bodyBlack: rgba(0, 0, 0, 0.54);
 /* /END COPIED */
 
-#sidenav {
+.sidenav {
 	position: absolute;
-	left: 100%;
+	right: -100%;
 	opacity: 0;
 	width: 0;
 	height: 0;
@@ -39,10 +39,24 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 		position: fixed;
 		z-index: 1001;
 		top: 0;
-		left: 0;
+		right: 0;
 		opacity: 1;
+
+		// @media screen and (max-width: 1300px){
+		// 	width: 50%;
+		// }
+		// @media screen and (max-width: 1000px){
+		// 	width: 65%;
+		// }
+		// @media screen and (max-width: 767px){
+		// 	width: 100%;
+		// }
 	}
 
+	&.active.full-screen {
+		width: 100%;
+	}
+	
 	.toggle-wrapper {
 		top: 20px;
 
@@ -85,6 +99,35 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 		}
 	}
 
+	.sidenav-left {
+		height: 100%;
+		background-color: $grey;
+	}
+
+	.sidenav-right {
+		height: 100%;
+		background-color: $white;
+
+		.sidenav-right-inner {
+			height: 100%;
+			overflow-y: auto; /* Scroll if too many menu items */
+			padding-top: 120px;
+			padding-bottom: 40px;
+			padding-right: 15%;
+			padding-left: 15%;
+
+			@media screen and (max-width: 767px){
+				padding-top: 100px;
+				padding-bottom: 20px;
+			}
+		}
+	}
+
+}
+
+#sidenav {
+
+
 	@media screen and (min-width: 1000px){
 		.sidenav-left {
 			position: relative;
@@ -106,7 +149,7 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 					display: inline-block;
 					padding-right: 20px;
 
-					.fa {
+					.fa, svg {
 						color: $white;
 					}
 				}
@@ -153,11 +196,6 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 		}
 
 		.sidenav-right-inner {
-			height: 100%;
-			overflow-y: auto; /* Scroll if too many menu items */
-			padding-top: 160px;
-			padding-bottom: 160px;
-			padding-right: 15%;
 
 			.sidenav-social-media {
 				display: none;
@@ -182,7 +220,7 @@ $bodyBlack: rgba(0, 0, 0, 0.54);
 					a {
 						display: inline-block;
 						padding: 20px 0 20px 20px;
-						.fa {
+						.fa, svg {
 							color: $black;
 						}
 					}
