@@ -167,6 +167,16 @@
 		"oAP": "\/css\/style.scss.orig",
 		"oF": 0
 		},
+	"\/css\/styleOLD.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styleOLD-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/styleOLD.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1350,6 +1360,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/js\/collection.js.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/collection.js.orig",
+		"oF": 0
 		},
 	"\/js\/faq-min.js": {
 		"ft": 64,
