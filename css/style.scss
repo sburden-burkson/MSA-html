@@ -827,7 +827,7 @@ nav {
 			.sidenav-social-media {
 				display: none;
 			}
-			.nav .nav-item,
+			.nav .menu-item,
 			.navbar-form,
 			.navbar-form input,
 			.navbar-form input::placeholder {
@@ -843,29 +843,29 @@ nav {
 			.navbar-form input::placeholder {
 				text-transform: uppercase;
 			}
-			.nav .nav-item a,
-			.nav .nav-item a:hover,
-			.nav .nav-item a:active,
-			.nav .nav-item a:visited,
+			.nav .menu-item a,
+			.nav .menu-item a:hover,
+			.nav .menu-item a:active,
+			.nav .menu-item a:visited,
 			.navbar-form input,
 			.navbar-form input::placeholder {
 				font-family: $mainFont;
 				font-size: $sidenavFontSize;
 				letter-spacing: 2px;
 			}
-			.nav .nav-item a,
-			.nav .nav-item a:hover,
-			.nav .nav-item a:active,
-			.nav .nav-item a:visited,
+			.nav .menu-item a,
+			.nav .menu-item a:hover,
+			.nav .menu-item a:active,
+			.nav .menu-item a:visited,
 			.navbar-form input {
 				color: $black;
 				background-color: transparent;
 			}
 
-			.nav .nav-item a,
-			.nav .nav-item a:hover,
-			.nav .nav-item a:active,
-			.nav .nav-item a:visited {
+			.nav .menu-item a,
+			.nav .menu-item a:hover,
+			.nav .menu-item a:active,
+			.nav .menu-item a:visited {
 				padding: ($sidenavPadTopBot/2) $sidenavPadRight;
 				line-height: $sidenavLineHeight;
 			}
@@ -875,10 +875,10 @@ nav {
 				margin-right: 0;
 			}
 
-			.nav .nav-item a.active span {
+			.nav .menu-item a.active span {
 				position: relative;
 			}
-			.nav .nav-item a.active span::after {
+			.nav .menu-item a.active span::after {
 				border-bottom: 1px solid $black;
 				content: "";
 				left: -20px;
@@ -1624,7 +1624,7 @@ hr {
       letter-spacing: .15em;
       color: $grey;
         
-      span {
+      span.product-link {
         float: right;
       }
       a {
@@ -1877,7 +1877,6 @@ hr {
     margin: 0px auto 100px;
   }
   .collection-item-container {
-    padding-top: 50px;
     min-width: 320px; /* Just in case there's only one or two products */
   }
   .product-pairing-wrapper {
@@ -1935,6 +1934,7 @@ hr {
     padding-right: 125px;
   }
   .collection-item-container {
+    padding-top: 50px;
     min-width: 940px; /* Just in case there are less than 3 products */
   }
 }
@@ -2005,6 +2005,14 @@ hr {
 @media screen and (min-width: 1280px) {
     .collection-item-container {
         min-width: 1260px; /* Just in case there are less than 3 products */
+    }
+}
+
+/* MIN 1600px (Regular screen or larger)
+   ================== */
+@media screen and (min-width: 1600px) {
+    .collection-item-container {
+        min-width: 1580px; /* Just in case there are less than 4 products */
     }
 }
 
@@ -2285,7 +2293,7 @@ hr {
       .collection-sizes {
         font-size: 12px;
           
-          span {
+          span.product-link {
             padding-top: 10px;
             float: none;
             display: block;
@@ -2364,10 +2372,10 @@ hr {
             }
         }
     }
-    .nav .nav-item a,
-    .nav .nav-item a:hover,
-    .nav .nav-item a:active,
-    .nav .nav-item a:visited {
+    .nav .menu-item a,
+    .nav .menu-item a:hover,
+    .nav .menu-item a:active,
+    .nav .menu-item a:visited {
         padding: ($sidenavPadTopBotMobile/2) $sidenavPadRight;
         line-height: $sidenavLineHeightMobile;
     }
