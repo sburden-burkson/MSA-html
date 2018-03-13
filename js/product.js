@@ -74,7 +74,7 @@ function specsSlickCheck() {
 					{
 						breakpoint: 600,
 						settings: {
-							slidesToShow: (specsSlides > 3)? 3 : specsSlides,
+							slidesToShow: 1,
 							slidesToScroll: 1,
 							arrows: true,
 							dots: true,

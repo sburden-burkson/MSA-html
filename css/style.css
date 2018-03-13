@@ -200,6 +200,10 @@ input.form-control {
 .text-uppercase {
   text-transform: uppercase; }
 
+.pin-bottom {
+  position: absolute;
+  bottom: 0; }
+
 .half-section {
   min-height: 500px;
   padding-top: 50px;
@@ -1076,6 +1080,9 @@ hr {
    ================== */
 .sign-in-right .form-group {
   margin-top: 20px; }
+
+.signInHeight {
+  padding-bottom: 50px; }
 
 /* Carousel
    ================== */

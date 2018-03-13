@@ -221,6 +221,9 @@ $(function(){
   }).on('hidden.bs.collapse', function() {
     $(this).parent().find('.panel-heading').addClass("border-bottom");
   });
+    
+// Signin Page
+$('.signInHeight').matchHeight();
 
 // Staggered Slider Section
   $('#staggeredCarousel').slick({

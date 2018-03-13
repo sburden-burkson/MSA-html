@@ -1,1 +1,1 @@
-$(".signInHeight").matchHeight();
+$(function(){$(".signInHeight").matchHeight()});
