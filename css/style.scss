@@ -851,7 +851,7 @@ nav {
 			.nav .nav-item a:visited,
 			.navbar-form input,
 			.navbar-form input::placeholder {
-				font-family: 'Barlow Condensed', sans-serif;
+				font-family: $mainFont;
 				font-size: $sidenavFontSize;
 				letter-spacing: 2px;
 			}
@@ -894,7 +894,7 @@ nav {
 				padding-top: ($sidenavPadTopBot+10);
 				padding-right: $sidenavPadRight;
 				text-align: right;
-				font-family: 'Barlow Condensed', sans-serif;
+				font-family: $mainFont;
 				font-size: 18px;
 				color: $grey;
 			}
