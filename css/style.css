@@ -1855,7 +1855,9 @@ hr {
       .collection-item .collection-info-wrap .collection-sizes span {
         padding-top: 10px;
         float: none;
-        display: block; }
+        display: block;
+        text-align: right;
+        padding-right: 30px; }
     .collection-item .collection-info-wrap i {
       font-size: 14px; }
   .modal-content {
