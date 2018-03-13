@@ -1601,6 +1601,10 @@ hr {
   width: 300px;
   height: auto;
   overflow: hidden;
+    
+  .collection-col {
+    position: inherit;
+  }
   .collection-info-wrap {
     padding: 0 30px 20px;
     a {
@@ -1612,9 +1616,7 @@ hr {
       font-weight: 300;
       letter-spacing: .15em;
     }
-    span {
-      float: right;
-    }
+    
     i {
       color: red;
     }
@@ -1623,8 +1625,16 @@ hr {
       font-weight: 300;
       letter-spacing: .15em;
       color: $grey;
+        
+      span {
+        float: right;
+      }
       a {
         color: red;
+        
+          .fa-long-arrow-right {
+              margin-left: 0;
+          }
       }
     }
   }
@@ -1644,19 +1654,18 @@ hr {
   }
   .new-collection {
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 20px;
     z-index: 1;
-    p {
-      text-align: right;
-      letter-spacing: .15em;
-      margin-bottom: 0;
-      font-size: 13px;
-      .new-box {
+      
+    .new-box {
+        font-size: 13px;
+        letter-spacing: .15em;
         padding: 1px 8px;
         border: 1px solid $grey;
         font-family: $mainFont;
-      }
+        color: $grey;
+        line-height: 1.3em;
     }
   }
 }
@@ -2244,14 +2253,17 @@ hr {
   }
   .collection-item {
     .new-collection {
-      top: 15px;
-      right: 15px;
-      p .new-box {
+      top: 25px;
+      left: 15px;
+        
+      .new-box {
         font-size: 12px;
+        display: inline-block;
       }
     }
     .collection-col {
       display: table;
+      position: relative;
     }
     .collection-img-wrap {
       height: 150px;
@@ -2265,12 +2277,14 @@ hr {
       }
       .collection-sizes {
         font-size: 12px;
+          
+          span {
+            padding-top: 10px;
+            float: none;
+            display: block;
+          }
       }
-      span {
-        padding-top: 10px;
-        float: none;
-        display: block;
-      }
+      
       i {
         font-size: 14px;
       }

@@ -1372,6 +1372,8 @@ hr {
   width: 300px;
   height: auto;
   overflow: hidden; }
+  .collection-item .collection-col {
+    position: inherit; }
   .collection-item .collection-info-wrap {
     padding: 0 30px 20px; }
     .collection-item .collection-info-wrap a {
@@ -1381,8 +1383,6 @@ hr {
       font-size: 18px;
       font-weight: 300;
       letter-spacing: .15em; }
-    .collection-item .collection-info-wrap span {
-      float: right; }
     .collection-item .collection-info-wrap i {
       color: red; }
     .collection-item .collection-info-wrap .collection-sizes {
@@ -1390,8 +1390,12 @@ hr {
       font-weight: 300;
       letter-spacing: .15em;
       color: #888; }
+      .collection-item .collection-info-wrap .collection-sizes span {
+        float: right; }
       .collection-item .collection-info-wrap .collection-sizes a {
         color: red; }
+        .collection-item .collection-info-wrap .collection-sizes a .fa-long-arrow-right {
+          margin-left: 0; }
   .collection-item .collection-img-wrap {
     padding: 30px 55px 20px;
     margin-left: auto;
@@ -1405,18 +1409,17 @@ hr {
       margin-right: auto; }
   .collection-item .new-collection {
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 20px;
     z-index: 1; }
-    .collection-item .new-collection p {
-      text-align: right;
+    .collection-item .new-collection .new-box {
+      font-size: 13px;
       letter-spacing: .15em;
-      margin-bottom: 0;
-      font-size: 13px; }
-      .collection-item .new-collection p .new-box {
-        padding: 1px 8px;
-        border: 1px solid #888;
-        font-family: "Barlow Condensed", sans-serif; }
+      padding: 1px 8px;
+      border: 1px solid #888;
+      font-family: "Barlow Condensed", sans-serif;
+      color: #888;
+      line-height: 1.3em; }
 
 .collection-item-container {
   padding-top: 100px; }
@@ -1839,12 +1842,14 @@ hr {
   .pad-top-lg {
     padding-top: 50px; }
   .collection-item .new-collection {
-    top: 15px;
-    right: 15px; }
-    .collection-item .new-collection p .new-box {
-      font-size: 12px; }
+    top: 25px;
+    left: 15px; }
+    .collection-item .new-collection .new-box {
+      font-size: 12px;
+      display: inline-block; }
   .collection-item .collection-col {
-    display: table; }
+    display: table;
+    position: relative; }
   .collection-item .collection-img-wrap {
     height: 150px;
     padding: 15px 0px 15px 15px; }
@@ -1855,10 +1860,10 @@ hr {
       margin-bottom: 5px; }
     .collection-item .collection-info-wrap .collection-sizes {
       font-size: 12px; }
-    .collection-item .collection-info-wrap span {
-      padding-top: 10px;
-      float: none;
-      display: block; }
+      .collection-item .collection-info-wrap .collection-sizes span {
+        padding-top: 10px;
+        float: none;
+        display: block; }
     .collection-item .collection-info-wrap i {
       font-size: 14px; }
   .modal-content {
