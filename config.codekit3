@@ -148,8 +148,8 @@
 		"oF": 0
 		},
 	"\/css\/style.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -157,7 +157,7 @@
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/style.scss.orig": {
@@ -167,15 +167,18 @@
 		"oAP": "\/css\/style.scss.orig",
 		"oF": 0
 		},
-	"\/css\/styleOLD.css": {
-		"aP": 1,
+	"\/css\/styleOLD.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/styleOLD-min.css",
+		"oAP": "\/css\/styleOLD.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
 	"\/faq.html": {
 		"cB": 0,
