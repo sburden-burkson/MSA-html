@@ -43,6 +43,17 @@ $navLogoHeight: 30px;
 $navHeight: 80px;
 $headerHeight: 40px;
 
+/* Sidenav
+   ================== */
+$sidenavPadRight: 45px;
+$sidenavPadLeft: 7%;
+$sidenavPadTopBot: 12px;
+$sidenavPadTopBotMobile: 0px;
+$sidenavFontSize: 26px;
+$sidenavFontSizeMobile: 20px;
+$sidenavLineHeight: 80px;
+$sidenavLineHeightMobile: 60px;
+
 /* ===================================
    2) GLOBALS, HEADER & FOOTER
    =================================== */
@@ -718,6 +729,179 @@ nav {
   padding: 0px 35px;
   line-height: $navHeight;
 }
+
+
+/* Sidenav class (used by sidenav and other side menus)
+   ================== */
+.sidenav {
+	position: absolute;
+	right: -100%;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	transition: opacity 0.5s;
+
+	/* Remove gutters */
+	margin-right: 0;
+    margin-left: 0;
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+	&.active {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 1001;
+		top: 0;
+		right: 0;
+		opacity: 1;
+	}
+
+	&.active.full-screen {
+		width: 100%;
+	}
+	
+	.toggle-wrapper {
+		top: 20px;
+
+		.side-nav-close {
+			min-width: 22px;
+			height: 120px;
+			padding: 0;
+
+			.close-icon {
+				width: 50px;
+				height: 50px;
+				background-image: url('../images/sidenav-close-icon.png');
+				background-size: 100%;
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+		}
+	}
+
+	.sidenav-left {
+		height: 100%;
+	}
+
+	.sidenav-right {
+		height: 100%;
+		background-color: $white;
+
+		.sidenav-right-inner {
+			height: 100%;
+			overflow-y: auto; /* Scroll if too many menu items */
+			padding-top: 120px;
+			padding-bottom: 40px;
+			padding-right: 15%;
+			padding-left: 15%;
+		}
+	}
+}
+
+/* Sidenav menu (hamburger button menu)
+   ================== */
+#sidenav {
+	.sidenav-right {
+		position: relative;
+		height: 100%;
+		background-color: #FFF;
+
+		.sidenav-right-texture {
+			position: absolute;
+			z-index: 1002;
+			height: 100%;
+			width: 90px;
+			top: 0;
+			left: -57px;
+			background-image: url('../images/textures/texture-sidenav.png');
+			background-position: right center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+
+		.sidenav-right-inner {
+
+			.sidenav-social-media {
+				display: none;
+			}
+			.nav .nav-item,
+			.navbar-form,
+			.navbar-form input,
+			.navbar-form input::placeholder {
+				text-align: right;
+			}
+			.navbar-form input {
+				width: 100%;
+				padding-right: 0;
+				border-style: solid;
+				border-color: transparent;
+				box-shadow: none;
+			}
+			.navbar-form input::placeholder {
+				text-transform: uppercase;
+			}
+			.nav .nav-item a,
+			.nav .nav-item a:hover,
+			.nav .nav-item a:active,
+			.nav .nav-item a:visited,
+			.navbar-form input,
+			.navbar-form input::placeholder {
+				font-family: 'Barlow Condensed', sans-serif;
+				font-size: $sidenavFontSize;
+				letter-spacing: 2px;
+			}
+			.nav .nav-item a,
+			.nav .nav-item a:hover,
+			.nav .nav-item a:active,
+			.nav .nav-item a:visited,
+			.navbar-form input {
+				color: $black;
+				background-color: transparent;
+			}
+
+			.nav .nav-item a,
+			.nav .nav-item a:hover,
+			.nav .nav-item a:active,
+			.nav .nav-item a:visited {
+				padding: ($sidenavPadTopBot/2) $sidenavPadRight;
+				line-height: $sidenavLineHeight;
+			}
+			.navbar-form {
+				padding-bottom: ($sidenavPadTopBot+5);
+				padding-right: $sidenavPadRight;
+				margin-right: 0;
+			}
+
+			.nav .nav-item a.active span {
+				position: relative;
+			}
+			.nav .nav-item a.active span::after {
+				border-bottom: 1px solid $black;
+				content: "";
+				left: -20px;
+				position: absolute;
+				right: -20px;
+				top: 50%;
+			}
+
+			.sidenav-copyright {
+				width: 100%;
+				padding-top: ($sidenavPadTopBot+10);
+				padding-right: $sidenavPadRight;
+				text-align: right;
+				font-family: 'Barlow Condensed', sans-serif;
+				font-size: 18px;
+				color: $grey;
+			}
+		}
+	}
+}
+
 
 /* Links
    ================== */
@@ -1601,7 +1785,6 @@ hr {
 }
 
 
-
 /* ===================================
    ) MEDIA QUERIES (MIN)
    =================================== */
@@ -1734,6 +1917,34 @@ hr {
 /* MIN 1000px (Tablet or larger)
    ================== */
 @media screen and (min-width: 1000px) {
+    #sidenav {
+		.sidenav-left {
+			position: relative;
+			height: 100%;
+			background-image: url('../images/sidenav-bg.jpg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+
+			.sidenav-logo-wrapper {
+				padding: 100px $sidenavPadLeft;
+			}
+			.sidenav-social-media {
+				position: absolute;
+				bottom: 45px;
+				left: $sidenavPadLeft;
+
+				a {
+					display: inline-block;
+					padding-right: 20px;
+
+					.fa, svg {
+						color: $white;
+					}
+				}
+			}
+		}
+	}
     .photo-grid {
 		.photo-grid-left .photo-grid-text,
 		.photo-grid-left .photo-grid-img {
@@ -1787,6 +1998,31 @@ hr {
 	}
 }
 
+/* MAX 999px (Tablets or smaller)
+   ================== */
+@media screen and (max-width: 999px){
+    #sidenav {
+		.sidenav-left {
+			position: absolute;
+			z-index: 1003;
+			top: 30px;
+			left: 10%;
+            width: auto;
+            height: auto;
+
+			.sidenav-social-media {
+				display: none;
+			}
+		}
+	}
+    #sidenav .sidenav-right .sidenav-right-texture {
+        left: 0;
+        background-image: url('../images/sidenav-bg-mobile.jpg');
+        background-position: -40px center;
+        background-size: cover;
+    }
+}
+
 /* MAX 992px (Tablets or smaller)
    ================== */
 @media only screen and (max-width: 992px) {
@@ -1833,7 +2069,6 @@ hr {
 		padding-right: 50px;
 	}
 }
-
 
 /* MAX 767px (Mobile or smaller)
    ================== */
@@ -2047,6 +2282,62 @@ hr {
   .product-pairing {
     right: 50%;
     transform: translateX(-50%);
+  }
+  .sidenav {
+	.toggle-wrapper {
+        top: 0;
+        right: 0;
+        padding-right: 20px;
+        width: 100%;
+        background: $white;
+
+		.side-nav-close {
+            height: 100px;
+
+			.close-icon {
+                width: 43px;
+                height: 43px;
+			}
+		}
+	}
+	.sidenav-right .sidenav-right-inner {
+        padding-top: 100px;
+        padding-bottom: 20px;
+	}
+  }
+  #sidenav .sidenav-right .sidenav-right-inner {
+    padding-top: 90px;
+    padding-bottom: 10px;
+
+    .sidenav-social-media {
+        display: block;
+        text-align: right;
+        padding-top: ($sidenavPadTopBotMobile+10);
+        padding-right: $sidenavPadRight;
+
+        a {
+            display: inline-block;
+            padding: 20px 0 20px 20px;
+            
+            .fa, svg {
+                color: $black;
+            }
+        }
+    }
+    .nav .nav-item a,
+    .nav .nav-item a:hover,
+    .nav .nav-item a:active,
+    .nav .nav-item a:visited {
+        padding: ($sidenavPadTopBotMobile/2) $sidenavPadRight;
+        line-height: $sidenavLineHeightMobile;
+    }
+    .navbar-form {
+        padding-bottom: ($sidenavPadTopBotMobile+5);
+    }
+
+    .sidenav-copyright {
+        padding-top: 20px;
+    }
   }
 }
 

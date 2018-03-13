@@ -927,17 +927,17 @@
 		},
 	"\/images\/sidenav-bg-mobile.jpg": {
 		"ft": 16384,
-		"iS": 70608,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/sidenav-bg-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/sidenav-bg.jpg": {
 		"ft": 16384,
-		"iS": 146212,
+		"iS": 793141,
 		"oA": 0,
 		"oAP": "\/images\/sidenav-bg.jpg",
 		"oF": 0,
@@ -1164,7 +1164,7 @@
 		},
 	"\/images\/textures\/texture-sidenav.png": {
 		"ft": 32768,
-		"iS": 96505,
+		"iS": 48406,
 		"oA": 0,
 		"oAP": "\/images\/textures\/texture-sidenav.png",
 		"oF": 0,

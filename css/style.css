@@ -17,6 +17,8 @@
    ================== */
 /* Header & Nav
    ================== */
+/* Sidenav
+   ================== */
 /* ===================================
    2) GLOBALS, HEADER & FOOTER
    =================================== */
@@ -656,6 +658,136 @@ nav {
 .nav > li > a {
   padding: 0px 35px;
   line-height: 80px; }
+
+/* Sidenav class (used by sidenav and other side menus)
+   ================== */
+.sidenav {
+  position: absolute;
+  right: -100%;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s;
+  /* Remove gutters */
+  margin-right: 0;
+  margin-left: 0; }
+  .sidenav > .col,
+  .sidenav > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+  .sidenav.active {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    right: 0;
+    opacity: 1; }
+  .sidenav.active.full-screen {
+    width: 100%; }
+  .sidenav .toggle-wrapper {
+    top: 20px; }
+    .sidenav .toggle-wrapper .side-nav-close {
+      min-width: 22px;
+      height: 120px;
+      padding: 0; }
+      .sidenav .toggle-wrapper .side-nav-close .close-icon {
+        width: 50px;
+        height: 50px;
+        background-image: url("../images/sidenav-close-icon.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center; }
+  .sidenav .sidenav-left {
+    height: 100%; }
+  .sidenav .sidenav-right {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.97); }
+    .sidenav .sidenav-right .sidenav-right-inner {
+      height: 100%;
+      overflow-y: auto;
+      /* Scroll if too many menu items */
+      padding-top: 120px;
+      padding-bottom: 40px;
+      padding-right: 15%;
+      padding-left: 15%; }
+
+/* Sidenav menu (hamburger button menu)
+   ================== */
+#sidenav .sidenav-right {
+  position: relative;
+  height: 100%;
+  background-color: #FFF; }
+  #sidenav .sidenav-right .sidenav-right-texture {
+    position: absolute;
+    z-index: 1002;
+    height: 100%;
+    width: 90px;
+    top: 0;
+    left: -57px;
+    background-image: url("../images/textures/texture-sidenav.png");
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media {
+    display: none; }
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item,
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form,
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::placeholder {
+    text-align: right; }
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form input {
+    width: 100%;
+    padding-right: 0;
+    border-style: solid;
+    border-color: transparent;
+    box-shadow: none; }
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::placeholder {
+    text-transform: uppercase; }
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited,
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form input,
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form input::placeholder {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    letter-spacing: 2px; }
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited,
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form input {
+    color: rgba(0, 0, 0, 0.97);
+    background-color: transparent; }
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited {
+    padding: 6px 45px;
+    line-height: 80px; }
+  #sidenav .sidenav-right .sidenav-right-inner .navbar-form {
+    padding-bottom: 17px;
+    padding-right: 45px;
+    margin-right: 0; }
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a.active span {
+    position: relative; }
+  #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a.active span::after {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.97);
+    content: "";
+    left: -20px;
+    position: absolute;
+    right: -20px;
+    top: 50%; }
+  #sidenav .sidenav-right .sidenav-right-inner .sidenav-copyright {
+    width: 100%;
+    padding-top: 22px;
+    padding-right: 45px;
+    text-align: right;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    color: #888; }
 
 /* Links
    ================== */
@@ -1481,6 +1613,24 @@ hr {
 /* MIN 1000px (Tablet or larger)
    ================== */
 @media screen and (min-width: 1000px) {
+  #sidenav .sidenav-left {
+    position: relative;
+    height: 100%;
+    background-image: url("../images/sidenav-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    #sidenav .sidenav-left .sidenav-logo-wrapper {
+      padding: 100px 7%; }
+    #sidenav .sidenav-left .sidenav-social-media {
+      position: absolute;
+      bottom: 45px;
+      left: 7%; }
+      #sidenav .sidenav-left .sidenav-social-media a {
+        display: inline-block;
+        padding-right: 20px; }
+        #sidenav .sidenav-left .sidenav-social-media a .fa, #sidenav .sidenav-left .sidenav-social-media a svg {
+          color: rgba(255, 255, 255, 0.97); }
   .photo-grid .photo-grid-left .photo-grid-text,
   .photo-grid .photo-grid-left .photo-grid-img {
     padding-right: 20px; }
@@ -1515,6 +1665,24 @@ hr {
   #product-specs-carousel {
     max-width: 1040px;
     /* Change this if adding/removing columns */ } }
+
+/* MAX 999px (Tablets or smaller)
+   ================== */
+@media screen and (max-width: 999px) {
+  #sidenav .sidenav-left {
+    position: absolute;
+    z-index: 1003;
+    top: 30px;
+    left: 10%;
+    width: auto;
+    height: auto; }
+    #sidenav .sidenav-left .sidenav-social-media {
+      display: none; }
+  #sidenav .sidenav-right .sidenav-right-texture {
+    left: 0;
+    background-image: url("../images/sidenav-bg-mobile.jpg");
+    background-position: -40px center;
+    background-size: cover; } }
 
 /* MAX 992px (Tablets or smaller)
    ================== */
@@ -1695,7 +1863,44 @@ hr {
     width: 100%; }
   .product-pairing {
     right: 50%;
-    transform: translateX(-50%); } }
+    transform: translateX(-50%); }
+  .sidenav .toggle-wrapper {
+    top: 0;
+    right: 0;
+    padding-right: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.97); }
+    .sidenav .toggle-wrapper .side-nav-close {
+      height: 100px; }
+      .sidenav .toggle-wrapper .side-nav-close .close-icon {
+        width: 43px;
+        height: 43px; }
+  .sidenav .sidenav-right .sidenav-right-inner {
+    padding-top: 100px;
+    padding-bottom: 20px; }
+  #sidenav .sidenav-right .sidenav-right-inner {
+    padding-top: 90px;
+    padding-bottom: 10px; }
+    #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media {
+      display: block;
+      text-align: right;
+      padding-top: 10px;
+      padding-right: 45px; }
+      #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a {
+        display: inline-block;
+        padding: 20px 0 20px 20px; }
+        #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fa, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a svg {
+          color: rgba(0, 0, 0, 0.97); }
+    #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
+    #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,
+    #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:active,
+    #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:visited {
+      padding: 0px 45px;
+      line-height: 60px; }
+    #sidenav .sidenav-right .sidenav-right-inner .navbar-form {
+      padding-bottom: 5px; }
+    #sidenav .sidenav-right .sidenav-right-inner .sidenav-copyright {
+      padding-top: 20px; } }
 
 /* MAX 480px (Very small devices only)
    ================== */
