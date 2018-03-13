@@ -79,11 +79,6 @@ input.form-control {
 
 .wp-btn-extra-long {
   padding: 10px 15px 10px 30px; }
-  .wp-btn-extra-long .fa, .wp-btn-extra-long .fal, .wp-btn-extra-long .far {
-    padding-left: 20px;
-    margin-right: -20px; }
-  .wp-btn-extra-long svg {
-    margin-left: 30px; }
 
 .wp-btn-transparent {
   background: transparent;
@@ -362,7 +357,7 @@ input.form-control {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.97); }
-  .standard-link .fa, .standard-link .fal, .standard-link .far, .standard-link svg {
+  .standard-link .fa, .standard-link .fal, .standard-link .far, .standard-link .fab, .standard-link .fas, .standard-link svg {
     color: red;
     margin-left: 15px; }
 
@@ -1137,7 +1132,7 @@ hr {
    ================== */
 .warranty-checks {
   padding-top: 10px; }
-  .warranty-checks svg {
+  .warranty-checks .fa, .warranty-checks .fal, .warranty-checks .far, .warranty-checks .fab, .warranty-checks .fas, .warranty-checks svg {
     margin-right: 5px; }
 
 /* ===================================
@@ -1336,7 +1331,7 @@ hr {
     color: rgba(0, 0, 0, 0.97);
     margin-left: 20px;
     font-weight: 500; }
-    .filter-container a svg {
+    .filter-container a .fa, .filter-container a .fal, .filter-container a .far, .filter-container a .fab, .filter-container a .fas, .filter-container a svg {
       color: red;
       margin-bottom: 4px;
       height: 10px; }
@@ -1354,7 +1349,7 @@ hr {
     color: rgba(0, 0, 0, 0.97);
     margin-left: 20px;
     font-weight: 500; }
-    .filter-container2 a svg {
+    .filter-container2 a .fa, .filter-container2 a .fal, .filter-container2 a .far, .filter-container2 a .fab, .filter-container2 a .fas, .filter-container2 a svg {
       color: red;
       margin-bottom: 4px;
       height: 10px; }
@@ -1521,11 +1516,11 @@ hr {
     line-height: 1.5em; }
     #faqAccordion .panel-heading h4 a {
       color: rgba(0, 0, 0, 0.97); }
-    #faqAccordion .panel-heading h4 svg {
+    #faqAccordion .panel-heading h4 .fa, #faqAccordion .panel-heading h4 .fal, #faqAccordion .panel-heading h4 .far, #faqAccordion .panel-heading h4 .fab, #faqAccordion .panel-heading h4 .fas, #faqAccordion .panel-heading h4 svg {
       float: right;
       color: red;
       margin-right: -30px; }
-  #faqAccordion .panel-heading .fa, #faqAccordion .panel-heading .fal, #faqAccordion .panel-heading .far {
+  #faqAccordion .panel-heading .fa, #faqAccordion .panel-heading .fal, #faqAccordion .panel-heading .far, #faqAccordion .panel-heading .fab, #faqAccordion .panel-heading .fas, #faqAccordion .panel-heading svg {
     font-size: 14px; }
 
 /* ===================================
@@ -1578,9 +1573,6 @@ hr {
     padding: 10px 15px 10px 45px;
     font-size: 14px;
     font-weight: 300; }
-    .wp-btn-extra-long .fa, .wp-btn-extra-long .fal, .wp-btn-extra-long .far {
-      padding-left: 30px;
-      margin-right: -30px; }
   .filter-container .filter-results {
     text-align: right; }
   .blog-item-container, .collection-item-container {
@@ -1646,7 +1638,7 @@ hr {
       #sidenav .sidenav-left .sidenav-social-media a {
         display: inline-block;
         padding-right: 20px; }
-        #sidenav .sidenav-left .sidenav-social-media a .fa, #sidenav .sidenav-left .sidenav-social-media a svg {
+        #sidenav .sidenav-left .sidenav-social-media a .fa, #sidenav .sidenav-left .sidenav-social-media a .fal, #sidenav .sidenav-left .sidenav-social-media a .far, #sidenav .sidenav-left .sidenav-social-media a .fab, #sidenav .sidenav-left .sidenav-social-media a .fas, #sidenav .sidenav-left .sidenav-social-media a svg {
           color: rgba(255, 255, 255, 0.97); }
   .photo-grid .photo-grid-left .photo-grid-text,
   .photo-grid .photo-grid-left .photo-grid-img {
@@ -1823,7 +1815,7 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
   #footerAccordion .panel-body {
     padding-top: 10px; }
-  #footerAccordion .fa, #footerAccordion .fal, #footerAccordion .far {
+  #footerAccordion .fa, #footerAccordion .fal, #footerAccordion .far, #footerAccordion .fab, #footerAccordion .fas, #footerAccordion svg {
     font-size: 14px; }
   #faqAccordion .panel-heading h4 {
     padding-right: 30px; }
@@ -1908,7 +1900,7 @@ hr {
       #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a {
         display: inline-block;
         padding: 20px 0 20px 20px; }
-        #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fa, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a svg {
+        #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fa, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fal, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .far, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fab, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a .fas, #sidenav .sidenav-right .sidenav-right-inner .sidenav-social-media a svg {
           color: rgba(0, 0, 0, 0.97); }
     #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a,
     #sidenav .sidenav-right .sidenav-right-inner .nav .nav-item a:hover,

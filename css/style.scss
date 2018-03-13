@@ -115,13 +115,6 @@ input.form-control {
 }
 .wp-btn-extra-long {
   padding: 10px 15px 10px 30px;
-  .fa, .fal, .far {
-    padding-left: 20px;
-    margin-right: -20px;
-  }
-  svg {
-    margin-left: 30px;
-  }
 }
 .wp-btn-transparent {
   background: transparent;
@@ -412,7 +405,7 @@ input.form-control {
   font-family: $mainFont;
   font-weight: 600;
   color: $black;
-  .fa, .fal, .far, svg {
+  .fa, .fal, .far, .fab, .fas, svg {
     color: red;
     margin-left: 15px;
   }
@@ -1307,7 +1300,8 @@ hr {
    ================== */
 .warranty-checks {
   padding-top: 10px;
-  svg {
+    
+  .fa, .fal, .far, .fab, .fas, svg {
     margin-right: 5px;
   }
 }
@@ -1558,7 +1552,8 @@ hr {
     color: $black;
     margin-left: 20px;
     font-weight: 500;
-    svg {
+      
+    .fa, .fal, .far, .fab, .fas, svg {
       color: red;
       margin-bottom: 4px;
       height: 10px;
@@ -1579,7 +1574,8 @@ hr {
     color: $black;
     margin-left: 20px;
     font-weight: 500;
-    svg {
+      
+    .fa, .fal, .far, .fab, .fas, svg {
       color: red;
       margin-bottom: 4px;
       height: 10px;
@@ -1789,13 +1785,13 @@ hr {
       a {
         color: $black;
       }
-      svg {
+      .fa, .fal, .far, .fab, .fas, svg {
         float: right;
         color: red;
         margin-right: -30px;
       }
     }
-    .fa, .fal, .far {
+    .fa, .fal, .far, .fab, .fas, svg {
       font-size: 14px;
     }
   }
@@ -1870,10 +1866,6 @@ hr {
     padding: 10px 15px 10px 45px;
     font-size: $pSize;
     font-weight: 300;
-    .fa, .fal, .far {
-      padding-left: 30px;
-      margin-right: -30px;
-    }
   }
   .filter-container .filter-results {
     text-align: right;
@@ -1964,7 +1956,7 @@ hr {
 					display: inline-block;
 					padding-right: 20px;
 
-					.fa, svg {
+					.fa, .fal, .far, .fab, .fas, svg {
 						color: $white;
 					}
 				}
@@ -2220,7 +2212,7 @@ hr {
     .panel-body {
       padding-top: 10px;
     }
-    .fa, .fal, .far {
+    .fa, .fal, .far, .fab, .fas, svg {
       font-size: 14px;
     }
   }
@@ -2350,7 +2342,7 @@ hr {
             display: inline-block;
             padding: 20px 0 20px 20px;
             
-            .fa, svg {
+            .fa, .fal, .far, .fab, .fas, svg {
                 color: $black;
             }
         }
