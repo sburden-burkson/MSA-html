@@ -1,20 +1,27 @@
 /* ===================================
             TABLE OF CONTENTS
    ===================================
-    1. Variables
+    1. SCSS Variables
     2. Globals (Modals, Forms, Text, Header, Footer, etc)
     3. Home page
-    . FAQ page
-    . Product page
-    . Checkout pages
+    4. Accessories page
+    5. Warranty page
+    6. Product page
+    7. Collection page
+    8. Blog page and posts
+    9. FAQ page
+    10. About page
+    11. Media Queries (MIN)
+    12. Media Queries (MAX)
+    . Checkout pages (COMING SOON!)
 */
 
 /* ===================================
-   1) VARIABLES
+   1) SCSS VARIABLES
    =================================== */
 
-/* Colors
-   ================== */
+/* Magically empty! */
+
 $lightblack: rgba(0, 0, 0, 0.84);
 $white: rgba(255, 255, 255, 0.97);
 $black: rgba(0, 0, 0, 0.97);
@@ -24,8 +31,6 @@ $dividerColor: rgba(0, 0, 0, 0.2);
 $dividerColorb: rgba(255, 255, 255, 0.2);
 $grey: #888;
 
-/* Fonts & Font Sizes
-   ================== */
 $mainFont: 'Barlow Condensed', sans-serif;
 $altFont: 'Open Sans', sans-serif;
 $headerFontSize: 14px;
@@ -36,15 +41,11 @@ $h4Size: 21px;
 $h5Size: 18px;
 $pSize: 14px;
 
-/* Header & Nav
-   ================== */
 $navSpacing: 0.15em;
 $navLogoHeight: 30px;
 $navHeight: 80px;
 $headerHeight: 40px;
 
-/* Sidenav
-   ================== */
 $sidenavPadRight: 45px;
 $sidenavPadLeft: 7%;
 $sidenavPadTopBot: 12px;
@@ -1205,7 +1206,7 @@ hr {
 
 
 /* ===================================
-   ) HOME PAGE
+   3) HOME PAGE
    =================================== */
 
 /* Video Banner (Home)
@@ -1260,7 +1261,7 @@ hr {
 
 
 /* ===================================
-   ) ACCESSORY PAGE
+   4) ACCESSORY PAGE
    =================================== */
 
 /* Row heights
@@ -1287,7 +1288,7 @@ hr {
 
 
 /* ===================================
-   ) WARRANTY PAGE
+   5) WARRANTY PAGE
    =================================== */
 
 /* Warranty heading
@@ -1307,7 +1308,7 @@ hr {
 }
 
 /* ===================================
-   ) PRODUCT PAGE
+   6) PRODUCT PAGE
    =================================== */
 
 /* Product tabs
@@ -1530,7 +1531,7 @@ hr {
 
 
 /* ===================================
-   ) COLLECTION PAGES
+   7) COLLECTION PAGES
    =================================== */
 
 /* Grey background
@@ -1592,6 +1593,7 @@ hr {
 /* Collection Item (Product)
    ================== */
 .collection-item {
+  position: relative;
   margin-top: 20px;
   background-color: #fff;
   width: 300px;
@@ -1668,11 +1670,12 @@ hr {
 
 .collection-item-container {
   padding-top: 100px;
+  position: relative;
 }
 
 
 /* ===================================
-   ) BLOG PAGE
+   8) BLOG PAGE
    =================================== */
 
 .featuredBlogHeight {
@@ -1745,7 +1748,7 @@ hr {
 
 
 /* ===================================
-   ) FAQ PAGE
+   9) FAQ PAGE
    =================================== */
 
 /* Accordion
@@ -1799,7 +1802,7 @@ hr {
 
 
 /* ===================================
-   ) ABOUT PAGE
+   10) ABOUT PAGE
    =================================== */
 
 .about-top {
@@ -1808,7 +1811,7 @@ hr {
 
 
 /* ===================================
-   ) MEDIA QUERIES (MIN)
+   11) MEDIA QUERIES (MIN)
    =================================== */
 
 /* MIN 480px (small mobile device or larger)
@@ -1875,11 +1878,12 @@ hr {
   }
   .collection-item-container {
     padding-top: 50px;
+    min-width: 320px; /* Just in case there's only one or two products */
   }
-	.product-pairing-wrapper {
-		padding: 30px;
-		position: relative;
-	}
+  .product-pairing-wrapper {
+    padding: 30px;
+    position: relative;
+  }
   .product-options {
     padding-left: 30px;
   }
@@ -1918,9 +1922,9 @@ hr {
   .warranty-heading {
     padding: 50px 0;
   }
-	.pad-desktop {
-		padding: 0 50px;
-	}
+  .pad-desktop {
+    padding: 0 50px;
+  }
   .article-title {
     padding-right: 50px;
   }
@@ -1929,6 +1933,9 @@ hr {
   }
   .sign-in-left {
     padding-right: 125px;
+  }
+  .collection-item-container {
+    min-width: 940px; /* Just in case there are less than 3 products */
   }
 }
 
@@ -1993,6 +2000,14 @@ hr {
     }
 }
 
+/* MIN 1280px (Regular screen or larger)
+   ================== */
+@media screen and (min-width: 1280px) {
+    .collection-item-container {
+        min-width: 1260px; /* Just in case there are less than 3 products */
+    }
+}
+
 /* MIN 1824px (Large screens)
    ================== */
 @media only screen  and (min-width: 1824px) {
@@ -2004,7 +2019,7 @@ hr {
 
 
 /* ===================================
-   ) MEDIA QUERIES (MAX)
+   12) MEDIA QUERIES (MAX)
    =================================== */
 
 
