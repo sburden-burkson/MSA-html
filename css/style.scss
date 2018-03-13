@@ -1465,21 +1465,26 @@ hr {
 .product-customization {
   padding-top: 40px;
   p, & > div {
-		color: $grey;
+    color: $grey;
     padding: 15px 0 25px;
-		margin: 0 0 10px;
-		font-family: $altFont;
-		font-size: $pSize;
-		letter-spacing: 0.15em;
+    margin: 0 0 10px;
+    font-family: $altFont;
+    font-size: $pSize;
+    letter-spacing: 0.15em;
   }
-  .p-size span a {
-    float: right;
+  .p-size, .p-finish {
+      padding: 15px 0 10px;
+      text-align: right;
+  }
+  .p-size a {
+    display: inline-block;
     color: $bodyBlack;
     border: solid $bodyBlack 1px;
     padding: 3px 5px;
     margin-left: 25px;
+    margin-bottom: 10px;
   }
-  .p-size span a:hover {
+  .p-size a:hover {
     color: $bodyBlack;
     text-decoration: none;
   }
@@ -1493,13 +1498,14 @@ hr {
   .p-custom a:hover, .p-custom a:focus {
     text-decoration: none;
   }
-  .p-finish span {
-    float: right;
+  .p-finish a {
     border-radius: 50%;
     border: 1px black solid;
     display: inline-block;
     margin-top: -5px;
     margin-left: 25px;
+    margin-bottom: 10px;
+      
     .myCircle {
       background-color: $bodyBlack;
       width: 14px;
@@ -1508,7 +1514,11 @@ hr {
       display: inline-block;
       border-radius: 50%;
     }
-	}
+  }
+  .product-customization-label {
+    color: $black;
+    float: left;
+  }
 }
 
 /* Similar Products ("You might like")

@@ -1266,13 +1266,17 @@ hr {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     letter-spacing: 0.15em; }
-  .product-customization .p-size span a {
-    float: right;
+  .product-customization .p-size, .product-customization .p-finish {
+    padding: 15px 0 10px;
+    text-align: right; }
+  .product-customization .p-size a {
+    display: inline-block;
     color: rgba(0, 0, 0, 0.54);
     border: solid rgba(0, 0, 0, 0.54) 1px;
     padding: 3px 5px;
-    margin-left: 25px; }
-  .product-customization .p-size span a:hover {
+    margin-left: 25px;
+    margin-bottom: 10px; }
+  .product-customization .p-size a:hover {
     color: rgba(0, 0, 0, 0.54);
     text-decoration: none; }
   .product-customization .p-custom a {
@@ -1282,20 +1286,23 @@ hr {
     color: red; }
   .product-customization .p-custom a:hover, .product-customization .p-custom a:focus {
     text-decoration: none; }
-  .product-customization .p-finish span {
-    float: right;
+  .product-customization .p-finish a {
     border-radius: 50%;
     border: 1px black solid;
     display: inline-block;
     margin-top: -5px;
-    margin-left: 25px; }
-    .product-customization .p-finish span .myCircle {
+    margin-left: 25px;
+    margin-bottom: 10px; }
+    .product-customization .p-finish a .myCircle {
       background-color: rgba(0, 0, 0, 0.54);
       width: 14px;
       height: 14px;
       margin: 5px 5px 0px;
       display: inline-block;
       border-radius: 50%; }
+  .product-customization .product-customization-label {
+    color: rgba(0, 0, 0, 0.97);
+    float: left; }
 
 /* Similar Products ("You might like")
    ================== */
