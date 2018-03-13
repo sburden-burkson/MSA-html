@@ -1,11 +1,9 @@
-// Staggered Slider
+// Staggered Slider Section
 $('#staggeredCarousel').slick({
   slidesToShow: 2,
   slidesToScroll: 2,
   arrows: true,
-  dots: true,
-  // prevArrow: $('.staggered-prev'),
-  // nextArrow: $('.staggered-next')
+  dots: true
 });
 
 $('#staggeredCarouselMobile').slick({
@@ -15,8 +13,7 @@ $('#staggeredCarouselMobile').slick({
   dots: true
 });
 
-
-$( window ).resize(function() {
+$(window).resize(function() {
   if ($(window).width() > 990 && $('#staggeredCarousel .slick-list').outerHeight() < 300) {
     $('#staggeredCarousel').each(function() {
       $(this).slick("getSlick").refresh();
@@ -26,9 +23,6 @@ $( window ).resize(function() {
   $(".carouselInfoHeight").matchHeight();
 });
 
-
-// Match Height for Staggered Carousel
-// {byRow: false}
 $(".staggeredCarouselHeight").matchHeight();
 $(".carouselInfoHeight").matchHeight();
 $(".carouselInfoMobileHeight").matchHeight();
