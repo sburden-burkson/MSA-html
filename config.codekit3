@@ -1173,6 +1173,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/textures\/texture-wheels-collection-1.png": {
+		"ft": 32768,
+		"iS": 215999,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-wheels-collection-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-wheels-collection-2.png": {
+		"ft": 32768,
+		"iS": 9901,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-wheels-collection-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/textures\/top-gradient.png": {
 		"ft": 32768,
 		"iS": 3289,
