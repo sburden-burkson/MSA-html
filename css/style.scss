@@ -7,7 +7,7 @@
     4. Accessories page
     5. Warranty page
     6. Product page
-    7. Collection page
+    7. Shop/Collection page
     8. Blog page and posts
     9. FAQ page
     10. About page
@@ -30,6 +30,7 @@ $transWhite: rgba(255, 255, 255, 0.54);
 $dividerColor: rgba(0, 0, 0, 0.2);
 $dividerColorb: rgba(255, 255, 255, 0.2);
 $grey: #888;
+$red: red;
 
 $mainFont: 'Barlow Condensed', sans-serif;
 $altFont: 'Open Sans', sans-serif;
@@ -400,14 +401,14 @@ input.form-control {
   padding-bottom: 50px;
 }
 .red {
-  color: red;
+  color: $red;
 }
 .standard-link {
   font-family: $mainFont;
   font-weight: 600;
   color: $black;
   .fa, .fal, .far, .fab, .fas, svg {
-    color: red;
+    color: $red;
     margin-left: 15px;
   }
 }
@@ -516,8 +517,8 @@ input.form-control {
   font-size: $pSize;
   letter-spacing: 0.15em;
   padding: 1px 8px;
-  border: 1px solid red;
-  color: red;
+  border: 1px solid $red;
+  color: $red;
   margin-left: 15px;
   margin-bottom: 5px;
   display: inline-block;
@@ -585,8 +586,11 @@ th {
   font-weight: 300;
 }
 
-/* Paragraphs
+/* Body & Paragraphs
    ================== */
+body {
+    font-family: $altFont;
+}
 p {
   color: $grey;
   line-height: 2em;
@@ -774,7 +778,7 @@ nav {
 			.close-icon {
 				width: 50px;
 				height: 50px;
-				background-image: url('../images/sidenav-close-icon.png');
+				background-image: url('../images/close.png');
 				background-size: 100%;
 				background-repeat: no-repeat;
 				background-position: center center;
@@ -1014,17 +1018,29 @@ a .fa-long-arrow-right {
 .modal-body {
   padding: 50px;
 }
-.modal-header, .modal-footer {
+.modal-header,
+.modal-footer {
   padding-left: 50px;
   padding-right: 50px;
   border-bottom: 0;
   border-top: 0;
+}
+.modal-header h4.modal-title {
+  padding-top: 20px;
+}
+.modal-header h4.modal-title-center {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 .modal-footer {
   padding-bottom: 50px;
 }
 .modal-close {
   margin-right: -35px;
+  float: right;
+    
   img {
     width: 35px;
   }
@@ -1049,6 +1065,171 @@ a .fa-long-arrow-right {
 input.form-control.black-bg {
     border: 1px solid $dividerColorb;
 }
+label.select-wrapper,
+.select2-container--default .select2-selection--single {
+    width: 100%;
+    display: block;
+    position: relative;
+    font-weight: normal;
+    
+    &.centered {
+        width: 300px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+label.select-wrapper:after {
+    content:"\f0dd";
+    font-family: 'Font Awesome\ 5 Pro';
+    font-weight: 900;
+    color: $red;
+    padding: 8px 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 10%;
+    height: 100%;      
+    pointer-events: none;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: $red transparent transparent transparent !important;
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent $red transparent !important;
+}
+select.form-control,
+.select2-container--default .select2-selection--single {
+    border: 1px solid $dividerColor;
+    border-radius: 0;
+    -webkit-appearance: none;
+    padding: 8px 12px;
+    line-height: inherit;
+    box-shadow: none;
+    height: auto;
+    
+    &.bottom-border,
+    &.border-bottom {
+        border-top: 0;
+      border-left: 0;
+      border-right: 0;
+        border-bottom: 1px solid $lightblack;
+    }
+    &.no-border,
+    &.borderless {
+        border: 0;
+    }
+}
+.select2-container--default .select2-selection--single {
+    border: 0 !important;
+    height: auto !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 90% !important;
+}
+.shop-filters-widget-area {
+    line-height: 50px;
+    border-bottom: solid 1px $dividerColor;
+    margin-bottom: 10px;
+    
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+    }
+    ul,
+    form.woocommerce-widget-layered-nav-dropdown {
+        display: inline-block;
+        float: right;
+        line-height: 40px;
+    }
+}
+.hover-tooltip-trigger {
+    position: relative;
+    
+    .hover-tooltip {
+        position: absolute;
+        z-index: 1051;
+        top: 80%;
+        left: 80%;
+        opacity: 0;
+        width: 100px;
+        min-width: 60px;
+        max-width: 300px;
+        transition: opacity 1s;
+        background: $black;
+        color: $white;
+        padding: 2px 12px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+        pointer-events: none;
+        
+        /* This fixes a weird glitch that causes a twitch at
+           the beginning and end of the transition */
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translateZ(0) scale(1.0, 1.0);
+        transform: translateZ(0);
+        /* End glitch fix */
+    }
+    
+    &:hover .hover-tooltip {
+        opacity: 1;
+    }
+}
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item {
+    float: left;
+    margin: 10px 6px 10px 0;
+    padding: 0 10px;
+    border: solid 1px $grey;
+    line-height: 30px;
+    font-family: $mainFont;
+    
+    &.color-swatch {
+        border-radius: 50%;
+        padding: 4px;
+        width: 30px;
+        height: 30px;
+        
+        a {
+            display: block;
+            border-radius: 50%;
+            background: $black;
+            height: 20px;
+            width: 20px;
+            margin: 0 auto;
+        }
+    }
+    
+    a,
+    a:visited,
+    a:active,
+    a:hover {
+        text-decoration: none !important;
+        color: $black !important;
+    }
+    span {
+        display: none;
+    }
+}
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item--chosen {
+    border: solid 1px $red;
+}
+.select2-container--default .select2-selection--single {
+    background-color: transparent !important;
+}
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item--chosen a:before,
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    display: none !important;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+    background-color: $dividerColor !important;
+}
+
 
 /* HR
    ================== */
@@ -1199,7 +1380,7 @@ hr {
   .warrantyOptionHeight.active,
   .productTabsHeight.active {
 		color: $black;
-    border-bottom: 2px red solid;
+    border-bottom: 2px $red solid;
     pointer-events: none;
   }
 }
@@ -1402,7 +1583,7 @@ hr {
     text-decoration: none;
   }
   span {
-    color: red;
+    color: $red;
   }
 }
 
@@ -1424,7 +1605,7 @@ hr {
 			position: absolute;
 			width: 20px;
 			height: 2px;
-			background: red;
+			background: $red;
 			left: 50%;
 			bottom: 0px;
 			transform: translateX(-50%);
@@ -1495,7 +1676,7 @@ hr {
   }
   .p-custom a span {
     float: right;
-    color: red;
+    color: $red;
   }
   .p-custom a:hover, .p-custom a:focus {
     text-decoration: none;
@@ -1531,7 +1712,7 @@ hr {
 
 
 /* ===================================
-   7) COLLECTION PAGES
+   7) SHOP/COLLECTION PAGES
    =================================== */
 
 /* Grey background
@@ -1545,6 +1726,7 @@ hr {
    ================== */
 .filter-container {
   margin: 15px;
+    
   h5 {
     font-weight: 300;
     color: $grey;
@@ -1552,10 +1734,9 @@ hr {
   a {
     color: $black;
     margin-left: 20px;
-    font-weight: 500;
       
     .fa, .fal, .far, .fab, .fas, svg {
-      color: red;
+      color: $red;
       margin-bottom: 4px;
       height: 10px;
     }
@@ -1567,6 +1748,7 @@ hr {
   top: 15px;
   left: 0;
   display: block;
+    
   h5 {
     font-weight: 300;
     color: $grey;
@@ -1574,10 +1756,9 @@ hr {
   a {
     color: $black;
     margin-left: 20px;
-    font-weight: 500;
       
     .fa, .fal, .far, .fab, .fas, svg {
-      color: red;
+      color: $red;
       margin-bottom: 4px;
       height: 10px;
     }
@@ -1616,7 +1797,7 @@ hr {
     }
     
     i {
-      color: red;
+      color: $red;
     }
     .collection-sizes {
       font-size: 13px;
@@ -1628,7 +1809,7 @@ hr {
         float: right;
       }
       a {
-        color: red;
+        color: $red;
         
           .fa-long-arrow-right {
               margin-left: 0;
@@ -1721,7 +1902,7 @@ hr {
       span {
         float: right;
         a {
-          color: red;
+          color: $red;
         }
       }
     }
@@ -1790,7 +1971,7 @@ hr {
       }
       .fa, .fal, .far, .fab, .fas, svg {
         float: right;
-        color: red;
+        color: $red;
         margin-right: -30px;
       }
     }
@@ -2313,7 +2494,8 @@ hr {
   .modal-body {
     padding: 30px;
   }
-  .modal-header, .modal-footer {
+  .modal-header,
+  .modal-footer {
     padding-left: 30px;
     padding-right: 30px;
   }

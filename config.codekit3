@@ -451,6 +451,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/close.png": {
+		"ft": 32768,
+		"iS": 3000,
+		"oA": 0,
+		"oAP": "\/images\/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/container-bg.png": {
 		"ft": 32768,
 		"iS": 49435,
