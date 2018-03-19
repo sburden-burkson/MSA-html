@@ -8,12 +8,13 @@
     5. Warranty page
     6. Product page
     7. Shop/Collection page
-    8. Blog page and posts
-    9. FAQ page
-    10. About page
-    11. Media Queries (MIN)
-    12. Media Queries (MAX)
-    . Checkout pages (COMING SOON!)
+    8. Cart page
+    9. Checkout pages
+    10. Blog page and posts
+    11. FAQ page
+    12. About page
+    13. Media Queries (MIN)
+    14. Media Queries (MAX)
 */
 
 /* ===================================
@@ -118,8 +119,37 @@ input.form-control {
 .wp-btn-extra-long {
   padding: 10px 15px 10px 30px !important;
 }
-.woocommerce button.button {
+.woocommerce button.button,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
   padding: 10px 55px 10px 30px !important;
+}
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce #respond input#submit.disabled:hover,
+.woocommerce #respond input#submit:disabled:hover,
+.woocommerce #respond input#submit:disabled[disabled]:hover,
+.woocommerce a.button.disabled:hover,
+.woocommerce a.button:disabled:hover,
+.woocommerce a.button:disabled[disabled]:hover,
+.woocommerce button.button.disabled:hover,
+.woocommerce button.button:disabled:hover,
+.woocommerce button.button:disabled[disabled]:hover,
+.woocommerce input.button.disabled:hover,
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover {
+    color: $white;
 }
 .woocommerce-error,
 .woocommerce-info,
@@ -148,7 +178,10 @@ input.form-control {
   margin: 10px auto;
 }
 .wp-btn-red,
-.woocommerce button.button {
+.woocommerce button.button,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
   background-image: url('../images/red-bg.png') !important;
   background-position: 50% 50%;
   background-size: cover;
@@ -162,8 +195,17 @@ input.form-control {
   text-transform: uppercase;
   line-height: 0 !important;
   height: 38px;
+  -webkit-font-smoothing: inherit;
 }
-.woocommerce button.button:before {
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+  line-height: normal !important;
+}
+.woocommerce button.button:before,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button:before,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:before,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:before {
   display: inline-block;
   float: right;
   content: "\f178";
@@ -177,7 +219,10 @@ input.form-control {
   padding: 10px 35px;
 }
 .wp-btn-red:active,
-.woocommerce button.button:active {
+.woocommerce button.button:active,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button:active,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:active,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:active {
   background-image: url('../images/red-bg.png');
   box-shadow: none;
 }
@@ -191,7 +236,13 @@ input.form-control {
 .wp-btn-red:focus,
 .wp-input-btn-red:focus,
 .woocommerce button.button:hover,
-.woocommerce button.button:focus {
+.woocommerce button.button:focus,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:hover,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button:focus,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:focus,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:focus {
   color: $white;
 }
 .label,
@@ -1561,15 +1612,6 @@ hr {
   height: 100%;
 }
 
-/* Sign In Page (Checkout)
-   ================== */
-.sign-in-right .form-group {
-  margin-top: 20px;
-}
-.signInHeight {
-  padding-bottom: 50px;
-}
-
 /* Carousel
    ================== */
 #staggeredCarousel {
@@ -2078,7 +2120,120 @@ hr {
 
 
 /* ===================================
-   8) BLOG PAGE
+   8) CART PAGE
+   =================================== */
+
+.woocommerce-cart {
+    table.cart {
+        border: 0;
+        th {
+            text-transform: uppercase;
+            color: $grey;
+            font-weight: 300;
+            padding: 0;
+        }
+        th.product-remove,
+        td.product-remove {
+            display: none;
+        }
+        th.product-thumbnail {
+            line-height: 0;
+
+            &:before {
+                content: 'PRODUCT';
+                display: block;
+                line-height: normal;
+            }
+        }
+        th.product-name {
+            opacity: 0;
+        }
+        td {
+            padding: 18px 0 !important;
+            border-top: 1px solid $dividerColor;
+        }
+        td.product-thumbnail img {
+            width: 100px;
+        }
+        td.product-name a {
+            color: black;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 16px;
+        }
+        td.product-name dl.variation dt,
+        td.product-name dl.variation dd p {
+            padding-top: 6px;
+            display: block;
+            font-size: 12px;
+        }
+        td.product-price,
+        td.product-subtotal {
+            color: grey;
+        }
+        th.product-subtotal,
+        td.product-subtotal {
+            text-align: right;
+        }
+        td.actions button[name=update_cart]:before {
+            content: '\f021';
+            font-size: 12px
+        }
+    }
+    .woocommerce .cart-collaterals {
+        .cart_totals {
+            float: none;
+            width: 100%;
+            text-align: right;
+        
+            h2 {
+                display: none;
+            }
+            table.shop_table {
+                border: 0;
+                
+                tr.cart-subtotal,
+                tr.order-total th {
+                    display: none;
+                }
+                td {
+                    padding: 0;
+                }
+                tr.order-total td {
+                    text-align: right;
+                    padding: 18px 0;
+                    border-bottom: solid 1px lightgrey;
+                    border-top: solid 1px lightgrey
+                }
+            }
+            .wc-proceed-to-checkout {
+                display: inline-block;
+            }
+        }
+    }
+    .woocommerce #content table.cart td.actions .input-text,
+    .woocommerce table.cart td.actions .input-text,
+    .woocommerce-page #content table.cart td.actions .input-text,
+    .woocommerce-page table.cart td.actions .input-text {
+        width: inherit;
+    }
+}
+
+/* ===================================
+   9) CHECKOUT PAGES
+   =================================== */
+
+/* Sign In Page
+================== */
+.sign-in-right .form-group {
+  margin-top: 20px;
+}
+.signInHeight {
+  padding-bottom: 50px;
+}
+
+
+/* ===================================
+   10) BLOG PAGE
    =================================== */
 
 .featuredBlogHeight {
@@ -2151,7 +2306,7 @@ hr {
 
 
 /* ===================================
-   9) FAQ PAGE
+   11) FAQ PAGE
    =================================== */
 
 /* Accordion
@@ -2205,7 +2360,7 @@ hr {
 
 
 /* ===================================
-   10) ABOUT PAGE
+   12) ABOUT PAGE
    =================================== */
 
 .about-top {
@@ -2214,7 +2369,7 @@ hr {
 
 
 /* ===================================
-   11) MEDIA QUERIES (MIN)
+   13) MEDIA QUERIES (MIN)
    =================================== */
 
 /* MIN 480px (small mobile device or larger)
@@ -2273,7 +2428,10 @@ hr {
     font-size: $pSize;
     font-weight: 300;
   }
-  .woocommerce button.button {
+  .woocommerce button.button,
+  #add_payment_method .wc-proceed-to-checkout a.checkout-button,
+  .woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+  .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
     padding: 10px 55px 10px 45px !important;
     font-size: $pSize;
     font-weight: 300;
@@ -2452,7 +2610,7 @@ hr {
 
 
 /* ===================================
-   12) MEDIA QUERIES (MAX)
+   14) MEDIA QUERIES (MAX)
    =================================== */
 
 
