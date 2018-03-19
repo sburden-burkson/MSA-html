@@ -1,4 +1,4 @@
-$(function(){
+jQuery(document).ready(function ($) {
 // Match Height JS Options
   var notByRow = {byRow: false};
 // Navbar
@@ -96,20 +96,28 @@ $(function(){
   });
 
 // Side Nav
-	// $('nav .navbar-right .side-nav-open, #sidenav .side-nav-close').click(function(){
-	$('*[data-sidenav]').click(function() {
-		sidenavId = $(this).data('sidenav');
-		sidenav = $('#'+sidenavId);
+    function toggleSidenav(sidenav){
+        sidenav_inner = sidenav.find('.sidenav-inner');
 		sidenav.stop().toggleClass('active');
 		if(sidenav.hasClass('active')){
-			sidenav.css({'right': '-10%'}).animate({'right': '0%'}, 300);
+			sidenav_inner.css({'right': '-10%'}).animate({'right': '0%'}, 300);
 			if(sidenav.hasClass('full-screen')){
 				$('html, body').css({'overflow': 'hidden'});
 			}
 		}else if(sidenav.hasClass('full-screen')){
 			$('html, body').css({'overflow': 'auto'});
 		}
+    }
+	$('*[data-sidenav]').click(function() {
+		sidenav = $('#'+$(this).data('sidenav'));
+        toggleSidenav(sidenav);
 	});
+    if($('.sidenav.auto-show').length){
+        toggleSidenav($('.sidenav.auto-show').eq(0));
+        if($('.sidenav.auto-show').length > 1){
+            console.log('Warning: More than one sidenav auto-show.');
+        }
+	}
 
 // Parrallax
   function getBackgroundImageSize(el) {
@@ -221,9 +229,6 @@ $(function(){
   }).on('hidden.bs.collapse', function() {
     $(this).parent().find('.panel-heading').addClass("border-bottom");
   });
-    
-// Signin Page
-$('.signInHeight').matchHeight();
 
 // Staggered Slider Section
   $('#staggeredCarousel').slick({
