@@ -140,10 +140,17 @@ jQuery(function($){
             
         customOptions.each(function(){
             var currOption = $(this);
+            var attrSlug = currOption.data('attrslug');
             var attrValue = currOption.data('attrvalue');
             
             if(attrValue == selectValue) {
                 currOption.addClass('active');
+            }
+            
+            // Tooltips
+            var tooltipText = currOption.data('tooltip');
+            if(tooltipText){
+                $(this).append('<div class="hover-tooltip">'+tooltipText+'</div>');
             }
         });
     });
