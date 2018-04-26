@@ -1625,6 +1625,9 @@ hr {
 #product-image-carousel .slick-dots {
   bottom: -10px; }
 
+.top-slide {
+  min-height: calc(100vh - 40px); }
+
 #top-section-full {
   min-height: calc(100vh - 40px);
   padding: 30vh 100px 35px; }
@@ -1668,7 +1671,8 @@ hr {
   text-rendering: auto;
   line-height: 1;
   color: red;
-  top: 38.5%;
+  top: 50%;
+  transform: translateY(-50%);
   left: -75px;
   position: absolute; }
 
@@ -1678,13 +1682,19 @@ hr {
 
 @media only screen and (max-width: 767px) {
   .topSliderNavWrapper {
-    bottom: 75px; }
-  #topSliderNav:before {
-    top: 36.5% !important; } }
+    bottom: 75px; } }
+
+#topSliderNav i {
+  display: none; }
 
 @media only screen and (max-width: 480px) {
   .topSliderNavWrapper {
-    left: 95px; } }
+    left: 95px; }
+  #topSliderNav:before {
+    font-size: 35px;
+    left: -40px; }
+  #topSliderNav h2 {
+    font-size: 30px !important; } }
 
 /* Product Customization
    ================== */
