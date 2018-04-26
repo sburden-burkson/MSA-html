@@ -7,8 +7,9 @@ jQuery(document).ready(function ($) {
     dots: true,
     asNavFor: '#topSliderNav',
     fade: true,
-    speed: 2000,
-    // autoplay: true
+    speed: 1000,
+    autoplaySpeed: 5000,
+    autoplay: true
   });
   $('#topSliderNav').slick({
     slidesToShow: 3,
@@ -21,15 +22,16 @@ jQuery(document).ready(function ($) {
     centerMode: true,
     centerPadding: 0,
     autoplay: true,
-    speed: 2000,
-    responsive: [
-       {
-         breakpoint: 1200,
-         settings: {
-           slidesToShow: 1,
-         }
-       },
-     ]
+    speed: 1000,
+    autoplaySpeed: 5000,
+    // responsive: [
+    //    {
+    //      breakpoint: 1200,
+    //      settings: {
+    //        slidesToShow: 1,
+    //      }
+    //    },
+    //  ]
   });
   // $( '.topSliderDot' ).click( function() {
   //   var page = $(this).data('page');

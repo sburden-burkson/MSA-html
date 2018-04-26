@@ -1861,20 +1861,20 @@ hr {
   bottom: -10px;
 }
 
-// NEW HOME SLIDER
+// shit NEW HOME SLIDER
 #top-section-full {
   min-height: calc(100vh - 40px);
   padding: 30vh 100px 35px;
 }
 .topSliderNavWrapper {
   position: absolute;
-  right: 0;
-  bottom: 100px;
+  left: 120px;
+  bottom: 150px;
   background-color: rgba(249, 249, 249, 0.0);
 }
 #home-slider-wrap {
   .slick-slide {
-		opacity: 0.6;
+		opacity: 0.75;
 		padding-top: 10px;
 		padding-bottom: 10px;
     // padding-left: 80px;
@@ -1896,12 +1896,12 @@ hr {
     opacity: 0;
   }
   #topSliderNav {
-    max-width: 525px;
+    // max-width: 525px;
   }
   #topSliderNav:before {
     content: "\f178";
     font-family: 'Font Awesome\ 5 Pro';
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 300;
     line-height: .75em;
     vertical-align: -.0667em;
@@ -1913,18 +1913,39 @@ hr {
     text-rendering: auto;
     line-height: 1;
     color: red;
-    top: 36.5%;
+    top: 38.5%;
     left: -75px;
     position: absolute;
   }
 }
 @media only screen and (max-width: 1200px) {
   #topSliderNav:before {
-    font-size: 55px !important;
-    top: 17.5% !important;
+    // top: 38.5% !important;
+  }
+  #home-slider-wrap #topSliderNav {
+    // max-width: 400px !important;
+  }
+  .topSliderNavWrapper {
+    bottom: 100px;
   }
 }
-
+@media only screen and (max-width: 767px) {
+  #home-slider-wrap #topSliderNav {
+    // max-width: 350px !important;
+  }
+  .topSliderNavWrapper {
+    bottom: 75px;
+  }
+  #topSliderNav:before {
+    top: 36.5% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .topSliderNavWrapper {
+    left: 95px;
+    // bottom: 30px;
+  }
+}
 // END NEW HOME SLIDER
 
 /* Product Customization
