@@ -99,6 +99,16 @@
 		"oAP": "\/basicScroll-master\/demos\/default.html",
 		"oF": 0
 		},
+	"\/basicScroll-master\/dist\/basicScroll.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/dist\/basicScroll.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/basicScroll-master\/dist\/basicScroll.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -188,13 +198,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/collection.html",
-		"oF": 0
-		},
-	"\/config.codekit3.orig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/config.codekit3.orig",
 		"oF": 0
 		},
 	"\/css\/bootstrap.min.css": {
@@ -297,57 +300,12 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/style_BACKUP_19078.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
+	"\/css\/style.scss.orig": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/css\/style_BACKUP_19078.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/style_BASE_19078.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style_BASE_19078.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/style_LOCAL_19078.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style_LOCAL_19078.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/style_REMOTE_19078.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style_REMOTE_19078.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oAP": "\/css\/style.scss.orig",
+		"oF": 0
 		},
 	"\/css\/styleOLD.css": {
 		"aP": 1,
@@ -1673,6 +1631,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/fontawesome-all-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/fontawesome-all-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/fontawesome-all.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1773,6 +1741,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/msa-min.js.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/msa-min.js.orig",
+		"oF": 0
+		},
 	"\/js\/msa.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1782,6 +1757,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/js\/msa.js.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/msa.js.orig",
+		"oF": 0
 		},
 	"\/js\/navbar-min.js": {
 		"ft": 64,
@@ -1940,6 +1922,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/warranty-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/navbarOLD-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/navbarOLD-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2154,6 +2146,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/warranty.html",
+		"oF": 0
+		},
+	"\/warranty.html.orig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/warranty.html.orig",
 		"oF": 0
 		},
 	"\/webfonts\/fa-brands-400.eot": {

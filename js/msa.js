@@ -7,18 +7,29 @@ jQuery(document).ready(function ($) {
     dots: true,
     asNavFor: '#topSliderNav',
     fade: true,
+    speed: 2000,
     // autoplay: true
   });
   $('#topSliderNav').slick({
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: '#topSlider',
+    arrows: false,
     focusOnSelect: true,
     vertical: true,
-    verticalSwiping: true,
-    infinite: true,
+    // infinite: true,
     centerMode: true,
-    autoplay: true
+    centerPadding: 0,
+    autoplay: true,
+    speed: 2000,
+    responsive: [
+       {
+         breakpoint: 1200,
+         settings: {
+           slidesToShow: 1,
+         }
+       },
+     ]
   });
   // $( '.topSliderDot' ).click( function() {
   //   var page = $(this).data('page');
