@@ -1862,49 +1862,34 @@ hr {
 }
 
 // shit NEW HOME SLIDER
-.top-slide {
+#topSlider .slick-slide {
   min-height: calc(100vh - 40px);
-}
-@media only screen and (max-height: 750px) {
-  .top-slide {
-    // min-height: 750px !important;
-  }
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #top-section-full {
   min-height: calc(100vh - 40px);
   padding: 30vh 100px 35px;
 }
-.topSliderNavWrapper {
+#topSliderNavWrap {
   position: absolute;
   left: 120px;
   bottom: 150px;
   background-color: rgba(249, 249, 249, 0.0);
 }
-#home-slider-wrap {
+#topSliderWrap {
+  overflow: hidden;
+  .slick-dots {
+    display: none !important;
+  }
   .slick-slide {
 		opacity: 0.75;
 		padding-top: 10px;
 		padding-bottom: 10px;
-    // padding-left: 80px;
-    i {
-      color: red;
-      margin-right: 10px;
-      opacity: 0;
-      //display: none;
-    }
 	}
 	.slick-slide.slick-current {
-		position: relative;
 		opacity: 1;
-    i {
-      opacity: 1;
-    }
-  }
-  .slick-cloned .slick-center {
-    opacity: 0;
-  }
-  #topSliderNav {
-    // max-width: 525px;
   }
   #topSliderNav:before {
     content: "\f178";
@@ -1921,50 +1906,36 @@ hr {
     text-rendering: auto;
     line-height: 1;
     color: red;
-    // top: 38.5%;
     top: 50%;
     transform: translateY(-50%);
-
     left: -75px;
     position: absolute;
   }
 }
 @media only screen and (max-width: 1200px) {
-  #topSliderNav:before {
-    // top: 38.5% !important;
-  }
-  #home-slider-wrap #topSliderNav {
-    // max-width: 400px !important;
-  }
-  .topSliderNavWrapper {
+  #topSliderNavWrap {
     bottom: 100px;
   }
 }
 @media only screen and (max-width: 767px) {
-  #home-slider-wrap #topSliderNav {
-    // max-width: 350px !important;
-  }
-  .topSliderNavWrapper {
+  #topSliderNavWrap {
     bottom: 75px;
   }
-
 }
-#topSliderNav {
-    i {
-      display: none;
-    }
-  }
 @media only screen and (max-width: 480px) {
-  .topSliderNavWrapper {
+  #topSliderNavWrap {
     left: 95px;
-    // bottom: 30px;
   }
-  #topSliderNav:before {
-    font-size: 35px;
-    left: -40px;
+  #topSliderWrap #topSliderNav:before {
+    font-size: 50px;
   }
   #topSliderNav h2 {
     font-size: 30px !important;
+  }
+}
+@media only screen and (max-height: 600px) {
+  #topSlider .slick-slide {
+    min-height: 600px !important;
   }
 }
 // END NEW HOME SLIDER
