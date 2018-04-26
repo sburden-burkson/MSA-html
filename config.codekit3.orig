@@ -7,7 +7,11 @@
 		"uuidString": "9C07328F-1085-4746-9D02-FBD298350D74"
 		}
 	],
-"creatorBuild": "26268",
+<<<<<<< HEAD
+"creatorBuild": "26680",
+=======
+"creatorBuild": "26330",
+>>>>>>> 97862a57b35263f97d89a6fcf388247d6a1ec36d
 "files": {
 	"\/.vscode\/settings.json": {
 		"ft": 524288,
@@ -38,6 +42,130 @@
 		"oAP": "\/accessory-collection.html",
 		"oF": 0
 		},
+	"\/basicScroll-master.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/basicScroll-master.zip",
+		"oF": 0
+		},
+	"\/basicScroll-master\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/.gitattributes",
+		"oF": 0
+		},
+	"\/basicScroll-master\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/.gitignore",
+		"oF": 0
+		},
+	"\/basicScroll-master\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/basicScroll-master\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/basicScroll-master\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/basicScroll-master\/demos\/callback.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/demos\/callback.html",
+		"oF": 0
+		},
+	"\/basicScroll-master\/demos\/default.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/demos\/default.html",
+		"oF": 0
+		},
+	"\/basicScroll-master\/dist\/basicScroll.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/dist\/basicScroll.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/basicScroll-master\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/basicScroll-master\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/LICENSE",
+		"oF": 0
+		},
+	"\/basicScroll-master\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/basicScroll-master\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/basicScroll-master\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/basicScroll-master\/src\/scripts\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/basicScroll-master\/src\/scripts\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/blog.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -50,6 +178,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/blog1.html",
+		"oF": 0
+		},
+	"\/build\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
 	"\/collection.html": {
@@ -83,6 +218,26 @@
 		"oAP": "\/css\/bootstrap.min.css.map",
 		"oF": 0
 		},
+	"\/css\/fontawesome-all.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fontawesome-all.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/fontawesome-all.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fontawesome-all.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/sidenav-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -111,8 +266,8 @@
 		"oF": 0
 		},
 	"\/css\/sidenav.scss": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -133,13 +288,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/style.css.orig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/css\/style.css.orig",
-		"oF": 0
-		},
 	"\/css\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -153,13 +301,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/style.scss.orig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/css\/style.scss.orig",
-		"oF": 0
-		},
 	"\/css\/styleOLD.css": {
 		"aP": 1,
 		"bl": 0,
@@ -167,6 +308,39 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/styleOLD-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/styleOLD.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styleOLD.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/topbar-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/topbar-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/topbar.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/topbar-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -254,6 +428,7 @@
 	"\/images\/accessories-collection-header.jpg": {
 		"ft": 16384,
 		"iS": 458211,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/accessories-collection-header.jpg",
 		"oF": 0,
@@ -264,6 +439,7 @@
 	"\/images\/atv.jpg": {
 		"ft": 16384,
 		"iS": 21540700,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/atv.jpg",
 		"oF": 0,
@@ -296,6 +472,7 @@
 	"\/images\/blog-post-bg.jpg": {
 		"ft": 16384,
 		"iS": 987452,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blog-post-bg.jpg",
 		"oF": 0,
@@ -317,6 +494,7 @@
 	"\/images\/blue-truck.jpg": {
 		"ft": 16384,
 		"iS": 18369182,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blue-truck.jpg",
 		"oF": 0,
@@ -349,6 +527,7 @@
 	"\/images\/cap-image-left.jpg": {
 		"ft": 16384,
 		"iS": 40597,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/cap-image-left.jpg",
 		"oF": 0,
@@ -359,6 +538,7 @@
 	"\/images\/cap-image-right.jpg": {
 		"ft": 16384,
 		"iS": 398961,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/cap-image-right.jpg",
 		"oF": 0,
@@ -415,6 +595,17 @@
 		"iS": 1937,
 		"oA": 0,
 		"oAP": "\/images\/chevron-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/close.png": {
+		"ft": 32768,
+		"iS": 3000,
+		"oA": 0,
+		"oAP": "\/images\/close.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -523,6 +714,7 @@
 	"\/images\/footer-bg.jpg": {
 		"ft": 16384,
 		"iS": 989475,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer-bg.jpg",
 		"oF": 0,
@@ -544,6 +736,7 @@
 	"\/images\/header-blog-post.jpg": {
 		"ft": 16384,
 		"iS": 946830,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header-blog-post.jpg",
 		"oF": 0,
@@ -554,6 +747,7 @@
 	"\/images\/header-warranty.jpg": {
 		"ft": 16384,
 		"iS": 722060,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header-warranty.jpg",
 		"oF": 0,
@@ -575,6 +769,7 @@
 	"\/images\/home-banner.jpg": {
 		"ft": 16384,
 		"iS": 1002957,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/home-banner.jpg",
 		"oF": 0,
@@ -607,6 +802,7 @@
 	"\/images\/install-bg.jpg": {
 		"ft": 16384,
 		"iS": 355644,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/install-bg.jpg",
 		"oF": 0,
@@ -617,6 +813,7 @@
 	"\/images\/install-image-left.jpg": {
 		"ft": 16384,
 		"iS": 46673,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/install-image-left.jpg",
 		"oF": 0,
@@ -627,6 +824,7 @@
 	"\/images\/install-image-right.jpg": {
 		"ft": 16384,
 		"iS": 362747,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/install-image-right.jpg",
 		"oF": 0,
@@ -667,6 +865,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/msa-favicon.jpg": {
+		"ft": 16384,
+		"iS": 1519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/msa-favicon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/msa-logo.png": {
 		"ft": 32768,
 		"iS": 8141,
@@ -692,6 +901,7 @@
 	"\/images\/performance-bg.jpg": {
 		"ft": 16384,
 		"iS": 211958,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/performance-bg.jpg",
 		"oF": 0,
@@ -845,6 +1055,7 @@
 	"\/images\/rings.jpg": {
 		"ft": 16384,
 		"iS": 161686,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/rings.jpg",
 		"oF": 0,
@@ -855,6 +1066,7 @@
 	"\/images\/rivets.jpg": {
 		"ft": 16384,
 		"iS": 139825,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/rivets.jpg",
 		"oF": 0,
@@ -865,6 +1077,7 @@
 	"\/images\/sand-bg.jpg": {
 		"ft": 16384,
 		"iS": 1274083,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sand-bg.jpg",
 		"oF": 0,
@@ -908,16 +1121,18 @@
 	"\/images\/sidenav-bg-mobile.jpg": {
 		"ft": 16384,
 		"iS": 70608,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sidenav-bg-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/sidenav-bg.jpg": {
 		"ft": 16384,
 		"iS": 146212,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sidenav-bg.jpg",
 		"oF": 0,
@@ -939,6 +1154,7 @@
 	"\/images\/sidenav-logo.jpg": {
 		"ft": 16384,
 		"iS": 9653,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sidenav-logo.jpg",
 		"oF": 0,
@@ -949,6 +1165,7 @@
 	"\/images\/star-image-left.jpg": {
 		"ft": 16384,
 		"iS": 304152,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/star-image-left.jpg",
 		"oF": 0,
@@ -959,6 +1176,7 @@
 	"\/images\/star-image-right.jpg": {
 		"ft": 16384,
 		"iS": 35508,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/star-image-right.jpg",
 		"oF": 0,
@@ -1153,6 +1371,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/textures\/texture-wheels-collection-1.png": {
+		"ft": 32768,
+		"iS": 215999,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-wheels-collection-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/textures\/texture-wheels-collection-2.png": {
+		"ft": 32768,
+		"iS": 9901,
+		"oA": 0,
+		"oAP": "\/images\/textures\/texture-wheels-collection-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/textures\/top-gradient.png": {
 		"ft": 32768,
 		"iS": 3289,
@@ -1178,6 +1418,7 @@
 	"\/images\/tires-home.jpg": {
 		"ft": 16384,
 		"iS": 248991,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/tires-home.jpg",
 		"oF": 0,
@@ -1199,6 +1440,7 @@
 	"\/images\/warranty-panel.jpg": {
 		"ft": 16384,
 		"iS": 711803,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/warranty-panel.jpg",
 		"oF": 0,
@@ -1209,6 +1451,7 @@
 	"\/images\/wheels-ad-bg.jpg": {
 		"ft": 16384,
 		"iS": 447856,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/wheels-ad-bg.jpg",
 		"oF": 0,
@@ -1219,6 +1462,7 @@
 	"\/images\/wheels-header.jpg": {
 		"ft": 16384,
 		"iS": 619022,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/wheels-header.jpg",
 		"oF": 0,
@@ -1317,6 +1561,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/carousel-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/checkout.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/checkout-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1441,6 +1695,36 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/modernizr-custom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/modernizr-custom-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/msa-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/msa-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/msa.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/msa-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/navbar-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1468,33 +1752,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/navbar.js.orig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/navbar.js.orig",
-		"oF": 0
-		},
-	"\/js\/parallax-google-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/parallax-google-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/parallax-google.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/parallax-google-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/js\/parallax-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1515,16 +1772,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/parallax.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/parallax.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/js\/product-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1541,16 +1788,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/product-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/rellax.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/rellax.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1609,12 +1846,22 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/skrollr.min.js": {
+	"\/js\/topbar-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/skrollr.min-min.js",
+		"oAP": "\/js\/topbar-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/topbar.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/topbar-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1654,13 +1901,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/product.html",
-		"oF": 0
-		},
-	"\/product.html.orig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/product.html.orig",
 		"oF": 0
 		},
 	"\/sidenav.html": {
@@ -1830,6 +2070,13 @@
 		"oAP": "\/thankyou.html",
 		"oF": 0
 		},
+	"\/topbar.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/topbar.html",
+		"oF": 0
+		},
 	"\/transnav.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1850,6 +2097,158 @@
 		"oA": 0,
 		"oAP": "\/warranty.html",
 		"oF": 0
+		},
+	"\/webfonts\/fa-brands-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-brands-400.eot",
+		"oF": 0
+		},
+	"\/webfonts\/fa-brands-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webfonts\/fa-brands-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webfonts\/fa-brands-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-brands-400.ttf",
+		"oF": 0
+		},
+	"\/webfonts\/fa-brands-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-brands-400.woff",
+		"oF": 0
+		},
+	"\/webfonts\/fa-brands-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-brands-400.woff2",
+		"oF": 0
+		},
+	"\/webfonts\/fa-light-300.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-light-300.eot",
+		"oF": 0
+		},
+	"\/webfonts\/fa-light-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webfonts\/fa-light-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webfonts\/fa-light-300.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-light-300.ttf",
+		"oF": 0
+		},
+	"\/webfonts\/fa-light-300.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-light-300.woff",
+		"oF": 0
+		},
+	"\/webfonts\/fa-light-300.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-light-300.woff2",
+		"oF": 0
+		},
+	"\/webfonts\/fa-regular-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-regular-400.eot",
+		"oF": 0
+		},
+	"\/webfonts\/fa-regular-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webfonts\/fa-regular-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webfonts\/fa-regular-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-regular-400.ttf",
+		"oF": 0
+		},
+	"\/webfonts\/fa-regular-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-regular-400.woff",
+		"oF": 0
+		},
+	"\/webfonts\/fa-regular-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-regular-400.woff2",
+		"oF": 0
+		},
+	"\/webfonts\/fa-solid-900.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-solid-900.eot",
+		"oF": 0
+		},
+	"\/webfonts\/fa-solid-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webfonts\/fa-solid-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webfonts\/fa-solid-900.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-solid-900.ttf",
+		"oF": 0
+		},
+	"\/webfonts\/fa-solid-900.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-solid-900.woff",
+		"oF": 0
+		},
+	"\/webfonts\/fa-solid-900.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webfonts\/fa-solid-900.woff2",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1861,6 +2260,7 @@
 	"displayValue": "MSA-html",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-hart",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 540772569
 	},
 "projectSettings": {
@@ -3664,6 +4064,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
