@@ -1,34 +1,4 @@
 jQuery(document).ready(function ($) {
-  var topSlider = $('#topSlider');
-  $('#topSlider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true,
-    asNavFor: '#topSliderNav',
-    fade: true,
-    // autoplay: true
-  });
-  $('#topSliderNav').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    asNavFor: '#topSlider',
-    focusOnSelect: true,
-    vertical: true,
-    verticalSwiping: true,
-    infinite: true,
-    centerMode: true,
-    autoplay: true
-  });
-  // $( '.topSliderDot' ).click( function() {
-  //   var page = $(this).data('page');
-  //   $('.topSliderDot').removeClass('active');
-  //   $(this).addClass('active');
-  //   console.log( page );
-  //   topSlider.slick('slickGoTo', page);
-  // });
-
-
 // Match Height JS Options
   var notByRow = {byRow: false};
 // Navbar
@@ -53,6 +23,9 @@ jQuery(document).ready(function ($) {
     var scrollTop = $(window).scrollTop();
     var navTop = scrollTop - $('header').outerHeight();
     var newNavHeight = navHeight - (navTop * 0.1);
+    if(scrollTop > headerHeight && (newNavHeight <= 60 || newNavHeight >= navHeight)) {
+        newNavHeight = 60;
+    }
     var opacity = 0 + Math.abs((navTop * 0.01));
     var navLogoHeight = $('#navLogo').outerHeight();
     var logoPad = (newNavHeight - navLogoHeight) / 2;
@@ -61,6 +34,7 @@ jQuery(document).ready(function ($) {
         'background-color', 'rgba(255, 255, 255, 0.05)',
         'height', '80px'
       );
+        console.log('resetting <a> css line-height');
       $('nav .nav>li>a').css(
         'line-height', '80px'
       );
@@ -78,19 +52,19 @@ jQuery(document).ready(function ($) {
       );
     }
     if (newNavHeight >= 60 && newNavHeight <= navHeight) {
-      $('nav, nav .navbar-toggle').css(
-        'height', newNavHeight
-      );
-      $('nav .navbar-brand').css(
-        'padding-top', logoPad,
-        'padding-bottom', logoPad
-      );
-      $('nav .nav>li>a').css(
-        'line-height', newNavHeight + 'px'
-      );
-      $('#navColor').css(
-        'background-color', 'rgba(255, 255, 255,' + opacity + ')'
-      );
+          $('nav, nav .navbar-toggle').css(
+            'height', newNavHeight +'px'
+          );
+          $('nav .navbar-brand').css(
+            'padding-top', logoPad,
+            'padding-bottom', logoPad
+          );
+          $('nav .nav>li>a').css(
+            'line-height', newNavHeight + 'px'
+          );
+          $('#navColor').css(
+            'background-color', 'rgba(255, 255, 255,' + opacity + ')'
+          );
     }
     if (topSection) {
       if (opacity > 0.4) {
@@ -105,6 +79,19 @@ jQuery(document).ready(function ($) {
   $(window).on('scroll', function() {
     navResize();
   });
+  $( document.body ).on( 'added_to_cart', function(){
+    navResize();
+  });
+  $( document.body ).on( 'updated_cart_totals', function(){
+    navResize();
+  });
+  $( document.body ).on( 'wc_fragments_refreshed', function(){
+    navResize();
+      console.log('wc_fragments_refreshed updated!');
+      setTimeout(function(){
+          navResize();
+      }, 300);
+  });
   navResize();
 
 // Footer
@@ -118,6 +105,7 @@ jQuery(document).ready(function ($) {
   footerAccordion();
   $(window).on('resize', function() {
     footerAccordion();
+      navResize();
   });
   $('.collapse').on('shown.bs.collapse', function() {
     $(this).parent().find(".fa-plus").removeClass("fa-plus").addClass("fa-minus");
@@ -126,20 +114,28 @@ jQuery(document).ready(function ($) {
   });
 
 // Side Nav
-	// $('nav .navbar-right .side-nav-open, #sidenav .side-nav-close').click(function(){
-	$('*[data-sidenav]').click(function() {
-		sidenavId = $(this).data('sidenav');
-		sidenav = $('#'+sidenavId);
+    function toggleSidenav(sidenav){
+        sidenav_inner = sidenav.find('.sidenav-inner');
 		sidenav.stop().toggleClass('active');
 		if(sidenav.hasClass('active')){
-			sidenav.css({'right': '-10%'}).animate({'right': '0%'}, 300);
+			sidenav_inner.css({'right': '-10%'}).animate({'right': '0%'}, 300);
 			if(sidenav.hasClass('full-screen')){
 				$('html, body').css({'overflow': 'hidden'});
 			}
 		}else if(sidenav.hasClass('full-screen')){
 			$('html, body').css({'overflow': 'auto'});
 		}
+    }
+	$('*[data-sidenav]').click(function() {
+		sidenav = $('#'+$(this).data('sidenav'));
+        toggleSidenav(sidenav);
 	});
+    if($('.sidenav.auto-show').length){
+        toggleSidenav($('.sidenav.auto-show').eq(0));
+        if($('.sidenav.auto-show').length > 1){
+            console.log('Warning: More than one sidenav auto-show.');
+        }
+	}
 
 // Parrallax
   function getBackgroundImageSize(el) {
@@ -303,41 +299,43 @@ jQuery(document).ready(function ($) {
   $(".blogStagger").matchHeight();
 
   // Video Section
-  // function checkIframeLoaded() {
-  //   // Get a handle to the iframe element
-  //   var iframe = document.getElementById('topVideo');
-  //   var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-  //   // Check if loading is complete
-  //   if (  iframeDoc.readyState  == 'complete' ) {
-  //     //iframe.contentWindow.alert("Hello");
-  //     // console.log("complete");
-  //     // iframe.contentWindow.onload = function(){
-  //     //     console.log("loaded");
-  //     // };
-  //     // The loading is complete, call the function we want executed once the iframe is loaded
-  //     videoSizing();
-  //     return;
-  //   }
-  //   // If we are here, it is not loaded. Set things up so we check the status again in 100 milliseconds
-  //   window.setTimeout(checkIframeLoaded, 100);
-  // }
-  // function videoSizing() {
-  //     var width = parseInt(document.getElementById('topVideo').width);
-  //     var height = parseInt(document.getElementById('topVideo').height);
-  //     if ($(window).width() > 480) {
-  //       var percentage = (height/width) * 100;
-  //       // console.log("480+: "+percentage);
-  //     } else {
-  //       var percentage = (height/width) * 200;
-  //       // console.log("not 480: "+percentage);
-  //     }
-  //     $('.home-video-wrapper').css('padding-bottom', percentage + '%');
-  // }
+  function checkIframeLoaded() {
+    if($('#topVideo').length > 0) {
+    // Get a handle to the iframe element
+      var iFrameHeight = $('#topVideo').height();
+      // Check if loading is complete
+      if ( iFrameHeight > 10 ) {
+        videoSizing();
+        return;
+      }
+      // If we are here, it is not loaded. Set things up so we check the status again in 100 milliseconds
+      window.setTimeout(checkIframeLoaded, 100);
+    }
+  }
+  function videoSizing() {
+    var width = parseInt(document.getElementById("topVideo").width);
+    var height = parseInt(document.getElementById("topVideo").height);
+    if ($(window).width() > 480) {
+      var percentage = (height/width) * 100;
+      // console.log("480+: "+percentage);
+    } else {
+      var percentage = (height/width) * 200;
+      // console.log("not 480: "+percentage);
+    }
+    $('.home-video-wrapper').css('padding-bottom', percentage + '%');
+  }
 
-  // checkIframeLoaded();
+  checkIframeLoaded();
 
-  // $(window).on('resize', function() {
-  //   videoSizing();
-  // });
+  $(window).on('resize', function() {
+    checkIframeLoaded();
+  });
 
+  // Footer Form Placeholder
+  // var checkExist = setInterval(function() {
+  //    if ($("#email_address_0").length) {
+  //       $("#email_address_0").attr("placeholder", "Email");
+  //       clearInterval(checkExist);
+  //    }
+  // }, 100);
 });

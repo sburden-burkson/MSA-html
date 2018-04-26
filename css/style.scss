@@ -761,7 +761,7 @@ nav {
 	&.active.full-screen {
 		width: 100%;
 	}
-	
+
 	.toggle-wrapper {
 		top: 20px;
 
@@ -1300,7 +1300,7 @@ hr {
    ================== */
 .warranty-checks {
   padding-top: 10px;
-    
+
   .fa, .fal, .far, .fab, .fas, svg {
     margin-right: 5px;
   }
@@ -1430,6 +1430,27 @@ hr {
 		}
 	}
 }
+#home-slider-wrap {
+  .slick-slide {
+		opacity: 0.5;
+		padding-top: 10px;
+		padding-bottom: 10px;
+    i {
+      color: red;
+      margin-right: 10px;
+      opacity: 0;
+      //display: none;
+    }
+	}
+	.slick-slide.slick-current {
+		position: relative;
+		opacity: 1;
+    i {
+      opacity: 1;
+      //display: inline;
+    }
+  }
+}
 #product-thumbs-outer {
 	text-align: right;
 }
@@ -1455,7 +1476,7 @@ hr {
 }
 #product-thumbs {
 	max-width: 80px;
-	margin: 50px auto;	
+	margin: 50px auto;
 }
 #product-image-carousel .slick-dots {
   bottom: -10px;
@@ -1506,7 +1527,7 @@ hr {
     margin-top: -5px;
     margin-left: 25px;
     margin-bottom: 10px;
-      
+
     .myCircle {
       background-color: $bodyBlack;
       width: 14px;
@@ -1552,7 +1573,7 @@ hr {
     color: $black;
     margin-left: 20px;
     font-weight: 500;
-      
+
     .fa, .fal, .far, .fab, .fas, svg {
       color: red;
       margin-bottom: 4px;
@@ -1574,7 +1595,7 @@ hr {
     color: $black;
     margin-left: 20px;
     font-weight: 500;
-      
+
     .fa, .fal, .far, .fab, .fas, svg {
       color: red;
       margin-bottom: 4px;
@@ -1597,7 +1618,7 @@ hr {
   width: 300px;
   height: auto;
   overflow: hidden;
-    
+
   .collection-col {
     position: inherit;
   }
@@ -1612,7 +1633,7 @@ hr {
       font-weight: 300;
       letter-spacing: .15em;
     }
-    
+
     i {
       color: red;
     }
@@ -1621,13 +1642,13 @@ hr {
       font-weight: 300;
       letter-spacing: .15em;
       color: $grey;
-        
+
       span {
         float: right;
       }
       a {
         color: red;
-        
+
           .fa-long-arrow-right {
               margin-left: 0;
           }
@@ -1640,7 +1661,7 @@ hr {
     margin-right: auto;
     display: table-cell;
     vertical-align: middle;
-      
+
     img {
       display: block;
       width: 100%;
@@ -1653,7 +1674,7 @@ hr {
     top: 30px;
     right: 20px;
     z-index: 1;
-      
+
     .new-box {
         font-size: 13px;
         letter-spacing: .15em;
@@ -2247,7 +2268,7 @@ hr {
     .new-collection {
       top: 25px;
       left: 15px;
-        
+
       .new-box {
         font-size: 12px;
         display: inline-block;
@@ -2269,7 +2290,7 @@ hr {
       }
       .collection-sizes {
         font-size: 12px;
-          
+
           span {
             padding-top: 10px;
             float: none;
@@ -2278,7 +2299,7 @@ hr {
             padding-right: 30px;
           }
       }
-      
+
       i {
         font-size: 14px;
       }
@@ -2343,7 +2364,7 @@ hr {
         a {
             display: inline-block;
             padding: 20px 0 20px 20px;
-            
+
             .fa, .fal, .far, .fab, .fas, svg {
                 color: $black;
             }

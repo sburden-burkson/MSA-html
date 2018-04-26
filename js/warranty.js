@@ -4,7 +4,7 @@ var warrantyPageOptions = {
   // target: null,
   // remove: false
 }
-$(".warrantyHeight").matchHeight();
+$(".warrantyHeight").matchHeight(warrantyPageOptions);
 $(".warrantyOptionHeight").matchHeight();
 $(".warranty-panes .tab-pane").matchHeight(false);
 function warrantyInfoCorrectHeight() {
