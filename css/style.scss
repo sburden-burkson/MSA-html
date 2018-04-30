@@ -1861,16 +1861,16 @@ hr {
   bottom: -10px;
 }
 
-// shit NEW HOME SLIDER
+// #top-section-full {
+//   min-height: calc(100vh - 40px);
+//   padding: 30vh 100px 35px;
+// }
+// NEW HOME SLIDER
 #topSlider .slick-slide {
   min-height: calc(100vh - 40px);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-#top-section-full {
-  min-height: calc(100vh - 40px);
-  padding: 30vh 100px 35px;
 }
 #topSliderNavWrap {
   position: absolute;
@@ -1884,7 +1884,7 @@ hr {
     display: none !important;
   }
   .slick-slide {
-		opacity: 0.75;
+		opacity: 0.7;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
@@ -1929,8 +1929,8 @@ hr {
   #topSliderWrap #topSliderNav:before {
     font-size: 50px;
   }
-  #topSliderNav h2 {
-    font-size: 30px !important;
+  #topSliderNav h1 {
+    font-size: 35px !important;
   }
 }
 @media only screen and (max-height: 600px) {

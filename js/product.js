@@ -1,21 +1,21 @@
 jQuery(function($){
-    
+
     // Update Attributes
     var updateAttributesTimeout;
     var updateAttributesTOCounter = 0;
     function updateAttributes(update_counter){
-        
+
         // Iterate each attribute row and enable/disable custom attributes
         $('table.variations tr td.value').each(function(){
             var selectOptions = $(this).find('select > option');
             var customOptions = $(this).find('a.pa-option');
-            
+
             // Iterate custom attributes
             customOptions.each(function(){
                 var currOption = $(this);
                 var attrValue = currOption.data('attrvalue');
                 var optionEnabled = false;
-                
+
                 // Iterate select options
                 selectOptions.each(function(){
                     // Match attribute values
@@ -26,7 +26,7 @@ jQuery(function($){
                         }
                     }
                 });
-                
+
                 // Update custom attributes
                 if(optionEnabled){
                     if(currOption.hasClass('disabled')){
@@ -39,7 +39,7 @@ jQuery(function($){
                 }
             });
         });
-        
+
         // Run this function 5 times to make sure it catches the change.
         // THIS MIGHT BE UNNECESSARY
         updateAttributesTOCounter = (update_counter === false)? updateAttributesTOCounter : 5;
@@ -54,7 +54,7 @@ jQuery(function($){
             }, 100);
         }
     }
-    
+
     // Update custom attributes on select change & variation update
     // MIGHT NOT NEED ALL 3, MAYBE JUST USE woocommerce_update_variation_values
     $('table.variations tr td.value select').change(function(){
@@ -66,7 +66,7 @@ jQuery(function($){
     $('.variations_form').on('woocommerce_update_variation_values', function(){
         updateAttributes();
     });
-    
+
     // Price watch
     $('.single_variation_wrap').before($('h5.product-price'));
     $('.single_variation_wrap').on('hide_variation', function(e){
@@ -81,7 +81,7 @@ jQuery(function($){
         $('h5.product-price').hide();
         $('.single_variation_wrap .woocommerce-variation').stop().removeAttr('style').show();
     });
-    
+
     // Custom Attributes Option Click Event
     var optionClickTimeout;
     var optionClickTOCounter = 0;
@@ -91,22 +91,22 @@ jQuery(function($){
         // Set attrValue to '' if it's being de-activated
         var attrValue = (!alreadyActive && skip_change !== true || alreadyActive && skip_change === true)? el.data('attrvalue') : '';
         var optionSelect = el.closest('td').find('select');
-        
+
         // Remove all active siblings, and activate if not de-activating
         if(skip_change !== true){
             el.closest('td.value').find('a.pa-option').removeClass('active');
             if(!alreadyActive){
                 el.addClass('active');
             }
-            
+
             // Update select value for WooCommerce
             optionSelect.val(attrValue).change();
-            
+
             // Clear timeouts (if any)
             optionClickTOCounter = 5;
             clearTimeout(optionClickTimeout);
         }
-        
+
         // Check if the select has been updated
         var optionUpdated = false;
         if(optionSelect.val() == attrValue){
@@ -132,21 +132,21 @@ jQuery(function($){
         optionClickChange($(this));
         return false;
     });
-    
+
     // First run sync with select dropdown
     $('table.variations tr td.value').each(function(){
         var selectValue = $(this).find('select').val();
         var customOptions = $(this).find('a.pa-option');
-            
+
         customOptions.each(function(){
             var currOption = $(this);
             var attrSlug = currOption.data('attrslug');
             var attrValue = currOption.data('attrvalue');
-            
+
             if(attrValue == selectValue) {
                 currOption.addClass('active');
             }
-            
+
             // Tooltips
             var tooltipText = currOption.data('tooltip');
             if(tooltipText){
@@ -154,7 +154,7 @@ jQuery(function($){
             }
         });
     });
-    
+
     // Product Image Carousel
     $('#product-image-carousel').slick({
       slidesToShow: 1,
@@ -162,9 +162,23 @@ jQuery(function($){
       arrows: false,
       asNavFor: '#product-thumbs',
       dots: true,
-      infinite: false,
+      infinite: true,
+      // fade: true,
+      waitForAnimate: false,
+      speed: 500,
+      swipe: true,
+      responsive: [
+          {
+              breakpoint: 768,
+              settings: {
+                  speed: 300,
+                  fade: false,
+                  swipe: true
+              }
+          }
+      ]
     });
-    
+
     // Product Image Carousel Thumbnails
     $('#product-thumbs').slick({
       slidesToShow: 3,
@@ -174,25 +188,38 @@ jQuery(function($){
       vertical: true,
       verticalSwiping: true,
       arrows: false,
-      infinite: false,
+      speed: 500,
+      infinite: true,
+      centerMode: true,
+      centerPadding: 0,
+      waitForAnimate: false,
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            vertical: false,
+            verticalSwiping: false,
+          }
+        },
+      ]
     });
-    
+
     // Window resize catch
     $( window ).resize(function() {
         $('#product-thumbs').each(function() {
           $(this).slick("getSlick").refresh();
         });
     });
-    
+
     // Product Images Match Height
     $('.product-image-height').matchHeight();
-    
+
     // Tab click event
     $('.productTabsHeight').click(function(){
         if(!$(this).hasClass('active-skip')){
             $('.productTabsHeight').removeClass('active');
             $(this).addClass("active");
-            
+
             // Hide the variation attributes
             if($(this).hasClass('showAttributes')){
                 $('form.variations_form.cart table.variations').stop().fadeIn('fast');
@@ -201,7 +228,7 @@ jQuery(function($){
             }
         }
     });
-    
+
     // Scroll-to buttons
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
@@ -212,7 +239,7 @@ jQuery(function($){
             }, 500);
         }
     });
-    
+
     // Specs Table Carousel
     var specsSlides = $('#product-specs-carousel .product-specs-carousel-slide').length;
     function specsSlickCheck() {
@@ -248,7 +275,7 @@ jQuery(function($){
         }
     }
     specsSlickCheck(); // First run
-    
+
     // Window resize event
     $(window).on('resize', function() {
         $('#product-thumbs').each(function() {
