@@ -42,10 +42,6 @@
   background-color: #181818;
 }
 
-#config-modal .config-option-col .config-option-wrapper {
-  padding: 0 40px;
-}
-
 #config-modal .config-option-col .config-option:not(:nth-last-child(1)) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -63,8 +59,17 @@
   margin-right: 20px;
 }
 
+#config-modal .config-wheel-carousel-col:before {
+  content: ' ';
+  height: 80%;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 10%;
+}
+
 #config-modal .config-wheel-carousel-col .wp-full-height {
-  padding: 30px 100px 60px;
+  padding: 30px 60px 60px;
 }
 
 #config-modal .config-wheel-carousel-wrapper {
@@ -83,10 +88,6 @@
   overflow: scroll;
 }
 
-#config-modal .config-selection {
-  padding: 0 15px;
-}
-
 #config-modal .config-selection-item:not(:nth-last-child(1)) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -102,6 +103,21 @@
 
 #config-modal .config-selection-item h5 {
   display: inline-block;
+}
+
+@media only screen and (min-width: 1200px) {
+  .config-option-wrapper {
+    padding: 0 40px;
+  }
+  .config-selection {
+    padding: 0 20px;
+  }
+  #config-modal .config-wheel-carousel-col .wp-full-height {
+    padding: 30px 100px 60px;
+  }
+  .config-wheel-carousel-col:before {
+    left: -15px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
