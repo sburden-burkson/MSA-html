@@ -128,10 +128,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .config-option-wrapper {
+  #config-modal .config-option-wrapper {
     padding: 0 40px;
   }
-  .config-selection {
+  #config-modal .config-selection {
     padding: 0 20px;
   }
   #config-modal .config-wheel-carousel-col .wp-full-height {
@@ -156,4 +156,97 @@
     display: block;
     margin-right: 0;
   }
+}
+
+#config-modal-mobile {
+  height: 100%;
+  overflow: hidden;
+}
+
+#config-modal-mobile .modal-header,
+#config-modal-mobile .modal-footer {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+}
+
+#config-modal-mobile .modal-header:after {
+  content: ' ';
+  background-color: rgba(0, 0, 0, 0.2);
+  width: calc(100% - 100px);
+  height: 1px;
+  bottom: 0px;
+  position: absolute;
+}
+
+#config-modal-mobile .modal-footer {
+  bottom: 0;
+  padding-top: 25px;
+}
+
+#config-modal-mobile .modal-footer:before {
+  content: ' ';
+  background-color: rgba(0, 0, 0, 0.2);
+  width: calc(100% - 100px);
+  height: 1px;
+  top: 0;
+  position: absolute;
+}
+
+#config-modal-mobile .modal-dialog {
+  margin: 15px auto;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+}
+
+#config-modal-mobile .modal-content {
+  height: 100%;
+}
+
+#config-modal-mobile .modal-body {
+  bottom: 100px;
+  top: 100px;
+  overflow-y: scroll;
+  position: absolute;
+  width: 100%;
+  padding: 0 15px;
+}
+
+#config-modal-mobile .modal-body .row {
+  height: 100%;
+}
+
+#config-modal-mobile .config-option-wrapper {
+  width: 100%;
+}
+
+#config-modal-mobile .config-option-wrapper a i {
+  margin: 0;
+}
+
+#config-modal-mobile .config-option-wrapper .config-option {
+  display: none;
+  text-align: center;
+}
+
+#config-modal-mobile .config-option-wrapper .config-option.active {
+  display: block;
+}
+
+#config-modal-mobile h5.config-price {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#config-modal-mobile .config-wheel-carousel-wrapper {
+  padding: 5px 20% 30px;
+}
+
+#config-modal-mobile .config-selection-item:not(:nth-last-child(1)) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#config-modal-mobile .config-selection-item {
+  padding: 10px 0;
+  text-align: center;
 }

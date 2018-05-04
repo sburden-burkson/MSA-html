@@ -1,1 +1,1 @@
-jQuery(document).ready(function($){$("#config-modal").modal("show"),$("#config-wheel-carousel").slick({slidesToShow:1,slidesToScroll:1,arrows:!0,dots:!0})});
+jQuery(document).ready(function($){$("#config-modal-mobile").modal("show"),$("#config-wheel-carousel").slick({slidesToShow:1,slidesToScroll:1,arrows:!0,dots:!0}),$("#config-wheel-carousel-mobile").slick({slidesToShow:1,slidesToScroll:1,arrows:!0,dots:!0}),$("#config-selection-carousel-mobile").slick({slidesToShow:2,slidesToScroll:2,arrows:!0,dots:!0})});

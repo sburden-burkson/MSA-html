@@ -113,15 +113,18 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .config-option-wrapper {
-    padding: 0 40px;
+  #config-modal {
+    .config-option-wrapper {
+      padding: 0 40px;
+    }
+    .config-selection {
+      padding: 0 20px;
+    }
+    .config-wheel-carousel-col .wp-full-height {
+      padding: 30px 20% 60px;
+    }
   }
-  .config-selection {
-    padding: 0 20px;
-  }
-  #config-modal .config-wheel-carousel-col .wp-full-height {
-    padding: 30px 20% 60px;
-  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -142,11 +145,105 @@
       display: block;
       margin-right: 0;
     }
-    // .wp-btn-extra-long {
-    //   padding: 10px 15px 10px 25px !important;
-    // }
-    // .wp-btn-extra-long i {
-    //   margin-left: 10px !important;
-    // }
+  }
+}
+
+// Mobile CONFIG
+#config-modal-mobile {
+  height: 100%;
+  overflow: hidden;
+  .modal-header,
+  .modal-footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    // background: grey;
+  }
+  .modal-header:after {
+    content: ' ';
+    background-color: rgba(0, 0, 0, 0.2);
+    width: calc(100% - 100px);
+    height: 1px;
+    bottom: 0px;
+    position: absolute;
+  }
+  .modal-footer {
+    bottom: 0;
+    padding-top: 25px;
+  }
+  .modal-footer:before {
+    content: ' ';
+    background-color: rgba(0, 0, 0, 0.2);
+    width: calc(100% - 100px);
+    height: 1px;
+    top: 0;
+    position: absolute;
+  }
+  .modal-dialog {
+    margin: 15px auto;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+  }
+  .modal-content {
+    height: 100%;
+  }
+  .modal-body {
+    bottom: 100px;
+    top: 100px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    padding: 0 15px;
+    .row {
+      height: 100%;
+    }
+  }
+  .config-option-wrapper {
+    // overflow-x: auto;
+    width: 100%;
+    a i {
+      margin: 0;
+    }
+    .config-option {
+        display: none;
+        text-align: center;
+      // float: left;
+      // display: inline-block;
+
+    }
+    .config-option.active {
+      display: block;
+    }
+  }
+  h5.config-price {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .config-wheel-carousel-wrapper {
+    padding: 5px 20% 30px;
+  }
+  #config-wheel-carousel img {
+    // max-height: 400px;
+  }
+  .config-selection, .config-option-wrapper {
+    // height: 100%;
+    // overflow: scroll;
+  }
+  .config-selection {
+    // padding: 0 15px;
+  }
+  .config-selection-item:not(:nth-last-child(1)) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .config-selection-item {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .config-selection-item img {
+    // display: inline-block;
+    // width: 40%;
+  }
+  .config-selection-item h5 {
+    // display: inline-block;
   }
 }
