@@ -6,11 +6,28 @@
     position: absolute;
     height: 100px;
     width: 100%;
-    background: grey;
+    // background: grey;
+  }
+  .modal-header:after {
+    content: ' ';
+    background-color: rgba(0, 0, 0, 0.2);
+    width: calc(100% - 100px);
+    height: 1px;
+    bottom: 0px;
+    position: absolute;
   }
   .modal-footer {
     bottom: 0;
-}
+    padding-top: 25px;
+  }
+  .modal-footer:before {
+    content: ' ';
+    background-color: rgba(0, 0, 0, 0.2);
+    width: calc(100% - 100px);
+    height: 1px;
+    top: 0;
+    position: absolute;
+  }
   .modal-dialog {
     margin: 15px auto;
     width: calc(100% - 30px);
@@ -32,7 +49,7 @@
   }
   .config-option-col {
     background-color: #181818;
-
+    overflow: scroll;
     .config-option:not(:nth-last-child(1)) {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     }
@@ -47,7 +64,10 @@
     display: inline-block;
     margin-right: 20px;
   }
-  .config-wheel-carousel-col:before {
+  .config-selection-col {
+    overflow: scroll;
+  }
+  .config-wheel-carousel-col:after {
     content: ' ';
     height: 80%;
     width: 1px;
@@ -72,7 +92,7 @@
   }
   .config-selection, .config-option-wrapper {
     height: 100%;
-    overflow: scroll;
+    // overflow: scroll;
   }
   .config-selection {
     // padding: 0 15px;
@@ -100,10 +120,7 @@
     padding: 0 20px;
   }
   #config-modal .config-wheel-carousel-col .wp-full-height {
-    padding: 30px 100px 60px;
-  }
-  .config-wheel-carousel-col:before {
-    left: -15px;
+    padding: 30px 20% 60px;
   }
 }
 
