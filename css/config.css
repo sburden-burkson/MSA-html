@@ -1,0 +1,124 @@
+#config-modal {
+  height: 100%;
+  overflow: hidden;
+}
+
+#config-modal .modal-header,
+#config-modal .modal-footer {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  background: grey;
+}
+
+#config-modal .modal-footer {
+  bottom: 0;
+}
+
+#config-modal .modal-dialog {
+  margin: 15px auto;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+}
+
+#config-modal .modal-content {
+  height: 100%;
+}
+
+#config-modal .modal-body {
+  bottom: 100px;
+  top: 100px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  padding: 0 15px;
+}
+
+#config-modal .modal-body .row {
+  height: 100%;
+}
+
+#config-modal .config-option-col {
+  background-color: #181818;
+}
+
+#config-modal .config-option-col .config-option-wrapper {
+  padding: 0 40px;
+}
+
+#config-modal .config-option-col .config-option:not(:nth-last-child(1)) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#config-modal .config-option-col .config-option {
+  padding: 40px 0;
+}
+
+#config-modal .config-option-col .config-option h5 {
+  color: white;
+}
+
+#config-modal h5.config-price {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#config-modal .config-wheel-carousel-col .wp-full-height {
+  padding: 30px 100px 60px;
+}
+
+#config-modal .config-wheel-carousel-wrapper {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#config-modal .modal-body div[class^="col-"] {
+  height: 100%;
+}
+
+#config-modal .config-selection, #config-modal .config-option-wrapper {
+  height: 100%;
+  overflow: scroll;
+}
+
+#config-modal .config-selection {
+  padding: 0 15px;
+}
+
+#config-modal .config-selection-item:not(:nth-last-child(1)) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#config-modal .config-selection-item {
+  padding: 10px 0;
+}
+
+#config-modal .config-selection-item img {
+  display: inline-block;
+  width: 40%;
+}
+
+#config-modal .config-selection-item h5 {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  #config-modal {
+    overflow-y: auto;
+  }
+  #config-modal .modal-body {
+    overflow-y: scroll;
+  }
+  #config-modal .modal-body div[class^="col-"] {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #config-modal h5.config-price {
+    display: block;
+    margin-right: 0;
+  }
+}

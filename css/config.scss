@@ -1,0 +1,114 @@
+#config-modal {
+  height: 100%;
+  overflow: hidden;
+  .modal-header,
+  .modal-footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background: grey;
+  }
+  .modal-footer {
+    bottom: 0;
+}
+  .modal-dialog {
+    margin: 15px auto;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+  }
+  .modal-content {
+    height: 100%;
+  }
+  .modal-body {
+    bottom: 100px;
+    top: 100px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    padding: 0 15px;
+    .row {
+      height: 100%;
+    }
+  }
+  .config-option-col {
+    background-color: #181818;
+    .config-option-wrapper {
+      padding: 0 40px;
+    }
+    .config-option:not(:nth-last-child(1)) {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .config-option  {
+      padding: 40px 0;
+      h5 {
+        color: white;
+      }
+    }
+  }
+  h5.config-price {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .config-wheel-carousel-col .wp-full-height {
+    padding: 30px 100px 60px;
+  }
+  .config-wheel-carousel-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    // height: 100%;
+  }
+  #config-wheel-carousel img {
+    // max-height: 400px;
+  }
+  .modal-body div[class^="col-"] {
+    height: 100%
+  }
+  .config-selection, .config-option-wrapper {
+    height: 100%;
+    overflow: scroll;
+  }
+  .config-selection {
+    padding: 0 15px;
+  }
+  .config-selection-item:not(:nth-last-child(1)) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .config-selection-item {
+    padding: 10px 0;
+  }
+  .config-selection-item img {
+    display: inline-block;
+    width: 40%;
+  }
+  .config-selection-item h5 {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #config-modal {
+    overflow-y: auto;
+    .modal-body {
+      overflow-y: scroll;
+    }
+    .modal-body div[class^="col-"] {
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #config-modal {
+    h5.config-price {
+      display: block;
+      margin-right: 0;
+    }
+    // .wp-btn-extra-long {
+    //   padding: 10px 15px 10px 25px !important;
+    // }
+    // .wp-btn-extra-long i {
+    //   margin-left: 10px !important;
+    // }
+  }
+}

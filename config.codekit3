@@ -200,6 +200,13 @@
 		"oAP": "\/collection.html",
 		"oF": 0
 		},
+	"\/config.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config.html",
+		"oF": 0
+		},
 	"\/css\/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -216,6 +223,19 @@
 		"oA": 0,
 		"oAP": "\/css\/bootstrap.min.css.map",
 		"oF": 0
+		},
+	"\/css\/config.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/config.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
 		},
 	"\/css\/fontawesome-all.min-min.css": {
 		"aP": 1,
@@ -1607,6 +1627,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/collection-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/config-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

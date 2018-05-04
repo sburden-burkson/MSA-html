@@ -257,8 +257,8 @@ jQuery(function($){
                     slidesToShow: (specsSlides > 4)? 4 : specsSlides,
                     slidesToScroll: (specsSlides > 4)? 4 : 1,
                     variableWidth: true,
-                    prevArrow: '<button type="button" class="product-specs-carousel-button carousel-button-left form-control"><i class="fal fa-angle-left"></i></button>',
-                    nextArrow: '<button type="button" class="product-specs-carousel-button carousel-button-right form-control"><i class="fal fa-angle-right"></i></button>',
+                    prevArrow: '<button type="button" class="product-specs-carousel-button carousel-button-left"><i class="fal fa-angle-left"></i></button>',
+                    nextArrow: '<button type="button" class="product-specs-carousel-button carousel-button-right"><i class="fal fa-angle-right"></i></button>',
                     responsive: [
                         {
                             breakpoint: 600,
