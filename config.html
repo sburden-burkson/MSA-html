@@ -116,53 +116,54 @@
 
           <div class="config-wheel-carousel-wrapper">
               <div class="" id="config-wheel-carousel-mobile">
-                <img src="images/rim-1.png" alt="" class="img-responsiv" style="">
-                <img src="images/rim-2.png" alt="" class="img-responsiv" style="">
-                <img src="images/rim-1.png" alt="" class="img-responsiv" style="">
+                <img src="images/rim-1.png" alt="" class="" style="">
+                <img src="images/rim-2.png" alt="" class="" style="">
+                <img src="images/rim-1.png" alt="" class="" style="">
               </div>
           </div>
 
            <div class="config-option-wrapper">
-             <a href="javascript:void(0)" class="pull-left"><i class="fal fa-long-arrow-left fa-lg"></i></a>
-             <a href="javascript:void(0)" class="pull-right"><i class="fal fa-long-arrow-right fa-lg"></i></a>
-            <div class="config-option active">
-              <h5 class="fw-300 text-uppercase">
-                1. Size
-                 <i class="fal fa-check"></i>
-               </h5>
-            </div>
-            <div class="config-option">
-              <h5 class="fw-300 text-uppercase">
-                2. Finish
-                 <i class="fal fa-check"></i>
-               </h5>
-            </div>
-            <div class="config-option">
-              <h5 class="fw-300 text-uppercase">
-                3. Cap
-                 <i class="fal fa-long-arrow-right"></i>
-               </h5>
-            </div>
-            <div class="config-option">
-              <h5 class="fw-300 text-uppercase">
-                4. Star
-              </h5>
-            </div>
-            <div class="config-option">
-              <h5 class="fw-300 text-uppercase">
-                5. Summary
-              </h5>
+             <div class="center text-center">
+              <div class="config-option" data-config-option="0">
+                <h5 class="fw-300 no-margin text-uppercase">
+                  1. Size
+                   <i class="fal fa-check"></i>
+                 </h5>
+              </div>
+              <div class="config-option" data-config-option="1">
+                <h5 class="fw-300 no-margin text-uppercase">
+                  2. Finish
+                   <i class="fal fa-check"></i>
+                 </h5>
+              </div>
+              <div class="config-option active" data-config-option="2">
+                <h5 class="fw-300 no-margin text-uppercase">
+                  3. Cap
+                   <i class="fal fa-long-arrow-right"></i>
+                 </h5>
+              </div>
+              <div class="config-option" data-config-option="3">
+                <h5 class="fw-300 no-margin text-uppercase">
+                  4. Star
+                </h5>
+              </div>
+              <div class="config-option" data-config-option="4">
+                <h5 class="fw-300 no-margin text-uppercase">
+                  5. Summary
+                </h5>
+              </div>
+
             </div>
           </div>
 
              <div class="config-selection">
                 <div id="config-selection-carousel-mobile">
 
-                  <div class="config-selection-item">
+                  <div class="config-selection-item" data-cap='1'>
                     <img src="images/cap-image-left.jpg" alt="" class="img-responsive">
                     <h5 class="fw-300 text-uppercase">DEFAULT</h5>
                 </div>
-                <div class="config-selection-item">
+                <div class="config-selection-item" data-cap='2'>
                   <img src="images/cap-image-left.jpg" alt="" class="img-responsive">
                   <h5 class="fw-300 text-uppercase">DEFAULT</h5>
                 </div>
@@ -199,10 +200,17 @@
 
         </div>
         <div class="modal-footer">
-
             <h5 class="fw-300 config-price">Price $2898.00</h5>
 
-            <div id="add_config_to_cart" class="btn wp-btn-extra-long text-uppercase wp-btn-red no-margin">DONE <i class="fal fa-long-arrow-right fa-lg"></i></div>
+            <div id="add_config_to_cart" class="btn wp-btn-extra-long text-uppercase wp-btn-red">DONE <i class="fal fa-long-arrow-right fa-lg"></i></div>
+
+            <div class="arrow-container">
+
+            <a href="javascript:void(0)" class="config-option-previous pull-left"><i class="fal fa-long-arrow-left fa-lg fa-2x"></i></a>
+
+            <a href="javascript:void(0)" class="config-option-next pull-right"><i class="fal fa-long-arrow-right fa-lg fa-2x"></i></a>
+          </div>
+
 
         </div>
       </div>
@@ -250,9 +258,9 @@
               <div class="wp-full-height">
                   <div class="config-wheel-carousel-wrapper">
                     <div class="" id="config-wheel-carousel">
-                      <img src="images/rim-1.png" alt="" class="img-responsiv" style="">
-                      <img src="images/rim-2.png" alt="" class="img-responsiv" style="">
-                      <img src="images/rim-1.png" alt="" class="img-responsiv" style="">
+                      <img src="images/rim-1.png" alt="" class="" style="">
+                      <img src="images/rim-2.png" alt="" class="" style="">
+                      <img src="images/rim-1.png" alt="" class="" style="">
                     </div>
                 </div>
               </div>
@@ -261,16 +269,16 @@
             <div class="col-md-3 col-md-pull-6 config-option-col">
               <div class="config-option-wrapper">
                 <div class="config-option">
-                  <h5 class="fw-300 text-uppercase">
-                    1. Size <i class="pull-right fal fa-check"></i></h5>
+                  <h5 class="fw-300 text-uppercase">1. Size</h5>
+                  <h5 class="config-option-status"><i class="fal fa-check"></i></h5>
                 </div>
                 <div class="config-option">
-                  <h5 class="fw-300 text-uppercase">
-                    2. Finish <i class="pull-right fal fa-check"></i></h5>
+                  <h5 class="fw-300 text-uppercase">2. Finish</h5>
+                  <h5 class="config-option-status"><i class="fal fa-check"></i></h5>
                 </div>
-                <div class="config-option">
-                  <h5 class="fw-300 text-uppercase">
-                    3. Cap <i class="pull-right fal fa-long-arrow-right"></i></h5>
+                <div class="config-option active">
+                  <h5 class="fw-300 text-uppercase">3. Cap</h5>
+                  <h5 class="config-option-status"><i class="fal fa-long-arrow-right"></i></h5>
                 </div>
                 <div class="config-option">
                   <h5 class="fw-300 text-uppercase">
