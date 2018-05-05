@@ -192,6 +192,9 @@
     background: white;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     padding-top: 25px;
+    .arrow-container {
+      padding: 20px 0;
+    }
     .btn {
       margin: 0 0 0 15px;
     }
@@ -264,7 +267,13 @@
   }
   .config-selection {
     // padding: 0 15px;
-    padding: 15px 30px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 30px 30px;
+    #config-selection-caps-mobile, #config-selection-stars-mobile {
+      width: 100%;
+    }
   }
   .config-selection-item {
     padding: 10px 0;

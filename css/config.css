@@ -211,6 +211,10 @@
   padding-top: 25px;
 }
 
+#config-modal-mobile .modal-footer .arrow-container {
+  padding: 20px 0;
+}
+
 #config-modal-mobile .modal-footer .btn {
   margin: 0 0 0 15px;
 }
@@ -279,7 +283,14 @@
 }
 
 #config-modal-mobile .config-selection {
-  padding: 15px 30px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 15px 30px 30px;
+}
+
+#config-modal-mobile .config-selection #config-selection-caps-mobile, #config-modal-mobile .config-selection #config-selection-stars-mobile {
+  width: 100%l;
 }
 
 #config-modal-mobile .config-selection-item {

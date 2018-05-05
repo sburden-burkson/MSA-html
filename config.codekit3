@@ -1220,6 +1220,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/star.jpg": {
+		"ft": 16384,
+		"iS": 35508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/star.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/textures\/bg-nav-gradient-home.png": {
 		"ft": 32768,
 		"iS": 3538,
