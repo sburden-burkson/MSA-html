@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
-  // $('#config-modal').modal('show');
-  $('#config-modal-mobile').modal('show');
+  $('#config-modal').modal('show');
+  //$('#config-modal-mobile').modal('show');
 
   $('#config-wheel-carousel').slick({
     slidesToShow: 1,
@@ -21,8 +21,8 @@ jQuery(document).ready(function ($) {
     slidesToScroll: 4,
     arrows: true,
     dots: true,
-    // prevArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-left form-control"><i class="fal fa-angle-left"></i></button>',
-    // nextArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-right form-control"><i class="fal fa-angle-right"></i></button>',
+    prevArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-left form-control"><i class="fal fa-angle-left"></i></button>',
+    nextArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-right form-control"><i class="fal fa-angle-right"></i></button>',
     responsive: [
       {
         breakpoint: 768,
@@ -46,8 +46,8 @@ jQuery(document).ready(function ($) {
     slidesToScroll: 4,
     arrows: true,
     dots: true,
-    // prevArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-left form-control"><i class="fal fa-angle-left"></i></button>',
-    // nextArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-right form-control"><i class="fal fa-angle-right"></i></button>',
+    prevArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-left form-control"><i class="fal fa-angle-left"></i></button>',
+    nextArrow: '<button type="button" class="config-selection-carousel-mobile-button carousel-button-right form-control"><i class="fal fa-angle-right"></i></button>',
     responsive: [
       {
         breakpoint: 768,
@@ -67,87 +67,52 @@ jQuery(document).ready(function ($) {
   });
 
 function configOptionArrows() {
-  var configOption = $('#config-modal-mobile .config-option.active').data("config-option");
-  if (configOption == 1) {
+  var activeOption = $('#config-modal-mobile .config-option.active').data("config-option");
+  if (activeOption == 1) {
     $('.config-option-previous').hide();
   } else {
     $('.config-option-previous').show();
   }
-  if (configOption == $('#config-modal-mobile .config-option').last().data("config-option")){
+  if (activeOption == $('#config-modal-mobile .config-option:last-child').data("config-option")){
     $('.config-option-next').hide();
   } else {
     $('.config-option-next').show();
   }
+
 }
 configOptionArrows();
 
-
-// function configSelection() {
-//   $ = jQuery;
-//   $('#config-selection-caps-mobile').css({'position': 'absolute'}).stop().animate({
-//     right: '-100%'
-//   }, 'slow', function() {
-//     // $(this).css({'right': '-1000%', 'left': 'auto'});
-//   });
-//   $('#config-selection-stars-mobile').css({'position': 'relative'}).stop().animate({
-//     left: '0'
-//   }, 'slow', function() {
-//     $(this).slick('refresh');
-//   });
-// }
-
-
-$('.config-option-previous').click(function() {
-  var $currentEl = $('#config-modal-mobile .config-option.active');
-  var currentOption = $currentEl.data("config-option");
+$('.arrow-container a').click(function() {
+  var $currentOp = $('#config-modal-mobile .config-option.active');
+  var currentOption = $currentOp.data("config-option");
   var nextOption = currentOption - 1;
-  var lastOption = $('#config-modal-mobile .config-option').last().data("config-option");
-  $('#config-modal-mobile .config-option[data-config-option="'+nextOption+'"]').addClass('active');
+  var directionClass = $(this).attr('class');
+  if (directionClass.includes('config-option-next')) {
+    nextOption = currentOption + 1;
+  } else {
+    nextOption = currentOption - 1;
+  }
+  var $nextOp = $('#config-modal-mobile .config-option[data-config-option="'+nextOption+'"]');
+  var $currentEl = $('#config-modal-mobile .config-selection-container[data-config-option="'+currentOption+'"]');
+  var $nextEl = $('#config-modal-mobile .config-selection-container[data-config-option="'+nextOption+'"]');
+  $nextOp.addClass('active');
   $currentEl.removeClass('active');
+  $nextEl.addClass('active');
+  $currentOp.removeClass('active');
   configOptionArrows();
-
-  $('#config-selection-caps-mobile').css({'position': 'relative'}).stop().animate({
-    left: '0'
-  }, 500, function() {
-    // $(this).slick('refresh');
-    // $(this).css({'right': '-1000%', 'left': 'auto'});
-  });
-  $('#config-selection-stars-mobile').css({'position': 'absolute', 'top': '0'}).stop().animate({
-    left: '100%'
-  }, 500, function() {
-    // $(this).css({'top': '0'});
-    // $(this).slick('unslick');
-    // $(this).slick('refresh');
-  });
-
-
+  if ($nextEl.attr('class').includes('slick-slider')) {
+    $nextEl.slick('refresh');
+  }
 });
 
-$('.config-option-next').click(function() {
-  var $currentEl = $('#config-modal-mobile .config-option.active');
-  var currentOption = $currentEl.data("config-option");
-  var nextOption = currentOption + 1;
-  var lastOption = $('#config-modal-mobile .config-option').last().data("config-option");
-  $('#config-modal-mobile .config-option[data-config-option="'+nextOption+'"]').addClass('active');
-  $currentEl.removeClass('active');
-  configOptionArrows();
-
-
-  $('#config-selection-caps-mobile').css({'position': 'absolute','top': '0'}).stop().animate({
-    left: '-100%'
-  }, 500, function() {
-    // $(this).css({'top': '0'});
-    // $(this).slick('unslick');
-    // $(this).css({'right': '-1000%', 'left': 'auto'});
-  });
-  $('#config-selection-stars-mobile').css({'position': 'relative'}).stop().animate({
-    left: '0'
-  }, 500, function() {
-    // $(this).slick('refresh');
-  });
-
+$('#config-modal .config-option-wrapper a').click(function() {
+  var configOption = $(this).data("config-option");
+  if ($(this).attr('class').includes('active') !== true ) {
+    $('#config-modal .config-selection-container').removeClass('active');
+    $('#config-modal .config-selection-container[data-config-option="'+configOption+'"]').addClass('active');
+  }
 });
 
-
+// $nextEl = config-selection
 
 });

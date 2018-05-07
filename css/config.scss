@@ -185,6 +185,18 @@
       color: #888;
     }
   }
+  .config-selection-container {
+    // position: absolute;
+    // left: 110%;
+    // transition: 1s;
+    display: none;
+  }
+  .config-selection-container.active {
+    display: block;
+    // position: relative;
+    // transition: 1s;
+    // left: 0;
+  }
 }
 
 @media only screen and (min-width: 1200px) {

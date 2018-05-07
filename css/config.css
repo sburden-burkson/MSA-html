@@ -218,6 +218,14 @@
   color: #888;
 }
 
+#config-modal .config-selection-container {
+  display: none;
+}
+
+#config-modal .config-selection-container.active {
+  display: block;
+}
+
 @media only screen and (min-width: 1200px) {
   #config-modal .config-option-wrapper {
     padding: 0 40px;

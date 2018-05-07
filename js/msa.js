@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+  $(".matchHeightnoRow1").matchHeight(notByRow);
   var topSlider = $('#topSlider');
   $('#topSlider').slick({
     slidesToShow: 1,
