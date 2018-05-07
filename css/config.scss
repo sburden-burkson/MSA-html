@@ -415,4 +415,15 @@
       display: inline-block;
     }
   }
+  .config-selection-container {
+    position: absolute;
+    left: 110%;
+    // transition: 1s;
+  }
+  .config-selection-container.active {
+    display: block;
+    position: relative;
+    transition: 1s;
+    left: 0;
+  }
 }

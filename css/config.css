@@ -453,3 +453,16 @@
           transform: translateY(-50%);
   display: inline-block;
 }
+
+#config-modal-mobile .config-selection-container {
+  position: absolute;
+  left: 110%;
+}
+
+#config-modal-mobile .config-selection-container.active {
+  display: block;
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+  left: 0;
+}
