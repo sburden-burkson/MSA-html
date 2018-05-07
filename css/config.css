@@ -1,3 +1,7 @@
+.clear {
+  clear: both;
+}
+
 #config-modal {
   height: 100%;
   overflow: hidden;
@@ -70,6 +74,7 @@
 }
 
 #config-modal .config-option-col .config-option {
+  display: block;
   position: relative;
   padding: 40px 0;
 }
@@ -143,6 +148,7 @@
 }
 
 #config-modal .config-selection-item {
+  display: block;
   padding: 10px 0;
 }
 
@@ -153,6 +159,63 @@
 
 #config-modal .config-selection-item h5 {
   display: inline-block;
+}
+
+#config-modal .config-selection-finish .config-selection-item {
+  padding: 45px 0;
+}
+
+#config-modal .config-selection-finish .config-selection-item a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.54);
+  border: solid rgba(0, 0, 0, 0.54) 1px;
+  padding: 3px 5px;
+  margin-left: 25px;
+  position: relative;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.97);
+}
+
+#config-modal .config-selection-finish .config-selection-item .pa-color-swatch-swatch {
+  background-color: #000000;
+  width: 10px;
+  height: 70%;
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: inline-block;
+}
+
+#config-modal .config-selection-size .config-selection-item {
+  padding: 45px 0;
+}
+
+#config-modal .config-selection-size .config-selection-item .pa-option {
+  float: right;
+  display: inline-block;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.54);
+  border: solid rgba(0, 0, 0, 0.54) 1px;
+  padding: 3px 5px;
+  margin-top: 7.5px;
+  margin-left: 7.5px;
+}
+
+#config-modal .config-selection-summary .config-selection-item {
+  border-bottom: 0;
+}
+
+#config-modal .config-selection-summary .config-selection-item h5 {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 15px;
+}
+
+#config-modal .config-selection-summary .config-selection-item h5:not(:nth-last-child(1)) span {
+  color: #888;
 }
 
 @media only screen and (min-width: 1200px) {

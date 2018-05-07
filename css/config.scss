@@ -1,3 +1,6 @@
+.clear {
+  clear: both;
+}
 #config-modal {
   height: 100%;
   overflow: hidden;
@@ -57,6 +60,7 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     }
     .config-option {
+      display: block;
       position: relative;
       padding: 40px 0;
       h5 {
@@ -123,6 +127,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
   .config-selection-item {
+    display: block;
     padding: 10px 0;
   }
   .config-selection-item img {
@@ -131,6 +136,56 @@
   }
   .config-selection-item h5 {
     display: inline-block;
+  }
+  .config-selection-finish .config-selection-item {
+    padding: 45px 0;
+    a {
+      display: inline-block;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.54);
+      border: solid rgba(0, 0, 0, 0.54) 1px;
+      padding: 3px 5px;
+      margin-left: 25px;
+      position: relative;
+      padding-left: 20px;
+      color: rgba(0, 0, 0, 0.97);
+    }
+    .pa-color-swatch-swatch {
+      background-color:#000000;
+      width: 10px;
+      height: 70%;
+      position: absolute;
+      left: 4px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: inline-block;
+    }
+  }
+  .config-selection-size .config-selection-item {
+    padding: 45px 0;
+    .pa-option {
+      float: right;
+      display: inline-block;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.54);
+      border: solid rgba(0, 0, 0, 0.54) 1px;
+      padding: 3px 5px;
+      margin-top: 7.5px;
+      margin-left: 7.5px;
+    }
+  }
+  .config-selection-summary .config-selection-item {
+    border-bottom: 0;
+    h5 {
+      display: block;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      padding-bottom: 15px;
+    }
+    h5:not(:nth-last-child(1)) span {
+      color: #888;
+      // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      // padding-bottom: 15px;
+    }
   }
 }
 
