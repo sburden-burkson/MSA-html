@@ -138,6 +138,11 @@ $('#config-modal .config-option-wrapper a').click(function() {
   }
 });
 
+$('#config-selection-caps-mobile .config-selection-item').click(function() {
+  $('#config-selection-caps-mobile .config-selection-item').removeClass('active');
+  $(this).addClass('active');
+});
+
 // $nextEl = config-selection
 
 });

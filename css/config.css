@@ -208,6 +208,10 @@
   margin-left: 7.5px;
 }
 
+#config-modal .config-selection-size .config-selection-item .pa-option.active {
+  border-color: red;
+}
+
 #config-modal .config-selection-summary .config-selection-item {
   border-bottom: 0;
 }
@@ -228,6 +232,14 @@
 
 #config-modal .config-selection-container.active {
   display: block;
+}
+
+#config-modal .config-selection-finish .config-selection-item a.active {
+  border-color: red;
+}
+
+#config-modal .config-selection-cap .config-selection-item.active, #config-modal .config-selection-star .config-selection-item.active {
+  border: 1px solid red;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -420,6 +432,10 @@
   margin-left: 7.5px;
 }
 
+#config-modal-mobile .config-selection-size .config-selection-item .pa-option.active {
+  border-color: red;
+}
+
 #config-modal-mobile .config-selection-summary .config-selection-item {
   text-align: left;
   border-bottom: 0;
@@ -477,4 +493,16 @@
   -webkit-transition: 1s;
   transition: 1s;
   left: 0;
+}
+
+#config-modal-mobile .config-selection-finish .config-selection-item a.active {
+  border-color: red;
+}
+
+#config-modal-mobile .config-selection-cap .config-selection-item.active {
+  border: 1px solid red;
+}
+
+#config-modal-mobile #config-selection-caps-mobile .config-selection-item.active, #config-modal-mobile #config-selection-stars-mobile .config-selection-item.active {
+  border: 1px solid red;
 }
