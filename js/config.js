@@ -1,7 +1,12 @@
 jQuery(document).ready(function ($) {
   $('#config-modal').modal('show');
   //$('#config-modal-mobile').modal('show');
-
+$('#config-modal, #config-modal-mobile').on('shown.bs.modal', function () {
+  $('#config-wheel-carousel').slick('refresh');
+  $('#config-wheel-carousel-mobile').slick('refresh');
+  $('#config-selection-caps-mobile').slick('refresh');
+  $('#config-selection-stars-mobile').slick('refresh');
+});
   $('#config-wheel-carousel').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -37,7 +42,7 @@ jQuery(document).ready(function ($) {
           slidesToShow: 2,
           slidesToScroll: 2
         }
-      },
+      }
     ]
   });
 
@@ -62,7 +67,7 @@ jQuery(document).ready(function ($) {
           slidesToShow: 2,
           slidesToScroll: 2
         }
-      },
+      }
     ]
   });
 
@@ -75,8 +80,10 @@ function configOptionArrows() {
   }
   if (activeOption == $('#config-modal-mobile .config-option:last-child').data("config-option")){
     $('.config-option-next').hide();
+    $('.add_config_to_cart').css({ display: 'inline-block' });
   } else {
     $('.config-option-next').show();
+    $('.add_config_to_cart').hide();
   }
 
 }
@@ -103,6 +110,11 @@ $('.arrow-container a').click(function() {
   if ($nextEl.attr('class').includes('slick-slider')) {
     $nextEl.slick('refresh');
   }
+  // Desktop modal
+  $('#config-modal .config-selection-container').removeClass('active');
+  $('#config-modal .config-selection-container[data-config-option="'+nextOption+'"]').addClass('active');
+  $('#config-modal .config-option-wrapper .config-option').removeClass('active');
+  $('#config-modal .config-option-wrapper .config-option[data-config-option="'+nextOption+'"]').addClass('active');
 });
 
 $('#config-modal .config-option-wrapper a').click(function() {
@@ -110,6 +122,19 @@ $('#config-modal .config-option-wrapper a').click(function() {
   if ($(this).attr('class').includes('active') !== true ) {
     $('#config-modal .config-selection-container').removeClass('active');
     $('#config-modal .config-selection-container[data-config-option="'+configOption+'"]').addClass('active');
+    $('#config-modal .config-option-wrapper .config-option').removeClass('active');
+    $('#config-modal .config-option-wrapper .config-option[data-config-option="'+configOption+'"]').addClass('active');
+    // Mobile modal
+    $('#config-modal-mobile .config-selection-container').removeClass('active');
+    $('#config-modal-mobile .config-selection-container[data-config-option="'+configOption+'"]').addClass('active');
+    $('#config-modal-mobile .config-option').removeClass('active');
+    $('#config-modal-mobile .config-option[data-config-option="'+configOption+'"]').addClass('active');
+    configOptionArrows();
+  }
+  if (configOption == $('#config-modal .config-option:last-child').data("config-option")){
+    $('.add_config_to_cart').css({ display: 'inline-block' });
+  } else {
+    $('.add_config_to_cart').hide();
   }
 });
 

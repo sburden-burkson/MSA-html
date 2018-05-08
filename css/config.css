@@ -2,6 +2,10 @@
   clear: both;
 }
 
+.add_config_to_cart {
+  display: none;
+}
+
 #config-modal {
   height: 100%;
   overflow: hidden;

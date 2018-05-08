@@ -1,6 +1,9 @@
 .clear {
   clear: both;
 }
+.add_config_to_cart {
+  display: none;
+}
 #config-modal {
   height: 100%;
   overflow: hidden;
@@ -186,16 +189,17 @@
     }
   }
   .config-selection-container {
+    // height: 0;
     // position: absolute;
-    // left: 110%;
-    // transition: 1s;
+    // left: 100%;
     display: none;
   }
   .config-selection-container.active {
-    display: block;
+    // height: 100%;
     // position: relative;
     // transition: 1s;
     // left: 0;
+    display: block;
   }
 }
 
