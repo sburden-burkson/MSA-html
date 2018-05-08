@@ -76,17 +76,29 @@
         right: 0;
         top: 50%;
         transform: translateY(-50%);
+        .fa-check {
+          display: none;
+        }
+        .fa-long-arrow-right {
+          display: none;
+        }
       }
     }
     .config-option.active {
       padding: 34.5px 0;
-      h5 {
+      h5.config-option-status {
         color: white;
+        .fa-long-arrow-right {
+          display: inline-block;
+        }
+        .fa-check {
+          display: none;
+        }
       }
     }
     .config-option.active h5:first-of-type {
       padding-bottom: 10px;
-      border-bottom: 1px solid red;
+      border-bottom: 2px solid red;
     }
   }
   h5.config-price {
@@ -208,7 +220,7 @@
     border-color: red;
   }
   .config-selection-cap .config-selection-item.active, .config-selection-star .config-selection-item.active {
-    border: 1px solid red;
+    border: 2px solid red;
   }
 }
 
@@ -458,10 +470,10 @@
     border-color: red;
   }
   .config-selection-cap .config-selection-item.active {
-    border: 1px solid red;
+    border: 2px solid red;
   }
   #config-selection-caps-mobile .config-selection-item.active, #config-selection-stars-mobile .config-selection-item.active {
-    border: 1px solid red;
+    border-bottom: 2px solid red;
   }
   // #config-selection-caps-mobile .slick-list, #config-selection-stars-mobile .slick-list {
   //   padding-left: 2px;

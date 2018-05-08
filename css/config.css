@@ -97,17 +97,33 @@
           transform: translateY(-50%);
 }
 
+#config-modal .config-option-col .config-option h5.config-option-status .fa-check {
+  display: none;
+}
+
+#config-modal .config-option-col .config-option h5.config-option-status .fa-long-arrow-right {
+  display: none;
+}
+
 #config-modal .config-option-col .config-option.active {
   padding: 34.5px 0;
 }
 
-#config-modal .config-option-col .config-option.active h5 {
+#config-modal .config-option-col .config-option.active h5.config-option-status {
   color: white;
+}
+
+#config-modal .config-option-col .config-option.active h5.config-option-status .fa-long-arrow-right {
+  display: inline-block;
+}
+
+#config-modal .config-option-col .config-option.active h5.config-option-status .fa-check {
+  display: none;
 }
 
 #config-modal .config-option-col .config-option.active h5:first-of-type {
   padding-bottom: 10px;
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid red;
 }
 
 #config-modal h5.config-price {
@@ -239,7 +255,7 @@
 }
 
 #config-modal .config-selection-cap .config-selection-item.active, #config-modal .config-selection-star .config-selection-item.active {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -500,9 +516,9 @@
 }
 
 #config-modal-mobile .config-selection-cap .config-selection-item.active {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 #config-modal-mobile #config-selection-caps-mobile .config-selection-item.active, #config-modal-mobile #config-selection-stars-mobile .config-selection-item.active {
-  border: 1px solid red;
+  border-bottom: 2px solid red;
 }
